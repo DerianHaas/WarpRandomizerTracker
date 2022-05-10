@@ -1,1 +1,54 @@
-﻿
+﻿#hubSelector {
+    height: 20vh;
+    width: 20vw;
+    border: 1px solid black;
+    padding: 5px;
+    float:left;
+}
+
+#currentHub {
+    height: 70vh;
+    width: 20vw;
+    border:1px solid black;
+    padding:5px;
+    margin-left: 10px;
+    float:left;
+}
+
+#currentHubImage {
+    height:500vh;
+    width:50vh;
+    float:left;
+    margin-left: 50px;
+}
+
+.hubButton {
+    border: 1px solid black;
+    background-color: skyblue;
+    width: 8vw;
+    text-align:center;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+.tableBorder tr {
+    border: 1px solid black;
+}
+
+.tableBorder td {
+    padding: 10px;
+    width: 300px;
+}
+
+.deadEnd {
+    font-weight: bold;
+    background-color: gray;
+}
+
+.connected {
+    font-weight: bold;
+    background-color: lightgreen;
+}

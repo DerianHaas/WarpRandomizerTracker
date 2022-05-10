@@ -17,11 +17,12 @@
   "Hubs": [
     {
       "Name": "Starting Town",
-      "Locations": [ 0, 1 ]
+      "Locations": [ 0, 1 ],
+      "ImageName":  "celestic.png"
     },
     {
       "Name": "Pokemon League",
-      "Locations": [ 2, 3 ]
+      "Locations": [0, 2, 3 ]
     }
   ]
 }
