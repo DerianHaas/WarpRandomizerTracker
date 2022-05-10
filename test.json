@@ -1,0 +1,27 @@
+{
+  "Region": "Sinnoh",
+  "Locations": [
+    {
+      "Name": "My House"
+    },
+    {
+      "Name": "Rival's House"
+    },
+    {
+      "Name": "Pokemon Center Interior"
+    },
+    {
+      "Name": "Champion"
+    }
+  ],
+  "Hubs": [
+    {
+      "Name": "Starting Town",
+      "Locations": [ 0, 1 ]
+    },
+    {
+      "Name": "Pokemon League",
+      "Locations": [ 2, 3 ]
+    }
+  ]
+}

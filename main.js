@@ -1,4 +1,12 @@
+var mainMap = new RegionMap();
 $(function () {
-    alert("Test");
+    loadWorld().then(function () {
+        console.log(mainMap);
+    });
+    function loadWorld() {
+        return fetch("test.json").then(function (response) { return response.json(); }).then(function (data) {
+            mainMap.Load(data);
+        });
+    }
 });
 //# sourceMappingURL=main.js.map

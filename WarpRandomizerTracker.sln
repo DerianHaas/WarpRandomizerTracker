@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32421.90
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "WarpRandomizerTracker", "WarpRandomizerTracker.njsproj", "{D5341B2C-5660-46D0-A09A-FE621CB01543}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarpRandomizerTracker", "WarpRandomizerTracker.csproj", "{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5341B2C-5660-46D0-A09A-FE621CB01543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5341B2C-5660-46D0-A09A-FE621CB01543}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5341B2C-5660-46D0-A09A-FE621CB01543}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5341B2C-5660-46D0-A09A-FE621CB01543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {754BD9A5-C233-4C47-99D8-48152DAC4070}
+		SolutionGuid = {0E66F00F-07D7-4D5D-BF9C-CF6FFC2E53BD}
 	EndGlobalSection
 EndGlobal
