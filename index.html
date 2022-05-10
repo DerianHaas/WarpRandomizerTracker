@@ -10,10 +10,22 @@
     <link rel="stylesheet" href="main.css" type="text/css" /> 
 </head>
 <body>
-    <div>
-        <div id="hubSelector"></div>
+    <div style="display:flex">
+        <div style="display:flex; flex-direction:column">
+            <div id="hubSelector"></div>
+            <div id="currentDetails">
+                <h2>Selected Entrance:    <span id="currentEntrance"></span></h2>
+                <br />
+                <h2>Selected Destination: <span id="currentDestination"></span></h2>
+                <br />
+                <br />
+                <div style="margin: 0 auto"><button id="clearButton">Clear Selections</button></div>
+            </div>
+        </div>
         <div id="currentHub"></div>
         <div id="currentHubImage"></div>
     </div>
+    
+
 </body>
 </html>

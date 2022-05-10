@@ -22,9 +22,43 @@ class RegionMap {
     AllLocations: MapLocation[];
     Hubs: Hub[];
 
-    Link(loc1: number, loc2: number, oneWay: boolean = false) {
-        this.AllLocations[loc1].LinkedLocation = loc2;
-        if (!oneWay) this.AllLocations[loc2].LinkedLocation = loc1;
+    Link(locId1: number, locId2: number, oneWay: boolean = false) {
+        let loc1 = this.AllLocations[locId1];
+        let loc2 = this.AllLocations[locId2];
+        if ((loc1.LinkedLocation > NoLocation && loc1.LinkedLocation !== locId2) || (loc2.LinkedLocation > NoLocation && loc2.LinkedLocation !== locId1)) {
+            if (!confirm("One of these locations is already linked to a different location.  Are you sure you want to overwrite it?")) {
+                return false;
+            }
+        }
+        loc1.LinkedLocation = locId2;
+        if (!oneWay) loc2.LinkedLocation = locId1;
+        return true;
+    }
+
+    MarkBlockage(locId: number, blocks: string) {
+        let loc = this.AllLocations[locId];
+        if (loc.LinkedLocation > NoLocation) {
+            if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as blocked?")) {
+                return false;
+            }
+            this.AllLocations[loc.LinkedLocation].LinkedLocation = NoLocation;
+        }
+        loc.LinkedLocation = NoLocation;
+        loc.BlockedBy = blocks;
+        return true;
+    }
+
+    MarkDeadEnd(locId: number) {
+        let loc = this.AllLocations[locId];
+        if (loc.LinkedLocation > NoLocation) {
+            if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as a dead end?")) {
+                return false;
+            }
+            this.AllLocations[loc.LinkedLocation].LinkedLocation = NoLocation;
+        }
+        loc.LinkedLocation = DeadEnd;
+        loc.BlockedBy = "";
+        return true;
     }
 
     Load(data: MapJSON): void {
@@ -40,7 +74,7 @@ class RegionMap {
     DrawHubSelector(): JQuery {
         let container = $("<div>");
         for (let i = 0; i < this.Hubs.length; i++) {
-            $("<div>").data("id", i).text(this.Hubs[i].Name).addClass("hubButton").appendTo(container);
+            $("<div>").data("id", i).text(this.Hubs[i].Name).addClass("hubButton").attr("title", "ID: " + i).appendTo(container);
         }
         return container;
     }
@@ -57,8 +91,8 @@ class RegionMap {
             for (let locId of hub.Locations) {
                 let loc = this.AllLocations[locId];
                 let row = $("<tr>");
-                row.append($("<td>").text(loc.Name).addClass("connected"));
-                row.append($("<td>").text(this.getLinkedLocationName(loc)).addClass(this.getLocationStyling(loc)));
+                row.append($("<td>").data("id",locId).text(loc.Name).addClass("entrance").attr("title","ID: " + locId));
+                row.append($("<td>").text(this.getLinkedLocationName(loc)).addClass(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
 
                 table.append(row);
             }

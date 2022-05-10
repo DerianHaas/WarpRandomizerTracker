@@ -3,11 +3,43 @@ var DeadEnd = -2;
 var RegionMap = /** @class */ (function () {
     function RegionMap() {
     }
-    RegionMap.prototype.Link = function (loc1, loc2, oneWay) {
+    RegionMap.prototype.Link = function (locId1, locId2, oneWay) {
         if (oneWay === void 0) { oneWay = false; }
-        this.AllLocations[loc1].LinkedLocation = loc2;
+        var loc1 = this.AllLocations[locId1];
+        var loc2 = this.AllLocations[locId2];
+        if ((loc1.LinkedLocation > NoLocation && loc1.LinkedLocation !== locId2) || (loc2.LinkedLocation > NoLocation && loc2.LinkedLocation !== locId1)) {
+            if (!confirm("One of these locations is already linked to a different location.  Are you sure you want to overwrite it?")) {
+                return false;
+            }
+        }
+        loc1.LinkedLocation = locId2;
         if (!oneWay)
-            this.AllLocations[loc2].LinkedLocation = loc1;
+            loc2.LinkedLocation = locId1;
+        return true;
+    };
+    RegionMap.prototype.MarkBlockage = function (locId, blocks) {
+        var loc = this.AllLocations[locId];
+        if (loc.LinkedLocation > NoLocation) {
+            if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as blocked?")) {
+                return false;
+            }
+            this.AllLocations[loc.LinkedLocation].LinkedLocation = NoLocation;
+        }
+        loc.LinkedLocation = NoLocation;
+        loc.BlockedBy = blocks;
+        return true;
+    };
+    RegionMap.prototype.MarkDeadEnd = function (locId) {
+        var loc = this.AllLocations[locId];
+        if (loc.LinkedLocation > NoLocation) {
+            if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as a dead end?")) {
+                return false;
+            }
+            this.AllLocations[loc.LinkedLocation].LinkedLocation = NoLocation;
+        }
+        loc.LinkedLocation = DeadEnd;
+        loc.BlockedBy = "";
+        return true;
     };
     RegionMap.prototype.Load = function (data) {
         this.AllLocations = [];
@@ -22,7 +54,7 @@ var RegionMap = /** @class */ (function () {
     RegionMap.prototype.DrawHubSelector = function () {
         var container = $("<div>");
         for (var i = 0; i < this.Hubs.length; i++) {
-            $("<div>").data("id", i).text(this.Hubs[i].Name).addClass("hubButton").appendTo(container);
+            $("<div>").data("id", i).text(this.Hubs[i].Name).addClass("hubButton").attr("title", "ID: " + i).appendTo(container);
         }
         return container;
     };
@@ -37,8 +69,8 @@ var RegionMap = /** @class */ (function () {
                 var locId = _a[_i];
                 var loc = this.AllLocations[locId];
                 var row = $("<tr>");
-                row.append($("<td>").text(loc.Name).addClass("connected"));
-                row.append($("<td>").text(this.getLinkedLocationName(loc)).addClass(this.getLocationStyling(loc)));
+                row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
+                row.append($("<td>").text(this.getLinkedLocationName(loc)).addClass(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
                 table.append(row);
             }
             box.append(table);
