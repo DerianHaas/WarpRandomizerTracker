@@ -12,7 +12,7 @@ $(function () {
         });
     });
     function loadWorld() {
-        return fetch("test.json").then(function (response) { return response.json(); }).then(function (data) {
+        return fetch("worlds/test.json").then(function (response) { return response.json(); }).then(function (data) {
             mainMap.Load(data);
         });
     }
