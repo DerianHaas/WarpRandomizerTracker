@@ -73,6 +73,7 @@
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <None Include="packages.config" />
+    <None Include="README.md" />
     <Content Include="test.json" />
     <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
