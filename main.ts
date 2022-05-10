@@ -20,7 +20,7 @@ $(() => {
    
 
     function loadWorld() {
-        return fetch("test.json").then(response => response.json()).then(data => {
+        return fetch("worlds/test.json").then(response => response.json()).then(data => {
             mainMap.Load(data);
         });
     }
