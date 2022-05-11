@@ -1,11 +1,11 @@
 $(function () {
     var mainMap = new RegionMap();
+    var prevHub = 0;
     var currentHub = 0;
     var currentEntrance = NoLocation;
     var currentDestination = NoLocation;
     loadWorld().then(function () {
         mainMap.Link(1, 3);
-        console.log(mainMap);
         $("#hubSelector").append(mainMap.DrawHubSelector());
         $(".hubButton").click(function () {
             setCurrentHub($(this).data("id"));
@@ -21,17 +21,17 @@ $(function () {
     $("#resetHub").click(function () {
         if (confirm("Reset all warps in " + mainMap.Hubs[currentHub].Name + "?")) {
             mainMap.ResetHub(currentHub);
-            displayCurrentHub();
+            redraw();
         }
     });
     $("#resetAll").click(function () {
         if (confirm("Are you sure you want to reset all warps?")) {
             mainMap.ResetAll();
-            displayCurrentHub();
+            redraw();
         }
     });
     function loadWorld() {
-        return fetch("worlds/test.json").then(function (response) { return response.json(); }).then(function (data) {
+        return fetch("worlds/sinnoh.json").then(function (response) { return response.json(); }).then(function (data) {
             mainMap.Load(data);
         });
     }
@@ -48,11 +48,11 @@ $(function () {
         $(".blockageLabel").dblclick(function () {
             var blockage = getCurrentSelectedBlockage();
             if (currentEntrance !== NoLocation) {
-                if (blockage != NoBlock && blockage != OneWayBlock) { // Check blockages
+                if (blockage != NoBlock && blockage != OneWayBlock) {
                     if (mainMap.MarkBlockage(currentEntrance, blockage)) {
                         setEntrance(NoLocation);
-                        displayCurrentHub();
-                        displayGrid();
+                        setDestination(NoLocation);
+                        redraw();
                     }
                     $("#defaultBlockage").prop("checked", true);
                 }
@@ -87,6 +87,7 @@ $(function () {
                 if (mainMap.Link(currentEntrance, currentDestination, blockage === OneWayBlock)) {
                     setEntrance(NoLocation);
                     setDestination(NoLocation);
+                    setCurrentHub(prevHub);
                 }
             }
             else if (currentEntrance === locId) {
@@ -97,8 +98,7 @@ $(function () {
                 // Overwrite the current destination with this location
                 setDestination(locId);
             }
-            displayCurrentHub();
-            displayGrid();
+            redraw();
         });
     }
     function displayGrid() {
@@ -108,12 +108,19 @@ $(function () {
             setCurrentHub(mainMap.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); }));
         });
     }
+    function redraw() {
+        displayCurrentHub();
+        displayGrid();
+    }
     function setCurrentHub(hubId) {
         currentHub = hubId;
         displayCurrentHub();
         $("#currentHubImage").empty().append(mainMap.DrawHubImage(currentHub));
     }
     function setEntrance(location) {
+        if (location !== NoLocation) {
+            prevHub = currentHub;
+        }
         currentEntrance = location;
         if (currentEntrance === NoLocation || currentEntrance >= mainMap.AllLocations.length) {
             $("#currentEntrance").text("");

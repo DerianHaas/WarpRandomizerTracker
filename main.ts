@@ -1,13 +1,13 @@
 ﻿$(() => {
 
     const mainMap: RegionMap = new RegionMap();
+    let prevHub: number = 0;
     let currentHub: number = 0;
     let currentEntrance: number = NoLocation;
     let currentDestination: number = NoLocation;
 
     loadWorld().then(() => {
         mainMap.Link(1, 3);
-        console.log(mainMap);
 
         $("#hubSelector").append(mainMap.DrawHubSelector());
         $(".hubButton").click(function() {
@@ -28,20 +28,20 @@
     $("#resetHub").click(function () {
         if (confirm("Reset all warps in " + mainMap.Hubs[currentHub].Name + "?")) {
             mainMap.ResetHub(currentHub);
-            displayCurrentHub();
+            redraw();
         }
     });
 
     $("#resetAll").click(function () {
         if (confirm("Are you sure you want to reset all warps?")) {
             mainMap.ResetAll();
-            displayCurrentHub();
+            redraw();
         }
     });
 
 
     function loadWorld() {
-        return fetch("worlds/test.json").then(response => response.json()).then(data => {
+        return fetch("worlds/sinnoh.json").then(response => response.json()).then(data => {
             mainMap.Load(data);
         });
     }
@@ -62,12 +62,11 @@
         $(".blockageLabel").dblclick(function () {
             let blockage = getCurrentSelectedBlockage();
             if (currentEntrance !== NoLocation) {
-                if (blockage != NoBlock && blockage != OneWayBlock) { // Check blockages
+                if (blockage != NoBlock && blockage != OneWayBlock) { 
                     if (mainMap.MarkBlockage(currentEntrance, blockage)) {
                         setEntrance(NoLocation);
                         setDestination(NoLocation);
-                        displayCurrentHub();
-                        displayGrid();
+                        redraw();
                     }
                     $("#defaultBlockage").prop("checked", true);
                 }
@@ -101,6 +100,8 @@
                 if (mainMap.Link(currentEntrance, currentDestination, blockage === OneWayBlock)) {
                     setEntrance(NoLocation);
                     setDestination(NoLocation);
+                    setCurrentHub(prevHub);
+                    $("#defaultBlockage").prop("checked", true);
                 }
             } else if (currentEntrance === locId) {
                 // If the entrance is reselected after selecting a destination, clear the destination
@@ -109,8 +110,7 @@
                 // Overwrite the current destination with this location
                 setDestination(locId);
             }
-            displayCurrentHub();
-            displayGrid();
+            redraw();
         });
     }
 
@@ -122,6 +122,11 @@
         })
     }
 
+    function redraw() {
+        displayCurrentHub();
+        displayGrid();
+    }
+
     function setCurrentHub(hubId: number) {
         currentHub = hubId;
         displayCurrentHub();
@@ -129,6 +134,9 @@
     }
 
     function setEntrance(location: number) {
+        if (location !== NoLocation) {
+            prevHub = currentHub;
+        }
         currentEntrance = location;
         if (currentEntrance === NoLocation || currentEntrance >= mainMap.AllLocations.length) {
             $("#currentEntrance").text("");

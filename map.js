@@ -112,7 +112,7 @@ var RegionMap = /** @class */ (function () {
         this.Hubs = data.Hubs;
     };
     RegionMap.prototype.DrawHubSelector = function () {
-        var container = $("<div>");
+        var container = $("<div>").attr("id", "hubSelectContainer");
         for (var i = 0; i < this.Hubs.length; i++) {
             $("<div>").data("id", i).text(this.Hubs[i].Name).addClass("hubButton").attr("title", "ID: " + i).appendTo(container);
         }
@@ -127,10 +127,12 @@ var RegionMap = /** @class */ (function () {
             var table = $("<table>").addClass("tableBorder");
             for (var _i = 0, _a = hub.Locations; _i < _a.length; _i++) {
                 var locId = _a[_i];
-                var loc = this.AllLocations[locId];
                 var row = $("<tr>");
-                row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
-                row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                if (locId !== NoLocation) {
+                    var loc = this.AllLocations[locId];
+                    row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
+                    row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                }
                 table.append(row);
             }
             box.append(table);
@@ -148,7 +150,7 @@ var RegionMap = /** @class */ (function () {
         });
     };
     RegionMap.prototype.DrawGrid = function () {
-        var container = $("<div>");
+        var container = $("<div>").attr("id", "gridWrapper");
         for (var locId = 0; locId < this.AllLocations.length; locId++) {
             container.append($("<div>").data("id", locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
         }

@@ -139,7 +139,7 @@ class RegionMap {
     }
 
     DrawHubSelector(): JQuery {
-        let container = $("<div>");
+        let container = $("<div>").attr("id", "hubSelectContainer");
         for (let i = 0; i < this.Hubs.length; i++) {
             $("<div>").data("id", i).text(this.Hubs[i].Name).addClass("hubButton").attr("title", "ID: " + i).appendTo(container);
         }
@@ -156,11 +156,13 @@ class RegionMap {
         if (hub.Locations.length > 0) {
             let table = $("<table>").addClass("tableBorder");
             for (let locId of hub.Locations) {
-                let loc = this.AllLocations[locId];
                 let row = $("<tr>");
-                row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
-                row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                if (locId !== NoLocation) {
+                    let loc = this.AllLocations[locId];
 
+                    row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
+                    row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                }
                 table.append(row);
             }
             box.append(table);
@@ -181,7 +183,7 @@ class RegionMap {
     }
 
     DrawGrid(): JQuery {
-        let container = $("<div>");
+        let container = $("<div>").attr("id", "gridWrapper");
         for (let locId = 0; locId < this.AllLocations.length; locId++) {
             container.append($("<div>").data("id",locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
         }
@@ -225,14 +227,10 @@ class RegionMap {
         if (loc.BlockedBy === NoBlock) {
             return { "font-weight": "bold", "background-color": "lightgreen" };
         }
-        //Handle blocks
         return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black"};
     }
 
 }
-
-
-
 
 type MapJSON = {
     Region: string;
