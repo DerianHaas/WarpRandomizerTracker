@@ -1406,7 +1406,7 @@
         47,
         48
       ],
-      "ImageName": ""
+      "ImageName": "jubilife.png"
     },
     {
       "Name": "Oreburgh",
@@ -1429,7 +1429,7 @@
         63,
         64
       ],
-      "ImageName": ""
+      "ImageName": "oreburgh.png"
     },
     {
       "Name": "Floaroma",
@@ -1447,7 +1447,7 @@
         75,
         76
       ],
-      "ImageName": ""
+      "ImageName": "floaroma.png"
     },
     {
       "Name": "Eterna",
@@ -1466,7 +1466,7 @@
         88,
         89
       ],
-      "ImageName": ""
+      "ImageName": "eterna.png"
     },
     {
       "Name": "Hearthome",
@@ -1487,7 +1487,7 @@
         103,
         104
       ],
-      "ImageName": ""
+      "ImageName": "hearthome.png"
     },
     {
       "Name": "Solaceon",
@@ -1505,7 +1505,7 @@
         115,
         116
       ],
-      "ImageName": ""
+      "ImageName": "solaceon.png"
     },
     {
       "Name": "Veilstone",
@@ -1526,7 +1526,7 @@
         130,
         131
       ],
-      "ImageName": ""
+      "ImageName": "veilstone.png"
     },
     {
       "Name": "Pastoria",
@@ -1544,7 +1544,7 @@
         142,
         143
       ],
-      "ImageName": ""
+      "ImageName": "pastoria.png"
     },
     {
       "Name": "Celestic",
@@ -1558,7 +1558,7 @@
         150,
         151
       ],
-      "ImageName": ""
+      "ImageName": "celestic.png"
     },
     {
       "Name": "Canalave",
@@ -1574,7 +1574,7 @@
         160,
         161
       ],
-      "ImageName": ""
+      "ImageName": "canalave.png"
     },
     {
       "Name": "Snowpoint",
@@ -1591,7 +1591,7 @@
         171,
         172
       ],
-      "ImageName": ""
+      "ImageName": "snowpoint.png"
     },
     {
       "Name": "Sunnyshore",
@@ -1607,7 +1607,7 @@
         181,
         182
       ],
-      "ImageName": ""
+      "ImageName": "sunnyshore.png"
     },
     {
       "Name": "Poketch",
@@ -1650,7 +1650,7 @@
         200,
         201
       ],
-      "ImageName": ""
+      "ImageName": "oreburghgate.png"
     },
     {
       "Name": "Meadow",
@@ -1668,7 +1668,7 @@
         206,
         207
       ],
-      "ImageName": ""
+      "ImageName": "eternaforest.png"
     },
     {
       "Name": "Old Chateau",
@@ -1686,7 +1686,7 @@
         217,
         218
       ],
-      "ImageName": ""
+      "ImageName": "chateau.png"
     },
     {
       "Name": "Galactic Eterna",
@@ -1704,7 +1704,7 @@
         227,
         228
       ],
-      "ImageName": ""
+      "ImageName": "galacticeterna.png"
     },
     {
       "Name": "Mt Coronet",
@@ -1738,7 +1738,7 @@
         249,
         250
       ],
-      "ImageName": ""
+      "ImageName": "coronet.png"
     },
     {
       "Name": "Route 208",
@@ -1747,7 +1747,7 @@
         252,
         253
       ],
-      "ImageName": ""
+      "ImageName": "route208.png"
     },
     {
       "Name": "Solaceon Ruins",
@@ -1781,7 +1781,7 @@
         275,
         276
       ],
-      "ImageName": ""
+      "ImageName": "ruins.png"
     },
     {
       "Name": "Department Store",
@@ -1834,7 +1834,7 @@
         310,
         311
       ],
-      "ImageName": ""
+      "ImageName": "galactichq.png"
     },
     {
       "Name": "R214/Hotel/R222",
@@ -1853,7 +1853,7 @@
         323,
         324
       ],
-      "ImageName": ""
+      "ImageName": "hotel.png"
     },
     {
       "Name": "Route 213",
@@ -1862,7 +1862,7 @@
         326,
         327
       ],
-      "ImageName": ""
+      "ImageName": "route213.png"
     },
     {
       "Name": "PokeMansion",
@@ -1874,7 +1874,7 @@
         332,
         333
       ],
-      "ImageName": ""
+      "ImageName": "mansion.png"
     },
     {
       "Name": "Iron Island",
@@ -1895,7 +1895,7 @@
         344,
         345
       ],
-      "ImageName": ""
+      "ImageName": "ironisland.png"
     },
     {
       "Name": "Victory Road",
@@ -1913,7 +1913,7 @@
         355,
         356
       ],
-      "ImageName": ""
+      "ImageName": "victoryroad.png"
     },
     {
       "Name": "Fight/Resort Area",
@@ -1933,7 +1933,7 @@
         368,
         369
       ],
-      "ImageName": ""
+      "ImageName": "resort.png"
     },
     {
       "Name": "Survival Area",
@@ -1952,7 +1952,7 @@
         379,
         380
       ],
-      "ImageName": ""
+      "ImageName": "survival.png"
     },
     {
       "Name": "Pokecenters 1",

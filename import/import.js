@@ -1,7 +1,6 @@
 $(function () {
     fetch("import/input.json").then(function (response) { return response.json(); }).then(function (data) {
         var mapData = data;
-        //console.log(mapData);
         $.get("import/import.txt", function (data) {
             var locs = data.split("\n");
             locs = locs.map(function (loc) { return loc.trim(); });

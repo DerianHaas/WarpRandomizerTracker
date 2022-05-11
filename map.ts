@@ -178,7 +178,7 @@ class RegionMap {
         }
         let imagePath = "images/" + hub.ImageName;
         return $("<img src=" + imagePath + ">").on("load", function () {
-            $(this).width("20vw").height("20vw");
+            $(this).css({ "maxWidth": "25vw", "maxHeight": "60vh", "background-size": "cover" });
         });
     }
 

@@ -88,6 +88,7 @@ $(function () {
                     setEntrance(NoLocation);
                     setDestination(NoLocation);
                     setCurrentHub(prevHub);
+                    $("#defaultBlockage").prop("checked", true);
                 }
             }
             else if (currentEntrance === locId) {

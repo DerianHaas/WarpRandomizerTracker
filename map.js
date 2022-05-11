@@ -146,7 +146,7 @@ var RegionMap = /** @class */ (function () {
         }
         var imagePath = "images/" + hub.ImageName;
         return $("<img src=" + imagePath + ">").on("load", function () {
-            $(this).width("20vw").height("20vw");
+            $(this).css({ "maxWidth": "25vw", "maxHeight": "60vh", "background-size": "cover" });
         });
     };
     RegionMap.prototype.DrawGrid = function () {
@@ -192,7 +192,6 @@ var RegionMap = /** @class */ (function () {
         if (loc.BlockedBy === NoBlock) {
             return { "font-weight": "bold", "background-color": "lightgreen" };
         }
-        //Handle blocks
         return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black" };
     };
     return RegionMap;
