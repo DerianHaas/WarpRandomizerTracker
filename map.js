@@ -1,8 +1,66 @@
 var NoLocation = -1;
 var DeadEnd = -2;
+var NoBlock = -1;
+var OneWayBlock = 9;
+var blockTypes = [
+    {
+        name: "Trainer",
+        bkgcolor: "orangered",
+    },
+    {
+        name: "Rock Smash",
+        bkgcolor: "brown",
+        textcolor: "white"
+    },
+    {
+        name: "Cut",
+        bkgcolor: "darkgreen",
+        textcolor: "white"
+    },
+    {
+        name: "Bike",
+        bkgcolor: "lightpink"
+    },
+    {
+        name: "Strength",
+        bkgcolor: "gold"
+    },
+    {
+        name: "Surf",
+        bkgcolor: "lightblue"
+    },
+    {
+        name: "Rock Climb",
+        bkgcolor: "mediumpurple"
+    },
+    {
+        name: "Waterfall",
+        bkgcolor: "darkblue",
+        textcolor: "white"
+    },
+    {
+        name: "Event",
+        bkgcolor: "purple",
+        textcolor: "white"
+    },
+    {
+        name: "One Way",
+        bkgcolor: "gray"
+    }
+];
 var RegionMap = /** @class */ (function () {
     function RegionMap() {
     }
+    RegionMap.prototype.ClearLink = function (locId) {
+        var loc = this.AllLocations[locId];
+        loc.BlockedBy = NoBlock;
+        if (loc.LinkedLocation > NoLocation) {
+            var linkedLoc = this.AllLocations[loc.LinkedLocation];
+            linkedLoc.LinkedLocation = NoLocation;
+            linkedLoc.BlockedBy = NoBlock;
+        }
+        loc.LinkedLocation = NoLocation;
+    };
     RegionMap.prototype.Link = function (locId1, locId2, oneWay) {
         if (oneWay === void 0) { oneWay = false; }
         var loc1 = this.AllLocations[locId1];
@@ -12,21 +70,23 @@ var RegionMap = /** @class */ (function () {
                 return false;
             }
         }
+        this.ClearLink(locId1);
+        this.ClearLink(locId2);
         loc1.LinkedLocation = locId2;
-        if (!oneWay)
-            loc2.LinkedLocation = locId1;
+        loc2.LinkedLocation = locId1;
+        loc2.BlockedBy = oneWay ? OneWayBlock : NoBlock;
         return true;
     };
-    RegionMap.prototype.MarkBlockage = function (locId, blocks) {
+    RegionMap.prototype.MarkBlockage = function (locId, block) {
         var loc = this.AllLocations[locId];
         if (loc.LinkedLocation > NoLocation) {
             if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as blocked?")) {
                 return false;
             }
-            this.AllLocations[loc.LinkedLocation].LinkedLocation = NoLocation;
+            this.ClearLink(loc.LinkedLocation);
         }
         loc.LinkedLocation = NoLocation;
-        loc.BlockedBy = blocks;
+        loc.BlockedBy = block;
         return true;
     };
     RegionMap.prototype.MarkDeadEnd = function (locId) {
@@ -35,10 +95,10 @@ var RegionMap = /** @class */ (function () {
             if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as a dead end?")) {
                 return false;
             }
-            this.AllLocations[loc.LinkedLocation].LinkedLocation = NoLocation;
+            this.ClearLink(loc.LinkedLocation);
         }
         loc.LinkedLocation = DeadEnd;
-        loc.BlockedBy = "";
+        loc.BlockedBy = NoBlock;
         return true;
     };
     RegionMap.prototype.Load = function (data) {
@@ -47,7 +107,7 @@ var RegionMap = /** @class */ (function () {
         this.Title = data.Region;
         for (var _i = 0, _a = data.Locations; _i < _a.length; _i++) {
             var loc = _a[_i];
-            this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: "" });
+            this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
         }
         this.Hubs = data.Hubs;
     };
@@ -70,7 +130,7 @@ var RegionMap = /** @class */ (function () {
                 var loc = this.AllLocations[locId];
                 var row = $("<tr>");
                 row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
-                row.append($("<td>").text(this.getLinkedLocationName(loc)).addClass(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
                 table.append(row);
             }
             box.append(table);
@@ -84,30 +144,47 @@ var RegionMap = /** @class */ (function () {
         }
         var imagePath = "images/" + hub.ImageName;
         return $("<img src=" + imagePath + ">").on("load", function () {
-            $(this).width("50vh").height("50vh");
+            $(this).width("20vw").height("20vw");
         });
     };
+    RegionMap.prototype.ResetHub = function (hubId) {
+        for (var _i = 0, _a = this.Hubs[hubId].Locations; _i < _a.length; _i++) {
+            var locId = _a[_i];
+            this.ClearLink(locId);
+        }
+    };
+    RegionMap.prototype.ResetAll = function () {
+        for (var locId = 0; locId < this.AllLocations.length; locId++) {
+            this.ClearLink(locId);
+        }
+    };
     RegionMap.prototype.getLinkedLocationName = function (loc) {
-        if (loc.LinkedLocation === NoLocation) {
+        if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
             return " - ";
         }
         if (loc.LinkedLocation === DeadEnd) {
             return "Dead End";
         }
-        return this.AllLocations[loc.LinkedLocation].Name;
+        if (loc.BlockedBy === OneWayBlock) {
+            return "One Way (from " + this.AllLocations[loc.LinkedLocation].Name + ")";
+        }
+        if (loc.BlockedBy === NoBlock) {
+            return this.AllLocations[loc.LinkedLocation].Name;
+        }
+        return blockTypes[loc.BlockedBy].name;
     };
     RegionMap.prototype.getLocationStyling = function (loc) {
-        if (loc.LinkedLocation === NoLocation) {
-            return "";
+        if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
+            return { "font-weight": "bold" };
         }
         else if (loc.LinkedLocation === DeadEnd) {
-            return "deadEnd";
+            return { "font-weight": "bold", "background-color": "gray" };
         }
-        if (!loc.BlockedBy) {
-            return "connected";
+        if (loc.BlockedBy === NoBlock) {
+            return { "font-weight": "bold", "background-color": "lightgreen" };
         }
         //Handle blocks
-        return "";
+        return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black" };
     };
     return RegionMap;
 }());

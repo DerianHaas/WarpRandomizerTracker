@@ -10,25 +10,25 @@
 #currentHub {
     height: 70vh;
     width: 20vw;
-    border:1px solid black;
+    /*border:1px solid black;*/
     padding:5px;
     margin-left: 10px;
     float:left;
 }
 
 #currentHubImage {
-    height:500vh;
-    width:50vh;
-    float:left;
-    margin-left: 50px;
+    margin-top: 10px;
+    padding: 5px;
 }
 
 #currentDetails {
     height: 45vh;
     width: 20vw;
-    border: 1px solid black;
-    margin-top: 10px;
-    padding: 5px;
+    /*border: 1px solid black;*/
+    float: left;
+    margin-left: 50px;
+    padding: 10px;
+    padding-top: 60px;
 }
 
 .hubButton {
@@ -59,12 +59,21 @@ table {
     cursor: pointer;
 }
 
-.deadEnd {
-    font-weight: bold;
-    background-color: gray;
+.blockageLabel {
+    height: 15px;
+    width: 15vw;
+    padding:5px;
+    display:block;
 }
 
-.connected {
-    font-weight: bold;
-    background-color: lightgreen;
+#resetButtons {
+    margin: 0 auto;
+    display: table;
+    width: 50%;
+    padding-top:100px;
+}
+
+#resetButtons button {
+    font-size: 15px;
+    cursor: pointer;
 }
