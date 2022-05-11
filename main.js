@@ -9,10 +9,10 @@ $(function () {
         $("#hubSelector").append(mainMap.DrawHubSelector());
         $(".hubButton").click(function () {
             setCurrentHub($(this).data("id"));
-            displayCurrentHub();
         });
         setCurrentHub(0);
         loadBlockages();
+        displayGrid();
     });
     $("#clearButton").click(function () {
         setEntrance(NoLocation);
@@ -45,6 +45,19 @@ $(function () {
             option.append($("<span>").text(blockTypes[i].name));
             $("#blockageContainer").append(option);
         }
+        $(".blockageLabel").dblclick(function () {
+            var blockage = getCurrentSelectedBlockage();
+            if (currentEntrance !== NoLocation) {
+                if (blockage != NoBlock && blockage != OneWayBlock) { // Check blockages
+                    if (mainMap.MarkBlockage(currentEntrance, blockage)) {
+                        setEntrance(NoLocation);
+                        displayCurrentHub();
+                        displayGrid();
+                    }
+                    $("#defaultBlockage").prop("checked", true);
+                }
+            }
+        });
     }
     function displayCurrentHub() {
         $("#currentHub").empty().append(mainMap.DrawHub(currentHub));
@@ -77,6 +90,7 @@ $(function () {
                 }
             }
             else if (currentEntrance === locId) {
+                // If the entrance is reselected after selecting a destination, clear the destination
                 setDestination(NoLocation);
             }
             else {
@@ -84,6 +98,14 @@ $(function () {
                 setDestination(locId);
             }
             displayCurrentHub();
+            displayGrid();
+        });
+    }
+    function displayGrid() {
+        $("#gridContainer").empty().append(mainMap.DrawGrid());
+        $(".gridSquare").dblclick(function () {
+            var locId = $(this).data("id");
+            setCurrentHub(mainMap.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); }));
         });
     }
     function setCurrentHub(hubId) {

@@ -7,28 +7,39 @@
     margin-bottom: 10px;
 }
 
-#currentHub {
-    height: 70vh;
-    width: 20vw;
-    /*border:1px solid black;*/
-    padding:5px;
-    margin-left: 10px;
-    float:left;
-}
-
 #currentHubImage {
     margin-top: 10px;
     padding: 5px;
 }
 
+#currentHub {
+    height: 70vh;
+    width: 20vw;
+    padding:5px;
+    margin-left: 10px;
+    float:left;
+}
+
+#currentContainer {
+    border: 1px solid black;
+    height: 70vh;
+    margin-left: 20px;
+}
+
 #currentDetails {
     height: 45vh;
     width: 20vw;
-    /*border: 1px solid black;*/
     float: left;
     margin-left: 50px;
     padding: 10px;
     padding-top: 60px;
+}
+
+#gridContainer {
+    height: 70vh;
+    width: 200px;
+    margin-left: 20px;
+    border: 1px solid black;
 }
 
 .hubButton {
@@ -76,4 +87,12 @@ table {
 #resetButtons button {
     font-size: 15px;
     cursor: pointer;
+}
+
+.gridSquare {
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display:inline-block;
 }

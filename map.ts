@@ -180,6 +180,14 @@ class RegionMap {
         });
     }
 
+    DrawGrid(): JQuery {
+        let container = $("<div>");
+        for (let locId = 0; locId < this.AllLocations.length; locId++) {
+            container.append($("<div>").data("id",locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
+        }
+        return container;
+    }
+ 
     ResetHub(hubId: number) {
         for (let locId of this.Hubs[hubId].Locations) {
             this.ClearLink(locId);

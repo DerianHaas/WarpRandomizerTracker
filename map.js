@@ -147,6 +147,13 @@ var RegionMap = /** @class */ (function () {
             $(this).width("20vw").height("20vw");
         });
     };
+    RegionMap.prototype.DrawGrid = function () {
+        var container = $("<div>");
+        for (var locId = 0; locId < this.AllLocations.length; locId++) {
+            container.append($("<div>").data("id", locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
+        }
+        return container;
+    };
     RegionMap.prototype.ResetHub = function (hubId) {
         for (var _i = 0, _a = this.Hubs[hubId].Locations; _i < _a.length; _i++) {
             var locId = _a[_i];
