@@ -99,6 +99,8 @@ class RegionMap {
         loc2.LinkedLocation = locId1;
         loc2.BlockedBy = oneWay ? OneWayBlock : NoBlock;
 
+        this.saveToLocalStorage();
+
         return true;
     }
 
@@ -112,6 +114,9 @@ class RegionMap {
         }
         loc.LinkedLocation = NoLocation;
         loc.BlockedBy = block;
+
+        this.saveToLocalStorage();
+
         return true;
     }
 
@@ -125,18 +130,27 @@ class RegionMap {
         }
         loc.LinkedLocation = DeadEnd;
         loc.BlockedBy = NoBlock;
+
+        this.saveToLocalStorage();
+
         return true;
     }
 
-    Load(data: MapJSON): void {
-        this.AllLocations = [];
-        this.Hubs = [];
-        this.Title = data.Region;
-        for (let loc of data.Locations) {
-            this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
+    Load(region: string): Promise<void> {
+        if (this.loadFromLocalStorage()) {
+            return Promise.resolve();
         }
-        this.Hubs = data.Hubs;
-    }
+
+        return fetch("worlds/" + region + ".json").then(response => response.json()).then(data => {
+            this.AllLocations = [];
+            this.Hubs = [];
+            this.Title = data.Region;
+            for (let loc of data.Locations) {
+                this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
+            }
+            this.Hubs = data.Hubs;
+        });
+     }
 
     DrawHubSelector(): JQuery {
         let container = $("<div>").attr("id", "hubSelectContainer");
@@ -194,12 +208,14 @@ class RegionMap {
         for (let locId of this.Hubs[hubId].Locations) {
             this.ClearLink(locId);
         }
+        this.saveToLocalStorage();
     }
 
     ResetAll() {
         for (let locId = 0; locId < this.AllLocations.length; locId++) {
             this.ClearLink(locId);
         }
+        this.saveToLocalStorage();
     }
 
     private getLinkedLocationName(loc: MapLocation): string {
@@ -230,6 +246,27 @@ class RegionMap {
         return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black"};
     }
 
+    private saveToLocalStorage() {
+        let mapJSON: localStorageJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations };
+        localStorage.setItem("warpMap", JSON.stringify(mapJSON));
+    }
+
+    private loadFromLocalStorage(): boolean {
+        let localData = localStorage.getItem("warpMap");
+        if (!localData) return false;
+        let mapJSON: localStorageJSON = JSON.parse(localData);
+        this.Title = mapJSON.Region;
+        this.AllLocations = mapJSON.Locations;
+        this.Hubs = mapJSON.Hubs;
+        return true;
+    }
+
+}
+
+type localStorageJSON = {
+    Region: string;
+    Hubs: Hub[];
+    Locations: MapLocation[];
 }
 
 type MapJSON = {

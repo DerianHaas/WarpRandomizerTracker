@@ -75,6 +75,7 @@ var RegionMap = /** @class */ (function () {
         loc1.LinkedLocation = locId2;
         loc2.LinkedLocation = locId1;
         loc2.BlockedBy = oneWay ? OneWayBlock : NoBlock;
+        this.saveToLocalStorage();
         return true;
     };
     RegionMap.prototype.MarkBlockage = function (locId, block) {
@@ -87,6 +88,7 @@ var RegionMap = /** @class */ (function () {
         }
         loc.LinkedLocation = NoLocation;
         loc.BlockedBy = block;
+        this.saveToLocalStorage();
         return true;
     };
     RegionMap.prototype.MarkDeadEnd = function (locId) {
@@ -99,17 +101,24 @@ var RegionMap = /** @class */ (function () {
         }
         loc.LinkedLocation = DeadEnd;
         loc.BlockedBy = NoBlock;
+        this.saveToLocalStorage();
         return true;
     };
-    RegionMap.prototype.Load = function (data) {
-        this.AllLocations = [];
-        this.Hubs = [];
-        this.Title = data.Region;
-        for (var _i = 0, _a = data.Locations; _i < _a.length; _i++) {
-            var loc = _a[_i];
-            this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
+    RegionMap.prototype.Load = function (region) {
+        var _this = this;
+        if (this.loadFromLocalStorage()) {
+            return Promise.resolve();
         }
-        this.Hubs = data.Hubs;
+        return fetch("worlds/" + region + ".json").then(function (response) { return response.json(); }).then(function (data) {
+            _this.AllLocations = [];
+            _this.Hubs = [];
+            _this.Title = data.Region;
+            for (var _i = 0, _a = data.Locations; _i < _a.length; _i++) {
+                var loc = _a[_i];
+                _this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
+            }
+            _this.Hubs = data.Hubs;
+        });
     };
     RegionMap.prototype.DrawHubSelector = function () {
         var container = $("<div>").attr("id", "hubSelectContainer");
@@ -161,11 +170,13 @@ var RegionMap = /** @class */ (function () {
             var locId = _a[_i];
             this.ClearLink(locId);
         }
+        this.saveToLocalStorage();
     };
     RegionMap.prototype.ResetAll = function () {
         for (var locId = 0; locId < this.AllLocations.length; locId++) {
             this.ClearLink(locId);
         }
+        this.saveToLocalStorage();
     };
     RegionMap.prototype.getLinkedLocationName = function (loc) {
         if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
@@ -193,6 +204,20 @@ var RegionMap = /** @class */ (function () {
             return { "font-weight": "bold", "background-color": "lightgreen" };
         }
         return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black" };
+    };
+    RegionMap.prototype.saveToLocalStorage = function () {
+        var mapJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations };
+        localStorage.setItem("warpMap", JSON.stringify(mapJSON));
+    };
+    RegionMap.prototype.loadFromLocalStorage = function () {
+        var localData = localStorage.getItem("warpMap");
+        if (!localData)
+            return false;
+        var mapJSON = JSON.parse(localData);
+        this.Title = mapJSON.Region;
+        this.AllLocations = mapJSON.Locations;
+        this.Hubs = mapJSON.Hubs;
+        return true;
     };
     return RegionMap;
 }());

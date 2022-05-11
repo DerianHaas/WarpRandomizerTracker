@@ -4,8 +4,8 @@ $(function () {
     var currentHub = 0;
     var currentEntrance = NoLocation;
     var currentDestination = NoLocation;
-    loadWorld().then(function () {
-        mainMap.Link(1, 3);
+    mainMap.Load("sinnoh").then(function () {
+        //mainMap.Link(1, 3);
         $("#hubSelector").append(mainMap.DrawHubSelector());
         $(".hubButton").click(function () {
             setCurrentHub($(this).data("id"));
@@ -30,11 +30,6 @@ $(function () {
             redraw();
         }
     });
-    function loadWorld() {
-        return fetch("worlds/sinnoh.json").then(function (response) { return response.json(); }).then(function (data) {
-            mainMap.Load(data);
-        });
-    }
     function loadBlockages() {
         $("#blockageContainer").append($("<label>").addClass("blockageLabel").append([$("<input>").attr("type", "radio").attr("name", "blockage").attr("value", NoBlock).attr("id", "defaultBlockage"), $("<span>").text("None")]));
         for (var i = 0; i < blockTypes.length; i++) {

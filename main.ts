@@ -6,8 +6,8 @@
     let currentEntrance: number = NoLocation;
     let currentDestination: number = NoLocation;
 
-    loadWorld().then(() => {
-        mainMap.Link(1, 3);
+    mainMap.Load("sinnoh").then(() => {
+        //mainMap.Link(1, 3);
 
         $("#hubSelector").append(mainMap.DrawHubSelector());
         $(".hubButton").click(function() {
@@ -38,13 +38,6 @@
             redraw();
         }
     });
-
-
-    function loadWorld() {
-        return fetch("worlds/sinnoh.json").then(response => response.json()).then(data => {
-            mainMap.Load(data);
-        });
-    }
 
     function loadBlockages() {
         $("#blockageContainer").append($("<label>").addClass("blockageLabel").append([$("<input>").attr("type", "radio").attr("name", "blockage").attr("value", NoBlock).attr("id", "defaultBlockage"), $("<span>").text("None")]));
