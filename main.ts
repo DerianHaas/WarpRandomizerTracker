@@ -6,24 +6,20 @@
     let currentEntrance: number = NoLocation;
     let currentDestination: number = NoLocation;
 
-    mainMap.Load("sinnoh").then(() => {
-        //mainMap.Link(1, 3);
+    $("#hoennSelect").click(function () {
+        mainMap.Load("hoenn").then(initialSetup);
+    });
 
-        $("#hubSelector").append(mainMap.DrawHubSelector());
-        $(".hubButton").click(function() {
-            setCurrentHub($(this).data("id"));
-        });
-        setCurrentHub(0);
-        loadBlockages();
-        displayGrid();
+    $("#sinnohSelect").click(function () {
+        mainMap.Load("sinnoh").then(initialSetup);
+    });
 
+    $("#johtoSelect").click(function () {
+        mainMap.Load("johto").then(initialSetup);
     });
 
 
-    $("#clearButton").click(function () {
-        setEntrance(NoLocation);
-        setDestination(NoLocation);
-    });
+    $("#clearButton").click(clearSelections);
 
     $("#resetHub").click(function () {
         if (confirm("Reset all warps in " + mainMap.Hubs[currentHub].Name + "?")) {
@@ -39,26 +35,27 @@
         }
     });
 
+    function initialSetup() {
+        $("#hubSelector").empty().append(mainMap.DrawHubSelector());
+        $(".hubButton").click(function () {
+            setCurrentHub($(this).data("id"));
+        });
+        setCurrentHub(0);
+        loadBlockages();
+        displayGrid();
+        $("#customNotes").val(mainMap.CustomNotes);
+    }
+
     function loadBlockages() {
-        $("#blockageContainer").append($("<label>").addClass("blockageLabel").append([$("<input>").attr("type", "radio").attr("name", "blockage").attr("value", NoBlock).attr("id", "defaultBlockage"), $("<span>").text("None")]));
-        for (let i = 0; i < blockTypes.length; i++) {
-            let option = $("<label>").addClass("blockageLabel").css({
-                "font-weight": "bold", "background-color": blockTypes[i].bkgcolor, "color": blockTypes[i].textcolor || "black"
-            });
-
-            option.append($("<input>").attr("type", "radio").attr("name", "blockage").attr("value", i));
-            option.append($("<span>").text(blockTypes[i].name));
-
-            $("#blockageContainer").append(option);
-        }
+        $("#blockages").empty().append(mainMap.DrawBlockages());
 
         $(".blockageLabel").dblclick(function () {
             let blockage = getCurrentSelectedBlockage();
             if (currentEntrance !== NoLocation) {
                 if (blockage != NoBlock && blockage != OneWayBlock) { 
-                    if (mainMap.MarkBlockage(currentEntrance, blockage)) {
-                        setEntrance(NoLocation);
-                        setDestination(NoLocation);
+                    let linkNotes = $("#linkCustomNote").val().toString();
+                    if (mainMap.MarkBlockage(currentEntrance, blockage, linkNotes)) {
+                        clearSelections();
                         redraw();
                     }
                     $("#defaultBlockage").prop("checked", true);
@@ -72,6 +69,7 @@
         $(".entrance").click(function () {
             let locId = $(this).data("id");
             let blockage = getCurrentSelectedBlockage();
+            let linkNotes = $("#linkCustomNote").val().toString();
             if (currentEntrance === NoLocation) {
                 // If no entrance is selected, set this one as the entrance
                 setEntrance(locId);
@@ -79,22 +77,19 @@
                 // If this is already marked as the entrance and we have no destination, mark this as a dead end or blocked
                 
                 if (blockage != NoBlock && blockage != OneWayBlock) { // Check blockages
-                    if (mainMap.MarkBlockage(locId, blockage)) {
-                        setEntrance(NoLocation);
+                    if (mainMap.MarkBlockage(locId, blockage, linkNotes)) {
+                        clearSelections();
                     }
-                    $("#defaultBlockage").prop("checked", true);
                 } else {
-                    if (mainMap.MarkDeadEnd(locId)) {
-                        setEntrance(NoLocation);
+                    if (mainMap.MarkDeadEnd(locId, linkNotes)) {
+                        clearSelections();
                     }
                 }
             } else if (currentDestination === locId) {
                 // If this is already marked as the destination, perform the link
-                if (mainMap.Link(currentEntrance, currentDestination, blockage === OneWayBlock)) {
-                    setEntrance(NoLocation);
-                    setDestination(NoLocation);
+                if (mainMap.Link(currentEntrance, currentDestination, blockage === OneWayBlock, linkNotes)) {
                     setCurrentHub(prevHub);
-                    $("#defaultBlockage").prop("checked", true);
+                    clearSelections();
                 }
             } else if (currentEntrance === locId) {
                 // If the entrance is reselected after selecting a destination, clear the destination
@@ -105,6 +100,13 @@
             }
             redraw();
         });
+    }
+
+    function clearSelections() {
+        setEntrance(NoLocation);
+        setDestination(NoLocation);
+        $("#defaultBlockage").prop("checked", true);
+        $("#linkCustomNote").val("");
     }
 
     function displayGrid() {
@@ -133,8 +135,12 @@
         currentEntrance = location;
         if (currentEntrance === NoLocation || currentEntrance >= mainMap.AllLocations.length) {
             $("#currentEntrance").text("");
+            $("#linkCustomNote").val("");
         } else {
             $("#currentEntrance").text(mainMap.AllLocations[currentEntrance].Name);
+            if (mainMap.AllLocations[location].Notes) {
+                $("#linkCustomNote").val(mainMap.AllLocations[location].Notes);
+            }
         }
     }
 

@@ -1,0 +1,31 @@
+Bell Tower
+Bell Tower 4F Ladder Down NE
+Bell Tower 4F Ladder Up NW
+Bell Tower 4F Ladder Up SW
+Bell Tower 4F Ladder Up SE
+
+Bell Tower 5F Ladder Down NW
+Bell Tower 5F Ladder Down SW
+Bell Tower 5F Ladder Down SE
+Bell Tower 5F Ladder Up S
+
+Bell Tower 7F Ladder Down
+Bell Tower 7F Warp NW
+Bell Tower 7F Warp W
+Bell Tower 7F Warp E
+Bell Tower 7F Warp S
+
+Bell Tower 8F Warp N
+Bell Tower 8F Warp E
+Bell Tower 8F Warp C
+Bell Tower 8F Warp NW
+Bell Tower 8F Warp W
+Bell Tower 8F Warp SE
+
+Bell Tower 9F Warp NW
+Bell Tower 9F Warp NE
+Bell Tower 9F Warp SW
+Bell Tower 9F Warp S
+Bell Tower 9F Warp E
+Bell Tower 9F Warp C
+Bell Tower 9F Ladder Up

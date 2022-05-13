@@ -1,0 +1,14 @@
+Ecruteak
+Ecruteak Pokecenter
+Ecruteak Mart
+Ecruteak Gym
+Ecruteak Theater
+Ecruteak Burnt Tower
+Ecruteak House N
+Ecruteak House W
+Ecruteak House S
+Ecruteak Exit W
+Ecruteak Exit E
+
+Ecruteak Burnt Tower Interior (Event)
+Ecruteak Theater Interior (Surf)

@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="map.js"></script>
     <script src="main.js"></script>
-    <!--<script src="import.js"></script>-->
+    <!--<script src="import/import.js"></script>-->
     <link rel="stylesheet" href="main.css" type="text/css" /> 
 </head>
 <body>
@@ -28,14 +28,28 @@
                 <br /><br />
                 <div id="blockageContainer" style="margin: 0 auto; display: table;">
                     <h3 style="text-align:center; margin-bottom:0.5em;">Blocked By</h3>
+                    <div id="blockages"></div>
+                     <p>Add note to this link: <input type="text" id="linkCustomNote"/></p>
                 </div>
+               
                 <div id="resetButtons">
                     <button id="resetHub" style="float:left">Reset Hub</button>
                     <button id="resetAll" style="float:right; background-color:indianred">Reset All</button>
                 </div>
+                <div id="notesContainer">
+                    <textarea id="customNotes"></textarea>
+                </div>
             </div>
         </div>
         <div id="gridContainer"></div>
+
+        <div id="regionSelect" style="padding-left: 20px">
+            <button id="hoennSelect" disabled>Emerald</button>
+            <button id="sinnohSelect">Platinum</button>
+            <button id="johtoSelect">HG/SS</button>
+            <br />
+            Force file load: <input type="checkbox" id="forceFileLoad" />
+        </div>
     </div>
     
 

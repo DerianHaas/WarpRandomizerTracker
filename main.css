@@ -15,7 +15,7 @@
 .hubButton {
     border: 1px solid black;
     background-color: skyblue;
-    width: 7vw;
+    width: 7.5vw;
     text-align: center;
     cursor: pointer;
     display: flex;
@@ -32,7 +32,6 @@
 
 
 #currentContainer {
-    /*border: 1px solid black;*/
     margin-left: 20px;
 }
 
@@ -73,6 +72,16 @@
     height: 19px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+}
+
+#notesContainer {
+    margin-top: 50px;
+    height: 10vh;
+}
+
+#customNotes {
+    width: 100%;
+    height: 100%;
 }
 
 

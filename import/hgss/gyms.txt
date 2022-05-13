@@ -1,0 +1,30 @@
+﻿Gyms / E4
+Violet Gym Interior
+Azalea Gym Interior
+Goldenrod Gym Interior
+Ecruteak Gym Interior
+Cianwood Gym Interior
+Olivine Gym Interior
+Mahogany Gym Interior
+Blackthorn Gym Interior
+
+E4 Will N
+E4 Will S
+E4 Koga N
+E4 Koga S
+E4 Bruno N
+E4 Bruno S
+E4 Karen N
+E4 Karen S
+Champion Lance
+
+Pewter Gym Interior
+Cerulean Gym Interior
+Vermilion Gym Interior
+Celadon Gym Interior
+Fuscia Gym Interior
+Saffron Gym Interior
+Cinnibar Gym Interior
+Viridian Gym Interior
+
+Red

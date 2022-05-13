@@ -1,0 +1,9 @@
+Union Cave
+Union Cave 1F Stairs NW
+Union Cave 1F Stairs SW
+Union Cave 1F Exit NE
+Union Cave 1F Exit SE
+
+Union Cave B1F Stairs NW
+Union Cave B1F Stairs W
+Union Cave B1F Stairs SE

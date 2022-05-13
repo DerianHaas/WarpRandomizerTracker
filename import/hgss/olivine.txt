@@ -1,0 +1,15 @@
+Olivine
+Olivine Pokecenter
+Olivine Mart
+Olivine Gym
+Olivine Lighthouse
+Olivine Dock
+Olivine House W
+Olivine House C
+Olivine House NE 1
+Olivine House NE 2
+
+Route 38 Exit East
+Route 39 House
+Route 39 Barn
+Route 40 Battle Frontier Entrance

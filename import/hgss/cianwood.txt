@@ -1,0 +1,11 @@
+Cianwood
+Cianwood Pokecenter
+Cianwood Gym
+Cianwood Pharmacy
+Cianwood House NE
+Cianwood House N
+Cianwood House C
+Cianwood House SW
+Cianwood Cave W
+
+Cianwood Pharmacy Interior

@@ -1,0 +1,21 @@
+Ruins of Alph
+Alph Exterior Exit N
+Alph Exterior Exit E
+Alph Exterior Entrance NE
+Alph Exterior Entrance C
+Alph Exterior Entrance SE
+Alph Exterior Entrance SW
+Alph Exterior Cave SW
+Alph Exterior Entrance W
+Alph Exterior Cave W
+
+Alph Exit Ladder
+
+Alph Escape Rope S
+Alph Escape Rope N
+
+Alph Ho-oh S
+Alph Ho-oh N
+
+Alph Water Stone S
+Alph Water Stone N

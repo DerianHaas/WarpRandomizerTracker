@@ -1,0 +1,17 @@
+Tohjo/R26/R27/League Gate
+Tohjo W
+Tohjo E
+Tohjo Hidden
+
+Route 27 Cave W
+Route 27 Cave E
+Route 27 House
+
+Route 26 House S
+Route 26 House C
+Route 26 Exit N
+
+Pokemon League Gate N
+Pokemon League Gate S
+Pokemon League Gate E
+Pokemon League Gate W

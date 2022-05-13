@@ -1,0 +1,20 @@
+Cerulean
+Mt Moon Route 4 Cave
+
+Cerulean Pokecenter
+Cerulean Mart
+Cerulean Gym
+Cerulean House N
+Cerulean House C
+Cerulean House S
+Cerulean House E
+
+Cerulean Cave Exterior
+Bill's House Exterior
+
+Route 5 House
+Route 5 Tunnel
+Route 5 Exit
+
+Route 10 Pokecenter
+Rock Tunnel Cave N

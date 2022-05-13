@@ -1,0 +1,13 @@
+Saffron
+Saffron Pokecenter
+Saffron Mart
+Saffron Gym
+Saffron Dojo
+Saffron Train Station
+Saffron Office
+Saffron House NW
+Saffron House SE
+Saffron Exit N
+Saffron Exit S
+Saffron Exit E
+Saffron Exit W

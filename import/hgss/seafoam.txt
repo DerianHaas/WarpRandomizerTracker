@@ -1,0 +1,24 @@
+Seafoam Islands
+Seafoam 1F Stairs
+Seafoam 1F Ladder
+Seafoam 1F Exit
+
+Seafoam B1F Stairs NW
+Seafoam B1F Ladder SW
+Seafoam B1F Ladder N
+Seafoam B1F Ladder C
+Seafoam B1F Ladder SE
+Seafoam B1F Stairs SE
+
+Seafoam B2F Ladder Up NW
+Seafoam B2F Ladder Down NE
+Seafoam B2F Ladder Up S
+Seafoam B2F Ladder Up SE
+
+Seafoam B3F Ladder Down SW
+Seafoam B3F Ladder Down S
+Seafoam B3F Ladder Down N
+Seafoam B3F Ladder Up NE
+
+Seafoam B4F Ladder Up NW (Articuno)
+Seafoam B4F Ladder Up SE (Articuno)

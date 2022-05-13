@@ -1,0 +1,13 @@
+Mahogany
+Mahogany Pokecenter
+Mahogany Gym
+Mahogany House C
+Mahogany House E
+Mahogany Exit N
+
+Route 42 Exit W
+Route 42 Cave W
+Route 42 Cave C
+Route 42 Cave E
+
+Route 44 Ice Path Entrance

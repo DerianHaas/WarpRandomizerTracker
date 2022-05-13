@@ -1,0 +1,6 @@
+Route 35/36
+Route 35 Exit S
+Route 35 National Park Entrance
+Route 36 Exit W
+Route 36 Exit E
+Route 36 Exit S

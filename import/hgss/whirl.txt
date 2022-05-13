@@ -1,0 +1,28 @@
+Whirl Islands
+Whirl Islands Exterior NW
+Whirl Islands Exterior NE
+Whirl Islands Exterior SW
+Whirl Islands Exterior SE
+
+Whirl Islands 1F NE Exit W
+Whirl Islands 1F NE Ladder NE
+Whirl Islands 1F NE Ladder SE
+
+Whirl Islands 1F SW Exit W
+Whirl Islands 1F SW Ladder W
+Whirl Islands 1F SW Ladder E
+
+Whirl Islands B1F Ladder NW
+Whirl Islands B1F Ladder Down SW
+
+Whirl Islands B1F Ladder NE
+Whirl Islands B1F Ladder Down S
+
+Whirl Islands B1F Ladder N
+Whirl Islands B1F Ladder SW
+Whirl Islands B1F Ladder S
+Whirl Islands B1F Ladder SE
+
+Whirl Islands B2F Ladder N
+Whirl Islands B2F Cave Top
+Whirl Islands B2F Cave Bottom

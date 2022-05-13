@@ -1,0 +1,17 @@
+Kanto Department Store
+Kanto Dept 1F Exit
+Kanto Dept 1F Up
+
+Kanto Dept 2F Down
+Kanto Dept 2F Up
+
+Kanto Dept 3F Down
+Kanto Dept 3F Up
+
+Kanto Dept 4F Down
+Kanto Dept 4F Up
+
+Kanto Dept 5F Down
+Kanto Dept 5F Up
+
+Kanto Dept 6F Down

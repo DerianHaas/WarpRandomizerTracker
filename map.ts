@@ -2,54 +2,55 @@ const NoLocation = -1;
 const DeadEnd = -2;
 
 const NoBlock = -1;
-const OneWayBlock = 9;
+let OneWayBlock: number = -1;
 
-const blockTypes: {name:string, bkgcolor: string, textcolor?: string }[] = [
-    {
-        name: "Trainer",
-        bkgcolor: "orangered",
+const blockageColors: { [blockage: string]: { bkg?: string, text?: string } } = {
+    "Trainer": {
+        bkg: "orangered",
+        text: "white"
     },
-    {
-        name: "Rock Smash",
-        bkgcolor: "brown",
-        textcolor: "white"
+    "Rock Smash": {
+        bkg: "brown",
+        text: "white"
     },
-    {
-        name: "Cut",
-        bkgcolor: "darkgreen",
-        textcolor: "white"
+    "Cut": {
+        bkg: "darkgreen",
+        text: "white"
     },
-    {
-        name: "Bike",
-        bkgcolor: "lightpink"
+    "Bike": {
+        bkg: "lightpink"
     },
-    {
-        name: "Strength",
-        bkgcolor: "gold"
+    "Strength": {
+        bkg: "gold"
     },
-    {
-        name: "Surf",
-        bkgcolor: "lightblue"
+    "Surf": {
+        bkg: "lightblue"
     },
-    {
-        name: "Rock Climb",
-        bkgcolor: "mediumpurple"
+    "Rock Climb": {
+        bkg: "mediumpurple"
     },
-    {
-        name: "Waterfall",
-        bkgcolor: "darkblue",
-        textcolor: "white"
+    "Waterfall": {
+        bkg: "darkblue",
+        text: "white"
     },
-    {
-        name: "Event",
-        bkgcolor: "purple",
-        textcolor: "white"
+    "Event": {
+        bkg: "purple",
+        text: "white"
     },
-    {
-        name: "One Way",
-        bkgcolor: "gray"
+    "One Way": {
+        bkg: "gray"
+    },
+    "Other": {
+        bkg: "lightgray"
+    },
+    "Whirlpool": {
+        bkg: "skyblue"
+    },
+    "Flash": {
+        bkg: "lightgoldenrodyellow"
     }
-]
+};
+
 
 
 type MapLocation = {
@@ -57,7 +58,7 @@ type MapLocation = {
     Name: string;
     LinkedLocation: number;
     BlockedBy: number;
-
+    Notes?: string;
 }
 
 type Hub = {
@@ -72,8 +73,11 @@ class RegionMap {
     Title: string;
     AllLocations: MapLocation[];
     Hubs: Hub[];
+    CustomNotes: string;
 
-    ClearLink(locId) {
+    RegionBlockageTypes: string[];
+
+    ClearLink(locId: number) {
         let loc = this.AllLocations[locId];
         loc.BlockedBy = NoBlock;
         if (loc.LinkedLocation > NoLocation) {
@@ -84,7 +88,7 @@ class RegionMap {
         loc.LinkedLocation = NoLocation;
     }
 
-    Link(locId1: number, locId2: number, oneWay: boolean = false) {
+    Link(locId1: number, locId2: number, oneWay: boolean, notes?: string) {
         let loc1 = this.AllLocations[locId1];
         let loc2 = this.AllLocations[locId2];
         if ((loc1.LinkedLocation > NoLocation && loc1.LinkedLocation !== locId2) || (loc2.LinkedLocation > NoLocation && loc2.LinkedLocation !== locId1)) {
@@ -98,13 +102,15 @@ class RegionMap {
         loc1.LinkedLocation = locId2;
         loc2.LinkedLocation = locId1;
         loc2.BlockedBy = oneWay ? OneWayBlock : NoBlock;
+        loc1.Notes = notes;
+        loc2.Notes = notes;
 
         this.saveToLocalStorage();
 
         return true;
     }
 
-    MarkBlockage(locId: number, block: number) {
+    MarkBlockage(locId: number, block: number, notes?: string) {
         let loc = this.AllLocations[locId];
         if (loc.LinkedLocation > NoLocation) {
             if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as blocked?")) {
@@ -114,13 +120,14 @@ class RegionMap {
         }
         loc.LinkedLocation = NoLocation;
         loc.BlockedBy = block;
+        loc.Notes = notes;
 
         this.saveToLocalStorage();
 
         return true;
     }
 
-    MarkDeadEnd(locId: number) {
+    MarkDeadEnd(locId: number, notes?: string) {
         let loc = this.AllLocations[locId];
         if (loc.LinkedLocation > NoLocation) {
             if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as a dead end?")) {
@@ -130,6 +137,7 @@ class RegionMap {
         }
         loc.LinkedLocation = DeadEnd;
         loc.BlockedBy = NoBlock;
+        loc.Notes = notes;
 
         this.saveToLocalStorage();
 
@@ -137,7 +145,7 @@ class RegionMap {
     }
 
     Load(region: string): Promise<void> {
-        if (this.loadFromLocalStorage()) {
+        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
         }
 
@@ -149,6 +157,14 @@ class RegionMap {
                 this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
             }
             this.Hubs = data.Hubs;
+            this.RegionBlockageTypes = data.Blockages;
+            if (!this.RegionBlockageTypes.includes("One Way")) {
+                OneWayBlock = this.RegionBlockageTypes.length;
+                this.RegionBlockageTypes.push("One Way");
+            }
+            if (!this.RegionBlockageTypes.includes("Other")) {
+                this.RegionBlockageTypes.push("Other");
+            }
         });
      }
 
@@ -185,6 +201,22 @@ class RegionMap {
         return box;
     }
 
+    DrawBlockages(): JQuery {
+        let container = $("<div>");
+        container.append($("<label>").addClass("blockageLabel").append([$("<input>").attr("type", "radio").attr("name", "blockage").attr("value", NoBlock).attr("id", "defaultBlockage"), $("<span>").text("None")]));
+        this.RegionBlockageTypes.forEach((blockName, i) => {
+            let option = $("<label>").addClass("blockageLabel").css({
+                "font-weight": "bold", "background-color": blockageColors[blockName].bkg || "white", "color": blockageColors[blockName].text || "black"
+            });
+
+            option.append($("<input>").attr("type", "radio").attr("name", "blockage").attr("value", i));
+            option.append($("<span>").text(blockName));
+
+            container.append(option);
+        });
+        return container;
+    }
+
     DrawHubImage(hubId: number): JQuery {
         let hub = this.Hubs[hubId];
         if (!hub.ImageName) {
@@ -206,7 +238,7 @@ class RegionMap {
  
     ResetHub(hubId: number) {
         for (let locId of this.Hubs[hubId].Locations) {
-            this.ClearLink(locId);
+            if (locId !== NoLocation) this.ClearLink(locId);
         }
         this.saveToLocalStorage();
     }
@@ -219,19 +251,22 @@ class RegionMap {
     }
 
     private getLinkedLocationName(loc: MapLocation): string {
+        let linkName = "";
         if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
             return " - ";
+        } else if (loc.LinkedLocation === DeadEnd) {
+            linkName = "Dead End";
+        } else if (loc.BlockedBy === OneWayBlock) {
+            linkName = "One Way from " + this.AllLocations[loc.LinkedLocation].Name;
+        } else if (loc.BlockedBy === NoBlock) {
+            linkName = this.AllLocations[loc.LinkedLocation].Name;
+        } else {
+            linkName = this.RegionBlockageTypes[loc.BlockedBy];
         }
-        if (loc.LinkedLocation === DeadEnd) {
-            return "Dead End";
+        if (loc.Notes) {
+            linkName += " (" + loc.Notes + ")";
         }
-        if (loc.BlockedBy === OneWayBlock) {
-            return "One Way (from " + this.AllLocations[loc.LinkedLocation].Name + ")"
-        }
-        if (loc.BlockedBy === NoBlock) {
-            return this.AllLocations[loc.LinkedLocation].Name;
-        }
-        return blockTypes[loc.BlockedBy].name;
+        return linkName;
     }
 
     private getLocationStyling(loc: MapLocation): {[style:string]: string} {
@@ -243,21 +278,25 @@ class RegionMap {
         if (loc.BlockedBy === NoBlock) {
             return { "font-weight": "bold", "background-color": "lightgreen" };
         }
-        return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black"};
+        let blockageName = this.RegionBlockageTypes[loc.BlockedBy];
+        return { "font-weight": "bold", "background-color": blockageColors[blockageName].bkg || "white", "color": blockageColors[blockageName].text || "black"};
     }
 
     private saveToLocalStorage() {
-        let mapJSON: localStorageJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations };
-        localStorage.setItem("warpMap", JSON.stringify(mapJSON));
+        this.CustomNotes = $("#customNotes").val().toString();  
+        let mapJSON: localStorageJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations, Blockages: this.RegionBlockageTypes, CustomNotes: this.CustomNotes };
+        localStorage.setItem("warpMap-"+this.Title, JSON.stringify(mapJSON));
     }
 
-    private loadFromLocalStorage(): boolean {
-        let localData = localStorage.getItem("warpMap");
+    private loadFromLocalStorage(region:string): boolean {
+        let localData = localStorage.getItem("warpMap-"+region);
         if (!localData) return false;
         let mapJSON: localStorageJSON = JSON.parse(localData);
         this.Title = mapJSON.Region;
         this.AllLocations = mapJSON.Locations;
         this.Hubs = mapJSON.Hubs;
+        this.RegionBlockageTypes = mapJSON.Blockages;
+        this.CustomNotes = mapJSON.CustomNotes;
         return true;
     }
 
@@ -267,6 +306,8 @@ type localStorageJSON = {
     Region: string;
     Hubs: Hub[];
     Locations: MapLocation[];
+    Blockages: string[];
+    CustomNotes: string;
 }
 
 type MapJSON = {
@@ -276,4 +317,5 @@ type MapJSON = {
         Coords?: [number, number, number, number];
     }[];
     Hubs: Hub[];
+    Blockages: string[];
 }

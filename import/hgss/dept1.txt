@@ -1,0 +1,19 @@
+Johto Department Store
+Johto Dept B1F Down
+
+Johto Dept 1F Exit
+Johto Dept 1F Up
+
+Johto Dept 2F Down
+Johto Dept 2F Up
+
+Johto Dept 3F Down
+Johto Dept 3F Up
+
+Johto Dept 4F Down
+Johto Dept 4F Up
+
+Johto Dept 5F Down
+Johto Dept 5F Up
+
+Johto Dept 6F Down

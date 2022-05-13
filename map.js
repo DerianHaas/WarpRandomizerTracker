@@ -1,53 +1,52 @@
 var NoLocation = -1;
 var DeadEnd = -2;
 var NoBlock = -1;
-var OneWayBlock = 9;
-var blockTypes = [
-    {
-        name: "Trainer",
-        bkgcolor: "orangered",
+var OneWayBlock = -1;
+var blockageColors = {
+    "Trainer": {
+        bkg: "orangered"
     },
-    {
-        name: "Rock Smash",
-        bkgcolor: "brown",
-        textcolor: "white"
+    "Rock Smash": {
+        bkg: "brown",
+        text: "white"
     },
-    {
-        name: "Cut",
-        bkgcolor: "darkgreen",
-        textcolor: "white"
+    "Cut": {
+        bkg: "darkgreen",
+        text: "white"
     },
-    {
-        name: "Bike",
-        bkgcolor: "lightpink"
+    "Bike": {
+        bkg: "lightpink"
     },
-    {
-        name: "Strength",
-        bkgcolor: "gold"
+    "Strength": {
+        bkg: "gold"
     },
-    {
-        name: "Surf",
-        bkgcolor: "lightblue"
+    "Surf": {
+        bkg: "lightblue"
     },
-    {
-        name: "Rock Climb",
-        bkgcolor: "mediumpurple"
+    "Rock Climb": {
+        bkg: "mediumpurple"
     },
-    {
-        name: "Waterfall",
-        bkgcolor: "darkblue",
-        textcolor: "white"
+    "Waterfall": {
+        bkg: "darkblue",
+        text: "white"
     },
-    {
-        name: "Event",
-        bkgcolor: "purple",
-        textcolor: "white"
+    "Event": {
+        bkg: "purple",
+        text: "white"
     },
-    {
-        name: "One Way",
-        bkgcolor: "gray"
+    "One Way": {
+        bkg: "gray"
+    },
+    "Other": {
+        bkg: "lightgray"
+    },
+    "Whirlpool": {
+        bkg: "skyblue"
+    },
+    "Flash": {
+        bkg: "lightgoldenrodyellow"
     }
-];
+};
 var RegionMap = /** @class */ (function () {
     function RegionMap() {
     }
@@ -61,8 +60,7 @@ var RegionMap = /** @class */ (function () {
         }
         loc.LinkedLocation = NoLocation;
     };
-    RegionMap.prototype.Link = function (locId1, locId2, oneWay) {
-        if (oneWay === void 0) { oneWay = false; }
+    RegionMap.prototype.Link = function (locId1, locId2, oneWay, notes) {
         var loc1 = this.AllLocations[locId1];
         var loc2 = this.AllLocations[locId2];
         if ((loc1.LinkedLocation > NoLocation && loc1.LinkedLocation !== locId2) || (loc2.LinkedLocation > NoLocation && loc2.LinkedLocation !== locId1)) {
@@ -75,10 +73,12 @@ var RegionMap = /** @class */ (function () {
         loc1.LinkedLocation = locId2;
         loc2.LinkedLocation = locId1;
         loc2.BlockedBy = oneWay ? OneWayBlock : NoBlock;
+        loc1.Notes = notes;
+        loc2.Notes = notes;
         this.saveToLocalStorage();
         return true;
     };
-    RegionMap.prototype.MarkBlockage = function (locId, block) {
+    RegionMap.prototype.MarkBlockage = function (locId, block, notes) {
         var loc = this.AllLocations[locId];
         if (loc.LinkedLocation > NoLocation) {
             if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as blocked?")) {
@@ -88,10 +88,11 @@ var RegionMap = /** @class */ (function () {
         }
         loc.LinkedLocation = NoLocation;
         loc.BlockedBy = block;
+        loc.Notes = notes;
         this.saveToLocalStorage();
         return true;
     };
-    RegionMap.prototype.MarkDeadEnd = function (locId) {
+    RegionMap.prototype.MarkDeadEnd = function (locId, notes) {
         var loc = this.AllLocations[locId];
         if (loc.LinkedLocation > NoLocation) {
             if (!confirm("This location already links to " + this.getLinkedLocationName(loc) + ".  Are you sure you want to mark it as a dead end?")) {
@@ -101,12 +102,13 @@ var RegionMap = /** @class */ (function () {
         }
         loc.LinkedLocation = DeadEnd;
         loc.BlockedBy = NoBlock;
+        loc.Notes = notes;
         this.saveToLocalStorage();
         return true;
     };
     RegionMap.prototype.Load = function (region) {
         var _this = this;
-        if (this.loadFromLocalStorage()) {
+        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
         }
         return fetch("worlds/" + region + ".json").then(function (response) { return response.json(); }).then(function (data) {
@@ -118,6 +120,14 @@ var RegionMap = /** @class */ (function () {
                 _this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
             }
             _this.Hubs = data.Hubs;
+            _this.RegionBlockageTypes = data.Blockages;
+            if (!_this.RegionBlockageTypes.includes("One Way")) {
+                OneWayBlock = _this.RegionBlockageTypes.length;
+                _this.RegionBlockageTypes.push("One Way");
+            }
+            if (!_this.RegionBlockageTypes.includes("Other")) {
+                _this.RegionBlockageTypes.push("Other");
+            }
         });
     };
     RegionMap.prototype.DrawHubSelector = function () {
@@ -148,6 +158,19 @@ var RegionMap = /** @class */ (function () {
         }
         return box;
     };
+    RegionMap.prototype.DrawBlockages = function () {
+        var container = $("<div>");
+        container.append($("<label>").addClass("blockageLabel").append([$("<input>").attr("type", "radio").attr("name", "blockage").attr("value", NoBlock).attr("id", "defaultBlockage"), $("<span>").text("None")]));
+        this.RegionBlockageTypes.forEach(function (blockName, i) {
+            var option = $("<label>").addClass("blockageLabel").css({
+                "font-weight": "bold", "background-color": blockageColors[blockName].bkg || "white", "color": blockageColors[blockName].text || "black"
+            });
+            option.append($("<input>").attr("type", "radio").attr("name", "blockage").attr("value", i));
+            option.append($("<span>").text(blockName));
+            container.append(option);
+        });
+        return container;
+    };
     RegionMap.prototype.DrawHubImage = function (hubId) {
         var hub = this.Hubs[hubId];
         if (!hub.ImageName) {
@@ -168,7 +191,8 @@ var RegionMap = /** @class */ (function () {
     RegionMap.prototype.ResetHub = function (hubId) {
         for (var _i = 0, _a = this.Hubs[hubId].Locations; _i < _a.length; _i++) {
             var locId = _a[_i];
-            this.ClearLink(locId);
+            if (locId !== NoLocation)
+                this.ClearLink(locId);
         }
         this.saveToLocalStorage();
     };
@@ -179,19 +203,26 @@ var RegionMap = /** @class */ (function () {
         this.saveToLocalStorage();
     };
     RegionMap.prototype.getLinkedLocationName = function (loc) {
+        var linkName = "";
         if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
             return " - ";
         }
-        if (loc.LinkedLocation === DeadEnd) {
-            return "Dead End";
+        else if (loc.LinkedLocation === DeadEnd) {
+            linkName = "Dead End";
         }
-        if (loc.BlockedBy === OneWayBlock) {
-            return "One Way (from " + this.AllLocations[loc.LinkedLocation].Name + ")";
+        else if (loc.BlockedBy === OneWayBlock) {
+            linkName = "One Way from " + this.AllLocations[loc.LinkedLocation].Name;
         }
-        if (loc.BlockedBy === NoBlock) {
-            return this.AllLocations[loc.LinkedLocation].Name;
+        else if (loc.BlockedBy === NoBlock) {
+            linkName = this.AllLocations[loc.LinkedLocation].Name;
         }
-        return blockTypes[loc.BlockedBy].name;
+        else {
+            linkName = this.RegionBlockageTypes[loc.BlockedBy];
+        }
+        if (loc.Notes) {
+            linkName += " (" + loc.Notes + ")";
+        }
+        return linkName;
     };
     RegionMap.prototype.getLocationStyling = function (loc) {
         if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
@@ -203,20 +234,24 @@ var RegionMap = /** @class */ (function () {
         if (loc.BlockedBy === NoBlock) {
             return { "font-weight": "bold", "background-color": "lightgreen" };
         }
-        return { "font-weight": "bold", "background-color": blockTypes[loc.BlockedBy].bkgcolor, "color": blockTypes[loc.BlockedBy].textcolor || "black" };
+        var blockageName = this.RegionBlockageTypes[loc.BlockedBy];
+        return { "font-weight": "bold", "background-color": blockageColors[blockageName].bkg || "white", "color": blockageColors[blockageName].text || "black" };
     };
     RegionMap.prototype.saveToLocalStorage = function () {
-        var mapJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations };
-        localStorage.setItem("warpMap", JSON.stringify(mapJSON));
+        this.CustomNotes = $("#customNotes").val().toString();
+        var mapJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations, Blockages: this.RegionBlockageTypes, CustomNotes: this.CustomNotes };
+        localStorage.setItem("warpMap-" + this.Title, JSON.stringify(mapJSON));
     };
-    RegionMap.prototype.loadFromLocalStorage = function () {
-        var localData = localStorage.getItem("warpMap");
+    RegionMap.prototype.loadFromLocalStorage = function (region) {
+        var localData = localStorage.getItem("warpMap-" + region);
         if (!localData)
             return false;
         var mapJSON = JSON.parse(localData);
         this.Title = mapJSON.Region;
         this.AllLocations = mapJSON.Locations;
         this.Hubs = mapJSON.Hubs;
+        this.RegionBlockageTypes = mapJSON.Blockages;
+        this.CustomNotes = mapJSON.CustomNotes;
         return true;
     };
     return RegionMap;

@@ -1,0 +1,22 @@
+Goldenrod
+Goldenrod Pokecenter
+Goldenrod Departmemt Store
+Goldenrod Gym
+Goldenrod Casino
+Goldenrod Train Station
+Goldenrod Radio Tower
+Goldenrod GTS
+Goldenrod Bike Shop
+Goldenrod Flower Shop
+Goldenrod Tent
+Goldenrod House W
+Goldenrod House E
+Goldenrod House NE
+Goldenrod Underground Entrance N
+Goldenrod Underground Entrance S
+Goldenrod Exit N
+Goldenrod Route 34 Exit S
+
+Goldenrod Underground Stairs N
+Goldenrod Underground Stairs S
+Goldenrod Underground Door SE

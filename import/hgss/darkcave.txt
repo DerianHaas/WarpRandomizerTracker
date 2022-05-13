@@ -1,0 +1,7 @@
+Dark Cave
+Dark Cave S Exit W
+Dark Cave S Exit N
+Dark Cave S Exit SE
+
+Dark Cave N Exit NE
+Dark Cave N Exit SW

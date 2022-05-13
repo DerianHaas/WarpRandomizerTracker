@@ -1,28 +1,36 @@
 ﻿$(() => {
 
-    fetch("import/input.json").then(response => response.json()).then(data => {
-        let mapData = data as MapJSON;
+    $.get("import/hgss/hubs.txt", function (fileData) {
+        let files: string[] = fileData.split("\n");
 
-        $.get("import/import.txt", function (data) {
-            let locs: string[] = data.split("\n");
-            locs = locs.map(loc => loc.trim());
-            console.log(locs);
+        let mapData: MapJSON = { Region: "johto", Hubs: [], Locations: [], Blockages: [] };
+        let placeIndex = 0;
+        files = files.filter(file => file.trim() !== "");
+        files.forEach((hubData, i) => {
+            let hubInfo: string[] = hubData.trim().split(",");
+            let file = hubInfo[0];
+            let image = hubInfo.length > 1 ? hubInfo[1] : "";
+            if (!file) return;
+            $.get("import/hgss/" + file + ".txt", function (locData) {
+                let locs: string[] = locData.trim().split("\n");
+                locs = locs.map(loc => loc.trim());
 
-            let placeIndex = mapData.Locations.length;
-            let newHubLocs = [];
-            for (let i = 1; i < locs.length; i++) {
-                if (locs[i] === "") {
-                    newHubLocs.push(NoLocation);
-                } else {
-                    mapData.Locations.push({ Name: locs[i] });
-                    newHubLocs.push(placeIndex++);
+                let newHubLocs = [];
+                for (let i = 1; i < locs.length; i++) {
+                    if (locs[i] === "") {
+                        newHubLocs.push(NoLocation);
+                    } else {
+                        newHubLocs.push(placeIndex);
+                        mapData.Locations[placeIndex++] = { Name: locs[i] };
+                    }
                 }
-            }
 
-            mapData.Hubs.push({Name: locs[0], Locations: newHubLocs, ImageName: ""})
+                mapData.Hubs[i] = { Name: locs[0], Locations: newHubLocs, ImageName: image ? "hgss/" + image : "" };
 
-            console.log(mapData);
+            }, "text");
+        });
+        mapData.Blockages = ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Event"];
 
-        }, "text");
-    });
+        console.log(mapData);
+    }, "text");
 });
