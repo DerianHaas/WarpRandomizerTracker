@@ -64,7 +64,7 @@ $(function () {
             }
             else if (currentEntrance === locId && currentDestination === NoLocation) {
                 // If this is already marked as the entrance and we have no destination, mark this as a dead end or blocked
-                if (blockage != NoBlock && blockage != OneWayBlock) { // Check blockages
+                if (blockage !== NoBlock && blockage !== OneWayBlock) { // Check blockages
                     if (mainMap.MarkBlockage(locId, blockage, linkNotes)) {
                         clearSelections();
                     }

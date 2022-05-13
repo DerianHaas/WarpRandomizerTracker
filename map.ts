@@ -298,6 +298,7 @@ class RegionMap {
         this.AllLocations = mapJSON.Locations;
         this.Hubs = mapJSON.Hubs;
         this.RegionBlockageTypes = mapJSON.Blockages;
+        OneWayBlock = this.RegionBlockageTypes.indexOf("One Way");
         this.CustomNotes = mapJSON.CustomNotes;
         return true;
     }
