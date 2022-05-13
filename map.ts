@@ -192,6 +192,8 @@ class RegionMap {
 
                     row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
                     row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                } else {
+                    row = row.addClass("emptyRow");
                 }
                 table.append(row);
             }

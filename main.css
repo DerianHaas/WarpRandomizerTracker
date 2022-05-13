@@ -1,5 +1,5 @@
 ﻿#hubSelector {
-    height: 30vh;
+    height: 32vh;
     width: 25vw;
     padding: 5px;
     display: flex;
@@ -85,7 +85,6 @@
 }
 
 
-
 table {
     border-collapse: collapse;
 }
@@ -104,6 +103,10 @@ table {
     font-weight: bold;
     background-color: lightgreen;
     cursor: pointer;
+}
+
+.emptyRow {
+    height: 15px !important;
 }
 
 .blockageLabel {

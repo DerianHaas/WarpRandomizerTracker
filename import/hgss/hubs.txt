@@ -38,3 +38,5 @@ moon,moon.png
 seafoam,seafoam.png
 ceruleancave,ceruleancave.png
 mtsilver
+pokecenters1
+pokecenters2

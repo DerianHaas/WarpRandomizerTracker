@@ -4,7 +4,8 @@ var NoBlock = -1;
 var OneWayBlock = -1;
 var blockageColors = {
     "Trainer": {
-        bkg: "orangered"
+        bkg: "orangered",
+        text: "white"
     },
     "Rock Smash": {
         bkg: "brown",
@@ -151,6 +152,9 @@ var RegionMap = /** @class */ (function () {
                     var loc = this.AllLocations[locId];
                     row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
                     row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                }
+                else {
+                    row = row.addClass("emptyRow");
                 }
                 table.append(row);
             }
