@@ -1,0 +1,13 @@
+SS Aqua
+SS Aqua Stairs
+SS Aqua NW Door L
+SS Aqua NW Door R
+SS Aqua NE Door L
+SS Aqua NE Door R
+SS Aqua SW Door L
+SS Aqua SW Door R
+SS Aqua SE Door L
+SS Aqua SE Door R
+
+SS Aqua B1F Stairs
+SS Aqua B1F Ladder

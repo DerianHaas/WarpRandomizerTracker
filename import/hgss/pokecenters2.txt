@@ -11,6 +11,9 @@ Mt Moon PC Stairs
 Cerulean PC Entrance
 Cerulean PC Stairs
 
+Route 10 PC Entrance
+Route 10 PC Stairs
+
 Saffron PC Entrance
 Saffron PC Stairs
 
@@ -28,3 +31,6 @@ Celadon PC Stairs
 
 Cinnibar PC Entrance
 Cinnibar PC Stairs
+
+Mt Silver PC Entrance
+Mt Silver PC Stairs

@@ -20,6 +20,9 @@ Ecruteak PC Stairs
 Olivine PC Entrance
 Olivine PC Stairs
 
+Frontier PC Entrance
+Frontier PC Stairs
+
 Cianwood PC Entrance
 Cianwood PC Stairs
 

@@ -1,7 +1,8 @@
 Mt Silver
 Mt Silver Pokecenter
 Mt Silver Exterior Entrance
-Route 28 Exit
+Mt Silver Exterior House
+Mt Silver Route 28 Exit
 
 Mt Silver Side Cave S
 Mt Silver Side Cave C

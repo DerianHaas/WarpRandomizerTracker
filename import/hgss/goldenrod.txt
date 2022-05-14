@@ -19,4 +19,5 @@ Goldenrod Route 34 Exit S
 
 Goldenrod Underground Stairs N
 Goldenrod Underground Stairs S
+Goldenrod Underground Door NE
 Goldenrod Underground Door SE

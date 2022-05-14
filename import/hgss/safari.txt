@@ -10,3 +10,7 @@ Route 47 Cave E
 
 Safari Zone Gate Interior E
 Safari Zone Gate Interior S
+
+Cliff Cave Ladder Up
+Cliff Cave Ladder Down
+Cliff Cave Exit

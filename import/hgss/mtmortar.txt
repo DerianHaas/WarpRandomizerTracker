@@ -1,0 +1,21 @@
+Mt Mortar
+Mortar 1F Front Entrance S
+Mortar 1F Front Ladder
+Mortar 1F Front Cave N
+
+Mortar 1F Front Entrance SE
+Mortar 1F Front Cave E
+
+Mortar 1F Front Entrance E 
+Mortar 1F Front Cave C 
+
+Mortar 1F Back Cave W
+Mortar 1F Back Cave E
+Mortar 1F Back Ladder W
+Mortar 1F Back Ladder E
+
+Mortar 2F Ladder
+Mortar 2F Cave
+
+Mortar B1F Ladder N
+Mortar B1F Ladder S

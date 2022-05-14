@@ -8,5 +8,6 @@ Pewter House NE
 Viridian Forest Exit N
 Route 2 Cave
 Route 2 House
+Route 2 Exit S
 Mt Moon Route 3 Cave
 Mt Moon Pokecenter

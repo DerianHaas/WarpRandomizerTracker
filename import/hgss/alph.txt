@@ -3,9 +3,12 @@ Alph Exterior Exit N
 Alph Exterior Exit E
 Alph Exterior Entrance NE
 Alph Exterior Entrance C
+Alph House
+
 Alph Exterior Entrance SE
 Alph Exterior Entrance SW
 Alph Exterior Cave SW
+
 Alph Exterior Entrance W
 Alph Exterior Cave W
 
@@ -19,3 +22,6 @@ Alph Ho-oh N
 
 Alph Water Stone S
 Alph Water Stone N
+
+Alph Flash S
+Alph Flash N

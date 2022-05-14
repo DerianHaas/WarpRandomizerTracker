@@ -46,6 +46,9 @@ var blockageColors = {
     },
     "Flash": {
         bkg: "lightgoldenrodyellow"
+    },
+    "Power Plant": {
+        bkg: "sandybrown"
     }
 };
 var RegionMap = /** @class */ (function () {
