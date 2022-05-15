@@ -1,0 +1,13 @@
+Victory Road
+Victory Road B1F NW
+Victory Road B1F S
+Victory Road B1F SE
+
+Victory Road B1F SW Room E
+Victory Road B1F SW Room NE
+Victory Road B1F SW Room SW
+
+Victory Road B2F C
+Victory Road B2F NE
+Victory Road B2F SE
+Victory Road B2F SW

@@ -1,0 +1,19 @@
+Gyms / E4
+Rustboro Gym Interior
+Dewford Gym Interior
+Mauville Gym Interior
+Lavaridge Gym Interior
+Petalburg Gym Interior
+Fortree Gym Interior
+Mossdeep Gym Interior
+Sootopolis Gym Interior
+
+E4 Sidney N
+E4 Sidney S
+E4 Phoebe N
+E4 Phoebe S
+E4 Glacia N
+E4 Glacia S
+E4 Drake N
+E4 Drake S
+Champion

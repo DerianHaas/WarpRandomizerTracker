@@ -1,0 +1,17 @@
+Meteor Falls
+Meteor Falls 1F E
+Meteor Falls 1F N
+Meteor Falls 1F S
+
+Meteor Falls 1F R2 E
+Meteor Falls 1F R2 NW
+Meteor Falls 1F R2 S
+Meteor Falls 1F R2 W
+
+Meteor Falls B1F Left E
+Meteor Falls B1F Left N
+Meteor Falls B1F Left SW
+
+Meteor Falls B1F Right N
+Meteor Falls B1F Right S
+Meteor Falls B1F Right W

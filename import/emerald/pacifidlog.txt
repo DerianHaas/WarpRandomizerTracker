@@ -1,0 +1,7 @@
+Pacifidlog
+Pacifidlog NE
+Pacifidlog NW
+Pacifidlog Pokecenter
+Pacifidlog S
+Pacifidlog SE
+Pacifidlog SW

@@ -49,6 +49,9 @@ var blockageColors = {
     },
     "Power Plant": {
         bkg: "sandybrown"
+    },
+    "Dive": {
+        bkg: "skyblue"
     }
 };
 var RegionMap = /** @class */ (function () {

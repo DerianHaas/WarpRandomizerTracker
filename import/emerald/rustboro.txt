@@ -1,0 +1,18 @@
+Rustboro
+Rustboro Petalburg Woods
+Flower Shop
+
+Rustboro Pokecenter
+Rustboro Mart
+Rustboro Gym
+Rustboro Devon Corp
+Rustboro E
+Rustboro NE
+Rustboro W
+Rustboro SE
+Rustboro SW
+Rustboro Trainer School
+Rustboro Cut House
+
+R116 House
+R116 Rusturf

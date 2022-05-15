@@ -1,0 +1,9 @@
+Surf Hub
+R105 Regice
+R108 Abandoned Ship
+R110 New Mauville
+R115 Meteor Falls Exit
+R124 Treasure Hunter
+R131 Sky Pillar
+R120 Scorched Slab
+R122 Mt. Pyre

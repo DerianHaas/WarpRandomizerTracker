@@ -1,0 +1,25 @@
+Abandoned Ship
+Abandoned Ship 1F Left Exit
+Abandoned Ship 1F Left N
+Abandoned Ship 1F Left S
+Abandoned Ship 1F Left Stairs
+
+Abandoned Ship 1F Right Exit
+Abandoned Ship 1F Right NE
+Abandoned Ship 1F Right NW
+Abandoned Ship 1F Right SE
+Abandoned Ship 1F Right Stairs
+Abandoned Ship 1F Right SW
+
+Abandoned Ship Rooms NE
+Abandoned Ship Rooms S
+Abandoned Ship Rooms SE
+
+Abandoned Ship B1F N
+Abandoned Ship B1F NE
+Abandoned Ship B1F NW
+Abandoned Ship B1F S
+Abandoned Ship B1F SE
+Abandoned Ship B1F Stairs NE
+Abandoned Ship B1F Stairs NW
+Abandoned Ship B1F SW

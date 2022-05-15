@@ -1,0 +1,26 @@
+Seafloor Cavern
+Seafloor Cavern R1 N
+Seafloor Cavern R1 SE
+Seafloor Cavern R1 SW
+
+Seafloor Cavern R2 N
+Seafloor Cavern R2 S
+Seafloor Cavern R2 SE
+
+Seafloor Cavern R3 C
+Seafloor Cavern R3 NE
+Seafloor Cavern R3 NW
+Seafloor Cavern R3 S
+
+Seafloor Cavern R4 NE
+Seafloor Cavern R4 NW
+Seafloor Cavern R4 SE
+Seafloor Cavern R4 SW
+
+Seafloor Cavern R5 C
+Seafloor Cavern R5 N
+Seafloor Cavern R5 S
+
+Seafloor Cavern R6 N
+Seafloor Cavern R6 SE
+Seafloor Cavern R6 SW

@@ -1,0 +1,12 @@
+Magma Hideout
+Magma Hideout 1F C
+Magma Hideout 1F SE
+Magma Hideout 1F SW
+
+Magma Hideout 2F C
+Magma Hideout 2F N
+Magma Hideout 2F S
+
+Magma Hideout 3F C
+Magma Hideout 3F N
+Magma Hideout 3F S

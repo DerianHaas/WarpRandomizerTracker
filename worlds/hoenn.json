@@ -1,0 +1,1813 @@
+{
+  "Region": "hoenn",
+  "Hubs": [
+    {
+      "Name": "Gyms / E4",
+      "Locations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        -1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Places of Interest",
+      "Locations": [
+        17,
+        18,
+        19,
+        20,
+        -1,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Oldale / Petalburg",
+      "Locations": [
+        30,
+        31,
+        32,
+        33,
+        -1,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        -1,
+        40,
+        41,
+        42
+      ],
+      "ImageName": "emerald/petalburg.png"
+    },
+    {
+      "Name": "Rustboro",
+      "Locations": [
+        43,
+        44,
+        -1,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        -1,
+        56,
+        57
+      ],
+      "ImageName": "emerald/rustboro.png"
+    },
+    {
+      "Name": "Dewford",
+      "Locations": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "ImageName": "emerald/dewford.png"
+    },
+    {
+      "Name": "Slate/Mauv/Verd",
+      "Locations": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        -1,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        -1,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "ImageName": "emerald/slate.png"
+    },
+    {
+      "Name": "Fallarbor/Lavaridge",
+      "Locations": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        -1,
+        103,
+        104,
+        -1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "ImageName": "emerald/lavaride.png"
+    },
+    {
+      "Name": "Fortree/Lilycove",
+      "Locations": [
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        -1,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "ImageName": "emerald/fortree.png"
+    },
+    {
+      "Name": "Mossdeep",
+      "Locations": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "ImageName": "emerald/mossdeep.png"
+    },
+    {
+      "Name": "Pacifidlog",
+      "Locations": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "ImageName": "emerald/pacifidlog.png"
+    },
+    {
+      "Name": "Sootopolis",
+      "Locations": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        -1,
+        157,
+        158,
+        159,
+        160,
+        161,
+        -1,
+        162
+      ],
+      "ImageName": "emerald/sootopolis.png"
+    },
+    {
+      "Name": "Petalburg Woods",
+      "Locations": [
+        163,
+        164,
+        165
+      ],
+      "ImageName": "emerald/woods.png"
+    },
+    {
+      "Name": "Rusturf Tunnel",
+      "Locations": [
+        166,
+        167,
+        168
+      ],
+      "ImageName": "emerald/tunnel.png"
+    },
+    {
+      "Name": "Granite Cave",
+      "Locations": [
+        169,
+        170,
+        171,
+        172,
+        -1,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "ImageName": "emerald/granite.png"
+    },
+    {
+      "Name": "Abandoned Ship",
+      "Locations": [
+        180,
+        181,
+        182,
+        183,
+        -1,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        -1,
+        190,
+        191,
+        192,
+        -1,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "ImageName": "emerald/ship.png"
+    },
+    {
+      "Name": "Jagged Pass",
+      "Locations": [
+        201,
+        202,
+        203
+      ],
+      "ImageName": "emerald/jagged.png"
+    },
+    {
+      "Name": "Meteor Falls",
+      "Locations": [
+        204,
+        205,
+        206,
+        -1,
+        207,
+        208,
+        209,
+        210,
+        -1,
+        211,
+        212,
+        213,
+        -1,
+        214,
+        215,
+        216
+      ],
+      "ImageName": "emerald/meteor.png"
+    },
+    {
+      "Name": "Mirage Tower",
+      "Locations": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "ImageName": "emerald/mirage.png"
+    },
+    {
+      "Name": "Route 119/123",
+      "Locations": [
+        223,
+        224,
+        225
+      ],
+      "ImageName": "emerald/r119.png"
+    },
+    {
+      "Name": "Mt Pyre",
+      "Locations": [
+        226,
+        227,
+        228,
+        229,
+        -1,
+        230,
+        231,
+        232,
+        233,
+        234,
+        -1,
+        235,
+        236,
+        237,
+        238,
+        -1,
+        239,
+        240,
+        241,
+        242,
+        -1,
+        243,
+        244,
+        245
+      ],
+      "ImageName": "emerald/pyre.png"
+    },
+    {
+      "Name": "Magma Hideout",
+      "Locations": [
+        246,
+        247,
+        248,
+        -1,
+        249,
+        250,
+        251,
+        -1,
+        252,
+        253,
+        254
+      ],
+      "ImageName": "emerald/magma.png"
+    },
+    {
+      "Name": "Aqua Hideout",
+      "Locations": [
+        255,
+        256,
+        257,
+        -1,
+        258,
+        259,
+        260,
+        -1,
+        261,
+        262,
+        263,
+        -1,
+        264,
+        265,
+        266,
+        267,
+        -1,
+        268,
+        269,
+        270,
+        -1,
+        271,
+        272,
+        273,
+        -1,
+        274,
+        275,
+        276
+      ],
+      "ImageName": "emerald/aqua.png"
+    },
+    {
+      "Name": "Contest Hall",
+      "Locations": [
+        277,
+        278,
+        279
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Department Store",
+      "Locations": [
+        280,
+        281,
+        -1,
+        282,
+        283,
+        -1,
+        284,
+        285,
+        -1,
+        286,
+        287,
+        -1,
+        288,
+        289
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Seafloor Cavern",
+      "Locations": [
+        290,
+        291,
+        292,
+        -1,
+        293,
+        294,
+        295,
+        -1,
+        296,
+        297,
+        298,
+        299,
+        -1,
+        300,
+        301,
+        302,
+        303,
+        -1,
+        304,
+        305,
+        306,
+        -1,
+        307,
+        308,
+        309
+      ],
+      "ImageName": "emerald/seafloor.png"
+    },
+    {
+      "Name": "Sky Pillar",
+      "Locations": [
+        310,
+        311,
+        -1,
+        312,
+        313,
+        -1,
+        314,
+        315,
+        316,
+        -1,
+        317,
+        318,
+        319
+      ],
+      "ImageName": "emerald/skypillar.png"
+    },
+    {
+      "Name": "Victory Road",
+      "Locations": [
+        320,
+        321,
+        322,
+        -1,
+        323,
+        324,
+        325,
+        -1,
+        326,
+        327,
+        328,
+        329
+      ],
+      "ImageName": "emerald/victoryroad.png"
+    },
+    {
+      "Name": "Navel Rock",
+      "Locations": [
+        330,
+        331,
+        332
+      ],
+      "ImageName": "emerald/navel.png"
+    },
+    {
+      "Name": "Surf Hub",
+      "Locations": [
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokecenters 1",
+      "Locations": [
+        341,
+        342,
+        -1,
+        343,
+        344,
+        -1,
+        345,
+        346,
+        -1,
+        347,
+        348,
+        -1,
+        349,
+        350,
+        -1,
+        351,
+        352,
+        -1,
+        353,
+        354,
+        -1,
+        355,
+        356,
+        -1,
+        357,
+        358,
+        359
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokecenters 2",
+      "Locations": [
+        360,
+        361,
+        -1,
+        362,
+        363,
+        -1,
+        364,
+        365,
+        -1,
+        366,
+        367,
+        -1,
+        368,
+        369,
+        -1,
+        370,
+        371,
+        -1,
+        372,
+        373,
+        374
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Marts",
+      "Locations": [
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385
+      ],
+      "ImageName": ""
+    }
+  ],
+  "Locations": [
+    {
+      "Name": "Rustboro Gym Interior"
+    },
+    {
+      "Name": "Dewford Gym Interior"
+    },
+    {
+      "Name": "Mauville Gym Interior"
+    },
+    {
+      "Name": "Lavaridge Gym Interior"
+    },
+    {
+      "Name": "Petalburg Gym Interior"
+    },
+    {
+      "Name": "Fortree Gym Interior"
+    },
+    {
+      "Name": "Mossdeep Gym Interior"
+    },
+    {
+      "Name": "Sootopolis Gym Interior"
+    },
+    {
+      "Name": "E4 Sidney N"
+    },
+    {
+      "Name": "E4 Sidney S"
+    },
+    {
+      "Name": "E4 Phoebe N"
+    },
+    {
+      "Name": "E4 Phoebe S"
+    },
+    {
+      "Name": "E4 Glacia N"
+    },
+    {
+      "Name": "E4 Glacia S"
+    },
+    {
+      "Name": "E4 Drake N"
+    },
+    {
+      "Name": "E4 Drake S"
+    },
+    {
+      "Name": "Champion"
+    },
+    {
+      "Name": "Steven's House"
+    },
+    {
+      "Name": "Slateport Shipyard Interior"
+    },
+    {
+      "Name": "Space Center 2F"
+    },
+    {
+      "Name": "Bike Shop"
+    },
+    {
+      "Name": "Rayquaza"
+    },
+    {
+      "Name": "Kyogre"
+    },
+    {
+      "Name": "Groudon"
+    },
+    {
+      "Name": "Ho-oh"
+    },
+    {
+      "Name": "Lugia"
+    },
+    {
+      "Name": "Registeel"
+    },
+    {
+      "Name": "Regirock"
+    },
+    {
+      "Name": "Regice"
+    },
+    {
+      "Name": "Mew"
+    },
+    {
+      "Name": "Oldale Mart"
+    },
+    {
+      "Name": "Oldale NW"
+    },
+    {
+      "Name": "Oldale Pokecenter"
+    },
+    {
+      "Name": "Oldale SE"
+    },
+    {
+      "Name": "Petalburg Gym"
+    },
+    {
+      "Name": "Petalburg Pokecenter"
+    },
+    {
+      "Name": "Petalburg Mart"
+    },
+    {
+      "Name": "Petalburg NW"
+    },
+    {
+      "Name": "Petalburg SW"
+    },
+    {
+      "Name": "Petalburg SE"
+    },
+    {
+      "Name": "Briney's House"
+    },
+    {
+      "Name": "Petalburg Woods E"
+    },
+    {
+      "Name": "Petalburg Woods W"
+    },
+    {
+      "Name": "Rustboro Petalburg Woods"
+    },
+    {
+      "Name": "Flower Shop"
+    },
+    {
+      "Name": "Rustboro Pokecenter"
+    },
+    {
+      "Name": "Rustboro Mart"
+    },
+    {
+      "Name": "Rustboro Gym"
+    },
+    {
+      "Name": "Rustboro Devon Corp"
+    },
+    {
+      "Name": "Rustboro E"
+    },
+    {
+      "Name": "Rustboro NE"
+    },
+    {
+      "Name": "Rustboro W"
+    },
+    {
+      "Name": "Rustboro SE"
+    },
+    {
+      "Name": "Rustboro SW"
+    },
+    {
+      "Name": "Rustboro Trainer School"
+    },
+    {
+      "Name": "Rustboro Cut House"
+    },
+    {
+      "Name": "R116 House"
+    },
+    {
+      "Name": "R116 Rusturf"
+    },
+    {
+      "Name": "Dewford Granite Cave"
+    },
+    {
+      "Name": "Dewford Pokecenter"
+    },
+    {
+      "Name": "Dewford Gym"
+    },
+    {
+      "Name": "Dewford Hall"
+    },
+    {
+      "Name": "Dewford C"
+    },
+    {
+      "Name": "Dewford SE"
+    },
+    {
+      "Name": "Slateport Contest"
+    },
+    {
+      "Name": "Slateport Shipyard"
+    },
+    {
+      "Name": "Slateport Fan Club"
+    },
+    {
+      "Name": "Slateport Mart"
+    },
+    {
+      "Name": "Slateport Museum"
+    },
+    {
+      "Name": "Slateport Name Rater"
+    },
+    {
+      "Name": "Slateport Pokecenter"
+    },
+    {
+      "Name": "Slateport SE"
+    },
+    {
+      "Name": "R109 Seashore House"
+    },
+    {
+      "Name": "R110 Cycle Road S"
+    },
+    {
+      "Name": "R110 Trickhouse"
+    },
+    {
+      "Name": "Daycare"
+    },
+    {
+      "Name": "Mauville Bike Shop"
+    },
+    {
+      "Name": "Mauville Casino"
+    },
+    {
+      "Name": "Mauville Gym"
+    },
+    {
+      "Name": "Mauville Mart"
+    },
+    {
+      "Name": "Mauville Pokecenter"
+    },
+    {
+      "Name": "Mauville S"
+    },
+    {
+      "Name": "Mauville SE"
+    },
+    {
+      "Name": "R110 Cycle Road N"
+    },
+    {
+      "Name": "R111 Winstrate House"
+    },
+    {
+      "Name": "Verdanturf Contest"
+    },
+    {
+      "Name": "Verdanturf Mart"
+    },
+    {
+      "Name": "Verdanturf Pokecenter"
+    },
+    {
+      "Name": "Verdanturf Rusturf Tunnel"
+    },
+    {
+      "Name": "Verdanturf SW"
+    },
+    {
+      "Name": "Verdanturf S"
+    },
+    {
+      "Name": "Verdanturf SE"
+    },
+    {
+      "Name": "Fallarbor Contest"
+    },
+    {
+      "Name": "Fallarbor Fossil Maniac"
+    },
+    {
+      "Name": "Fallarbor Mart"
+    },
+    {
+      "Name": "Fallarbor Pokecenter"
+    },
+    {
+      "Name": "Fallarbor S"
+    },
+    {
+      "Name": "Fallarbor SE"
+    },
+    {
+      "Name": "R113 Glass Workshop"
+    },
+    {
+      "Name": "R111 Old Lady"
+    },
+    {
+      "Name": "R112 Fiery Path N"
+    },
+    {
+      "Name": "R114 Lanette"
+    },
+    {
+      "Name": "R114 Meteor Falls"
+    },
+    {
+      "Name": "R111 Mirage Tower"
+    },
+    {
+      "Name": "R111 Regirock"
+    },
+    {
+      "Name": "Lavaridge Gym"
+    },
+    {
+      "Name": "Lavaridge Herb Shop"
+    },
+    {
+      "Name": "Lavaridge Mart"
+    },
+    {
+      "Name": "Lavaridge Pokecenter"
+    },
+    {
+      "Name": "Lavaridge SE"
+    },
+    {
+      "Name": "R112 Fiery Path S"
+    },
+    {
+      "Name": "R112 Jagged Pass"
+    },
+    {
+      "Name": "R112 Mt. Chimney"
+    },
+    {
+      "Name": "Fortree Gym"
+    },
+    {
+      "Name": "Fortree Mart"
+    },
+    {
+      "Name": "Fortree Pokecenter"
+    },
+    {
+      "Name": "Fortree NE"
+    },
+    {
+      "Name": "Fortree NNE"
+    },
+    {
+      "Name": "Fortree NNW"
+    },
+    {
+      "Name": "Fortree NW"
+    },
+    {
+      "Name": "Fortree SE"
+    },
+    {
+      "Name": "Fortree SW"
+    },
+    {
+      "Name": "R120 Registeel"
+    },
+    {
+      "Name": "Lilycove Aqua Hideout"
+    },
+    {
+      "Name": "Lilycove Contest"
+    },
+    {
+      "Name": "Lilycove Mart"
+    },
+    {
+      "Name": "Lilycove Motel"
+    },
+    {
+      "Name": "Lilycove Move Deleter"
+    },
+    {
+      "Name": "Lilycove Pokecenter"
+    },
+    {
+      "Name": "Lilycove Submarine"
+    },
+    {
+      "Name": "Lilycove Fanclub"
+    },
+    {
+      "Name": "Lilycove W"
+    },
+    {
+      "Name": "Lilycove SW"
+    },
+    {
+      "Name": "Lilycove NE"
+    },
+    {
+      "Name": "Lilycove E"
+    },
+    {
+      "Name": "Mossdeep Gym"
+    },
+    {
+      "Name": "Mossdeep Mart"
+    },
+    {
+      "Name": "Mossdeep Pokecenter"
+    },
+    {
+      "Name": "Mossdeep Space Center"
+    },
+    {
+      "Name": "Mossdeep NW"
+    },
+    {
+      "Name": "Mossdeep W"
+    },
+    {
+      "Name": "Mossdeep N"
+    },
+    {
+      "Name": "Mossdeep S"
+    },
+    {
+      "Name": "Mossdeep NE"
+    },
+    {
+      "Name": "Mossdeep SE"
+    },
+    {
+      "Name": "Pacifidlog NE"
+    },
+    {
+      "Name": "Pacifidlog NW"
+    },
+    {
+      "Name": "Pacifidlog Pokecenter"
+    },
+    {
+      "Name": "Pacifidlog S"
+    },
+    {
+      "Name": "Pacifidlog SE"
+    },
+    {
+      "Name": "Pacifidlog SW"
+    },
+    {
+      "Name": "Sootopolis Pokecenter"
+    },
+    {
+      "Name": "Sootopolis E1"
+    },
+    {
+      "Name": "Sootopolis E2"
+    },
+    {
+      "Name": "Sootopolis E3"
+    },
+    {
+      "Name": "Sootopolis E4"
+    },
+    {
+      "Name": "Sootopolis E5"
+    },
+    {
+      "Name": "Sootopolis Mart"
+    },
+    {
+      "Name": "Sootopolis W1"
+    },
+    {
+      "Name": "Sootopolis W2"
+    },
+    {
+      "Name": "Sootopolis W3"
+    },
+    {
+      "Name": "Sootopolis W4"
+    },
+    {
+      "Name": "Sootopolis Gym"
+    },
+    {
+      "Name": "Petalburg Woods N"
+    },
+    {
+      "Name": "Petalburg Woods SE"
+    },
+    {
+      "Name": "Petalburg Woods SW"
+    },
+    {
+      "Name": "Rusturf Tunnel E"
+    },
+    {
+      "Name": "Rusturf Tunnel S"
+    },
+    {
+      "Name": "Rusturf Tunnel W"
+    },
+    {
+      "Name": "Granite Cave 1F NE"
+    },
+    {
+      "Name": "Granite Cave 1F S"
+    },
+    {
+      "Name": "Granite Cave 1F SE"
+    },
+    {
+      "Name": "Granite Cave 1F SW"
+    },
+    {
+      "Name": "Granite Cave B1F N"
+    },
+    {
+      "Name": "Granite Cave B1F NE"
+    },
+    {
+      "Name": "Granite Cave B1F NW"
+    },
+    {
+      "Name": "Granite Cave B1F SE"
+    },
+    {
+      "Name": "Granite Cave B1F SW"
+    },
+    {
+      "Name": "Granite Cave B2F E"
+    },
+    {
+      "Name": "Granite Cave B2F W"
+    },
+    {
+      "Name": "Abandoned Ship 1F Left Exit"
+    },
+    {
+      "Name": "Abandoned Ship 1F Left N"
+    },
+    {
+      "Name": "Abandoned Ship 1F Left S"
+    },
+    {
+      "Name": "Abandoned Ship 1F Left Stairs"
+    },
+    {
+      "Name": "Abandoned Ship 1F Right Exit"
+    },
+    {
+      "Name": "Abandoned Ship 1F Right NE"
+    },
+    {
+      "Name": "Abandoned Ship 1F Right NW"
+    },
+    {
+      "Name": "Abandoned Ship 1F Right SE"
+    },
+    {
+      "Name": "Abandoned Ship 1F Right Stairs"
+    },
+    {
+      "Name": "Abandoned Ship 1F Right SW"
+    },
+    {
+      "Name": "Abandoned Ship Rooms NE"
+    },
+    {
+      "Name": "Abandoned Ship Rooms S"
+    },
+    {
+      "Name": "Abandoned Ship Rooms SE"
+    },
+    {
+      "Name": "Abandoned Ship B1F N"
+    },
+    {
+      "Name": "Abandoned Ship B1F NE"
+    },
+    {
+      "Name": "Abandoned Ship B1F NW"
+    },
+    {
+      "Name": "Abandoned Ship B1F S"
+    },
+    {
+      "Name": "Abandoned Ship B1F SE"
+    },
+    {
+      "Name": "Abandoned Ship B1F Stairs NE"
+    },
+    {
+      "Name": "Abandoned Ship B1F Stairs NW"
+    },
+    {
+      "Name": "Abandoned Ship B1F SW"
+    },
+    {
+      "Name": "Jagged Pass N"
+    },
+    {
+      "Name": "Jagged Pass Magma Hideout"
+    },
+    {
+      "Name": "Jagged Pass S"
+    },
+    {
+      "Name": "Meteor Falls 1F E"
+    },
+    {
+      "Name": "Meteor Falls 1F N"
+    },
+    {
+      "Name": "Meteor Falls 1F S"
+    },
+    {
+      "Name": "Meteor Falls 1F R2 E"
+    },
+    {
+      "Name": "Meteor Falls 1F R2 NW"
+    },
+    {
+      "Name": "Meteor Falls 1F R2 S"
+    },
+    {
+      "Name": "Meteor Falls 1F R2 W"
+    },
+    {
+      "Name": "Meteor Falls B1F Left E"
+    },
+    {
+      "Name": "Meteor Falls B1F Left N"
+    },
+    {
+      "Name": "Meteor Falls B1F Left SW"
+    },
+    {
+      "Name": "Meteor Falls B1F Right N"
+    },
+    {
+      "Name": "Meteor Falls B1F Right S"
+    },
+    {
+      "Name": "Meteor Falls B1F Right W"
+    },
+    {
+      "Name": "Mirage Tower 1F N"
+    },
+    {
+      "Name": "Mirage Tower 1F S"
+    },
+    {
+      "Name": "Mirage Tower 2F N"
+    },
+    {
+      "Name": "Mirage Tower 2F S"
+    },
+    {
+      "Name": "Mirage Tower 3F E"
+    },
+    {
+      "Name": "Mirage Tower 3F W"
+    },
+    {
+      "Name": "R119 Weather Institute"
+    },
+    {
+      "Name": "R119 Wingull House"
+    },
+    {
+      "Name": "R123 Berry Master"
+    },
+    {
+      "Name": "Mt Pyre 1F Ceiling"
+    },
+    {
+      "Name": "Mt Pyre 1F S"
+    },
+    {
+      "Name": "Mt Pyre 1F Up"
+    },
+    {
+      "Name": "Mt Pyre 1F W"
+    },
+    {
+      "Name": "Mt Pyre 2F Ceiling 1"
+    },
+    {
+      "Name": "Mt Pyre 2F Ceiling 2"
+    },
+    {
+      "Name": "Mt Pyre 2F Down"
+    },
+    {
+      "Name": "Mt Pyre 2F Hole"
+    },
+    {
+      "Name": "Mt Pyre 2F Up"
+    },
+    {
+      "Name": "Mt Pyre 3F Ceiling"
+    },
+    {
+      "Name": "Mt Pyre 3F Down"
+    },
+    {
+      "Name": "Mt Pyre 3F Hole"
+    },
+    {
+      "Name": "Mt Pyre 3F Up"
+    },
+    {
+      "Name": "Mt Pyre 4F Ceiling"
+    },
+    {
+      "Name": "Mt Pyre 4F Down"
+    },
+    {
+      "Name": "Mt Pyre 4F Hole"
+    },
+    {
+      "Name": "Mt Pyre 4F Up"
+    },
+    {
+      "Name": "Mt Pyre 5F Ceiling"
+    },
+    {
+      "Name": "Mt Pyre 5F Hole E"
+    },
+    {
+      "Name": "Mt Pyre 5F Hole SE"
+    },
+    {
+      "Name": "Magma Hideout 1F C"
+    },
+    {
+      "Name": "Magma Hideout 1F SE"
+    },
+    {
+      "Name": "Magma Hideout 1F SW"
+    },
+    {
+      "Name": "Magma Hideout 2F C"
+    },
+    {
+      "Name": "Magma Hideout 2F N"
+    },
+    {
+      "Name": "Magma Hideout 2F S"
+    },
+    {
+      "Name": "Magma Hideout 3F C"
+    },
+    {
+      "Name": "Magma Hideout 3F N"
+    },
+    {
+      "Name": "Magma Hideout 3F S"
+    },
+    {
+      "Name": "Aqua Hideout B1F NE Room N"
+    },
+    {
+      "Name": "Aqua Hideout B1F NE Room SE"
+    },
+    {
+      "Name": "Aqua Hideout B1F NE Room SW"
+    },
+    {
+      "Name": "Aqua Hideout B1F S Room E"
+    },
+    {
+      "Name": "Aqua Hideout B1F S Room NW"
+    },
+    {
+      "Name": "Aqua Hideout B1F S Room SW"
+    },
+    {
+      "Name": "Aqua Hideout B2F E"
+    },
+    {
+      "Name": "Aqua Hideout B2F NW"
+    },
+    {
+      "Name": "Aqua Hideout B2F SW"
+    },
+    {
+      "Name": "Aqua Hideout Warps 1 N"
+    },
+    {
+      "Name": "Aqua Hideout Warps 1 S"
+    },
+    {
+      "Name": "Aqua Hideout Warps 1 SE"
+    },
+    {
+      "Name": "Aqua Hideout Warps 1 SW"
+    },
+    {
+      "Name": "Aqua Hideout Warps 2 C"
+    },
+    {
+      "Name": "Aqua Hideout Warps 2 E"
+    },
+    {
+      "Name": "Aqua Hideout Warps 2 W"
+    },
+    {
+      "Name": "Aqua Hideout Warps 3 C"
+    },
+    {
+      "Name": "Aqua Hideout Warps 3 E"
+    },
+    {
+      "Name": "Aqua Hideout Warps 3 W"
+    },
+    {
+      "Name": "Aqua Hideout Warps 4 C"
+    },
+    {
+      "Name": "Aqua Hideout Warps 4 E"
+    },
+    {
+      "Name": "Aqua Hideout Warps 4 W"
+    },
+    {
+      "Name": "Contest Hall NE"
+    },
+    {
+      "Name": "Contest Hall NW"
+    },
+    {
+      "Name": "Contest Hall S"
+    },
+    {
+      "Name": "Department Store 1F Exit"
+    },
+    {
+      "Name": "Department Store 1F Up"
+    },
+    {
+      "Name": "Department Store 2F Down"
+    },
+    {
+      "Name": "Department Store 2F Up"
+    },
+    {
+      "Name": "Department Store 3F Down"
+    },
+    {
+      "Name": "Department Store 3F Up"
+    },
+    {
+      "Name": "Department Store 4F Down"
+    },
+    {
+      "Name": "Department Store 4F Up"
+    },
+    {
+      "Name": "Department Store 5F Down"
+    },
+    {
+      "Name": "Department Store 5F Up"
+    },
+    {
+      "Name": "Seafloor Cavern R1 N"
+    },
+    {
+      "Name": "Seafloor Cavern R1 SE"
+    },
+    {
+      "Name": "Seafloor Cavern R1 SW"
+    },
+    {
+      "Name": "Seafloor Cavern R2 N"
+    },
+    {
+      "Name": "Seafloor Cavern R2 S"
+    },
+    {
+      "Name": "Seafloor Cavern R2 SE"
+    },
+    {
+      "Name": "Seafloor Cavern R3 C"
+    },
+    {
+      "Name": "Seafloor Cavern R3 NE"
+    },
+    {
+      "Name": "Seafloor Cavern R3 NW"
+    },
+    {
+      "Name": "Seafloor Cavern R3 S"
+    },
+    {
+      "Name": "Seafloor Cavern R4 NE"
+    },
+    {
+      "Name": "Seafloor Cavern R4 NW"
+    },
+    {
+      "Name": "Seafloor Cavern R4 SE"
+    },
+    {
+      "Name": "Seafloor Cavern R4 SW"
+    },
+    {
+      "Name": "Seafloor Cavern R5 C"
+    },
+    {
+      "Name": "Seafloor Cavern R5 N"
+    },
+    {
+      "Name": "Seafloor Cavern R5 S"
+    },
+    {
+      "Name": "Seafloor Cavern R6 N"
+    },
+    {
+      "Name": "Seafloor Cavern R6 SE"
+    },
+    {
+      "Name": "Seafloor Cavern R6 SW"
+    },
+    {
+      "Name": "Sky Pillar 1F S"
+    },
+    {
+      "Name": "Sky Pillar 1F Up"
+    },
+    {
+      "Name": "Sky Pillar 2F Down"
+    },
+    {
+      "Name": "Sky Pillar 2F Up"
+    },
+    {
+      "Name": "Sky Pillar 3F Down"
+    },
+    {
+      "Name": "Sky Pillar 3F Up"
+    },
+    {
+      "Name": "Sky Pillar 3F C"
+    },
+    {
+      "Name": "Sky Pillar 4F Down"
+    },
+    {
+      "Name": "Sky Pillar 4F Up"
+    },
+    {
+      "Name": "Sky Pillar 4F C"
+    },
+    {
+      "Name": "Victory Road B1F NW"
+    },
+    {
+      "Name": "Victory Road B1F S"
+    },
+    {
+      "Name": "Victory Road B1F SE"
+    },
+    {
+      "Name": "Victory Road B1F SW Room E"
+    },
+    {
+      "Name": "Victory Road B1F SW Room NE"
+    },
+    {
+      "Name": "Victory Road B1F SW Room SW"
+    },
+    {
+      "Name": "Victory Road B2F C"
+    },
+    {
+      "Name": "Victory Road B2F NE"
+    },
+    {
+      "Name": "Victory Road B2F SE"
+    },
+    {
+      "Name": "Victory Road B2F SW"
+    },
+    {
+      "Name": "Navel Rock NE"
+    },
+    {
+      "Name": "Navel Rock NW"
+    },
+    {
+      "Name": "Navel Rock S"
+    },
+    {
+      "Name": "R105 Regice"
+    },
+    {
+      "Name": "R108 Abandoned Ship"
+    },
+    {
+      "Name": "R110 New Mauville"
+    },
+    {
+      "Name": "R115 Meteor Falls Exit"
+    },
+    {
+      "Name": "R124 Treasure Hunter"
+    },
+    {
+      "Name": "R131 Sky Pillar"
+    },
+    {
+      "Name": "R120 Scorched Slab"
+    },
+    {
+      "Name": "R122 Mt. Pyre"
+    },
+    {
+      "Name": "Oldale Pokecenter S"
+    },
+    {
+      "Name": "Oldale Pokecenter W"
+    },
+    {
+      "Name": "Petalburg Pokecenter S"
+    },
+    {
+      "Name": "Petalburg Pokecenter W"
+    },
+    {
+      "Name": "Rustboro Pokecenter S"
+    },
+    {
+      "Name": "Rustboro Pokecenter W"
+    },
+    {
+      "Name": "Dewford Pokecenter S"
+    },
+    {
+      "Name": "Dewford Pokecenter W"
+    },
+    {
+      "Name": "Slateport Pokecenter S"
+    },
+    {
+      "Name": "Slateport Pokecenter W"
+    },
+    {
+      "Name": "Mauville Pokecenter S"
+    },
+    {
+      "Name": "Mauville Pokecenter W"
+    },
+    {
+      "Name": "Verdanturf Pokecenter S"
+    },
+    {
+      "Name": "Verdanturf Pokecenter W"
+    },
+    {
+      "Name": "Fallarbor Pokecenter S"
+    },
+    {
+      "Name": "Fallarbor Pokecenter W"
+    },
+    {
+      "Name": "Lavaridge Pokecenter S"
+    },
+    {
+      "Name": "Lavaridge Pokecenter W"
+    },
+    {
+      "Name": "Lavaridge Pokecenter N"
+    },
+    {
+      "Name": "Fortree Pokecenter S"
+    },
+    {
+      "Name": "Fortree Pokecenter W"
+    },
+    {
+      "Name": "Lilycove Pokecenter S"
+    },
+    {
+      "Name": "Lilycove Pokecenter W"
+    },
+    {
+      "Name": "Mossdeep Pokecenter S"
+    },
+    {
+      "Name": "Mossdeep Pokecenter W"
+    },
+    {
+      "Name": "Sootopolis Pokecenter S"
+    },
+    {
+      "Name": "Sootopolis Pokecenter W"
+    },
+    {
+      "Name": "Pacifidlog Pokecenter S"
+    },
+    {
+      "Name": "Pacifidlog Pokecenter W"
+    },
+    {
+      "Name": "Evergrande Pokecenter S"
+    },
+    {
+      "Name": "Evergrande Pokecenter W"
+    },
+    {
+      "Name": "E4 Pokecenter S"
+    },
+    {
+      "Name": "E4 Pokecenter N"
+    },
+    {
+      "Name": "E4 Pokecenter W"
+    },
+    {
+      "Name": "Oldale Mart Interior"
+    },
+    {
+      "Name": "Petalburg Mart Interior"
+    },
+    {
+      "Name": "Rustboro Mart Interior"
+    },
+    {
+      "Name": "Slateport Mart Interior"
+    },
+    {
+      "Name": "Mauville Mart Interior"
+    },
+    {
+      "Name": "Verdanturf Mart Interior"
+    },
+    {
+      "Name": "Fallarbor Mart Interior"
+    },
+    {
+      "Name": "Lavaridge Mart Interior"
+    },
+    {
+      "Name": "Fortree Mart Interior"
+    },
+    {
+      "Name": "Mossdeep Mart Interior"
+    },
+    {
+      "Name": "Sootoplis Mart Interior"
+    }
+  ],
+  "Blockages": [
+    "Trainer",
+    "Rock Smash",
+    "Bike",
+    "Strength",
+    "Surf",
+    "Waterfall",
+    "Dive",
+    "Event"
+  ]
+}

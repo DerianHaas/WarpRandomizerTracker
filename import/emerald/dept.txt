@@ -1,0 +1,15 @@
+Department Store
+Department Store 1F Exit
+Department Store 1F Up
+
+Department Store 2F Down
+Department Store 2F Up
+
+Department Store 3F Down
+Department Store 3F Up
+
+Department Store 4F Down
+Department Store 4F Up
+
+Department Store 5F Down
+Department Store 5F Up

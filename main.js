@@ -34,7 +34,7 @@ $(function () {
         });
         setCurrentHub(0);
         loadBlockages();
-        displayGrid();
+        redraw();
         $("#customNotes").val(mainMap.CustomNotes);
     }
     function loadBlockages() {

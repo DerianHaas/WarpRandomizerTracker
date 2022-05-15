@@ -4,14 +4,26 @@
     let parsedFiles: { [fileName: string]: { hubName: string, locNames: string[] } } = {};
     let files: string[] = [];
 
-    $.get("import/hgss/hubs.txt", function (fileData) {
+    let blockages = {
+        "hgss": ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"],
+        "emerald": ["Trainer", "Rock Smash", "Bike", "Strength", "Surf", "Waterfall", "Dive", "Event"]
+    };
+
+    let regionNames = {
+        "hgss": "johto",
+        "emerald": "hoenn"
+    };
+
+    const GAME_TO_IMPORT = "emerald";
+
+    $.get("import/" + GAME_TO_IMPORT + "/hubs.txt", function (fileData) {
         files = fileData.split("\n");
         files = files.filter(file => file.trim() !== "");
         files.forEach((hubData, i) => {
             let hubInfo: string[] = hubData.trim().split(",");
             let file = hubInfo[0];
             if (!file) return;
-            $.get("import/hgss/" + file + ".txt", function (locData) {
+            $.get("import/" + GAME_TO_IMPORT + "/" + file + ".txt", function (locData) {
                 let locs: string[] = locData.trim().split("\n");
                 locs = locs.map(loc => loc.trim());
 
@@ -20,12 +32,12 @@
                     locNames: locs.slice(1)
                 };
             }, "text");
-        });      
+        });
     }, "text");
 
     $(document).ajaxStop(function () {
         if (files.length > 0 && Object.keys(parsedFiles).length === files.length) {
-            let mapData: MapJSON = { Region: "johto", Hubs: [], Locations: [], Blockages: [] };
+            let mapData: MapJSON = { Region: regionNames[GAME_TO_IMPORT], Hubs: [], Locations: [], Blockages: [] };
             let placeIndex = 0;
 
             files.forEach((hubData) => {
@@ -41,11 +53,11 @@
                         mapData.Locations[placeIndex++] = { Name: loc };
                     }
                 });
-                mapData.Hubs.push({ Name: parsedFiles[file].hubName, Locations: newHubLocs, ImageName: image ? "hgss/" + image : "" });
+                mapData.Hubs.push({ Name: parsedFiles[file].hubName, Locations: newHubLocs, ImageName: image ? GAME_TO_IMPORT + "/" + image : "" });
             });
 
 
-            mapData.Blockages = ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"];
+            mapData.Blockages = blockages[GAME_TO_IMPORT];
             console.log(mapData);
         }   
     });

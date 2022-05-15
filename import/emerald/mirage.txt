@@ -1,0 +1,7 @@
+Mirage Tower
+Mirage Tower 1F N
+Mirage Tower 1F S
+Mirage Tower 2F N
+Mirage Tower 2F S
+Mirage Tower 3F E
+Mirage Tower 3F W

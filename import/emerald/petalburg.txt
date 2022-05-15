@@ -1,0 +1,16 @@
+Oldale / Petalburg
+Oldale Mart
+Oldale NW
+Oldale Pokecenter
+Oldale SE
+
+Petalburg Gym
+Petalburg Pokecenter
+Petalburg Mart
+Petalburg NW
+Petalburg SW
+Petalburg SE
+
+Briney's House
+Petalburg Woods E
+Petalburg Woods W

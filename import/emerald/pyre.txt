@@ -1,0 +1,25 @@
+Mt Pyre
+Mt Pyre 1F Ceiling
+Mt Pyre 1F S
+Mt Pyre 1F Up
+Mt Pyre 1F W
+
+Mt Pyre 2F Ceiling 1
+Mt Pyre 2F Ceiling 2
+Mt Pyre 2F Down
+Mt Pyre 2F Hole
+Mt Pyre 2F Up
+
+Mt Pyre 3F Ceiling
+Mt Pyre 3F Down
+Mt Pyre 3F Hole
+Mt Pyre 3F Up
+
+Mt Pyre 4F Ceiling
+Mt Pyre 4F Down
+Mt Pyre 4F Hole
+Mt Pyre 4F Up
+
+Mt Pyre 5F Ceiling
+Mt Pyre 5F Hole E
+Mt Pyre 5F Hole SE

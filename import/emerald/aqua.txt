@@ -1,0 +1,29 @@
+Aqua Hideout
+Aqua Hideout B1F NE Room N
+Aqua Hideout B1F NE Room SE
+Aqua Hideout B1F NE Room SW
+
+Aqua Hideout B1F S Room E
+Aqua Hideout B1F S Room NW
+Aqua Hideout B1F S Room SW
+
+Aqua Hideout B2F E
+Aqua Hideout B2F NW
+Aqua Hideout B2F SW
+
+Aqua Hideout Warps 1 N
+Aqua Hideout Warps 1 S
+Aqua Hideout Warps 1 SE
+Aqua Hideout Warps 1 SW
+
+Aqua Hideout Warps 2 C
+Aqua Hideout Warps 2 E
+Aqua Hideout Warps 2 W
+
+Aqua Hideout Warps 3 C
+Aqua Hideout Warps 3 E
+Aqua Hideout Warps 3 W
+
+Aqua Hideout Warps 4 C
+Aqua Hideout Warps 4 E
+Aqua Hideout Warps 4 W

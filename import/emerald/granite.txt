@@ -1,0 +1,13 @@
+Granite Cave
+Granite Cave 1F NE
+Granite Cave 1F S
+Granite Cave 1F SE
+Granite Cave 1F SW
+
+Granite Cave B1F N
+Granite Cave B1F NE
+Granite Cave B1F NW
+Granite Cave B1F SE
+Granite Cave B1F SW
+Granite Cave B2F E
+Granite Cave B2F W

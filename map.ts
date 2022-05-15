@@ -51,6 +51,9 @@ const blockageColors: { [blockage: string]: { bkg?: string, text?: string } } = 
     },
     "Power Plant": {
         bkg: "sandybrown"
+    },
+    "Dive": {
+        bkg: "skyblue"
     }
 };
 

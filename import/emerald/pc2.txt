@@ -1,0 +1,22 @@
+Pokecenters 2
+Fortree Pokecenter S
+Fortree Pokecenter W
+
+Lilycove Pokecenter S
+Lilycove Pokecenter W
+
+Mossdeep Pokecenter S
+Mossdeep Pokecenter W
+
+Sootopolis Pokecenter S
+Sootopolis Pokecenter W
+
+Pacifidlog Pokecenter S
+Pacifidlog Pokecenter W
+
+Evergrande Pokecenter S
+Evergrande Pokecenter W
+
+E4 Pokecenter S
+E4 Pokecenter N
+E4 Pokecenter W

@@ -1,0 +1,14 @@
+Sky Pillar
+Sky Pillar 1F S
+Sky Pillar 1F Up
+
+Sky Pillar 2F Down
+Sky Pillar 2F Up
+
+Sky Pillar 3F Down
+Sky Pillar 3F Up
+Sky Pillar 3F C
+
+Sky Pillar 4F Down
+Sky Pillar 4F Up
+Sky Pillar 4F C

@@ -1,0 +1,28 @@
+Pokecenters 1
+Oldale Pokecenter S
+Oldale Pokecenter W
+
+Petalburg Pokecenter S
+Petalburg Pokecenter W
+
+Rustboro Pokecenter S
+Rustboro Pokecenter W
+
+Dewford Pokecenter S
+Dewford Pokecenter W
+
+Slateport Pokecenter S
+Slateport Pokecenter W
+
+Mauville Pokecenter S
+Mauville Pokecenter W
+
+Verdanturf Pokecenter S
+Verdanturf Pokecenter W
+
+Fallarbor Pokecenter S
+Fallarbor Pokecenter W
+
+Lavaridge Pokecenter S
+Lavaridge Pokecenter W
+Lavaridge Pokecenter N
