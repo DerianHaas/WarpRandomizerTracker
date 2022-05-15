@@ -153,8 +153,13 @@ var RegionMap = /** @class */ (function () {
                 var row = $("<tr>");
                 if (locId !== NoLocation) {
                     var loc = this.AllLocations[locId];
-                    row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
-                    row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                    var entranceItem = $("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId);
+                    var destinationItem = $("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc));
+                    if (loc.LinkedLocation > NoLocation) {
+                        destinationItem.data("id", loc.LinkedLocation).addClass("destination").attr("title", "ID: " + this.AllLocations[locId].LinkedLocation);
+                        ;
+                    }
+                    row.append([entranceItem, destinationItem]);
                 }
                 else {
                     row = row.addClass("emptyRow");
@@ -208,6 +213,9 @@ var RegionMap = /** @class */ (function () {
             this.ClearLink(locId);
         }
         this.saveToLocalStorage();
+    };
+    RegionMap.prototype.FindHub = function (locId) {
+        return this.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); });
     };
     RegionMap.prototype.getLinkedLocationName = function (loc) {
         var linkName = "";

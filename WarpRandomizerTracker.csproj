@@ -149,7 +149,6 @@
     </Content>
     <Content Include="import\hgss\icepath.txt" />
     <Content Include="import\hgss\lavender.txt" />
-    <Content Include="import\hgss\lighthouse.txt" />
     <Content Include="import\hgss\mahogany.txt" />
     <Content Include="import\hgss\moon.txt" />
     <Content Include="import\hgss\mtmortar.txt" />

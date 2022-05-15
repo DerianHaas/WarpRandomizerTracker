@@ -192,9 +192,13 @@ class RegionMap {
                 let row = $("<tr>");
                 if (locId !== NoLocation) {
                     let loc = this.AllLocations[locId];
+                    let entranceItem = $("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId);
+                    let destinationItem = $("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc))
+                    if (loc.LinkedLocation > NoLocation) {
+                        destinationItem.data("id", loc.LinkedLocation).addClass("destination").attr("title", "ID: " + this.AllLocations[locId].LinkedLocation);;
+                    }
 
-                    row.append($("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId));
-                    row.append($("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc)).attr("title", "ID: " + this.AllLocations[locId].LinkedLocation));
+                    row.append([entranceItem, destinationItem]);
                 } else {
                     row = row.addClass("emptyRow");
                 }
@@ -253,6 +257,10 @@ class RegionMap {
             this.ClearLink(locId);
         }
         this.saveToLocalStorage();
+    }
+
+    FindHub(locId: number) {
+       return this.Hubs.findIndex(hub => hub.Locations.includes(locId));
     }
 
     private getLinkedLocationName(loc: MapLocation): string {

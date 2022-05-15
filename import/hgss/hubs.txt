@@ -6,7 +6,6 @@ goldenrod,goldenrod.png
 r35
 ecruteak,ecruteak.png
 olivine,olivine.png
-lighthouse
 cianwood,cianwood.png
 safari,r47.png
 mahogany,mahogany.png

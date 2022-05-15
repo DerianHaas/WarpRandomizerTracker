@@ -1,7 +1,7 @@
 $(function () {
     var mainMap = new RegionMap();
-    var prevHub = 0;
-    var currentHub = 0;
+    var prevHub;
+    var currentHub;
     var currentEntrance = NoLocation;
     var currentDestination = NoLocation;
     $("#hoennSelect").click(function () {
@@ -28,6 +28,7 @@ $(function () {
     });
     function initialSetup() {
         $("#hubSelector").empty().append(mainMap.DrawHubSelector());
+        resizeHubSelector();
         $(".hubButton").click(function () {
             setCurrentHub($(this).data("id"));
         });
@@ -52,46 +53,60 @@ $(function () {
             }
         });
     }
-    function displayCurrentHub() {
+    function displayCurrentHub(locationToHighlight) {
         $("#currentHub").empty().append(mainMap.DrawHub(currentHub));
-        $(".entrance").click(function () {
-            var locId = $(this).data("id");
-            var blockage = getCurrentSelectedBlockage();
-            var linkNotes = $("#linkCustomNote").val().toString();
-            if (currentEntrance === NoLocation) {
-                // If no entrance is selected, set this one as the entrance
-                setEntrance(locId);
-            }
-            else if (currentEntrance === locId && currentDestination === NoLocation) {
-                // If this is already marked as the entrance and we have no destination, mark this as a dead end or blocked
-                if (blockage !== NoBlock && blockage !== OneWayBlock) { // Check blockages
-                    if (mainMap.MarkBlockage(locId, blockage, linkNotes)) {
-                        clearSelections();
-                    }
-                }
-                else {
-                    if (mainMap.MarkDeadEnd(locId, linkNotes)) {
-                        clearSelections();
-                    }
-                }
-            }
-            else if (currentDestination === locId) {
-                // If this is already marked as the destination, perform the link
-                if (mainMap.Link(currentEntrance, currentDestination, blockage === OneWayBlock, linkNotes)) {
-                    setCurrentHub(prevHub);
+        $(".entrance").click(onEntranceClick);
+        $(".destination").click(onDestinationClick);
+        if (locationToHighlight && locationToHighlight > NoLocation) {
+            $(".entrance").filter(function () { return $(this).data("id") === locationToHighlight; }).effect("highlight", {}, 5000);
+        }
+    }
+    function onEntranceClick() {
+        var locId = $(this).data("id");
+        var blockage = getCurrentSelectedBlockage();
+        var linkNotes = $("#linkCustomNote").val().toString();
+        if (currentEntrance === NoLocation) {
+            // If no entrance is selected, set this one as the entrance
+            setEntrance(locId);
+        }
+        else if (currentEntrance === locId && currentDestination === NoLocation) {
+            // If this is already marked as the entrance and we have no destination, mark this as a dead end or blocked
+            if (blockage !== NoBlock && blockage !== OneWayBlock) { // Check blockages
+                if (mainMap.MarkBlockage(locId, blockage, linkNotes)) {
                     clearSelections();
+                    redraw();
                 }
-            }
-            else if (currentEntrance === locId) {
-                // If the entrance is reselected after selecting a destination, clear the destination
-                setDestination(NoLocation);
             }
             else {
-                // Overwrite the current destination with this location
-                setDestination(locId);
+                if (mainMap.MarkDeadEnd(locId, linkNotes)) {
+                    clearSelections();
+                    redraw();
+                }
             }
-            redraw();
-        });
+        }
+        else if (currentDestination === locId) {
+            // If this is already marked as the destination, perform the link
+            if (mainMap.Link(currentEntrance, currentDestination, blockage === OneWayBlock, linkNotes)) {
+                redraw();
+                setCurrentHub(prevHub, currentEntrance);
+                clearSelections();
+            }
+        }
+        else if (currentEntrance === locId) {
+            // If the entrance is reselected after selecting a destination, clear the destination
+            setDestination(NoLocation);
+        }
+        else {
+            // Overwrite the current destination with this location
+            setDestination(locId);
+        }
+    }
+    function onDestinationClick() {
+        var locId = $(this).data("id");
+        var destHub = mainMap.FindHub(locId);
+        if (destHub > -1) {
+            setCurrentHub(destHub, locId);
+        }
     }
     function clearSelections() {
         setEntrance(NoLocation);
@@ -103,17 +118,19 @@ $(function () {
         $("#gridContainer").empty().append(mainMap.DrawGrid());
         $(".gridSquare").dblclick(function () {
             var locId = $(this).data("id");
-            setCurrentHub(mainMap.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); }));
+            setCurrentHub(mainMap.FindHub(locId), locId);
         });
     }
     function redraw() {
         displayCurrentHub();
         displayGrid();
     }
-    function setCurrentHub(hubId) {
-        currentHub = hubId;
-        displayCurrentHub();
-        $("#currentHubImage").empty().append(mainMap.DrawHubImage(currentHub));
+    function setCurrentHub(hubId, locationToHighlight) {
+        if (currentHub !== hubId) {
+            currentHub = hubId;
+            displayCurrentHub(locationToHighlight);
+            $("#currentHubImage").empty().append(mainMap.DrawHubImage(currentHub));
+        }
     }
     function setEntrance(location) {
         if (location !== NoLocation) {
@@ -152,6 +169,12 @@ $(function () {
             blockage = blockage;
         }
         return blockage;
+    }
+    function resizeHubSelector() {
+        var numColumnsToDisplay = 3;
+        var hubButttonHeight = $(".hubButton").outerHeight();
+        var hubSelectorHeight = (Math.ceil(mainMap.Hubs.length / numColumnsToDisplay) * hubButttonHeight);
+        $("#hubSelector").height(hubSelectorHeight + "px");
     }
 });
 //# sourceMappingURL=main.js.map

@@ -13,3 +13,7 @@ Route 38 Exit East
 Route 39 House
 Route 39 Barn
 Route 40 Battle Frontier Entrance
+
+Lighthouse 1F Stairs
+Lighthouse 1F Entrance
+Lighthouse Roof (Ampharos)

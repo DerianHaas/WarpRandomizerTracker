@@ -2,5 +2,8 @@
   "devDependencies": {
     "@types/jquery": "^3.5.14",
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/jqueryui": "^1.12.16"
   }
 }
