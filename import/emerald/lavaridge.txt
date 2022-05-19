@@ -4,7 +4,6 @@ Fallarbor Fossil Maniac
 Fallarbor Mart
 Fallarbor Pokecenter
 Fallarbor S
-Fallarbor SE
 R113 Glass Workshop
 R111 Old Lady
 R112 Fiery Path N

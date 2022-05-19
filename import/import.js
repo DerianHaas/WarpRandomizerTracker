@@ -3,7 +3,7 @@ $(function () {
     var files = [];
     var blockages = {
         "hgss": ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"],
-        "emerald": ["Trainer", "Rock Smash", "Bike", "Strength", "Surf", "Waterfall", "Dive", "Event"]
+        "emerald": ["Trainer", "Cut", "Flash", "Bike", "Rock Smash", "Strength", "Surf", "Waterfall", "Dive", "Event"]
     };
     var regionNames = {
         "hgss": "johto",

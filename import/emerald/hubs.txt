@@ -4,7 +4,7 @@ petalburg,petalburg.png
 rustboro,rustboro.png
 dewford,dewford.png
 slate,slate.png
-lavaridge,lavaride.png
+lavaridge,lavaridge.png
 fortree,fortree.png
 mossdeep,mossdeep.png
 pacifidlog,pacifidlog.png
