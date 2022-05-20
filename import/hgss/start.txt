@@ -1,13 +1,13 @@
 ﻿New Bark / Cherrygrove
 New Bark House W
 New Bark House E
-Route 29 Exit N
+New Bark Route 29 Exit N
 
 Cherrygrove Pokecenter
 Cherrygrove Mart
 Cherrygrove House W
 Cherrygrove House C
 Cherrygrove House E
-Route 30 House
-Route 31 Dark Cave
-Route 31 Exit W
+Cherrygrove Route 30 House
+Cherrygrove Route 31 Dark Cave
+Cherrygrove Route 31 Exit W

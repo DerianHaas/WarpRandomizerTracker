@@ -11,3 +11,5 @@ SS Aqua SE Door R
 
 SS Aqua B1F Stairs
 SS Aqua B1F Ladder
+
+SS Aqua Sailor Room

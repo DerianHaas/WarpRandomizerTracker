@@ -5,6 +5,7 @@ Viridian Gym
 Viridian Big House
 Viridian House
 Viridian Exit S
-Route 22 Exit W
+Viridian Route 22 Exit W
+
 Viridian Forest Exit S
-Route 2 Exit SE
+Viridian Route 2 Exit SE,Cut

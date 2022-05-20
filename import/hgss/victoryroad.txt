@@ -1,18 +1,21 @@
 Victory Road / Plateau
-Victory Road 1F SE Entrance
-Victory Road 1F NW Up Ladder
+Victory Road 1F SE Entrance,Strength
+Victory Road 1F NW Up Ladder,Strength
 
-Victory Road 2F Down Ladder W
 Victory Road 2F Up Ladder NW
-Victory Road 2F Up Ladder NE
+Victory Road 2F Down Ladder W
+
+Victory Road 2F Up Ladder NE,Strength
 Victory Road 2F Up Ladder E
-Victory Road 2F Up Ladder S
+Victory Road 3F Down Ladder SE
 
 Victory Road 3F Down Ladder NW
+
 Victory Road 3F Down Ladder S
-Victory Road 3F Down Ladder NE
-Victory Road 3F Down Ladder SE
 Victory Road 3F Exit N
+
+Victory Road 3F Down Ladder NE
+Victory Road 2F Up Ladder S
 
 Indigo Plateau N Entrance
 Indigo Plateau S Cave

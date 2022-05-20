@@ -6,7 +6,7 @@ Blackthorn House NW
 Blackthorn House SW
 Blackthorn House E
 Blackthorn Ice Path Entrance
-Blackthorn Dragon Cave Entrance
+Blackthorn Dragon Cave Entrance,Surf
 
 Blackthorn Dragon Cave N
 Blackthorn Dragon Cave S

@@ -1,7 +1,7 @@
 Tohjo/R26/R27/League Gate
-Tohjo W
-Tohjo E
-Tohjo Hidden
+Tohjo W,Waterfall
+Tohjo E,Surf
+Tohjo Hidden,Surf
 
 Route 27 Cave W
 Route 27 Cave E

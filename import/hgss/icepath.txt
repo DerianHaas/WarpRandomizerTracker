@@ -1,9 +1,9 @@
 Ice Path
-Ice Path 1F Exit S
-Ice Path 1F Ladder NE
+Ice Path 1F Exit S - Waterfall
+Ice Path 1F Ladder NE - Waterfall
 
 Ice Path B1F Ladder SW
 Ice Path B1F Ladder NE
 
-Ice Path B2F Rock Puzzle C
+Ice Path B2F Rock Puzzle C,Strength
 Ice Path B2F Rock Puzzle NE

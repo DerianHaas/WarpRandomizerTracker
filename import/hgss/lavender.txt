@@ -7,9 +7,8 @@ Lavender House C
 Lavender House SW
 Lavender House SE
 
-Route 10 Rock Tunnel S
-Route 8 Tunnel
-Route 8 Exit W
-Route 12 Exit W
-Route 12 House
-Route 15 Exit W
+Lavender Rock Tunnel S
+Lavender Route 8 Exit
+Lavender Route 12 Exit
+Lavender Route 12 House
+Lavender Route 15 Exit

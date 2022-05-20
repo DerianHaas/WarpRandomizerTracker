@@ -1,7 +1,7 @@
 Pallet
-Oak's Lab
+Pallet Oak's Lab
 Pallet House W
 Pallet House E
-Route 1 Exit N
+Pallet Route 1 Exit
 
-Oak's Lab Interior (Rock Climb)
+Oak's Lab Interior - Rock Climb

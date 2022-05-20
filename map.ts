@@ -150,30 +150,6 @@ class RegionMap {
         return true;
     }
 
-    Load(region: string): Promise<void> {
-        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
-            return Promise.resolve();
-        }
-
-        return fetch("worlds/" + region + ".json").then(response => response.json()).then(data => {
-            this.AllLocations = [];
-            this.Hubs = [];
-            this.Title = data.Region;
-            for (let loc of data.Locations) {
-                this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
-            }
-            this.Hubs = data.Hubs;
-            this.RegionBlockageTypes = data.Blockages;
-            if (!this.RegionBlockageTypes.includes("One Way")) {
-                OneWayBlock = this.RegionBlockageTypes.length;
-                this.RegionBlockageTypes.push("One Way");
-            }
-            if (!this.RegionBlockageTypes.includes("Other")) {
-                this.RegionBlockageTypes.push("Other");
-            }
-        });
-     }
-
     DrawHubSelector(): JQuery {
         let container = $("<div>").attr("id", "hubSelectContainer");
         for (let i = 0; i < this.Hubs.length; i++) {
@@ -266,6 +242,36 @@ class RegionMap {
        return this.Hubs.findIndex(hub => hub.Locations.includes(locId));
     }
 
+    Load(region: string): Promise<void> {
+        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
+            return Promise.resolve();
+        }
+
+        return fetch("worlds/" + region + ".json").then<LoadJSON>(response => response.json()).then((data) => {
+            this.AllLocations = [];
+            this.Hubs = [];
+            this.Title = data.Region;
+            this.Hubs = data.Hubs;
+            this.RegionBlockageTypes = data.Blockages;
+            if (!this.RegionBlockageTypes.includes("One Way")) {
+                OneWayBlock = this.RegionBlockageTypes.length;
+                this.RegionBlockageTypes.push("One Way");
+            }
+            if (!this.RegionBlockageTypes.includes("Other")) {
+                this.RegionBlockageTypes.push("Other");
+            }
+
+            for (let loc of data.Locations) {
+                let defaultBlock = NoBlock;
+                if (loc.BlockedBy) {
+                    defaultBlock = this.RegionBlockageTypes.indexOf(loc.BlockedBy);
+                }
+                this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: defaultBlock });
+            }
+            
+        });
+    }
+
     private getLinkedLocationName(loc: MapLocation): string {
         let linkName = "";
         if (loc.LinkedLocation === NoLocation && loc.BlockedBy === NoBlock) {
@@ -300,14 +306,14 @@ class RegionMap {
 
     private saveToLocalStorage() {
         this.CustomNotes = $("#customNotes").val().toString();  
-        let mapJSON: localStorageJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations, Blockages: this.RegionBlockageTypes, CustomNotes: this.CustomNotes };
+        let mapJSON: LocalStorageJSON = { Region: this.Title, Hubs: this.Hubs, Locations: this.AllLocations, Blockages: this.RegionBlockageTypes, CustomNotes: this.CustomNotes };
         localStorage.setItem("warpMap-"+this.Title, JSON.stringify(mapJSON));
     }
 
     private loadFromLocalStorage(region:string): boolean {
         let localData = localStorage.getItem("warpMap-"+region);
         if (!localData) return false;
-        let mapJSON: localStorageJSON = JSON.parse(localData);
+        let mapJSON: LocalStorageJSON = JSON.parse(localData);
         this.Title = mapJSON.Region;
         this.AllLocations = mapJSON.Locations;
         this.Hubs = mapJSON.Hubs;
@@ -319,7 +325,7 @@ class RegionMap {
 
 }
 
-type localStorageJSON = {
+type LocalStorageJSON = {
     Region: string;
     Hubs: Hub[];
     Locations: MapLocation[];
@@ -327,12 +333,15 @@ type localStorageJSON = {
     CustomNotes: string;
 }
 
-type MapJSON = {
+type LoadLocation = {
+    Name: string;
+    BlockedBy?: string;
+    Coords?: [number, number, number, number];
+}
+
+type LoadJSON = {
     Region: string;
-    Locations: {
-        Name: string;
-        Coords?: [number, number, number, number];
-    }[];
+    Locations: LoadLocation[];
     Hubs: Hub[];
     Blockages: string[];
 }

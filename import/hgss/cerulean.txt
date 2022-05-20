@@ -1,5 +1,5 @@
 Cerulean
-Mt Moon Route 4 Cave
+Cerulean Mt Moon Cave
 
 Cerulean Pokecenter
 Cerulean Mart
@@ -9,12 +9,12 @@ Cerulean House C
 Cerulean House S
 Cerulean House E
 
-Cerulean Cave Exterior
+Cerulean Cave Exterior,Surf
 Bill's House Exterior
 
-Route 5 House
-Route 5 Tunnel
-Route 5 Exit
+Cerulean Route 5 House
+Cerulean Route 5 Tunnel
+Cerulean Route 5 Exit
 
-Route 10 Pokecenter
-Rock Tunnel Cave N
+Cerulean Route 10 Pokecenter
+Cerulean Rock Tunnel N

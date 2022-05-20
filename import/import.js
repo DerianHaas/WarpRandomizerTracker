@@ -9,7 +9,7 @@ $(function () {
         "hgss": "johto",
         "emerald": "hoenn"
     };
-    var GAME_TO_IMPORT = "emerald";
+    var GAME_TO_IMPORT = "hgss";
     $.get("import/" + GAME_TO_IMPORT + "/hubs.txt", function (fileData) {
         files = fileData.split("\n");
         files = files.filter(function (file) { return file.trim() !== ""; });
@@ -19,8 +19,7 @@ $(function () {
             if (!file)
                 return;
             $.get("import/" + GAME_TO_IMPORT + "/" + file + ".txt", function (locData) {
-                var locs = locData.trim().split("\n");
-                locs = locs.map(function (loc) { return loc.trim(); });
+                var locs = locData.trim().split("\n").map(function (loc) { return loc.trim(); });
                 parsedFiles[file] = {
                     hubName: locs[0],
                     locNames: locs.slice(1)
@@ -33,20 +32,27 @@ $(function () {
             var mapData_1 = { Region: regionNames[GAME_TO_IMPORT], Hubs: [], Locations: [], Blockages: [] };
             var placeIndex_1 = 0;
             files.forEach(function (hubData) {
-                var hubInfo = hubData.trim().split(",");
-                var file = hubInfo[0];
-                var image = hubInfo.length > 1 ? hubInfo[1] : "";
+                var _a = hubData.trim().split(","), file = _a[0], image = _a[1];
                 var newHubLocs = [];
-                parsedFiles[file].locNames.forEach(function (loc, i) {
-                    if (loc === "") {
+                parsedFiles[file].locNames.forEach(function (locData) {
+                    if (locData === "") {
                         newHubLocs.push(NoLocation);
                     }
                     else {
                         newHubLocs.push(placeIndex_1);
-                        mapData_1.Locations[placeIndex_1++] = { Name: loc };
+                        var _a = locData.split(","), locName = _a[0], locBlock = _a[1];
+                        var newLoc = { Name: locName };
+                        if (locBlock) {
+                            newLoc.BlockedBy = locBlock.trim();
+                        }
+                        mapData_1.Locations[placeIndex_1++] = newLoc;
                     }
                 });
-                mapData_1.Hubs.push({ Name: parsedFiles[file].hubName, Locations: newHubLocs, ImageName: image ? GAME_TO_IMPORT + "/" + image : "" });
+                mapData_1.Hubs.push({
+                    Name: parsedFiles[file].hubName,
+                    Locations: newHubLocs,
+                    ImageName: image ? GAME_TO_IMPORT + "/" + image : ""
+                });
             });
             mapData_1.Blockages = blockages[GAME_TO_IMPORT];
             console.log(mapData_1);

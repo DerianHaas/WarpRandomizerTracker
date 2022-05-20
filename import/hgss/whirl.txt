@@ -10,7 +10,7 @@ Whirl Islands 1F NE Ladder SE
 
 Whirl Islands 1F SW Exit W
 Whirl Islands 1F SW Ladder W
-Whirl Islands 1F SW Ladder E
+Whirl Islands 1F SW Ladder E,Surf
 
 Whirl Islands B1F Ladder NW
 Whirl Islands B1F Ladder Down SW

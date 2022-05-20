@@ -5,7 +5,7 @@ Alph Exterior Entrance NE
 Alph Exterior Entrance C
 Alph House
 
-Alph Exterior Entrance SE
+Alph Exterior Entrance SE,Surf
 Alph Exterior Entrance SW
 Alph Exterior Cave SW
 
@@ -24,4 +24,4 @@ Alph Water Stone S
 Alph Water Stone N
 
 Alph Flash S
-Alph Flash N
+Alph Flash N,Flash

@@ -2,16 +2,16 @@ Violet
 Violet Pokecenter
 Violet Mart
 Violet Gym
-Sprout Tower Entrance
-Sprout Tower 3F (Flash)
+Violet Sprout Tower Entrance
 Violet House S
 Violet House E
 Violet House NW
 Violet Exit E
 Violet Exit W
 
-Route 32 Exit NW
-Route 32 Pokecenter
-Route 32 Cave S
+Violet Route 32 Exit NW
+Violet Route 32 Pokecenter
+Violet Route 32 Cave S
 
 Violet Mart Interior
+Sprout Tower 3F - Flash

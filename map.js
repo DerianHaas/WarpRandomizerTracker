@@ -113,30 +113,6 @@ var RegionMap = /** @class */ (function () {
         this.saveToLocalStorage();
         return true;
     };
-    RegionMap.prototype.Load = function (region) {
-        var _this = this;
-        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
-            return Promise.resolve();
-        }
-        return fetch("worlds/" + region + ".json").then(function (response) { return response.json(); }).then(function (data) {
-            _this.AllLocations = [];
-            _this.Hubs = [];
-            _this.Title = data.Region;
-            for (var _i = 0, _a = data.Locations; _i < _a.length; _i++) {
-                var loc = _a[_i];
-                _this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: NoBlock });
-            }
-            _this.Hubs = data.Hubs;
-            _this.RegionBlockageTypes = data.Blockages;
-            if (!_this.RegionBlockageTypes.includes("One Way")) {
-                OneWayBlock = _this.RegionBlockageTypes.length;
-                _this.RegionBlockageTypes.push("One Way");
-            }
-            if (!_this.RegionBlockageTypes.includes("Other")) {
-                _this.RegionBlockageTypes.push("Other");
-            }
-        });
-    };
     RegionMap.prototype.DrawHubSelector = function () {
         var container = $("<div>").attr("id", "hubSelectContainer");
         for (var i = 0; i < this.Hubs.length; i++) {
@@ -219,6 +195,34 @@ var RegionMap = /** @class */ (function () {
     };
     RegionMap.prototype.FindHub = function (locId) {
         return this.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); });
+    };
+    RegionMap.prototype.Load = function (region) {
+        var _this = this;
+        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
+            return Promise.resolve();
+        }
+        return fetch("worlds/" + region + ".json").then(function (response) { return response.json(); }).then(function (data) {
+            _this.AllLocations = [];
+            _this.Hubs = [];
+            _this.Title = data.Region;
+            _this.Hubs = data.Hubs;
+            _this.RegionBlockageTypes = data.Blockages;
+            if (!_this.RegionBlockageTypes.includes("One Way")) {
+                OneWayBlock = _this.RegionBlockageTypes.length;
+                _this.RegionBlockageTypes.push("One Way");
+            }
+            if (!_this.RegionBlockageTypes.includes("Other")) {
+                _this.RegionBlockageTypes.push("Other");
+            }
+            for (var _i = 0, _a = data.Locations; _i < _a.length; _i++) {
+                var loc = _a[_i];
+                var defaultBlock = NoBlock;
+                if (loc.BlockedBy) {
+                    defaultBlock = _this.RegionBlockageTypes.indexOf(loc.BlockedBy);
+                }
+                _this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: defaultBlock });
+            }
+        });
     };
     RegionMap.prototype.getLinkedLocationName = function (loc) {
         var linkName = "";

@@ -66,12 +66,12 @@
         43,
         44,
         45,
-        46,
         -1,
+        46,
         47,
         48,
-        49,
         -1,
+        49,
         50
       ],
       "ImageName": "hgss/violet.png"
@@ -91,15 +91,16 @@
         59,
         60,
         -1,
-        61
+        61,
+        62,
+        -1,
+        63
       ],
       "ImageName": "hgss/azalea.png"
     },
     {
       "Name": "Goldenrod",
       "Locations": [
-        62,
-        63,
         64,
         65,
         66,
@@ -115,31 +116,33 @@
         76,
         77,
         78,
-        -1,
         79,
         80,
+        -1,
         81,
-        82
+        82,
+        83,
+        84,
+        -1,
+        85
       ],
       "ImageName": "hgss/goldenrod.png"
     },
     {
       "Name": "Route 35/36",
       "Locations": [
-        83,
-        84,
-        85,
         86,
-        87
+        87,
+        88,
+        -1,
+        89,
+        90
       ],
       "ImageName": ""
     },
     {
       "Name": "Ecruteak",
       "Locations": [
-        88,
-        89,
-        90,
         91,
         92,
         93,
@@ -147,106 +150,107 @@
         95,
         96,
         97,
-        -1,
         98,
-        99
+        99,
+        100,
+        -1,
+        101,
+        102
       ],
       "ImageName": "hgss/ecruteak.png"
     },
     {
       "Name": "Olivine",
       "Locations": [
-        100,
-        101,
-        102,
         103,
         104,
         105,
         106,
         107,
         108,
-        -1,
         109,
         110,
         111,
-        112,
         -1,
+        112,
         113,
         114,
-        115
+        115,
+        -1,
+        116,
+        117,
+        118
       ],
       "ImageName": "hgss/olivine.png"
     },
     {
       "Name": "Cianwood",
       "Locations": [
-        116,
-        117,
-        118,
         119,
         120,
         121,
         122,
         123,
+        124,
+        125,
+        126,
         -1,
-        124
+        127
       ],
       "ImageName": "hgss/cianwood.png"
     },
     {
       "Name": "Safari Zone",
       "Locations": [
-        125,
-        126,
-        -1,
-        127,
         128,
         129,
+        -1,
         130,
         131,
-        -1,
         132,
-        133,
         -1,
+        133,
         134,
+        -1,
         135,
-        136
+        136,
+        137
       ],
       "ImageName": "hgss/r47.png"
     },
     {
       "Name": "Mahogany",
       "Locations": [
-        137,
         138,
         139,
         140,
         141,
-        -1,
         142,
+        -1,
         143,
         144,
-        145,
         -1,
-        146
+        145,
+        146,
+        -1,
+        147
       ],
       "ImageName": "hgss/mahogany.png"
     },
     {
       "Name": "Lake of Rage",
       "Locations": [
-        147,
         148,
         149,
         150,
-        151
+        151,
+        152
       ],
       "ImageName": ""
     },
     {
       "Name": "Blackthorn",
       "Locations": [
-        152,
         153,
         154,
         155,
@@ -254,272 +258,275 @@
         157,
         158,
         159,
-        -1,
         160,
+        -1,
         161,
         162,
-        -1,
         163,
+        -1,
         164,
-        165
+        165,
+        166
       ],
       "ImageName": "hgss/blackthorn.png"
     },
     {
       "Name": "Tohjo/R26/R27/League Gate",
       "Locations": [
-        166,
         167,
         168,
-        -1,
         169,
+        -1,
         170,
         171,
-        -1,
         172,
+        -1,
         173,
         174,
-        -1,
         175,
+        -1,
         176,
         177,
-        178
+        178,
+        179
       ],
       "ImageName": ""
     },
     {
       "Name": "Victory Road / Plateau",
       "Locations": [
-        179,
         180,
-        -1,
         181,
+        -1,
         182,
         183,
+        -1,
         184,
         185,
-        -1,
         186,
+        -1,
         187,
+        -1,
         188,
         189,
-        190,
         -1,
+        190,
         191,
-        192
+        -1,
+        192,
+        193
       ],
       "ImageName": "hgss/victoryroad.png"
     },
     {
       "Name": "Frontier Access",
       "Locations": [
-        193,
         194,
         195,
         196,
-        197
+        197,
+        198
       ],
       "ImageName": ""
     },
     {
       "Name": "Rocket HQ / Radio Tower",
       "Locations": [
-        198,
         199,
-        -1,
         200,
+        -1,
         201,
-        -1,
         202,
+        -1,
         203,
-        -1,
         204,
+        -1,
         205,
-        -1,
         206,
-        207,
         -1,
+        207,
         208,
+        -1,
         209,
-        210
+        210,
+        211
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokeathalon / Park / GTS",
       "Locations": [
-        211,
         212,
         213,
-        -1,
         214,
+        -1,
         215,
         216,
-        -1,
         217,
+        -1,
         218,
-        219
+        219,
+        220
       ],
       "ImageName": ""
     },
     {
       "Name": "Union Cave",
       "Locations": [
-        220,
         221,
         222,
         223,
-        -1,
         224,
+        -1,
         225,
-        226
+        226,
+        227
       ],
       "ImageName": "hgss/unioncave.png"
     },
     {
       "Name": "Mt Mortar",
       "Locations": [
-        227,
         228,
         229,
-        -1,
         230,
+        -1,
         231,
-        -1,
         232,
-        233,
         -1,
+        233,
         234,
+        -1,
         235,
         236,
         237,
-        -1,
         238,
-        239,
         -1,
+        239,
         240,
-        241
+        -1,
+        241,
+        242
       ],
       "ImageName": "hgss/mtmortar.png"
     },
     {
       "Name": "Dark Cave",
       "Locations": [
-        242,
         243,
         244,
         -1,
         245,
-        246
+        246,
+        247
       ],
       "ImageName": "hgss/darkcave.png"
     },
     {
       "Name": "Ice Path",
       "Locations": [
-        247,
         248,
-        -1,
         249,
-        250,
         -1,
+        250,
         251,
-        252
+        -1,
+        252,
+        253
       ],
       "ImageName": ""
     },
     {
       "Name": "Whirl Islands",
       "Locations": [
-        253,
         254,
         255,
         256,
-        -1,
         257,
+        -1,
         258,
         259,
-        -1,
         260,
+        -1,
         261,
         262,
-        -1,
         263,
+        -1,
         264,
-        -1,
         265,
-        266,
         -1,
+        266,
         267,
+        -1,
         268,
         269,
         270,
-        -1,
         271,
+        -1,
         272,
-        273
+        273,
+        274
       ],
       "ImageName": "hgss/whirlislands.png"
     },
     {
       "Name": "Bell Tower",
       "Locations": [
-        274,
         275,
         276,
         277,
-        -1,
         278,
+        -1,
         279,
         280,
         281,
-        -1,
         282,
+        -1,
         283,
         284,
-        -1,
         285,
+        -1,
         286,
-        287
+        287,
+        288
       ],
       "ImageName": "hgss/belltower.png"
     },
     {
       "Name": "Ruins of Alph",
       "Locations": [
-        288,
         289,
         290,
         291,
         292,
-        -1,
         293,
+        -1,
         294,
         295,
-        -1,
         296,
-        297,
         -1,
+        297,
         298,
         -1,
         299,
+        -1,
         300,
-        -1,
         301,
+        -1,
         302,
-        -1,
         303,
-        304,
         -1,
+        304,
         305,
-        306
+        -1,
+        306,
+        307
       ],
       "ImageName": "hgss/alph.png"
     },
     {
       "Name": "SS Aqua",
       "Locations": [
-        307,
         308,
         309,
         310,
@@ -528,87 +535,91 @@
         313,
         314,
         315,
-        -1,
         316,
-        317
+        -1,
+        317,
+        318,
+        -1,
+        319
       ],
       "ImageName": ""
     },
     {
       "Name": "Pallet",
       "Locations": [
-        318,
-        319,
         320,
         321,
+        322,
+        323,
         -1,
-        322
+        324
       ],
       "ImageName": ""
     },
     {
       "Name": "Viridian",
       "Locations": [
-        323,
-        324,
         325,
         326,
         327,
         328,
         329,
         330,
-        331
+        331,
+        -1,
+        332,
+        333
       ],
       "ImageName": "hgss/viridian.png"
     },
     {
       "Name": "Pewter",
       "Locations": [
-        332,
-        333,
         334,
         335,
         336,
         337,
         338,
         339,
+        -1,
         340,
         341,
         342,
-        343
+        343,
+        -1,
+        344,
+        345
       ],
       "ImageName": "hgss/pewter.png"
     },
     {
       "Name": "Cerulean",
       "Locations": [
-        344,
-        -1,
-        345,
         346,
+        -1,
         347,
         348,
         349,
         350,
         351,
-        -1,
         352,
         353,
         -1,
         354,
         355,
-        356,
         -1,
+        356,
         357,
-        358
+        358,
+        -1,
+        359,
+        360
       ],
       "ImageName": "hgss/cerulean.png"
     },
     {
       "Name": "Saffron",
       "Locations": [
-        359,
-        360,
         361,
         362,
         363,
@@ -618,54 +629,54 @@
         367,
         368,
         369,
-        370
+        370,
+        371,
+        372
       ],
       "ImageName": "hgss/saffron.png"
     },
     {
       "Name": "Vermillion",
       "Locations": [
-        371,
-        372,
-        -1,
         373,
         374,
+        -1,
         375,
         376,
         377,
         378,
         379,
         380,
-        -1,
         381,
-        382
+        382,
+        -1,
+        383,
+        384
       ],
       "ImageName": "hgss/vermillion.png"
     },
     {
       "Name": "Lavender",
       "Locations": [
-        383,
-        384,
         385,
         386,
         387,
         388,
         389,
-        -1,
         390,
         391,
+        -1,
         392,
         393,
         394,
-        395
+        395,
+        396
       ],
       "ImageName": "hgss/lavender.png"
     },
     {
       "Name": "Fuschia",
       "Locations": [
-        396,
         397,
         398,
         399,
@@ -673,14 +684,14 @@
         401,
         402,
         403,
-        404
+        404,
+        405
       ],
       "ImageName": "hgss/fuschia.png"
     },
     {
       "Name": "Celadon",
       "Locations": [
-        405,
         406,
         407,
         408,
@@ -688,164 +699,164 @@
         410,
         411,
         412,
+        -1,
         413,
-        414
+        414,
+        415
       ],
       "ImageName": "hgss/celadon.png"
     },
     {
       "Name": "Cinnibar/R19/R20",
       "Locations": [
-        415,
         416,
-        -1,
         417,
-        418
+        -1,
+        418,
+        419
       ],
       "ImageName": ""
     },
     {
       "Name": "Mt Moon",
       "Locations": [
-        419,
         420,
         421,
         422,
-        -1,
         423,
+        -1,
         424,
-        425
+        425,
+        426
       ],
       "ImageName": "hgss/moon.png"
     },
     {
       "Name": "Seafoam Islands",
       "Locations": [
-        426,
         427,
         428,
-        -1,
         429,
+        -1,
         430,
         431,
         432,
         433,
         434,
-        -1,
         435,
+        -1,
         436,
         437,
         438,
-        -1,
         439,
+        -1,
         440,
         441,
         442,
-        -1,
         443,
-        444
+        -1,
+        444,
+        445
       ],
       "ImageName": "hgss/seafoam.png"
     },
     {
       "Name": "Cerulean Cave",
       "Locations": [
-        445,
         446,
-        -1,
         447,
+        -1,
         448,
         449,
         450,
+        -1,
         451,
         452,
         453,
-        -1,
         454,
-        455
+        -1,
+        455,
+        456
       ],
       "ImageName": "hgss/ceruleancave.png"
     },
     {
       "Name": "Mt Silver",
       "Locations": [
-        456,
         457,
         458,
         459,
-        -1,
         460,
+        -1,
         461,
         462,
-        -1,
         463,
         464,
+        -1,
         465,
-        466
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Johto Department Store",
-      "Locations": [
+        466,
         467,
         -1,
         468,
         469,
-        -1,
         470,
         471,
         -1,
         472,
         473,
-        -1,
-        474,
+        474
+      ],
+      "ImageName": "hgss/mtsilver.png"
+    },
+    {
+      "Name": "Johto Department Store",
+      "Locations": [
         475,
         -1,
         476,
         477,
         -1,
-        478
+        478,
+        479,
+        -1,
+        480,
+        481,
+        -1,
+        482,
+        483,
+        -1,
+        484,
+        485,
+        -1,
+        486
       ],
       "ImageName": ""
     },
     {
       "Name": "Kanto Department Store",
       "Locations": [
-        479,
-        480,
-        -1,
-        481,
-        482,
-        -1,
-        483,
-        484,
-        -1,
-        485,
-        486,
-        -1,
         487,
         488,
         -1,
-        489
+        489,
+        490,
+        -1,
+        491,
+        492,
+        -1,
+        493,
+        494,
+        -1,
+        495,
+        496,
+        -1,
+        497
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokecenters (Johto)",
       "Locations": [
-        490,
-        491,
-        -1,
-        492,
-        493,
-        -1,
-        494,
-        495,
-        -1,
-        496,
-        497,
-        -1,
         498,
         499,
         -1,
@@ -872,25 +883,25 @@
         -1,
         514,
         515,
-        516
+        -1,
+        516,
+        517,
+        -1,
+        518,
+        519,
+        -1,
+        520,
+        521,
+        -1,
+        522,
+        523,
+        524
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokecenters (Kanto)",
       "Locations": [
-        517,
-        518,
-        -1,
-        519,
-        520,
-        -1,
-        521,
-        522,
-        -1,
-        523,
-        524,
-        -1,
         525,
         526,
         -1,
@@ -913,7 +924,19 @@
         538,
         -1,
         539,
-        540
+        540,
+        -1,
+        541,
+        542,
+        -1,
+        543,
+        544,
+        -1,
+        545,
+        546,
+        -1,
+        547,
+        548
       ],
       "ImageName": ""
     }
@@ -1004,7 +1027,7 @@
       "Name": "New Bark House E"
     },
     {
-      "Name": "Route 29 Exit N"
+      "Name": "New Bark Route 29 Exit N"
     },
     {
       "Name": "Cherrygrove Pokecenter"
@@ -1022,13 +1045,13 @@
       "Name": "Cherrygrove House E"
     },
     {
-      "Name": "Route 30 House"
+      "Name": "Cherrygrove Route 30 House"
     },
     {
-      "Name": "Route 31 Dark Cave"
+      "Name": "Cherrygrove Route 31 Dark Cave"
     },
     {
-      "Name": "Route 31 Exit W"
+      "Name": "Cherrygrove Route 31 Exit W"
     },
     {
       "Name": "Violet Pokecenter"
@@ -1040,10 +1063,7 @@
       "Name": "Violet Gym"
     },
     {
-      "Name": "Sprout Tower Entrance"
-    },
-    {
-      "Name": "Sprout Tower 3F (Flash)"
+      "Name": "Violet Sprout Tower Entrance"
     },
     {
       "Name": "Violet House S"
@@ -1061,16 +1081,19 @@
       "Name": "Violet Exit W"
     },
     {
-      "Name": "Route 32 Exit NW"
+      "Name": "Violet Route 32 Exit NW"
     },
     {
-      "Name": "Route 32 Pokecenter"
+      "Name": "Violet Route 32 Pokecenter"
     },
     {
-      "Name": "Route 32 Cave S"
+      "Name": "Violet Route 32 Cave S"
     },
     {
       "Name": "Violet Mart Interior"
+    },
+    {
+      "Name": "Sprout Tower 3F - Flash"
     },
     {
       "Name": "Route 33 Union Cave Exit"
@@ -1097,10 +1120,18 @@
       "Name": "Azalea Exit W"
     },
     {
-      "Name": "Ilex Forest S"
+      "Name": "Ilex Forest S - Cut"
     },
     {
-      "Name": "Ilex Forest N"
+      "Name": "Ilex Forest N",
+      "BlockedBy": "Cut"
+    },
+    {
+      "Name": "Slowpoke Well Interior SE"
+    },
+    {
+      "Name": "Slowpoke Well Interior W",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Kurt's House Interior"
@@ -1154,7 +1185,7 @@
       "Name": "Goldenrod Exit N"
     },
     {
-      "Name": "Goldenrod Route 34 Exit S"
+      "Name": "Goldenrod Route 34 Exit"
     },
     {
       "Name": "Goldenrod Underground Stairs N"
@@ -1169,6 +1200,9 @@
       "Name": "Goldenrod Underground Door SE"
     },
     {
+      "Name": "Flower Shop Interior"
+    },
+    {
       "Name": "Route 35 Exit S"
     },
     {
@@ -1178,10 +1212,10 @@
       "Name": "Route 36 Exit W"
     },
     {
-      "Name": "Route 36 Exit E"
+      "Name": "Route 36 Exit E - Rock Smash"
     },
     {
-      "Name": "Route 36 Exit S"
+      "Name": "Route 36 Exit S - Rock Smash"
     },
     {
       "Name": "Ecruteak Pokecenter"
@@ -1199,7 +1233,7 @@
       "Name": "Ecruteak Burnt Tower"
     },
     {
-      "Name": "Ecruteak House N"
+      "Name": "Ecruteak Bell Tower"
     },
     {
       "Name": "Ecruteak House W"
@@ -1214,10 +1248,10 @@
       "Name": "Ecruteak Exit E"
     },
     {
-      "Name": "Ecruteak Burnt Tower Interior (Event)"
+      "Name": "Ecruteak Burnt Tower Interior - Event"
     },
     {
-      "Name": "Ecruteak Theater Interior (Surf)"
+      "Name": "Ecruteak Theater Interior - Surf"
     },
     {
       "Name": "Olivine Pokecenter"
@@ -1247,16 +1281,17 @@
       "Name": "Olivine House NE 2"
     },
     {
-      "Name": "Route 38 Exit East"
+      "Name": "Olivine Route 38 Exit"
     },
     {
-      "Name": "Route 39 House"
+      "Name": "Olivine Route 39 House"
     },
     {
-      "Name": "Route 39 Barn"
+      "Name": "Olivine Route 39 Barn"
     },
     {
-      "Name": "Route 40 Battle Frontier Entrance"
+      "Name": "Olivine Route 40 Frontier",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Lighthouse 1F Stairs"
@@ -1265,7 +1300,7 @@
       "Name": "Lighthouse 1F Entrance"
     },
     {
-      "Name": "Lighthouse Roof (Ampharos)"
+      "Name": "Lighthouse Roof - Ampharos"
     },
     {
       "Name": "Cianwood Pokecenter"
@@ -1301,16 +1336,10 @@
       "Name": "Safari Zone Pokecenter"
     },
     {
-      "Name": "Route 47 Cave W"
+      "Name": "Route 47 Cave Top"
     },
     {
-      "Name": "Route 47 Cave N"
-    },
-    {
-      "Name": "Route 47 Cave C"
-    },
-    {
-      "Name": "Route 47 Cave S"
+      "Name": "Route 47 Cave Bottom"
     },
     {
       "Name": "Route 47 Cave E"
@@ -1346,19 +1375,20 @@
       "Name": "Mahogany Exit N"
     },
     {
-      "Name": "Route 42 Exit W"
+      "Name": "Mahogany Route 42 Exit W - Strength"
     },
     {
-      "Name": "Route 42 Cave W"
+      "Name": "Mahogany Route 42 Cave W - Strength"
     },
     {
-      "Name": "Route 42 Cave C"
+      "Name": "Mahogany Route 42 Cave C",
+      "BlockedBy": "Surf"
     },
     {
-      "Name": "Route 42 Cave E"
+      "Name": "Mahogany Route 42 Cave E"
     },
     {
-      "Name": "Route 44 Ice Path Entrance"
+      "Name": "Mahogany Route 44 Ice Path"
     },
     {
       "Name": "Route 43 Exit S"
@@ -1373,7 +1403,8 @@
       "Name": "Lake of Rage House S"
     },
     {
-      "Name": "Lake of Rage House N"
+      "Name": "Lake of Rage House N",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Blackthorn Pokecenter"
@@ -1397,7 +1428,8 @@
       "Name": "Blackthorn Ice Path Entrance"
     },
     {
-      "Name": "Blackthorn Dragon Cave Entrance"
+      "Name": "Blackthorn Dragon Cave Entrance",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Blackthorn Dragon Cave N"
@@ -1418,13 +1450,16 @@
       "Name": "Route 46 Exit S"
     },
     {
-      "Name": "Tohjo W"
+      "Name": "Tohjo W",
+      "BlockedBy": "Waterfall"
     },
     {
-      "Name": "Tohjo E"
+      "Name": "Tohjo E",
+      "BlockedBy": "Surf"
     },
     {
-      "Name": "Tohjo Hidden"
+      "Name": "Tohjo Hidden",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Route 27 Cave W"
@@ -1457,25 +1492,28 @@
       "Name": "Pokemon League Gate W"
     },
     {
-      "Name": "Victory Road 1F SE Entrance"
+      "Name": "Victory Road 1F SE Entrance",
+      "BlockedBy": "Strength"
     },
     {
-      "Name": "Victory Road 1F NW Up Ladder"
-    },
-    {
-      "Name": "Victory Road 2F Down Ladder W"
+      "Name": "Victory Road 1F NW Up Ladder",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Victory Road 2F Up Ladder NW"
     },
     {
-      "Name": "Victory Road 2F Up Ladder NE"
+      "Name": "Victory Road 2F Down Ladder W"
+    },
+    {
+      "Name": "Victory Road 2F Up Ladder NE",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Victory Road 2F Up Ladder E"
     },
     {
-      "Name": "Victory Road 2F Up Ladder S"
+      "Name": "Victory Road 3F Down Ladder SE"
     },
     {
       "Name": "Victory Road 3F Down Ladder NW"
@@ -1484,13 +1522,13 @@
       "Name": "Victory Road 3F Down Ladder S"
     },
     {
+      "Name": "Victory Road 3F Exit N"
+    },
+    {
       "Name": "Victory Road 3F Down Ladder NE"
     },
     {
-      "Name": "Victory Road 3F Down Ladder SE"
-    },
-    {
-      "Name": "Victory Road 3F Exit N"
+      "Name": "Victory Road 2F Up Ladder S"
     },
     {
       "Name": "Indigo Plateau N Entrance"
@@ -1517,7 +1555,7 @@
       "Name": "Rocket B1F SW"
     },
     {
-      "Name": "Rocket B1F NE"
+      "Name": "Rocket B1F NE - traps"
     },
     {
       "Name": "Rocket B2F NW"
@@ -1526,22 +1564,22 @@
       "Name": "Rocket B2F NE"
     },
     {
-      "Name": "Rocket B2F SW"
+      "Name": "Rocket B2F SW - door"
     },
     {
-      "Name": "Rocket B2F SE"
+      "Name": "Rocket B2F SE - door"
     },
     {
-      "Name": "Rocket B3F NW"
+      "Name": "Rocket B3F NW - office"
     },
     {
-      "Name": "Rocket B3F N"
+      "Name": "Rocket B3F N - office"
     },
     {
-      "Name": "Rocket B3F NE"
+      "Name": "Rocket B3F NE - passwords"
     },
     {
-      "Name": "Rocket B3F SE"
+      "Name": "Rocket B3F SE - passwords"
     },
     {
       "Name": "Radio Tower 3F Down"
@@ -1565,25 +1603,26 @@
       "Name": "Pokeathalon Interior S"
     },
     {
-      "Name": "Pokeathalon Interior NW"
+      "Name": "Pokeathalon Interior NE"
     },
     {
-      "Name": "Pokeathalon Interior NE"
+      "Name": "Pokeathalon Interior NW"
     },
     {
       "Name": "GTS Interior S"
     },
     {
-      "Name": "GTS Interior Warp W"
+      "Name": "GTS Interior Warp E"
     },
     {
-      "Name": "GTS Interior Warp E"
+      "Name": "GTS Interior Warp W"
     },
     {
       "Name": "Union Cave 1F Stairs NW"
     },
     {
-      "Name": "Union Cave 1F Stairs SW"
+      "Name": "Union Cave 1F Stairs SW",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Union Cave 1F Exit NE"
@@ -1595,10 +1634,12 @@
       "Name": "Union Cave B1F Stairs NW"
     },
     {
-      "Name": "Union Cave B1F Stairs W"
+      "Name": "Union Cave B1F Stairs W",
+      "BlockedBy": "Strength"
     },
     {
-      "Name": "Union Cave B1F Stairs SE"
+      "Name": "Union Cave B1F Stairs SE",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Mortar 1F Front Entrance S"
@@ -1607,7 +1648,8 @@
       "Name": "Mortar 1F Front Ladder"
     },
     {
-      "Name": "Mortar 1F Front Cave N"
+      "Name": "Mortar 1F Front Cave N",
+      "BlockedBy": "Waterfall"
     },
     {
       "Name": "Mortar 1F Front Entrance SE"
@@ -1634,7 +1676,8 @@
       "Name": "Mortar 1F Back Ladder E"
     },
     {
-      "Name": "Mortar 2F Ladder"
+      "Name": "Mortar 2F Ladder",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Mortar 2F Cave"
@@ -1646,25 +1689,27 @@
       "Name": "Mortar B1F Ladder S"
     },
     {
-      "Name": "Dark Cave S Exit W"
-    },
-    {
-      "Name": "Dark Cave S Exit N"
-    },
-    {
-      "Name": "Dark Cave S Exit SE"
-    },
-    {
       "Name": "Dark Cave N Exit NE"
     },
     {
       "Name": "Dark Cave N Exit SW"
     },
     {
-      "Name": "Ice Path 1F Exit S"
+      "Name": "Dark Cave S Exit W"
     },
     {
-      "Name": "Ice Path 1F Ladder NE"
+      "Name": "Dark Cave S Exit N",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Dark Cave S Exit SE",
+      "BlockedBy": "Strength"
+    },
+    {
+      "Name": "Ice Path 1F Exit S - Waterfall"
+    },
+    {
+      "Name": "Ice Path 1F Ladder NE - Waterfall"
     },
     {
       "Name": "Ice Path B1F Ladder SW"
@@ -1673,7 +1718,8 @@
       "Name": "Ice Path B1F Ladder NE"
     },
     {
-      "Name": "Ice Path B2F Rock Puzzle C"
+      "Name": "Ice Path B2F Rock Puzzle C",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Ice Path B2F Rock Puzzle NE"
@@ -1706,7 +1752,8 @@
       "Name": "Whirl Islands 1F SW Ladder W"
     },
     {
-      "Name": "Whirl Islands 1F SW Ladder E"
+      "Name": "Whirl Islands 1F SW Ladder E",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Whirl Islands B1F Ladder NW"
@@ -1799,7 +1846,8 @@
       "Name": "Alph House"
     },
     {
-      "Name": "Alph Exterior Entrance SE"
+      "Name": "Alph Exterior Entrance SE",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Alph Exterior Entrance SW"
@@ -1838,7 +1886,8 @@
       "Name": "Alph Flash S"
     },
     {
-      "Name": "Alph Flash N"
+      "Name": "Alph Flash N",
+      "BlockedBy": "Flash"
     },
     {
       "Name": "SS Aqua Stairs"
@@ -1874,7 +1923,10 @@
       "Name": "SS Aqua B1F Ladder"
     },
     {
-      "Name": "Oak's Lab"
+      "Name": "SS Aqua Sailor Room"
+    },
+    {
+      "Name": "Pallet Oak's Lab"
     },
     {
       "Name": "Pallet House W"
@@ -1883,10 +1935,10 @@
       "Name": "Pallet House E"
     },
     {
-      "Name": "Route 1 Exit N"
+      "Name": "Pallet Route 1 Exit"
     },
     {
-      "Name": "Oak's Lab Interior (Rock Climb)"
+      "Name": "Oak's Lab Interior - Rock Climb"
     },
     {
       "Name": "Viridian Pokecenter"
@@ -1907,13 +1959,14 @@
       "Name": "Viridian Exit S"
     },
     {
-      "Name": "Route 22 Exit W"
+      "Name": "Viridian Route 22 Exit W"
     },
     {
       "Name": "Viridian Forest Exit S"
     },
     {
-      "Name": "Route 2 Exit SE"
+      "Name": "Viridian Route 2 Exit SE",
+      "BlockedBy": "Cut"
     },
     {
       "Name": "Pewter Pokecenter"
@@ -1934,25 +1987,28 @@
       "Name": "Pewter House NE"
     },
     {
-      "Name": "Viridian Forest Exit N"
+      "Name": "Pewter Viridian Forest"
     },
     {
-      "Name": "Route 2 Cave"
+      "Name": "Pewter Route 2 Cave",
+      "BlockedBy": "Cut"
     },
     {
-      "Name": "Route 2 House"
+      "Name": "Pewter Route 2 House",
+      "BlockedBy": "Cut"
     },
     {
-      "Name": "Route 2 Exit N"
+      "Name": "Pewter Route 2 Exit",
+      "BlockedBy": "Cut"
     },
     {
-      "Name": "Mt Moon Route 3 Cave"
+      "Name": "Pewter Route 3 Cave"
     },
     {
-      "Name": "Mt Moon Pokecenter"
+      "Name": "Pewter Route 3 Pokecenter"
     },
     {
-      "Name": "Mt Moon Route 4 Cave"
+      "Name": "Cerulean Mt Moon Cave"
     },
     {
       "Name": "Cerulean Pokecenter"
@@ -1976,25 +2032,26 @@
       "Name": "Cerulean House E"
     },
     {
-      "Name": "Cerulean Cave Exterior"
+      "Name": "Cerulean Cave Exterior",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Bill's House Exterior"
     },
     {
-      "Name": "Route 5 House"
+      "Name": "Cerulean Route 5 House"
     },
     {
-      "Name": "Route 5 Tunnel"
+      "Name": "Cerulean Route 5 Tunnel"
     },
     {
-      "Name": "Route 5 Exit"
+      "Name": "Cerulean Route 5 Exit"
     },
     {
-      "Name": "Route 10 Pokecenter"
+      "Name": "Cerulean Route 10 Pokecenter"
     },
     {
-      "Name": "Rock Tunnel Cave N"
+      "Name": "Cerulean Rock Tunnel N"
     },
     {
       "Name": "Saffron Pokecenter"
@@ -2033,10 +2090,10 @@
       "Name": "Saffron Exit W"
     },
     {
-      "Name": "Route 6 Exit N"
+      "Name": "Vermillion Route 6 Exit N"
     },
     {
-      "Name": "Route 6 Tunnel"
+      "Name": "Vermillion Route 6 Tunnel"
     },
     {
       "Name": "Vermillion Pokecenter"
@@ -2063,10 +2120,10 @@
       "Name": "Vermillion House SE"
     },
     {
-      "Name": "Route 11 Diglett Cave"
+      "Name": "Vermillion Route 11 Diglett Cave"
     },
     {
-      "Name": "Route 11 Exit E"
+      "Name": "Vermillion Route 11 Exit E"
     },
     {
       "Name": "Lavender Pokecenter"
@@ -2090,22 +2147,19 @@
       "Name": "Lavender House SE"
     },
     {
-      "Name": "Route 10 Rock Tunnel S"
+      "Name": "Lavender Rock Tunnel S"
     },
     {
-      "Name": "Route 8 Tunnel"
+      "Name": "Lavender Route 8 Exit"
     },
     {
-      "Name": "Route 8 Exit W"
+      "Name": "Lavender Route 12 Exit"
     },
     {
-      "Name": "Route 12 Exit W"
+      "Name": "Lavender Route 12 House"
     },
     {
-      "Name": "Route 12 House"
-    },
-    {
-      "Name": "Route 15 Exit W"
+      "Name": "Lavender Route 15 Exit"
     },
     {
       "Name": "Fuschia Pokecenter"
@@ -2132,7 +2186,7 @@
       "Name": "Fuschia Exit E"
     },
     {
-      "Name": "Route 18 Cycling Road"
+      "Name": "Fuschia Cycling Road"
     },
     {
       "Name": "Celadon Pokecenter"
@@ -2141,7 +2195,8 @@
       "Name": "Celadon Department Store"
     },
     {
-      "Name": "Celadon Gym"
+      "Name": "Celadon Gym",
+      "BlockedBy": "Cut"
     },
     {
       "Name": "Celadon Casino"
@@ -2156,13 +2211,14 @@
       "Name": "Celadon House SE"
     },
     {
-      "Name": "Route 7 Tunnel"
+      "Name": "Celadon Route 7 Exit"
     },
     {
-      "Name": "Route 7 Exit E"
+      "Name": "Celadon Route 16 House",
+      "BlockedBy": "Cut"
     },
     {
-      "Name": "Route 16 Cycling Road"
+      "Name": "Celadon Cycling Road"
     },
     {
       "Name": "Cinnibar Pokecenter"
@@ -2207,7 +2263,8 @@
       "Name": "Seafoam 1F Exit"
     },
     {
-      "Name": "Seafoam B1F Stairs NW"
+      "Name": "Seafoam B1F Stairs NW",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Seafoam B1F Ladder SW"
@@ -2222,7 +2279,8 @@
       "Name": "Seafoam B1F Ladder SE"
     },
     {
-      "Name": "Seafoam B1F Stairs SE"
+      "Name": "Seafoam B1F Stairs SE",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Seafoam B2F Ladder Up NW"
@@ -2249,10 +2307,10 @@
       "Name": "Seafoam B3F Ladder Up NE"
     },
     {
-      "Name": "Seafoam B4F Ladder Up NW (Articuno)"
+      "Name": "Seafoam B4F Ladder Up NW - Articuno"
     },
     {
-      "Name": "Seafoam B4F Ladder Up SE (Articuno)"
+      "Name": "Seafoam B4F Ladder Up SE - Articuno"
     },
     {
       "Name": "Cerulean Cave 2F Ladder NW"
@@ -2264,10 +2322,11 @@
       "Name": "Cerulean Cave 1F Entrance SE"
     },
     {
-      "Name": "Cerulean Cave 1F Ladder Down E"
+      "Name": "Cerulean Cave 1F Ladder Up NE",
+      "BlockedBy": "Surf"
     },
     {
-      "Name": "Cerulean Cave 1F Ladder Up NE"
+      "Name": "Cerulean Cave 1F Ladder Down E"
     },
     {
       "Name": "Cerulean Cave 1F Ladder Up C"
@@ -2285,7 +2344,7 @@
       "Name": "Cerulean Cave B1F Ladder W"
     },
     {
-      "Name": "Cerulean Cave B1F Ladder E"
+      "Name": "Cerulean Cave B1F Ladder E - Mewtwo"
     },
     {
       "Name": "Mt Silver Pokecenter"
@@ -2294,31 +2353,58 @@
       "Name": "Mt Silver Exterior Entrance"
     },
     {
-      "Name": "Mt Silver Exterior House"
+      "Name": "Mt Silver Exterior House",
+      "BlockedBy": "Cut"
     },
     {
       "Name": "Mt Silver Route 28 Exit"
     },
     {
-      "Name": "Mt Silver Side Cave S"
+      "Name": "Mt Silver 1F Entrance S",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Mt Silver Side Cave C"
+      "Name": "Mt Silver 1F Entrance E",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Mt Silver Side Cave N"
+      "Name": "Mt Silver 1F Cave C",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Mt Silver Peak Cave SW"
+      "Name": "Mt Silver 1F Cave N.Rock Climb"
     },
     {
-      "Name": "Mt Silver Peak Cave NW"
+      "Name": "Mt Silver Lower Cave S"
+    },
+    {
+      "Name": "Mt Silver Lower Cave C"
+    },
+    {
+      "Name": "Mt Silver Lower Cave N"
+    },
+    {
+      "Name": "Mt Silver Peak Cave SW",
+      "BlockedBy": "Rock Climb"
+    },
+    {
+      "Name": "Mt Silver Peak Cave NW",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Mt Silver Peak Cave S"
     },
     {
       "Name": "Mt Silver Peak Cave SE"
+    },
+    {
+      "Name": "Mt Silver Peak Cave E"
+    },
+    {
+      "Name": "Mt Silver Peak Cave NE"
+    },
+    {
+      "Name": "Mt Silver Peak Cave N"
     },
     {
       "Name": "Johto Dept B1F Down"

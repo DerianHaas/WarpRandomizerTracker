@@ -8,7 +8,10 @@ Azalea Kurt's House
 Azalea House
 Azalea Exit W
 
-Ilex Forest S
-Ilex Forest N
+Ilex Forest S - Cut
+Ilex Forest N, Cut
+
+Slowpoke Well Interior SE
+Slowpoke Well Interior W,Surf
 
 Kurt's House Interior

@@ -1,14 +1,23 @@
 Mt Silver
 Mt Silver Pokecenter
 Mt Silver Exterior Entrance
-Mt Silver Exterior House
+Mt Silver Exterior House,Cut
 Mt Silver Route 28 Exit
 
-Mt Silver Side Cave S
-Mt Silver Side Cave C
-Mt Silver Side Cave N
+Mt Silver 1F Entrance S,Rock Climb
+Mt Silver 1F Entrance E,Rock Climb
+Mt Silver 1F Cave C,Rock Climb
+Mt Silver 1F Cave N.Rock Climb
 
-Mt Silver Peak Cave SW
-Mt Silver Peak Cave NW
+Mt Silver Lower Cave S
+Mt Silver Lower Cave C
+Mt Silver Lower Cave N
+
+Mt Silver Peak Cave SW,Rock Climb
+Mt Silver Peak Cave NW,Rock Climb
 Mt Silver Peak Cave S
 Mt Silver Peak Cave SE
+
+Mt Silver Peak Cave E
+Mt Silver Peak Cave NE
+Mt Silver Peak Cave N

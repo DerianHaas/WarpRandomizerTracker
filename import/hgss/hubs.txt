@@ -37,7 +37,7 @@ cinnibar
 moon,moon.png
 seafoam,seafoam.png
 ceruleancave,ceruleancave.png
-mtsilver
+mtsilver,mtsilver.png
 dept1
 dept2
 pokecenters1

@@ -2,10 +2,8 @@ Safari Zone
 Safari Zone Entrance N
 Safari Zone Pokecenter
 
-Route 47 Cave W
-Route 47 Cave N
-Route 47 Cave C
-Route 47 Cave S
+Route 47 Cave Top
+Route 47 Cave Bottom
 Route 47 Cave E
 
 Safari Zone Gate Interior E

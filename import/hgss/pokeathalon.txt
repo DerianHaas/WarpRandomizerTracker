@@ -4,9 +4,9 @@ Park Connector NE
 Park Connector NW
 
 Pokeathalon Interior S
-Pokeathalon Interior NW
 Pokeathalon Interior NE
+Pokeathalon Interior NW
 
 GTS Interior S
-GTS Interior Warp W
 GTS Interior Warp E
+GTS Interior Warp W

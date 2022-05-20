@@ -1,11 +1,12 @@
 Celadon
 Celadon Pokecenter
 Celadon Department Store
-Celadon Gym
+Celadon Gym,Cut
 Celadon Casino
 Celadon Exchange
 Celadon Apartment N
 Celadon House SE
-Route 7 Tunnel
-Route 7 Exit E
-Route 16 Cycling Road
+
+Celadon Route 7 Exit
+Celadon Route 16 House,Cut
+Celadon Cycling Road

@@ -5,9 +5,11 @@ Pewter Gym
 Pewter Museum
 Pewter House SW
 Pewter House NE
-Viridian Forest Exit N
-Route 2 Cave
-Route 2 House
-Route 2 Exit N
-Mt Moon Route 3 Cave
-Mt Moon Pokecenter
+
+Pewter Viridian Forest
+Pewter Route 2 Cave,Cut
+Pewter Route 2 House,Cut
+Pewter Route 2 Exit,Cut
+
+Pewter Route 3 Cave
+Pewter Route 3 Pokecenter

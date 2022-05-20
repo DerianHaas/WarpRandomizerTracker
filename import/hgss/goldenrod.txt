@@ -15,9 +15,11 @@ Goldenrod House NE
 Goldenrod Underground Entrance N
 Goldenrod Underground Entrance S
 Goldenrod Exit N
-Goldenrod Route 34 Exit S
+Goldenrod Route 34 Exit
 
 Goldenrod Underground Stairs N
 Goldenrod Underground Stairs S
 Goldenrod Underground Door NE
 Goldenrod Underground Door SE
+
+Flower Shop Interior

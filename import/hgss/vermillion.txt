@@ -1,6 +1,6 @@
 Vermillion
-Route 6 Exit N
-Route 6 Tunnel
+Vermillion Route 6 Exit N
+Vermillion Route 6 Tunnel
 
 Vermillion Pokecenter
 Vermillion Mart
@@ -11,5 +11,5 @@ Vermillion House W
 Vermillion House C
 Vermillion House SE
 
-Route 11 Diglett Cave
-Route 11 Exit E
+Vermillion Route 11 Diglett Cave
+Vermillion Route 11 Exit E

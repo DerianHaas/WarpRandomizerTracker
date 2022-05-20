@@ -1,18 +1,18 @@
 Rocket HQ / Radio Tower
 Rocket B1F SW
-Rocket B1F NE
+Rocket B1F NE - traps
 
 Rocket B2F NW
 Rocket B2F NE
 
-Rocket B2F SW
-Rocket B2F SE
+Rocket B2F SW - door
+Rocket B2F SE - door
 
-Rocket B3F NW
-Rocket B3F N
+Rocket B3F NW - office
+Rocket B3F N - office
 
-Rocket B3F NE
-Rocket B3F SE
+Rocket B3F NE - passwords
+Rocket B3F SE - passwords
 
 Radio Tower 3F Down
 Radio Tower 3F Up
