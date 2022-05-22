@@ -19,7 +19,7 @@
     $.get("import/" + GAME_TO_IMPORT + "/hubs.txt", function (fileData) {
         files = fileData.split("\n");
         files = files.filter(file => file.trim() !== "");
-        files.forEach((hubData, i) => {
+        files.forEach((hubData) => {
             let hubInfo: string[] = hubData.trim().split(",");
             let file = hubInfo[0];
             if (!file) return;

@@ -14,7 +14,7 @@ blackthorn,blackthorn.png
 r26
 victoryroad,victoryroad.png
 frontier
-rocket
+rocket,rocket.png
 pokeathalon
 unioncave,unioncave.png
 mtmortar,mtmortar.png

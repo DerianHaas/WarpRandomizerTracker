@@ -351,7 +351,7 @@
         210,
         211
       ],
-      "ImageName": ""
+      "ImageName": "hgss/rocket.png"
     },
     {
       "Name": "Pokeathalon / Park / GTS",
@@ -1692,7 +1692,8 @@
       "Name": "Dark Cave N Exit NE"
     },
     {
-      "Name": "Dark Cave N Exit SW"
+      "Name": "Dark Cave N Exit SW",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Dark Cave S Exit W"
@@ -2042,7 +2043,8 @@
       "Name": "Cerulean Route 5 House"
     },
     {
-      "Name": "Cerulean Route 5 Tunnel"
+      "Name": "Cerulean Route 5 Tunnel",
+      "BlockedBy": "Power Plant"
     },
     {
       "Name": "Cerulean Route 5 Exit"
@@ -2093,7 +2095,8 @@
       "Name": "Vermillion Route 6 Exit N"
     },
     {
-      "Name": "Vermillion Route 6 Tunnel"
+      "Name": "Vermillion Route 6 Tunnel",
+      "BlockedBy": "Power Plant"
     },
     {
       "Name": "Vermillion Pokecenter"
@@ -2372,7 +2375,8 @@
       "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Mt Silver 1F Cave N.Rock Climb"
+      "Name": "Mt Silver 1F Cave N",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Mt Silver Lower Cave S"

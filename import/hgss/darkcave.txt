@@ -1,6 +1,6 @@
 Dark Cave
 Dark Cave N Exit NE
-Dark Cave N Exit SW
+Dark Cave N Exit SW,Surf
 
 Dark Cave S Exit W
 Dark Cave S Exit N,Surf

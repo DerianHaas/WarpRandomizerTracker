@@ -13,7 +13,7 @@ Cerulean Cave Exterior,Surf
 Bill's House Exterior
 
 Cerulean Route 5 House
-Cerulean Route 5 Tunnel
+Cerulean Route 5 Tunnel,Power Plant
 Cerulean Route 5 Exit
 
 Cerulean Route 10 Pokecenter
