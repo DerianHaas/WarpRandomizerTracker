@@ -17,3 +17,10 @@ Rocket B3F SE - passwords
 Radio Tower 3F Down
 Radio Tower 3F Up
 Radio Tower 3F Up Locked
+
+Radio Tower Director
+
+Radio Tower Observation Deck
+
+Radio Tower Underground W
+Radio Tower Underground E

@@ -11,7 +11,16 @@ $(function () {
         mainMap.Load("sinnoh").then(initialSetup);
     });
     $("#johtoSelect").click(function () {
-        mainMap.Load("johto").then(initialSetup);
+        mainMap.Load("johto").then(initialSetup).then(function () {
+            if ($("#forceFileLoad").prop("checked")) {
+                var cherryPC1 = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Cherrygrove Pokecenter"; });
+                var cherryPC2 = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Cherrygrove PC Entrance"; });
+                if (cherryPC1 !== NoLocation && cherryPC2 != NoLocation) {
+                    mainMap.Link(cherryPC1, cherryPC2, false);
+                }
+                redraw();
+            }
+        });
     });
     $("#clearButton").click(clearSelections);
     $("#resetHub").click(function () {

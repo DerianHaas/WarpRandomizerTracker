@@ -2,7 +2,7 @@ Cerulean Cave
 Cerulean Cave 2F Ladder NW
 Cerulean Cave 2F Ladder C
 
-Cerulean Cave 1F Entrance SE
+Cerulean Cave 1F Entrance SE,Surf
 Cerulean Cave 1F Ladder Up NE,Surf
 Cerulean Cave 1F Ladder Down E
 
@@ -11,5 +11,5 @@ Cerulean Cave 1F Ladder Up S
 Cerulean Cave 1F Ladder Up W
 Cerulean Cave 1F Ladder Up NW
 
-Cerulean Cave B1F Ladder W
-Cerulean Cave B1F Ladder E - Mewtwo
+Cerulean Cave B1F Ladder W,Surf
+Cerulean Cave B1F Ladder E - Mewtwo,Surf

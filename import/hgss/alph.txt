@@ -14,14 +14,14 @@ Alph Exterior Cave W
 
 Alph Exit Ladder
 
-Alph Escape Rope S
 Alph Escape Rope N
+Alph Escape Rope S
 
-Alph Ho-oh S
 Alph Ho-oh N
+Alph Ho-oh S
 
-Alph Water Stone S
 Alph Water Stone N
+Alph Water Stone S
 
-Alph Flash S
 Alph Flash N,Flash
+Alph Flash S

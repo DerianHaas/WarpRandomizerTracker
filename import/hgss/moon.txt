@@ -3,7 +3,3 @@ Mt Moon 1F Exit W
 Mt Moon 1F Exit SE
 Mt Moon 1F Ladder N
 Mt Moon 1F Ladder SE
-
-Mt Moon Square Cave N
-Mt Moon Square Cave S
-Mt Moon Square House

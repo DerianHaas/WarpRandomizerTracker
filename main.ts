@@ -15,7 +15,16 @@
     });
 
     $("#johtoSelect").click(function () {
-        mainMap.Load("johto").then(initialSetup);
+        mainMap.Load("johto").then(initialSetup).then(() => {
+            if ($("#forceFileLoad").prop("checked")) {
+                let cherryPC1 = mainMap.AllLocations.findIndex(loc => loc.Name === "Cherrygrove Pokecenter");
+                let cherryPC2 = mainMap.AllLocations.findIndex(loc => loc.Name === "Cherrygrove PC Entrance");
+                if (cherryPC1 !== NoLocation && cherryPC2 != NoLocation) {
+                    mainMap.Link(cherryPC1, cherryPC2, false);
+                }
+                redraw();
+            }
+        });
     });
 
 
