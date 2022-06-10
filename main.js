@@ -36,6 +36,8 @@ $(function () {
         }
     });
     function initialSetup() {
+        $("#content").css("display", "flex");
+        $("#content").show();
         $("#hubSelector").empty().append(mainMap.DrawHubSelector());
         resizeHubSelector();
         $(".hubButton").click(function () {

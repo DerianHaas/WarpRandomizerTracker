@@ -45,14 +45,17 @@
     });
 
     function initialSetup() {
+        $("#content").css("display", "flex");
+        $("#content").show();
+
         $("#hubSelector").empty().append(mainMap.DrawHubSelector());
         resizeHubSelector();
-
 
         $(".hubButton").click(function () {
             setCurrentHub($(this).data("id"));
         });
         setCurrentHub(0);
+
         loadBlockages();
         redraw();
         $("#customNotes").val(mainMap.CustomNotes);
