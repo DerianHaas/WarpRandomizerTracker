@@ -1,0 +1,29 @@
+﻿Mt Coronet
+Mt Coronet 1F West Exit,Strength
+Mt Coronet 1F East Exit,Strength
+Mt Coronet 1F South Exit
+Mt Coronet 1F North Stairs,Strength
+
+Mt Coronet 1F 2 South Stairs
+Mt Coronet 1F 2 Regice Cave
+Mt Coronet 1F 2 West Exit
+
+Mt Coronet 1F 3 West Exit
+Mt Coronet 1F 3 East Exit
+Mt Coronet 1F 3 NE Stairs,Rock Climb
+
+Mt Coronet 2F SW Exit
+Mt Coronet 2F SE Stairs
+Mt Coronet 2F N Cave
+
+Mt Coronet 3F West Stairs
+Mt Coronet 3F East Stairs
+Mt Coronet 3F West Exit
+
+Mt Coronet S Peak SW Cave,Rock Climb
+Mt Coronet S Peak W Cave
+Mt Coronet S Peak E Cave
+
+Mt Coronet N Peak W Cave,Rock Climb
+Mt Coronet N Peak E Cave
+Mt Coronet N Peak S Cave

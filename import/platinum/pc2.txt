@@ -1,0 +1,28 @@
+﻿Pokecenters 2
+Solaceon PC W
+Solaceon PC S
+Solaceon PC E
+
+Veilstone PC W
+Veilstone PC S
+Veilstone PC E
+
+Pastoria PC W
+Pastoria PC S
+Pastoria PC E
+
+Celestic PC W
+Celestic PC S
+Celestic PC E
+
+Canalave PC W
+Canalave PC S
+Canalave PC E
+
+Snowpoint PC W
+Snowpoint PC S
+Snowpoint PC E
+
+Sunnyshore PC W
+Sunnyshore PC S
+Sunnyshore PC E

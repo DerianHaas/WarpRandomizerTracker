@@ -1,5 +1,756 @@
 {
   "Region": "sinnoh",
+  "Hubs": [
+    {
+      "Name": "Gyms / E4",
+      "Locations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        -1,
+        8,
+        9,
+        -1,
+        10,
+        11,
+        -1,
+        12,
+        13,
+        -1,
+        14,
+        15,
+        -1,
+        16
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Sandgem/Jubilife",
+      "Locations": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        -1,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        -1,
+        34,
+        35
+      ],
+      "ImageName": "platinum/jubilife.png"
+    },
+    {
+      "Name": "Oreburgh",
+      "Locations": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        -1,
+        48,
+        49,
+        50,
+        51
+      ],
+      "ImageName": "platinum/oreburgh.png"
+    },
+    {
+      "Name": "Floaroma",
+      "Locations": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        -1,
+        59,
+        60,
+        61,
+        -1,
+        62,
+        63
+      ],
+      "ImageName": "platinum/floaroma.png"
+    },
+    {
+      "Name": "Eterna",
+      "Locations": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "ImageName": "platinum/eterna.png"
+    },
+    {
+      "Name": "Hearthome",
+      "Locations": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "ImageName": "platinum/hearthome.png"
+    },
+    {
+      "Name": "Solaceon",
+      "Locations": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        -1,
+        100,
+        101,
+        -1,
+        102,
+        103
+      ],
+      "ImageName": "platinum/solaceon.png"
+    },
+    {
+      "Name": "Veilstone",
+      "Locations": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "ImageName": "platinum/veilstone.png"
+    },
+    {
+      "Name": "Pastoria",
+      "Locations": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        -1,
+        128,
+        129,
+        130
+      ],
+      "ImageName": "platinum/pastoria.png"
+    },
+    {
+      "Name": "Celestic",
+      "Locations": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        -1,
+        137,
+        -1,
+        138
+      ],
+      "ImageName": "platinum/celestic.png"
+    },
+    {
+      "Name": "Canalave",
+      "Locations": [
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        -1,
+        145,
+        146,
+        147,
+        148
+      ],
+      "ImageName": "platinum/canalave.png"
+    },
+    {
+      "Name": "Snowpoint",
+      "Locations": [
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        -1,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "ImageName": "platinum/snowpoint.png"
+    },
+    {
+      "Name": "Sunnyshore",
+      "Locations": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "ImageName": "platinum/sunnyshore.png"
+    },
+    {
+      "Name": "Places of Interest",
+      "Locations": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        -1,
+        177,
+        178,
+        179,
+        180,
+        -1,
+        181,
+        182,
+        183,
+        184,
+        -1,
+        185
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Poketch / GTS",
+      "Locations": [
+        186,
+        187,
+        188,
+        -1,
+        189,
+        190,
+        191
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Jubilife TV",
+      "Locations": [
+        192,
+        193,
+        -1,
+        194,
+        195,
+        196,
+        -1,
+        197,
+        198,
+        199,
+        200,
+        -1,
+        201
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Oreburgh Gate",
+      "Locations": [
+        202,
+        203,
+        204
+      ],
+      "ImageName": "platinum/oreburghgate.png"
+    },
+    {
+      "Name": "Meadow",
+      "Locations": [
+        205,
+        206,
+        -1,
+        207
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Eterna Forest",
+      "Locations": [
+        208,
+        209,
+        210
+      ],
+      "ImageName": "platinum/eternaforest.png"
+    },
+    {
+      "Name": "Old Chateau",
+      "Locations": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        -1,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "ImageName": "platinum/chateau.png"
+    },
+    {
+      "Name": "PokeMansion",
+      "Locations": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "ImageName": "platinum/mansion.png"
+    },
+    {
+      "Name": "Route 208",
+      "Locations": [
+        228,
+        229,
+        230
+      ],
+      "ImageName": "platinum/route208.png"
+    },
+    {
+      "Name": "Route 213",
+      "Locations": [
+        231,
+        232,
+        233
+      ],
+      "ImageName": "platinum/route213.png"
+    },
+    {
+      "Name": "R214/Hotel/R222",
+      "Locations": [
+        234,
+        235,
+        -1,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        -1,
+        244,
+        245,
+        246
+      ],
+      "ImageName": "platinum/hotel.png"
+    },
+    {
+      "Name": "Galactic Eterna",
+      "Locations": [
+        247,
+        248,
+        249,
+        250,
+        -1,
+        251,
+        252,
+        253,
+        -1,
+        254,
+        255,
+        256
+      ],
+      "ImageName": "platinum/galacticeterna.png"
+    },
+    {
+      "Name": "Galactic HQ",
+      "Locations": [
+        257,
+        258,
+        259,
+        -1,
+        260,
+        261,
+        262,
+        -1,
+        263,
+        264,
+        265,
+        -1,
+        266,
+        267,
+        268,
+        269,
+        -1,
+        270,
+        271,
+        272,
+        273,
+        -1,
+        274,
+        275,
+        276,
+        277,
+        -1,
+        278,
+        279,
+        280
+      ],
+      "ImageName": "platinum/galactichq.png"
+    },
+    {
+      "Name": "Mt Coronet",
+      "Locations": [
+        281,
+        282,
+        283,
+        284,
+        -1,
+        285,
+        286,
+        287,
+        -1,
+        288,
+        289,
+        290,
+        -1,
+        291,
+        292,
+        293,
+        -1,
+        294,
+        295,
+        296,
+        -1,
+        297,
+        298,
+        299,
+        -1,
+        300,
+        301,
+        302
+      ],
+      "ImageName": "platinum/coronet.png"
+    },
+    {
+      "Name": "Solaceon Ruins",
+      "Locations": [
+        303,
+        304,
+        305,
+        306,
+        -1,
+        307,
+        308,
+        309,
+        310,
+        -1,
+        311,
+        312,
+        313,
+        314,
+        -1,
+        315,
+        316,
+        317,
+        318,
+        -1,
+        319,
+        320,
+        321,
+        -1,
+        322,
+        323,
+        324,
+        325
+      ],
+      "ImageName": "platinum/ruins.png"
+    },
+    {
+      "Name": "Iron Island",
+      "Locations": [
+        326,
+        327,
+        328,
+        -1,
+        329,
+        330,
+        331,
+        -1,
+        332,
+        333,
+        334,
+        -1,
+        335,
+        336,
+        337
+      ],
+      "ImageName": "platinum/ironisland.png"
+    },
+    {
+      "Name": "Victory Road",
+      "Locations": [
+        338,
+        339,
+        -1,
+        340,
+        341,
+        342,
+        -1,
+        343,
+        344,
+        345,
+        -1,
+        346,
+        347,
+        348
+      ],
+      "ImageName": "platinum/victoryroad.png"
+    },
+    {
+      "Name": "Fight/Resort Area",
+      "Locations": [
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        -1,
+        355,
+        356,
+        -1,
+        357,
+        358,
+        359,
+        360
+      ],
+      "ImageName": "platinum/resort.png"
+    },
+    {
+      "Name": "Survival Area",
+      "Locations": [
+        361,
+        362,
+        -1,
+        363,
+        364,
+        365,
+        366,
+        -1,
+        367,
+        -1,
+        368,
+        369,
+        370,
+        371
+      ],
+      "ImageName": "platinum/survival.png"
+    },
+    {
+      "Name": "Department Store",
+      "Locations": [
+        372,
+        -1,
+        373,
+        374,
+        375,
+        -1,
+        376,
+        377,
+        -1,
+        378,
+        379,
+        -1,
+        380,
+        381,
+        -1,
+        382
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokecenters 1",
+      "Locations": [
+        383,
+        384,
+        385,
+        -1,
+        386,
+        387,
+        388,
+        -1,
+        389,
+        390,
+        391,
+        -1,
+        392,
+        393,
+        394,
+        -1,
+        395,
+        396,
+        397,
+        -1,
+        398,
+        399,
+        400
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokecenters 2",
+      "Locations": [
+        401,
+        402,
+        403,
+        -1,
+        404,
+        405,
+        406,
+        -1,
+        407,
+        408,
+        409,
+        -1,
+        410,
+        411,
+        412,
+        -1,
+        413,
+        414,
+        415,
+        -1,
+        416,
+        417,
+        418,
+        -1,
+        419,
+        420,
+        421
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokecenters 3",
+      "Locations": [
+        422,
+        423,
+        424,
+        -1,
+        425,
+        426,
+        427,
+        428,
+        -1,
+        429,
+        430,
+        431,
+        -1,
+        432,
+        433,
+        434,
+        -1,
+        435,
+        436,
+        437
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Marts",
+      "Locations": [
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448
+      ],
+      "ImageName": ""
+    }
+  ],
   "Locations": [
     {
       "Name": "Oreburgh Gym Interior"
@@ -53,49 +804,13 @@
       "Name": "Champion"
     },
     {
-      "Name": "Spear Pillar Summit"
-    },
-    {
-      "Name": "Cresselia"
-    },
-    {
-      "Name": "Darkrai"
-    },
-    {
-      "Name": "Heatran"
-    },
-    {
-      "Name": "Arceus"
-    },
-    {
-      "Name": "Azelf"
-    },
-    {
-      "Name": "Uxie"
-    },
-    {
-      "Name": "Turnback Cave"
-    },
-    {
-      "Name": "Bike Shop"
-    },
-    {
-      "Name": "Galactic Eterna Top Floor"
-    },
-    {
-      "Name": "Lighthouse Interior"
-    },
-    {
-      "Name": "Contest Interior"
-    },
-    {
       "Name": "Lake Verity"
     },
     {
-      "Name": "Sandgem SW"
+      "Name": "Sandgem House SW"
     },
     {
-      "Name": "Sandgem S"
+      "Name": "Sandgem House S"
     },
     {
       "Name": "Sandgem Mart"
@@ -107,19 +822,16 @@
       "Name": "Jubilife Pokecenter"
     },
     {
-      "Name": "Jubilife Trainer School"
-    },
-    {
       "Name": "Jubilife Mart"
     },
     {
-      "Name": "Jubilife S"
+      "Name": "Jubilife House S"
     },
     {
-      "Name": "Jubilife SW"
+      "Name": "Jubilife House SW"
     },
     {
-      "Name": "Jubilife NE"
+      "Name": "Jubilife House NE"
     },
     {
       "Name": "Jubilife GTS"
@@ -143,10 +855,12 @@
       "Name": "Jubilife Oreburgh Gate"
     },
     {
-      "Name": "R221 House"
+      "Name": "R221 House",
+      "BlockedBy": "Surf"
     },
     {
-      "Name": "R221 Pal Park"
+      "Name": "R221 Pal Park",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Oreburgh West Exit"
@@ -188,10 +902,12 @@
       "Name": "R206 Cycle Path"
     },
     {
-      "Name": "R206 Wayward Cave"
+      "Name": "R206 Wayward Cave",
+      "BlockedBy": "Cut"
     },
     {
-      "Name": "R206 Wayward Cave Hidden"
+      "Name": "R206 Wayward Cave Hidden",
+      "BlockedBy": "Cut"
     },
     {
       "Name": "R207 Mt Coronet"
@@ -218,19 +934,21 @@
       "Name": "Floaroma Ravaged Path"
     },
     {
-      "Name": "R205 Ironworks"
-    },
-    {
       "Name": "R205 Windworks"
-    },
-    {
-      "Name": "R205 Eterna Forest"
     },
     {
       "Name": "R205 House"
     },
     {
-      "Name": "R205 Meadow"
+      "Name": "R205 Eterna Forest"
+    },
+    {
+      "Name": "R205 Ironworks",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "R205 Meadow",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Eterna Pokecenter"
@@ -269,7 +987,8 @@
       "Name": "Eterna South Exit"
     },
     {
-      "Name": "Eterna Galactic"
+      "Name": "Eterna Galactic",
+      "BlockedBy": "Cut"
     },
     {
       "Name": "Hearthome Pokecenter"
@@ -284,7 +1003,7 @@
       "Name": "Hearthome Contest"
     },
     {
-      "Name": "Hearthome Bebe's house"
+      "Name": "Hearthome House\tN"
     },
     {
       "Name": "Hearthome Church"
@@ -356,13 +1075,16 @@
       "Name": "Veilstone Pokecenter"
     },
     {
-      "Name": "Veilstone Mart"
+      "Name": "Veilstone Department Store"
     },
     {
       "Name": "Veilstone Gym"
     },
     {
       "Name": "Veilstone Casino"
+    },
+    {
+      "Name": "Veilstone Prize Exchange"
     },
     {
       "Name": "Veilstone Galactic HQ 1"
@@ -377,19 +1099,16 @@
       "Name": "Veilstone Galactic Warehouse"
     },
     {
-      "Name": "Veilstone House N"
+      "Name": "Veilstone House NE 1"
     },
     {
-      "Name": "Veilstone House NE"
+      "Name": "Veilstone House NE 2"
     },
     {
-      "Name": "Veilstone Prize Exchange"
+      "Name": "Veilstone House SW 1"
     },
     {
-      "Name": "Veilstone House S"
-    },
-    {
-      "Name": "Veilstone House SW"
+      "Name": "Veilstone House SW 2"
     },
     {
       "Name": "Veilstone West Exit"
@@ -407,19 +1126,19 @@
       "Name": "Pastoria Gym"
     },
     {
+      "Name": "Pastoria House N"
+    },
+    {
       "Name": "Pastoria House NE"
+    },
+    {
+      "Name": "Pastoria House C"
     },
     {
       "Name": "Pastoria House SE"
     },
     {
       "Name": "Pastoria House SW"
-    },
-    {
-      "Name": "Pastoria House N"
-    },
-    {
-      "Name": "Pastoria House C"
     },
     {
       "Name": "Pastoria East Exit"
@@ -455,7 +1174,8 @@
       "Name": "Celestic Mt Coronet"
     },
     {
-      "Name": "R210 Grandma's House"
+      "Name": "R210 Grandma's House",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Canalave Pokecenter"
@@ -464,13 +1184,7 @@
       "Name": "Canalave Mart"
     },
     {
-      "Name": "Canalave Gym"
-    },
-    {
-      "Name": "Canalave Library"
-    },
-    {
-      "Name": "Canalave House NE"
+      "Name": "Canalave House NE (Locked)"
     },
     {
       "Name": "Canalave House E"
@@ -479,13 +1193,19 @@
       "Name": "Canalave House SE"
     },
     {
+      "Name": "Canalave East Exit"
+    },
+    {
+      "Name": "Canalave Library"
+    },
+    {
+      "Name": "Canalave Gym"
+    },
+    {
       "Name": "Canalave House W"
     },
     {
       "Name": "Canalave House SW"
-    },
-    {
-      "Name": "Canalave East Exit"
     },
     {
       "Name": "Snowpoint Pokecenter"
@@ -506,7 +1226,8 @@
       "Name": "Snowpoint Temple"
     },
     {
-      "Name": "Acuity Lakefront"
+      "Name": "Acuity Lakefront",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "R217 House N"
@@ -539,16 +1260,65 @@
       "Name": "Sunnyshore House W"
     },
     {
-      "Name": "Sunnyshore House N"
+      "Name": "Sunnyshore House NE 1"
     },
     {
-      "Name": "Sunnyshore House NE"
+      "Name": "Sunnyshore House NE 2"
     },
     {
-      "Name": "Sunnyshore House E"
+      "Name": "Sunnyshore House E",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Sunnyshore West Exit"
+    },
+    {
+      "Name": "Spear Pillar (Palkia & Dialga)"
+    },
+    {
+      "Name": "Spear Pillar (Arceus)"
+    },
+    {
+      "Name": "Cresselia"
+    },
+    {
+      "Name": "Darkrai"
+    },
+    {
+      "Name": "Azelf"
+    },
+    {
+      "Name": "Uxie"
+    },
+    {
+      "Name": "Mespirit"
+    },
+    {
+      "Name": "Bike Shop Interior"
+    },
+    {
+      "Name": "Galactic Eterna Top Floor (Jupiter)"
+    },
+    {
+      "Name": "Valley Windworks Interior (Mars)"
+    },
+    {
+      "Name": "Celestic Ruins Interior (Cyrus)"
+    },
+    {
+      "Name": "Oreburgh Mine Interior (Roark)"
+    },
+    {
+      "Name": "Contest Hall Interior S (Fantina)"
+    },
+    {
+      "Name": "Contest Hall Interior N (Fantina)"
+    },
+    {
+      "Name": "Lighthouse Interior\t(Volkner)"
+    },
+    {
+      "Name": "Turnback Cave"
     },
     {
       "Name": "Poketch Interior SW"
@@ -560,13 +1330,13 @@
       "Name": "Poketch Interior Up"
     },
     {
-      "Name": "GTS 1F Exit"
-    },
-    {
       "Name": "GTS 1F Warp W"
     },
     {
       "Name": "GTS 1F Warp E"
+    },
+    {
+      "Name": "GTS 1F Exit"
     },
     {
       "Name": "Jubilife TV 1F Exit"
@@ -599,7 +1369,8 @@
       "Name": "Jubilife TV 4F Down"
     },
     {
-      "Name": "Oreburgh Gate Stairs"
+      "Name": "Oreburgh Gate Stairs",
+      "BlockedBy": "Rock Smash"
     },
     {
       "Name": "Oreburgh Gate West Exit"
@@ -611,10 +1382,10 @@
       "Name": "Meadow South Exit"
     },
     {
-      "Name": "Meadow North Exit"
+      "Name": "Meadow Honey House"
     },
     {
-      "Name": "Meadow Honey House"
+      "Name": "Meadow North Exit"
     },
     {
       "Name": "Eterna Forest South Exit"
@@ -623,7 +1394,8 @@
       "Name": "Eterna Forest East Exit"
     },
     {
-      "Name": "Eterna Forest Old Chateau"
+      "Name": "Eterna Forest Old Chateau",
+      "BlockedBy": "Cut"
     },
     {
       "Name": "Old Chateau N"
@@ -659,46 +1431,200 @@
       "Name": "Old Chateau 2F Exit"
     },
     {
-      "Name": "Galactic Eterna 1F S"
+      "Name": "Poke Mansion N"
+    },
+    {
+      "Name": "Poke Mansion S"
+    },
+    {
+      "Name": "Poke Mansion Room 1"
+    },
+    {
+      "Name": "Poke Mansion Room 2"
+    },
+    {
+      "Name": "Poke Mansion Room 3"
+    },
+    {
+      "Name": "Poke Mansion Room 4"
+    },
+    {
+      "Name": "R208 West Exit"
+    },
+    {
+      "Name": "R208 Berry House"
+    },
+    {
+      "Name": "R208 East Exit"
+    },
+    {
+      "Name": "R213 West Exit"
+    },
+    {
+      "Name": "R213 House"
+    },
+    {
+      "Name": "R213 Hotel"
+    },
+    {
+      "Name": "R214 North Exit"
+    },
+    {
+      "Name": "R214 Maniac Tunnel"
+    },
+    {
+      "Name": "Valor Lakefront"
+    },
+    {
+      "Name": "Hotel Grand Lake NW"
+    },
+    {
+      "Name": "Hotel Grand Lake N"
+    },
+    {
+      "Name": "Hotel Grand Lake NE (Suite Key)"
+    },
+    {
+      "Name": "Hotel Grand Lake W"
+    },
+    {
+      "Name": "Hotel Grand Lake E"
+    },
+    {
+      "Name": "Hotel Grand Lake SE",
+      "BlockedBy": "Rock Climb"
+    },
+    {
+      "Name": "Hotel Grand Lake S"
+    },
+    {
+      "Name": "R222 House 1"
+    },
+    {
+      "Name": "R222 House 2"
+    },
+    {
+      "Name": "R222 East Exit"
+    },
+    {
+      "Name": "Galactic Eterna 1F Exit"
     },
     {
       "Name": "Galactic Eterna 1F NW"
     },
     {
-      "Name": "Galactic Eterna 1F Stairs N"
+      "Name": "Galactic Eterna 1F Stairs 1"
     },
     {
-      "Name": "Galactic Eterna 1F Stairs NE"
+      "Name": "Galactic Eterna 1F Stairs 2"
     },
     {
-      "Name": "Galactic Eterna 2F W"
+      "Name": "Galactic Eterna 2F Stairs 1"
     },
     {
-      "Name": "Galactic Eterna 2F N"
+      "Name": "Galactic Eterna 2F Stairs 2"
     },
     {
-      "Name": "Galactic Eterna 2F E"
+      "Name": "Galactic Eterna 2F Stairs 3"
     },
     {
-      "Name": "Galactic Eterna 3F W"
+      "Name": "Galactic Eterna 3F Stairs 1"
     },
     {
-      "Name": "Galactic Eterna 3F N"
+      "Name": "Galactic Eterna 3F Stairs 2"
     },
     {
-      "Name": "Galactic Eterna 3F E"
+      "Name": "Galactic Eterna 3F Stairs 3"
     },
     {
-      "Name": "Mt Coronet 1F West Exit"
+      "Name": "Galactic HQ 1F South Entrance E"
     },
     {
-      "Name": "Mt Coronet 1F East Exit"
+      "Name": "Galactic HQ 1F South Entrance W"
+    },
+    {
+      "Name": "Galactic HQ 1F South Stairs",
+      "BlockedBy": "Galactic Key"
+    },
+    {
+      "Name": "Galactic HQ 1F NE Stairs"
+    },
+    {
+      "Name": "Galactic HQ 1F NE Warp W"
+    },
+    {
+      "Name": "Galactic HQ 1F NE Warp E"
+    },
+    {
+      "Name": "Galactic HQ 2F NW Warp"
+    },
+    {
+      "Name": "Galactic HQ 2F NW Down"
+    },
+    {
+      "Name": "Galactic HQ 2F NW Up"
+    },
+    {
+      "Name": "Galactic HQ 2F S Stairs"
+    },
+    {
+      "Name": "Galactic HQ 2F S Warp C"
+    },
+    {
+      "Name": "Galactic HQ 2F S Warp NE"
+    },
+    {
+      "Name": "Galactic HQ 2F S Warp SE"
+    },
+    {
+      "Name": "Galactic HQ 3F Warp 1"
+    },
+    {
+      "Name": "Galactic HQ 3F Warp 2"
+    },
+    {
+      "Name": "Galactic HQ 3F Warp 3"
+    },
+    {
+      "Name": "Galactic HQ 3F Stairs"
+    },
+    {
+      "Name": "Galactic HQ 4F Stairs",
+      "BlockedBy": "Galactic Key"
+    },
+    {
+      "Name": "Galactic HQ 4F Warp N"
+    },
+    {
+      "Name": "Galactic HQ 4F Warp NE"
+    },
+    {
+      "Name": "Galactic HQ 4F Warp SE"
+    },
+    {
+      "Name": "Galactic Warehouse B2F Stairs C",
+      "BlockedBy": "Galactic Key"
+    },
+    {
+      "Name": "Galactic Warehouse B2F Stairs W"
+    },
+    {
+      "Name": "Galactic Warehouse B2F Stairs E"
+    },
+    {
+      "Name": "Mt Coronet 1F West Exit",
+      "BlockedBy": "Strength"
+    },
+    {
+      "Name": "Mt Coronet 1F East Exit",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Mt Coronet 1F South Exit"
     },
     {
-      "Name": "Mt Coronet 1F North Stairs"
+      "Name": "Mt Coronet 1F North Stairs",
+      "BlockedBy": "Strength"
     },
     {
       "Name": "Mt Coronet 1F 2 South Stairs"
@@ -716,7 +1642,8 @@
       "Name": "Mt Coronet 1F 3 East Exit"
     },
     {
-      "Name": "Mt Coronet 1F 3 NE Stairs"
+      "Name": "Mt Coronet 1F 3 NE Stairs",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Mt Coronet 2F SW Exit"
@@ -737,7 +1664,8 @@
       "Name": "Mt Coronet 3F West Exit"
     },
     {
-      "Name": "Mt Coronet S Peak SW Cave"
+      "Name": "Mt Coronet S Peak SW Cave",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Mt Coronet S Peak W Cave"
@@ -746,22 +1674,14 @@
       "Name": "Mt Coronet S Peak E Cave"
     },
     {
-      "Name": "Mt Coronet N Peak W Cave"
+      "Name": "Mt Coronet N Peak W Cave",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Mt Coronet N Peak E Cave"
     },
     {
       "Name": "Mt Coronet N Peak S Cave"
-    },
-    {
-      "Name": "R208 West Exit"
-    },
-    {
-      "Name": "R208 Berry House"
-    },
-    {
-      "Name": "R208 East Exit"
     },
     {
       "Name": "Solaceon Ruins 1F NW"
@@ -833,177 +1753,6 @@
       "Name": "Solaceon Ruins B4F SW"
     },
     {
-      "Name": "Veilstone Department Store B1F Up"
-    },
-    {
-      "Name": "Veilstone Department Store 1F Exit"
-    },
-    {
-      "Name": "Veilstone Department Store 1F Down"
-    },
-    {
-      "Name": "Veilstone Department Store 1F Up"
-    },
-    {
-      "Name": "Veilstone Department Store 2F Down"
-    },
-    {
-      "Name": "Veilstone Department Store 2F Up"
-    },
-    {
-      "Name": "Veilstone Department Store 3F Down"
-    },
-    {
-      "Name": "Veilstone Department Store 3F Up"
-    },
-    {
-      "Name": "Veilstone Department Store 4F Down"
-    },
-    {
-      "Name": "Veilstone Department Store 4F Up"
-    },
-    {
-      "Name": "Veilstone Department Store 5F Down"
-    },
-    {
-      "Name": "Galactic HQ 1F South Entrance E"
-    },
-    {
-      "Name": "Galactic HQ 1F South Entrance W"
-    },
-    {
-      "Name": "Galactic HQ 1F South Stairs"
-    },
-    {
-      "Name": "Galactic HQ 1F NE Stairs"
-    },
-    {
-      "Name": "Galactic HQ 1F NE Warp W"
-    },
-    {
-      "Name": "Galactic HQ 1F NE Warp E"
-    },
-    {
-      "Name": "Galactic HQ 2F NW Warp"
-    },
-    {
-      "Name": "Galactic HQ 2F NW Down"
-    },
-    {
-      "Name": "Galactic HQ 2F NW Up"
-    },
-    {
-      "Name": "Galactic HQ 2F S Stairs"
-    },
-    {
-      "Name": "Galactic HQ 2F S Warp C"
-    },
-    {
-      "Name": "Galactic HQ 2F S Warp NE"
-    },
-    {
-      "Name": "Galactic HQ 2F S Warp SE"
-    },
-    {
-      "Name": "Galactic HQ 3F Warp 1"
-    },
-    {
-      "Name": "Galactic HQ 3F Warp 2"
-    },
-    {
-      "Name": "Galactic HQ 3F Warp 3"
-    },
-    {
-      "Name": "Galactic HQ 3F Stairs"
-    },
-    {
-      "Name": "Galactic HQ 4F Stairs"
-    },
-    {
-      "Name": "Galactic HQ 4F Warp N"
-    },
-    {
-      "Name": "Galactic HQ 4F Warp NE"
-    },
-    {
-      "Name": "Galactic HQ 4F Warp SE"
-    },
-    {
-      "Name": "Galactic Warehouse B2F Stairs C"
-    },
-    {
-      "Name": "Galactic Warehouse B2F Stairs W"
-    },
-    {
-      "Name": "Galactic Warehouse B2F Stairs E"
-    },
-    {
-      "Name": "R214 North Exit"
-    },
-    {
-      "Name": "R214 Maniac Tunnel"
-    },
-    {
-      "Name": "Valor Lakefront"
-    },
-    {
-      "Name": "Hotel Grand Lake NW"
-    },
-    {
-      "Name": "Hotel Grand Lake N"
-    },
-    {
-      "Name": "Hotel Grand Lake NE"
-    },
-    {
-      "Name": "Hotel Grand Lake W"
-    },
-    {
-      "Name": "Hotel Grand Lake E"
-    },
-    {
-      "Name": "Hotel Grand Lake SE"
-    },
-    {
-      "Name": "Hotel Grand Lake S"
-    },
-    {
-      "Name": "R222 East Exit"
-    },
-    {
-      "Name": "R222 House W"
-    },
-    {
-      "Name": "R222 House E"
-    },
-    {
-      "Name": "R213 Hotel"
-    },
-    {
-      "Name": "R213 West Exit"
-    },
-    {
-      "Name": "R213 House"
-    },
-    {
-      "Name": "Poke Mansion S"
-    },
-    {
-      "Name": "Poke Mansion N"
-    },
-    {
-      "Name": "Poke Mansion Room 1"
-    },
-    {
-      "Name": "Poke Mansion Room 2"
-    },
-    {
-      "Name": "Poke Mansion Room 3"
-    },
-    {
-      "Name": "Poke Mansion Room 4"
-    },
-    {
       "Name": "Iron Island Exterior Exit"
     },
     {
@@ -1040,19 +1789,24 @@
       "Name": "Iron Island B3F SE"
     },
     {
-      "Name": "Victory Road 1F South Exit"
+      "Name": "Victory Road 1F South Exit",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Victory Road 1F North Exit"
+      "Name": "Victory Road 1F North Exit",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Victory Road 1F NW Stairs"
+      "Name": "Victory Road 1F NW Stairs",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Victory Road 1F W Stairs"
+      "Name": "Victory Road 1F W Stairs",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Victory Road 1F SW Stairs"
+      "Name": "Victory Road 1F SW Stairs",
+      "BlockedBy": "Rock Climb"
     },
     {
       "Name": "Victory Road 1F NE Stairs"
@@ -1064,13 +1818,15 @@
       "Name": "Victory Road 1F East Exit"
     },
     {
-      "Name": "Victory Road B1F NW Stairs"
+      "Name": "Victory Road B1F NW Stairs",
+      "BlockedBy": "Waterfall"
     },
     {
       "Name": "Victory Road B1F W Stairs"
     },
     {
-      "Name": "Victory Road B1F SW Stairs"
+      "Name": "Victory Road B1F SW Stairs",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "Fight Area Pokecenter"
@@ -1094,22 +1850,21 @@
       "Name": "Resort Area Pokecenter"
     },
     {
-      "Name": "Resort Area Villa"
-    },
-    {
       "Name": "Resort Area House"
     },
     {
-      "Name": "R228 S House"
+      "Name": "R228 House S",
+      "BlockedBy": "Bike"
     },
     {
-      "Name": "R228 N House"
+      "Name": "R228 House N"
+    },
+    {
+      "Name": "R228 Cave",
+      "BlockedBy": "Bike"
     },
     {
       "Name": "R228 North Exit"
-    },
-    {
-      "Name": "R228 Cave"
     },
     {
       "Name": "R225 House"
@@ -1124,25 +1879,62 @@
       "Name": "Survival Area Mart"
     },
     {
-      "Name": "Survival Area N House"
-    },
-    {
-      "Name": "Survival Area C House"
+      "Name": "Survival Area C House (Locked)"
     },
     {
       "Name": "Survival Area S House"
     },
     {
-      "Name": "R226 House"
+      "Name": "Survival Area N House",
+      "BlockedBy": "Rock Climb"
+    },
+    {
+      "Name": "R226 House",
+      "BlockedBy": "Surf"
     },
     {
       "Name": "R226 East Exit"
     },
     {
-      "Name": "R227 House"
+      "Name": "R227 House",
+      "BlockedBy": "Bike"
     },
     {
-      "Name": "R227 Stark Mountain"
+      "Name": "R227 Stark Mountain",
+      "BlockedBy": "Bike"
+    },
+    {
+      "Name": "Veilstone Department Store B1F Up"
+    },
+    {
+      "Name": "Veilstone Department Store 1F Exit"
+    },
+    {
+      "Name": "Veilstone Department Store 1F Down"
+    },
+    {
+      "Name": "Veilstone Department Store 1F Up"
+    },
+    {
+      "Name": "Veilstone Department Store 2F Down"
+    },
+    {
+      "Name": "Veilstone Department Store 2F Up"
+    },
+    {
+      "Name": "Veilstone Department Store 3F Down"
+    },
+    {
+      "Name": "Veilstone Department Store 3F Up"
+    },
+    {
+      "Name": "Veilstone Department Store 4F Down"
+    },
+    {
+      "Name": "Veilstone Department Store 4F Up"
+    },
+    {
+      "Name": "Veilstone Department Store 5F Down"
     },
     {
       "Name": "Sandgem PC W"
@@ -1274,7 +2066,8 @@
       "Name": "League Interior S"
     },
     {
-      "Name": "League Interior N"
+      "Name": "League Interior N",
+      "BlockedBy": "Trainer"
     },
     {
       "Name": "League Interior Up"
@@ -1343,723 +2136,6 @@
       "Name": "Sunnyshore Mart Interior"
     }
   ],
-  "Hubs": [
-    {
-      "Name": "Places of Interest",
-      "Locations": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        -1,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Sandgem/Jubilife",
-      "Locations": [
-        29,
-        30,
-        31,
-        32,
-        33,
-        -1,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        -1,
-        47,
-        48
-      ],
-      "ImageName": "platinum/jubilife.png"
-    },
-    {
-      "Name": "Oreburgh",
-      "Locations": [
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        -1,
-        61,
-        62,
-        63,
-        64
-      ],
-      "ImageName": "platinum/oreburgh.png"
-    },
-    {
-      "Name": "Floaroma",
-      "Locations": [
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76
-      ],
-      "ImageName": "platinum/floaroma.png"
-    },
-    {
-      "Name": "Eterna",
-      "Locations": [
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89
-      ],
-      "ImageName": "platinum/eterna.png"
-    },
-    {
-      "Name": "Hearthome",
-      "Locations": [
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104
-      ],
-      "ImageName": "platinum/hearthome.png"
-    },
-    {
-      "Name": "Solaceon",
-      "Locations": [
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116
-      ],
-      "ImageName": "platinum/solaceon.png"
-    },
-    {
-      "Name": "Veilstone",
-      "Locations": [
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131
-      ],
-      "ImageName": "platinum/veilstone.png"
-    },
-    {
-      "Name": "Pastoria",
-      "Locations": [
-        132,
-        133,
-        134,
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143
-      ],
-      "ImageName": "platinum/pastoria.png"
-    },
-    {
-      "Name": "Celestic",
-      "Locations": [
-        144,
-        145,
-        146,
-        147,
-        148,
-        149,
-        150,
-        151
-      ],
-      "ImageName": "platinum/celestic.png"
-    },
-    {
-      "Name": "Canalave",
-      "Locations": [
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161
-      ],
-      "ImageName": "platinum/canalave.png"
-    },
-    {
-      "Name": "Snowpoint",
-      "Locations": [
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172
-      ],
-      "ImageName": "platinum/snowpoint.png"
-    },
-    {
-      "Name": "Sunnyshore",
-      "Locations": [
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182
-      ],
-      "ImageName": "platinum/sunnyshore.png"
-    },
-    {
-      "Name": "Poketch",
-      "Locations": [
-        183,
-        184,
-        185
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "GTS",
-      "Locations": [
-        186,
-        187,
-        188
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Jubilife TV",
-      "Locations": [
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Oreburgh Gate",
-      "Locations": [
-        199,
-        200,
-        201
-      ],
-      "ImageName": "platinum/oreburghgate.png"
-    },
-    {
-      "Name": "Meadow",
-      "Locations": [
-        202,
-        203,
-        204
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Eterna Forest",
-      "Locations": [
-        205,
-        206,
-        207
-      ],
-      "ImageName": "platinum/eternaforest.png"
-    },
-    {
-      "Name": "Old Chateau",
-      "Locations": [
-        208,
-        209,
-        210,
-        211,
-        212,
-        -1,
-        213,
-        214,
-        215,
-        216,
-        217,
-        218
-      ],
-      "ImageName": "platinum/chateau.png"
-    },
-    {
-      "Name": "Galactic Eterna",
-      "Locations": [
-        219,
-        220,
-        221,
-        222,
-        -1,
-        223,
-        224,
-        225,
-        -1,
-        226,
-        227,
-        228
-      ],
-      "ImageName": "platinum/galacticeterna.png"
-    },
-    {
-      "Name": "Mt Coronet",
-      "Locations": [
-        229,
-        230,
-        231,
-        232,
-        -1,
-        233,
-        234,
-        235,
-        -1,
-        236,
-        237,
-        238,
-        -1,
-        239,
-        240,
-        241,
-        -1,
-        242,
-        243,
-        244,
-        -1,
-        245,
-        246,
-        247,
-        -1,
-        248,
-        249,
-        250
-      ],
-      "ImageName": "platinum/coronet.png"
-    },
-    {
-      "Name": "Route 208",
-      "Locations": [
-        251,
-        252,
-        253
-      ],
-      "ImageName": "platinum/route208.png"
-    },
-    {
-      "Name": "Solaceon Ruins",
-      "Locations": [
-        254,
-        255,
-        256,
-        257,
-        -1,
-        258,
-        259,
-        260,
-        261,
-        -1,
-        262,
-        263,
-        264,
-        265,
-        -1,
-        266,
-        267,
-        268,
-        269,
-        -1,
-        270,
-        271,
-        272,
-        -1,
-        273,
-        274,
-        275,
-        276
-      ],
-      "ImageName": "platinum/ruins.png"
-    },
-    {
-      "Name": "Department Store",
-      "Locations": [
-        277,
-        278,
-        279,
-        280,
-        281,
-        282,
-        283,
-        284,
-        285,
-        286,
-        287
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Galactic HQ",
-      "Locations": [
-        288,
-        289,
-        290,
-        -1,
-        291,
-        292,
-        293,
-        -1,
-        294,
-        295,
-        296,
-        -1,
-        297,
-        298,
-        299,
-        300,
-        -1,
-        301,
-        302,
-        303,
-        304,
-        -1,
-        305,
-        306,
-        307,
-        308,
-        -1,
-        309,
-        310,
-        311
-      ],
-      "ImageName": "platinum/galactichq.png"
-    },
-    {
-      "Name": "R214/Hotel/R222",
-      "Locations": [
-        312,
-        313,
-        314,
-        315,
-        316,
-        317,
-        318,
-        319,
-        320,
-        321,
-        322,
-        323,
-        324
-      ],
-      "ImageName": "platinum/hotel.png"
-    },
-    {
-      "Name": "Route 213",
-      "Locations": [
-        325,
-        326,
-        327
-      ],
-      "ImageName": "platinum/route213.png"
-    },
-    {
-      "Name": "PokeMansion",
-      "Locations": [
-        328,
-        329,
-        330,
-        331,
-        332,
-        333
-      ],
-      "ImageName": "platinum/mansion.png"
-    },
-    {
-      "Name": "Iron Island",
-      "Locations": [
-        334,
-        335,
-        336,
-        -1,
-        337,
-        338,
-        339,
-        -1,
-        340,
-        341,
-        342,
-        -1,
-        343,
-        344,
-        345
-      ],
-      "ImageName": "platinum/ironisland.png"
-    },
-    {
-      "Name": "Victory Road",
-      "Locations": [
-        346,
-        347,
-        348,
-        349,
-        350,
-        351,
-        352,
-        353,
-        -1,
-        354,
-        355,
-        356
-      ],
-      "ImageName": "platinum/victoryroad.png"
-    },
-    {
-      "Name": "Fight/Resort Area",
-      "Locations": [
-        357,
-        358,
-        359,
-        360,
-        361,
-        362,
-        -1,
-        363,
-        364,
-        365,
-        366,
-        367,
-        368,
-        369
-      ],
-      "ImageName": "platinum/resort.png"
-    },
-    {
-      "Name": "Survival Area",
-      "Locations": [
-        370,
-        371,
-        -1,
-        372,
-        373,
-        374,
-        375,
-        376,
-        -1,
-        377,
-        378,
-        379,
-        380
-      ],
-      "ImageName": "platinum/survival.png"
-    },
-    {
-      "Name": "Pokecenters 1",
-      "Locations": [
-        381,
-        382,
-        383,
-        -1,
-        384,
-        385,
-        386,
-        -1,
-        387,
-        388,
-        389,
-        -1,
-        390,
-        391,
-        392,
-        -1,
-        393,
-        394,
-        395,
-        -1,
-        396,
-        397,
-        398
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Pokecenters 2",
-      "Locations": [
-        399,
-        400,
-        401,
-        -1,
-        402,
-        403,
-        404,
-        -1,
-        405,
-        406,
-        407,
-        -1,
-        408,
-        409,
-        410,
-        -1,
-        411,
-        412,
-        413,
-        -1,
-        414,
-        415,
-        416,
-        -1,
-        417,
-        418,
-        419
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Pokecenters 3",
-      "Locations": [
-        420,
-        421,
-        422,
-        -1,
-        423,
-        424,
-        425,
-        426,
-        -1,
-        427,
-        428,
-        429,
-        -1,
-        430,
-        431,
-        432,
-        -1,
-        433,
-        434,
-        435
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Marts",
-      "Locations": [
-        436,
-        437,
-        438,
-        439,
-        440,
-        441,
-        442,
-        443,
-        444,
-        445,
-        446
-      ],
-      "ImageName": ""
-    }
-  ],
   "Blockages": [
     "Trainer",
     "Rock Smash",
@@ -2069,6 +2145,7 @@
     "Strength",
     "Rock Climb",
     "Waterfall",
+    "Galactic Key",
     "Event"
   ]
 }

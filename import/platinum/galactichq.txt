@@ -1,0 +1,31 @@
+﻿Galactic HQ
+Galactic HQ 1F South Entrance E
+Galactic HQ 1F South Entrance W
+Galactic HQ 1F South Stairs,Galactic Key
+
+Galactic HQ 1F NE Stairs
+Galactic HQ 1F NE Warp W
+Galactic HQ 1F NE Warp E
+
+Galactic HQ 2F NW Warp
+Galactic HQ 2F NW Down
+Galactic HQ 2F NW Up
+
+Galactic HQ 2F S Stairs
+Galactic HQ 2F S Warp C
+Galactic HQ 2F S Warp NE
+Galactic HQ 2F S Warp SE
+
+Galactic HQ 3F Warp 1
+Galactic HQ 3F Warp 2
+Galactic HQ 3F Warp 3
+Galactic HQ 3F Stairs
+
+Galactic HQ 4F Stairs,Galactic Key
+Galactic HQ 4F Warp N
+Galactic HQ 4F Warp NE
+Galactic HQ 4F Warp SE
+
+Galactic Warehouse B2F Stairs C,Galactic Key
+Galactic Warehouse B2F Stairs W
+Galactic Warehouse B2F Stairs E

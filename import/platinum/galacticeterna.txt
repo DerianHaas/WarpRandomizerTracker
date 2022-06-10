@@ -1,0 +1,13 @@
+﻿Galactic Eterna
+Galactic Eterna 1F Exit
+Galactic Eterna 1F NW
+Galactic Eterna 1F Stairs 1
+Galactic Eterna 1F Stairs 2
+
+Galactic Eterna 2F Stairs 1
+Galactic Eterna 2F Stairs 2
+Galactic Eterna 2F Stairs 3
+
+Galactic Eterna 3F Stairs 1
+Galactic Eterna 3F Stairs 2
+Galactic Eterna 3F Stairs 3

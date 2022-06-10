@@ -1,0 +1,13 @@
+﻿Snowpoint
+Snowpoint Pokecenter
+Snowpoint Mart
+Snowpoint Gym
+Snowpoint House NW
+Snowpoint House NE
+Snowpoint Temple
+
+Acuity Lakefront,Rock Climb
+R217 House N
+R217 House W
+R216 House W
+R216 Mt Coronet

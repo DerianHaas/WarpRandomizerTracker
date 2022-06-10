@@ -1,0 +1,21 @@
+﻿Pokecenters 3
+Victory Road PC W
+Victory Road PC S
+Victory Road PC E
+
+League Interior S
+League Interior N,Trainer
+League Interior Up
+League Interior Down
+
+Fight PC Interior W
+Fight PC Interior S
+Fight PC Interior E
+
+Survival PC Interior W
+Survival PC Interior S
+Survival PC Interior E
+
+Resort PC Interior W
+Resort PC Interior S
+Resort PC Interior E

@@ -1,0 +1,7 @@
+﻿PokeMansion
+Poke Mansion N
+Poke Mansion S
+Poke Mansion Room 1
+Poke Mansion Room 2
+Poke Mansion Room 3
+Poke Mansion Room 4

@@ -1,0 +1,8 @@
+﻿Poketch / GTS
+Poketch Interior SW
+Poketch Interior SE
+Poketch Interior Up
+
+GTS 1F Warp W
+GTS 1F Warp E
+GTS 1F Exit

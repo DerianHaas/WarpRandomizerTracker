@@ -1,0 +1,16 @@
+﻿Hearthome
+Hearthome Pokecenter	
+Hearthome Mart	
+Hearthome Gym	
+Hearthome Contest	
+Hearthome House	N
+Hearthome Church	
+Hearthome Poffin House	
+Hearthome Fanclub	
+Hearthome Apartment N	
+Hearthome Apartment E	
+Hearthome Amity Square West	
+Hearthome Amity Square East	
+Hearthome South Exit	
+Hearthome West Exit	
+Hearthome East Exit

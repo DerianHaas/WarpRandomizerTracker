@@ -1,0 +1,24 @@
+﻿Pokecenters 1
+Sandgem PC W
+Sandgem PC S
+Sandgem PC E
+
+Jubilife PC W
+Jubilife PC S
+Jubilife PC E
+
+Oreburgh PC W
+Oreburgh PC S
+Oreburgh PC E
+
+Floaroma PC W
+Floaroma PC S
+Floaroma PC E
+
+Eterna PC W
+Eterna PC S
+Eterna PC E
+
+Hearthome PC W
+Hearthome PC S
+Hearthome PC E

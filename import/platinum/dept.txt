@@ -1,0 +1,17 @@
+﻿Department Store
+Veilstone Department Store B1F Up
+
+Veilstone Department Store 1F Exit
+Veilstone Department Store 1F Down
+Veilstone Department Store 1F Up
+
+Veilstone Department Store 2F Down
+Veilstone Department Store 2F Up
+
+Veilstone Department Store 3F Down
+Veilstone Department Store 3F Up
+
+Veilstone Department Store 4F Down
+Veilstone Department Store 4F Up
+
+Veilstone Department Store 5F Down

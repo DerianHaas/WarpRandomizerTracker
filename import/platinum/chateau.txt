@@ -1,0 +1,13 @@
+﻿Old Chateau
+Old Chateau N
+Old Chateau E
+Old Chateau S
+Old Chateau W
+Old Chateau C
+
+Old Chateau 2F Room 1
+Old Chateau 2F Room 2
+Old Chateau 2F Room 3
+Old Chateau 2F Room 4
+Old Chateau 2F Room 5
+Old Chateau 2F Exit

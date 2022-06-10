@@ -1,0 +1,22 @@
+﻿Sandgem/Jubilife
+Lake Verity
+Sandgem House SW	
+Sandgem House S	
+Sandgem Mart
+Sandgem Pokecenter	
+
+Jubilife Pokecenter	
+Jubilife Mart
+Jubilife House S
+Jubilife House SW
+Jubilife House NE
+Jubilife GTS
+Jubilife TV	
+Jubilife Poketch W	
+Jubilife Poketch E	
+Jubilife West Exit	
+Jubilife Ravaged Path
+Jubilife Oreburgh Gate
+
+R221 House,Surf
+R221 Pal Park,Surf

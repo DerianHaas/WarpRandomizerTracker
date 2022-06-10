@@ -1,0 +1,11 @@
+﻿Sunnyshore
+Sunnyshore Pokecenter
+Sunnyshore Mart
+Sunnyshore Gym
+Sunnyshore Lighthouse
+Sunnyshore Market
+Sunnyshore House W
+Sunnyshore House NE 1
+Sunnyshore House NE 2
+Sunnyshore House E,Rock Climb
+Sunnyshore West Exit

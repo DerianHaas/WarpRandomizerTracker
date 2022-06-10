@@ -1,0 +1,15 @@
+﻿Survival Area
+R225 House
+R225 South Exit
+
+Survival Area Pokecenter
+Survival Area Mart
+Survival Area C House (Locked)
+Survival Area S House
+
+Survival Area N House,Rock Climb
+
+R226 House,Surf
+R226 East Exit
+R227 House,Bike
+R227 Stark Mountain,Bike

@@ -1,0 +1,23 @@
+﻿Gyms / E4
+Oreburgh Gym Interior
+Eterna Gym Interior	
+Hearthome Gym Interior	
+Veilstone Gym Interior	
+Pastoria Gym Interior	
+Canalave Gym Interior	
+Snowpoint Gym Interior	
+Sunnyshore Gym Interior	
+
+E4 Aaron N	
+E4 Aaron S	
+
+E4 Bertha N
+E4 Bertha S
+
+E4 Flint N
+E4 Flint S
+
+E4 Lucian N
+E4 Lucian S
+
+Champion

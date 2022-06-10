@@ -1,0 +1,15 @@
+﻿Solaceon
+Solaceon Pokecenter
+Solaceon Mart
+Solaceon Daycare
+Solaceon House N
+Solaceon House NE
+Solaceon House E
+Solaceon House C
+Solaceon Ruins
+
+R209 Lost Tower
+R209 West Exit
+
+R210 Cafe Cabin
+R215 East Exit

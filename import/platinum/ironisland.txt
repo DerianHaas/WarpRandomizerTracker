@@ -1,0 +1,16 @@
+﻿Iron Island
+Iron Island Exterior Exit
+Iron Island Exterior Entrance
+Iron Island Exterior House
+
+Iron Island 1F Exit
+Iron Island 1F W
+Iron Island 1F E
+
+Iron Island B1F NW
+Iron Island B1F SW
+Iron Island B1F SE
+
+Iron Island B3F NW
+Iron Island B3F Registeel
+Iron Island B3F SE

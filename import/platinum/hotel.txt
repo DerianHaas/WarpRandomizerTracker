@@ -1,0 +1,16 @@
+﻿R214/Hotel/R222
+R214 North Exit
+R214 Maniac Tunnel
+
+Valor Lakefront
+Hotel Grand Lake NW
+Hotel Grand Lake N
+Hotel Grand Lake NE (Suite Key)
+Hotel Grand Lake W
+Hotel Grand Lake E
+Hotel Grand Lake SE,Rock Climb
+Hotel Grand Lake S
+
+R222 House 1
+R222 House 2
+R222 East Exit

@@ -1,0 +1,14 @@
+﻿Jubilife TV
+Jubilife TV 1F Exit
+Jubilife TV 1F Up
+
+Jubilife TV 2F N
+Jubilife TV 2F Up
+Jubilife TV 2F Down
+
+Jubilife TV 3F NW
+Jubilife TV 3F N
+Jubilife TV 3F Up
+Jubilife TV 3F Down
+
+Jubilife TV 4F Down

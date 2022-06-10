@@ -1,0 +1,15 @@
+﻿Fight/Resort Area
+Fight Area Pokecenter
+Fight Area Mart
+Fight Area Battle Frontier
+Fight Area S House
+Fight Area C House
+Fight Area North Exit
+
+Resort Area Pokecenter
+Resort Area House
+
+R228 House S,Bike
+R228 House N
+R228 Cave,Bike
+R228 North Exit

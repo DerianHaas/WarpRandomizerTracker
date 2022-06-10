@@ -1,0 +1,29 @@
+﻿Solaceon Ruins
+Solaceon Ruins 1F NW
+Solaceon Ruins 1F NE
+Solaceon Ruins 1F SE
+Solaceon Ruins 1F Exit
+
+Solaceon Ruins B1F NW
+Solaceon Ruins B1F NE
+Solaceon Ruins B1F SE
+Solaceon Ruins B1F SW
+
+Solaceon Ruins B2F NW
+Solaceon Ruins B2F NE
+Solaceon Ruins B2F SE
+Solaceon Ruins B2F SW
+
+Solaceon Ruins B3F 1 NW
+Solaceon Ruins B3F 1 NE
+Solaceon Ruins B3F 1 SE
+Solaceon Ruins B3F 1 SW
+
+Solaceon Ruins B3F 2 NW
+Solaceon Ruins B3F 2 SE
+Solaceon Ruins B3F 2 SW
+
+Solaceon Ruins B4F NW
+Solaceon Ruins B4F NE
+Solaceon Ruins B4F SE
+Solaceon Ruins B4F SW

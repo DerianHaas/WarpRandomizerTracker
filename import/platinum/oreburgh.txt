@@ -1,0 +1,18 @@
+﻿Oreburgh
+Oreburgh West Exit
+Oreburgh Gym
+Oreburgh Mart
+Oreburgh Pokecenter	
+Oreburgh Fossil Lab	
+Oreburgh Mine	
+Oreburgh Apartment NW	
+Oreburgh Apartment N	
+Oreburgh Apartment E	
+Oreburgh House W	
+Oreburgh House C	
+Oreburgh House SE	
+
+R206 Cycle Path	
+R206 Wayward Cave,Cut
+R206 Wayward Cave Hidden,Cut
+R207 Mt Coronet	

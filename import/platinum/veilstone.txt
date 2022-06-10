@@ -1,0 +1,16 @@
+﻿Veilstone
+Veilstone Pokecenter
+Veilstone Department Store
+Veilstone Gym
+Veilstone Casino
+Veilstone Prize Exchange
+Veilstone Galactic HQ 1
+Veilstone Galactic HQ 2
+Veilstone Galactic HQ 3
+Veilstone Galactic Warehouse
+Veilstone House NE 1
+Veilstone House NE 2
+Veilstone House SW 1
+Veilstone House SW 2
+Veilstone West Exit
+Veilstone South Exit

@@ -75,7 +75,6 @@
     <None Include="README.md" />
     <Content Include="worlds\hoenn.json" />
     <None Include="worlds\johto.json" />
-    <Content Include="worlds\test.json" />
     <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

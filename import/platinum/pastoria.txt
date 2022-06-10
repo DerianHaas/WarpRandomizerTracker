@@ -1,0 +1,14 @@
+﻿Pastoria
+Pastoria Pokecenter
+Pastoria Mart
+Pastoria Gym
+Pastoria House N
+Pastoria House NE
+Pastoria House C
+Pastoria House SE
+Pastoria House SW
+Pastoria East Exit
+
+R212 Move Tutor
+R212 Pokemon Mansion
+R212 North Exit

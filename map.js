@@ -52,6 +52,10 @@ var blockageColors = {
     },
     "Dive": {
         bkg: "skyblue"
+    },
+    "Galactic Key": {
+        bkg: "red",
+        text: "white"
     }
 };
 var RegionMap = /** @class */ (function () {

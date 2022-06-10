@@ -1,0 +1,15 @@
+﻿Floaroma
+Floaroma Pokecenter	
+Floaroma Mart	
+Floaroma Flower Shop	
+Floaroma NW	
+Floaroma SE	
+Floaroma Meadow	
+Floaroma Ravaged Path	
+
+R205 Windworks
+R205 House
+R205 Eterna Forest
+
+R205 Ironworks,Surf
+R205 Meadow,Surf

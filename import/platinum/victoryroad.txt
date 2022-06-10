@@ -1,0 +1,15 @@
+﻿Victory Road
+Victory Road 1F South Exit,Rock Climb
+Victory Road 1F North Exit,Rock Climb
+
+Victory Road 1F NW Stairs,Rock Climb
+Victory Road 1F W Stairs,Rock Climb
+Victory Road 1F SW Stairs,Rock Climb
+
+Victory Road 1F NE Stairs
+Victory Road 1F E Stairs
+Victory Road 1F East Exit
+
+Victory Road B1F NW Stairs,Waterfall
+Victory Road B1F W Stairs
+Victory Road B1F SW Stairs,Surf

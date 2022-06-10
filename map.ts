@@ -54,6 +54,10 @@ const blockageColors: { [blockage: string]: { bkg?: string, text?: string } } = 
     },
     "Dive": {
         bkg: "skyblue"
+    },
+    "Galactic Key": {
+        bkg: "red",
+        text: "white"
     }
 };
 
