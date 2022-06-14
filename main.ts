@@ -11,7 +11,9 @@
     });
 
     $("#sinnohSelect").click(function () {
-        mainMap.Load("sinnoh").then(initialSetup);
+        mainMap.Load("sinnoh").then(() => {
+            addHMHub("sinnoh");
+        }).then(initialSetup);
     });
 
     $("#johtoSelect").click(function () {
@@ -204,6 +206,45 @@
         const hubButttonHeight = $(".hubButton").outerHeight();
         let hubSelectorHeight = (Math.ceil(mainMap.Hubs.length / numColumnsToDisplay) * hubButttonHeight);
         $("#hubSelector").height(hubSelectorHeight + "px")
+    }
+
+    function addHMHub(region: string) {
+        if (!$("#forceFileLoad").prop("checked")) return;
+        if (region === "sinnoh") {
+            let hmLocs: number[] = [];
+
+            let rockSmashLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Oreburgh Gate West Exit");
+            if (rockSmashLoc !== NoLocation) {
+                hmLocs.push(rockSmashLoc);
+                hmLocs.push(NoLocation);
+            }
+
+            let surfLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Celestic Ruins Interior (Cyrus)");
+            if (surfLoc !== NoLocation) {
+                hmLocs.push(surfLoc);
+                hmLocs.push(NoLocation);
+            }
+
+            let strengthLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Iron Island Exterior Entrance");
+            if (strengthLoc !== NoLocation) {
+                hmLocs.push(strengthLoc);
+                hmLocs.push(NoLocation);
+            }
+
+            let rockClimbLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "R217 House W");
+            if (rockClimbLoc !== NoLocation) {
+                hmLocs.push(rockClimbLoc);
+                hmLocs.push(NoLocation);
+            }
+
+            let keyLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Galactic Warehouse B2F Stairs C");
+            if (keyLoc !== NoLocation) {
+                hmLocs.push(keyLoc);
+            }
+
+            mainMap.Hubs.push({ Locations: hmLocs, Name: "HM Locations", ImageName: "" });
+
+        }
     }
 
 

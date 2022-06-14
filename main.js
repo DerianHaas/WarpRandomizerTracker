@@ -8,7 +8,9 @@ $(function () {
         mainMap.Load("hoenn").then(initialSetup);
     });
     $("#sinnohSelect").click(function () {
-        mainMap.Load("sinnoh").then(initialSetup);
+        mainMap.Load("sinnoh").then(function () {
+            addHMHub("sinnoh");
+        }).then(initialSetup);
     });
     $("#johtoSelect").click(function () {
         mainMap.Load("johto").then(initialSetup).then(function () {
@@ -186,6 +188,38 @@ $(function () {
         var hubButttonHeight = $(".hubButton").outerHeight();
         var hubSelectorHeight = (Math.ceil(mainMap.Hubs.length / numColumnsToDisplay) * hubButttonHeight);
         $("#hubSelector").height(hubSelectorHeight + "px");
+    }
+    function addHMHub(region) {
+        if (!$("#forceFileLoad").prop("checked"))
+            return;
+        if (region === "sinnoh") {
+            var hmLocs = [];
+            var rockSmashLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Oreburgh Gate West Exit"; });
+            if (rockSmashLoc !== NoLocation) {
+                hmLocs.push(rockSmashLoc);
+                hmLocs.push(NoLocation);
+            }
+            var surfLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Celestic Ruins Interior (Cyrus)"; });
+            if (surfLoc !== NoLocation) {
+                hmLocs.push(surfLoc);
+                hmLocs.push(NoLocation);
+            }
+            var strengthLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Iron Island Exterior Entrance"; });
+            if (strengthLoc !== NoLocation) {
+                hmLocs.push(strengthLoc);
+                hmLocs.push(NoLocation);
+            }
+            var rockClimbLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "R217 House W"; });
+            if (rockClimbLoc !== NoLocation) {
+                hmLocs.push(rockClimbLoc);
+                hmLocs.push(NoLocation);
+            }
+            var keyLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Galactic Warehouse B2F Stairs C"; });
+            if (keyLoc !== NoLocation) {
+                hmLocs.push(keyLoc);
+            }
+            mainMap.Hubs.push({ Locations: hmLocs, Name: "HM Locations", ImageName: "" });
+        }
     }
 });
 //# sourceMappingURL=main.js.map
