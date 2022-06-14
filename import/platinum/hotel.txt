@@ -7,8 +7,8 @@ Hotel Grand Lake NW
 Hotel Grand Lake N
 Hotel Grand Lake NE (Suite Key)
 Hotel Grand Lake W
-Hotel Grand Lake E
-Hotel Grand Lake SE,Rock Climb
+Hotel Grand Lake E,Rock Climb
+Hotel Grand Lake SE
 Hotel Grand Lake S
 
 R222 House 1

@@ -276,136 +276,136 @@
         174,
         175,
         176,
-        -1,
         177,
+        -1,
         178,
         179,
         180,
-        -1,
         181,
+        -1,
         182,
         183,
         184,
+        185,
         -1,
-        185
+        186
       ],
       "ImageName": ""
     },
     {
       "Name": "Poketch / GTS",
       "Locations": [
-        186,
         187,
         188,
-        -1,
         189,
+        -1,
         190,
-        191
+        191,
+        192
       ],
       "ImageName": ""
     },
     {
       "Name": "Jubilife TV",
       "Locations": [
-        192,
         193,
-        -1,
         194,
+        -1,
         195,
         196,
-        -1,
         197,
+        -1,
         198,
         199,
         200,
+        201,
         -1,
-        201
+        202
       ],
       "ImageName": ""
     },
     {
       "Name": "Oreburgh Gate",
       "Locations": [
-        202,
         203,
-        204
+        204,
+        205
       ],
       "ImageName": "platinum/oreburghgate.png"
     },
     {
       "Name": "Meadow",
       "Locations": [
-        205,
         206,
+        207,
         -1,
-        207
+        208
       ],
       "ImageName": ""
     },
     {
       "Name": "Eterna Forest",
       "Locations": [
-        208,
         209,
-        210
+        210,
+        211
       ],
       "ImageName": "platinum/eternaforest.png"
     },
     {
       "Name": "Old Chateau",
       "Locations": [
-        211,
         212,
         213,
         214,
         215,
-        -1,
         216,
+        -1,
         217,
         218,
         219,
         220,
-        221
+        221,
+        222
       ],
       "ImageName": "platinum/chateau.png"
     },
     {
       "Name": "PokeMansion",
       "Locations": [
-        222,
         223,
         224,
         225,
         226,
-        227
+        227,
+        228
       ],
       "ImageName": "platinum/mansion.png"
     },
     {
       "Name": "Route 208",
       "Locations": [
-        228,
         229,
-        230
+        230,
+        231
       ],
       "ImageName": "platinum/route208.png"
     },
     {
       "Name": "Route 213",
       "Locations": [
-        231,
         232,
-        233
+        233,
+        234
       ],
       "ImageName": "platinum/route213.png"
     },
     {
       "Name": "R214/Hotel/R222",
       "Locations": [
-        234,
         235,
-        -1,
         236,
+        -1,
         237,
         238,
         239,
@@ -413,330 +413,330 @@
         241,
         242,
         243,
-        -1,
         244,
+        -1,
         245,
-        246
+        246,
+        247
       ],
       "ImageName": "platinum/hotel.png"
     },
     {
       "Name": "Galactic Eterna",
       "Locations": [
-        247,
         248,
         249,
         250,
-        -1,
         251,
+        -1,
         252,
         253,
-        -1,
         254,
+        -1,
         255,
-        256
+        256,
+        257
       ],
       "ImageName": "platinum/galacticeterna.png"
     },
     {
       "Name": "Galactic HQ",
       "Locations": [
-        257,
         258,
         259,
-        -1,
         260,
+        -1,
         261,
         262,
-        -1,
         263,
+        -1,
         264,
         265,
-        -1,
         266,
+        -1,
         267,
         268,
         269,
-        -1,
         270,
+        -1,
         271,
         272,
         273,
-        -1,
         274,
+        -1,
         275,
         276,
         277,
-        -1,
         278,
+        -1,
         279,
-        280
+        280,
+        281
       ],
       "ImageName": "platinum/galactichq.png"
     },
     {
       "Name": "Mt Coronet",
       "Locations": [
-        281,
         282,
         283,
         284,
-        -1,
         285,
+        -1,
         286,
         287,
-        -1,
         288,
+        -1,
         289,
         290,
-        -1,
         291,
+        -1,
         292,
         293,
-        -1,
         294,
+        -1,
         295,
         296,
-        -1,
         297,
+        -1,
         298,
         299,
-        -1,
         300,
+        -1,
         301,
-        302
+        302,
+        303
       ],
       "ImageName": "platinum/coronet.png"
     },
     {
       "Name": "Solaceon Ruins",
       "Locations": [
-        303,
         304,
         305,
         306,
-        -1,
         307,
+        -1,
         308,
         309,
         310,
-        -1,
         311,
+        -1,
         312,
         313,
         314,
-        -1,
         315,
+        -1,
         316,
         317,
         318,
-        -1,
         319,
+        -1,
         320,
         321,
-        -1,
         322,
+        -1,
         323,
         324,
-        325
+        325,
+        326
       ],
       "ImageName": "platinum/ruins.png"
     },
     {
       "Name": "Iron Island",
       "Locations": [
-        326,
         327,
         328,
-        -1,
         329,
+        -1,
         330,
         331,
-        -1,
         332,
+        -1,
         333,
         334,
-        -1,
         335,
+        -1,
         336,
-        337
+        337,
+        338
       ],
       "ImageName": "platinum/ironisland.png"
     },
     {
       "Name": "Victory Road",
       "Locations": [
-        338,
         339,
-        -1,
         340,
+        -1,
         341,
         342,
-        -1,
         343,
+        -1,
         344,
         345,
-        -1,
         346,
+        -1,
         347,
-        348
+        348,
+        349
       ],
       "ImageName": "platinum/victoryroad.png"
     },
     {
       "Name": "Fight/Resort Area",
       "Locations": [
-        349,
         350,
         351,
         352,
         353,
         354,
-        -1,
         355,
-        356,
         -1,
+        356,
         357,
+        -1,
         358,
         359,
-        360
+        360,
+        361
       ],
       "ImageName": "platinum/resort.png"
     },
     {
       "Name": "Survival Area",
       "Locations": [
-        361,
         362,
-        -1,
         363,
+        -1,
         364,
         365,
         366,
-        -1,
         367,
         -1,
         368,
+        -1,
         369,
         370,
-        371
+        371,
+        372
       ],
       "ImageName": "platinum/survival.png"
     },
     {
       "Name": "Department Store",
       "Locations": [
-        372,
-        -1,
         373,
+        -1,
         374,
         375,
-        -1,
         376,
+        -1,
         377,
-        -1,
         378,
+        -1,
         379,
-        -1,
         380,
-        381,
         -1,
-        382
+        381,
+        382,
+        -1,
+        383
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokecenters 1",
       "Locations": [
-        383,
         384,
         385,
-        -1,
         386,
+        -1,
         387,
         388,
-        -1,
         389,
+        -1,
         390,
         391,
-        -1,
         392,
+        -1,
         393,
         394,
-        -1,
         395,
+        -1,
         396,
         397,
-        -1,
         398,
+        -1,
         399,
-        400
+        400,
+        401
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokecenters 2",
       "Locations": [
-        401,
         402,
         403,
-        -1,
         404,
+        -1,
         405,
         406,
-        -1,
         407,
+        -1,
         408,
         409,
-        -1,
         410,
+        -1,
         411,
         412,
-        -1,
         413,
+        -1,
         414,
         415,
-        -1,
         416,
+        -1,
         417,
         418,
-        -1,
         419,
+        -1,
         420,
-        421
+        421,
+        422
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokecenters 3",
       "Locations": [
-        422,
         423,
         424,
-        -1,
         425,
+        -1,
         426,
         427,
         428,
-        -1,
         429,
+        -1,
         430,
         431,
-        -1,
         432,
+        -1,
         433,
         434,
-        -1,
         435,
+        -1,
         436,
-        437
+        437,
+        438
       ],
       "ImageName": ""
     },
     {
       "Name": "Marts",
       "Locations": [
-        438,
         439,
         440,
         441,
@@ -746,7 +746,8 @@
         445,
         446,
         447,
-        448
+        448,
+        449
       ],
       "ImageName": ""
     }
@@ -1285,6 +1286,9 @@
       "Name": "Darkrai"
     },
     {
+      "Name": "Regigigas"
+    },
+    {
       "Name": "Azelf"
     },
     {
@@ -1488,11 +1492,11 @@
       "Name": "Hotel Grand Lake W"
     },
     {
-      "Name": "Hotel Grand Lake E"
+      "Name": "Hotel Grand Lake E",
+      "BlockedBy": "Rock Climb"
     },
     {
-      "Name": "Hotel Grand Lake SE",
-      "BlockedBy": "Rock Climb"
+      "Name": "Hotel Grand Lake SE"
     },
     {
       "Name": "Hotel Grand Lake S"
