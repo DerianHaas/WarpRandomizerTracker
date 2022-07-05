@@ -1,8 +1,17 @@
 Twist Mountain
-Twist Exterior NW
-Twist Exterior NE
-Twist Exterior S
-Twist Exterior E
+Twist Exterior 1F NW
+Twist Exterior 1F NE
+Twist Exterior 1F S
+Twist Exterior 1F E
+Twist Exterior 1F House
+
+Twist Exterior 2F NW
+Twist Exterior 2F N
+Twist Exterior 2F NE
+
+Twist Ice Cave SW
+Twist Ice Cave SE
+Twist Ice Cave N
 
 Twist 2F NW
 Twist 2F SW

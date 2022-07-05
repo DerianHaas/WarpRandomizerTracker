@@ -2,8 +2,9 @@ gyms
 aspertia,aspertia.png
 floccesy,floccesy.png
 virbank,virbank.png
-castelia,castelia.png
+casteliadocks,castelia.png
 casteliastreets,castelia.png
+castelianorth,castelia.png
 nimbasa,nimbasa.png
 driftveil,driftveil.png
 mistralton,mistralton.png
@@ -28,6 +29,7 @@ r17
 r23
 plasma
 ship,ship.png
+subway
 sewers
 chargestone,chargestone.png
 reversal,reversal.png
@@ -36,9 +38,9 @@ seaside,seaside.png
 chasm,chasm.png
 victoryroad,victoryroad.png
 twist,twist.png
-claytunnel
+claytunnel,claytunnel.png
+relic,relic.png
 pinwheel
 dreamyard
-pokestar,pokestar.png
 abyss
 pokecenters

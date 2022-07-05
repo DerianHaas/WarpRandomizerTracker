@@ -7,3 +7,4 @@ Virbank House S
 Virbank House SE
 Virbank Exit N
 Virbank Exit W
+Virbank Exit S

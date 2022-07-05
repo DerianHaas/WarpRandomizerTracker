@@ -4,9 +4,11 @@ Nacrene Museum
 Nacrene Cafe NW
 Nacrene House SW 1
 Nacrene House SW 2
+Nacrene House SW 2 Side
 Nacrene House S
+Nacrene House S Side
 Nacrene House SE
 Nacrene House NE
+Nacrene House NE Side
 Nacrene Exit SE
-
 Nacrene Pinwheel Forest Entrance

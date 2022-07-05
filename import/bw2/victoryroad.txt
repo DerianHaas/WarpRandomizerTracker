@@ -1,4 +1,8 @@
-Victory Road
+Victory Road / Pokemon League
+Victory Gate Entrance (Waterfall)
+Victory Road Pokemart
+Victory Road Entrance
+
 Victory Road Cliffside SW
 Victory Road Cliffside SE
 Victory Road Cliffside NW
@@ -21,3 +25,9 @@ Victory Road Cave SE
 Pokemon League Exit S
 Pokemon League Entrance N
 Pokemon League Pokecenter
+
+Elite Four Hub W
+Elite Four Hub NW
+Elite Four Hub NE
+Elite Four Hub E
+Elite Four Hub Warp?

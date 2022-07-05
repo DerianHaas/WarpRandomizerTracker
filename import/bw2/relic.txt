@@ -1,0 +1,9 @@
+Relic Castle
+Relic Castle 1F Entrance SE
+Relic Castle 1F Stairs SW
+Relic Castle 1F Stairs NE
+Relic Castle B1F Stairs NE
+
+Relic Castle B7F Door N
+Relic Castle B7F Door W
+Relic Castle B7F Door E

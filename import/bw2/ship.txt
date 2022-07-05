@@ -7,7 +7,6 @@ Cruise Ship Blue W 2
 Cruise Ship Blue N 1
 Cruise Ship Blue N 2
 Cruise Ship Red SSW
-Cruise Ship Stairs
 Cruise Ship Red C
 Cruise Ship Red SE 1
 Cruise Ship Red SE 2

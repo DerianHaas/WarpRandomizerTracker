@@ -1,21 +1,38 @@
 Plasma Frigate
-Plasma Beds NW Entrance
-Plasma Beds NW Warp NW
-Plasma Beds NW Warp SW
-Plasma Beds NW Warp NE
-Plasma Beds NW Warp SE
+Plasma Frigate B1F Stairs
+Plasma Frigate B1F NW
+Plasma Frigate B1F W
+Plasma Frigate B1F SW
+Plasma Frigate B1F NE
+Plasma Frigate B1F E
+Plasma Frigate B1F SE
 
-Plasma Beds W Entrance
-Plasma Beds W Warp NW
-Plasma Beds W Warp SE
+Plasma Beds W4 Entrance
+Plasma Beds W4 Warp NW
+Plasma Beds W4 Warp SW
+Plasma Beds W4 Warp NE
+Plasma Beds W4 Warp SE
 
-Plasma Beds NE Entrance
-Plasma Beds NE Warp NW
-Plasma Beds NE Warp SW
-Plasma Beds NE Warp NE
-Plasma Beds NE Warp SE
+Plasma Beds W3 Entrance
+Plasma Beds W3 Warp NW
+Plasma Beds W3 Warp SW
+Plasma Beds W3 Warp NE
 
-Plasma Beds E Entrance
-Plasma Beds E Warp SW
-Plasma Beds E Warp NE
-Plasma Beds E Warp SE
+Plasma Beds W2 Entrance
+Plasma Beds W2 Warp NW
+Plasma Beds W2 Warp SE
+
+Plasma Beds E4 Entrance
+Plasma Beds E4 Warp NW
+Plasma Beds E4 Warp SW
+Plasma Beds E4 Warp NE
+Plasma Beds E4 Warp SE
+
+Plasma Beds E3 Entrance
+Plasma Beds E3 Warp SW
+Plasma Beds E3 Warp NE
+Plasma Beds E3 Warp SE
+
+Plasma Beds E2 Entrance
+Plasma Beds E2 Warp NE
+Plasma Beds E2 Warp SW

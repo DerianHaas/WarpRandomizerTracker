@@ -45,32 +45,31 @@
         24,
         -1,
         25,
-        26
+        26,
+        27
       ],
       "ImageName": "bw2/floccesy.png"
     },
     {
       "Name": "Virbank",
       "Locations": [
-        27,
         28,
         29,
         30,
         31,
         32,
         33,
-        34
+        34,
+        35,
+        36
       ],
       "ImageName": "bw2/virbank.png"
     },
     {
-      "Name": "Castelia",
+      "Name": "Castelia Docks",
       "Locations": [
-        35,
-        36,
         37,
         38,
-        -1,
         39,
         40,
         -1,
@@ -84,68 +83,74 @@
         46,
         -1,
         47,
-        48,
-        49,
-        50,
-        51,
-        -1,
-        52,
-        53,
-        54,
-        55
+        48
       ],
       "ImageName": "bw2/castelia.png"
     },
     {
       "Name": "Castelia Streets",
       "Locations": [
+        49,
+        50,
+        51,
+        52,
+        -1,
+        53,
+        54,
+        55,
+        -1,
         56,
         57,
         58,
-        59,
         -1,
+        59,
         60,
         61,
-        62,
-        -1,
+        62
+      ],
+      "ImageName": "bw2/castelia.png"
+    },
+    {
+      "Name": "Castelia North",
+      "Locations": [
         63,
         64,
         65,
-        -1,
         66,
         67,
+        -1,
         68,
-        69
+        69,
+        70,
+        71
       ],
       "ImageName": "bw2/castelia.png"
     },
     {
       "Name": "Nimbasa",
       "Locations": [
-        70,
-        71,
         72,
         73,
         74,
         75,
-        -1,
         76,
         77,
+        -1,
         78,
         79,
         80,
-        -1,
         81,
         82,
-        83
+        -1,
+        83,
+        84,
+        85
       ],
       "ImageName": "bw2/nimbasa.png"
     },
     {
       "Name": "Driftveil",
       "Locations": [
-        84,
-        85,
         86,
         87,
         88,
@@ -154,97 +159,93 @@
         91,
         92,
         93,
-        -1,
         94,
         -1,
         95,
         96,
         97,
-        98
+        98,
+        -1,
+        99,
+        100,
+        101,
+        -1,
+        102,
+        -1,
+        103,
+        104,
+        105,
+        106
       ],
       "ImageName": "bw2/driftveil.png"
     },
     {
       "Name": "Mistralton",
       "Locations": [
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        -1,
-        105,
-        106,
         107,
-        108
+        108,
+        109,
+        110,
+        111,
+        112,
+        -1,
+        113,
+        114,
+        115,
+        116
       ],
       "ImageName": "bw2/mistralton.png"
     },
     {
       "Name": "Lentimas",
       "Locations": [
-        109,
-        110,
-        111,
-        112,
-        113
+        117,
+        118,
+        119,
+        120,
+        121
       ],
       "ImageName": ""
     },
     {
       "Name": "Undella",
       "Locations": [
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        -1,
-        121,
         122,
-        -1,
         123,
-        124
+        124,
+        125,
+        126,
+        127,
+        128,
+        -1,
+        129,
+        130,
+        -1,
+        131,
+        132
       ],
       "ImageName": "bw2/undella.png"
     },
     {
       "Name": "Lacunosa",
       "Locations": [
-        125,
-        -1,
-        126,
-        127,
-        128,
-        129,
-        130,
-        -1,
-        131,
-        132,
         133,
-        134
-      ],
-      "ImageName": "bw2/lacunosa.png"
-    },
-    {
-      "Name": "Village Bridge",
-      "Locations": [
+        -1,
+        134,
         135,
         136,
         137,
         138,
+        -1,
         139,
         140,
         141,
         142
       ],
-      "ImageName": "bw2/village.png"
+      "ImageName": "bw2/lacunosa.png"
     },
     {
-      "Name": "Opelucid",
+      "Name": "Village Bridge",
       "Locations": [
         143,
         144,
@@ -253,14 +254,14 @@
         147,
         148,
         149,
-        150,
-        151
+        150
       ],
-      "ImageName": "bw2/opelucid.png"
+      "ImageName": "bw2/village.png"
     },
     {
-      "Name": "Humilau",
+      "Name": "Opelucid",
       "Locations": [
+        151,
         152,
         153,
         154,
@@ -268,61 +269,59 @@
         156,
         157,
         158,
-        159,
+        159
+      ],
+      "ImageName": "bw2/opelucid.png"
+    },
+    {
+      "Name": "Humilau",
+      "Locations": [
         160,
-        161
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
       ],
       "ImageName": "bw2/humilau.png"
     },
     {
       "Name": "Black City / White Forest",
       "Locations": [
-        162,
-        163,
-        164,
-        165
+        170,
+        171,
+        172,
+        173
       ],
       "ImageName": ""
     },
     {
       "Name": "Icirrus",
       "Locations": [
-        166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        -1,
         174,
-        175
-      ],
-      "ImageName": "bw2/icirrus.png"
-    },
-    {
-      "Name": "Nacrene",
-      "Locations": [
+        175,
         176,
         177,
         178,
         179,
         180,
         181,
-        182,
-        183,
-        184,
         -1,
-        185
+        182,
+        183
       ],
-      "ImageName": "bw2/nacrene.png"
+      "ImageName": "bw2/icirrus.png"
     },
     {
-      "Name": "Striaton",
+      "Name": "Nacrene",
       "Locations": [
+        184,
+        185,
         186,
-        -1,
         187,
         188,
         189,
@@ -330,47 +329,42 @@
         191,
         192,
         193,
-        -1,
         194,
         195,
-        196,
-        197
+        196
+      ],
+      "ImageName": "bw2/nacrene.png"
+    },
+    {
+      "Name": "Striaton",
+      "Locations": [
+        197,
+        -1,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        -1,
+        205,
+        206,
+        207,
+        208
       ],
       "ImageName": "bw2/striaton.png"
     },
     {
       "Name": "Nuvema / Accumula",
       "Locations": [
-        198,
-        199,
-        200,
-        201,
-        -1,
-        202,
-        -1,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Anville",
-      "Locations": [
         209,
         210,
-        211
-      ],
-      "ImageName": ""
-    },
-    {
-      "Name": "Route 4",
-      "Locations": [
+        211,
         212,
+        -1,
         213,
+        -1,
         214,
         215,
         216,
@@ -378,10 +372,10 @@
         218,
         219
       ],
-      "ImageName": "bw2/r4.png"
+      "ImageName": ""
     },
     {
-      "Name": "Route 5",
+      "Name": "Anville",
       "Locations": [
         220,
         221,
@@ -390,249 +384,250 @@
       "ImageName": ""
     },
     {
-      "Name": "Route 9",
+      "Name": "Route 4",
       "Locations": [
         223,
         224,
-        225
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "ImageName": "bw2/r4.png"
+    },
+    {
+      "Name": "Route 5",
+      "Locations": [
+        231,
+        232,
+        233
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Route 9",
+      "Locations": [
+        234,
+        235,
+        236
       ],
       "ImageName": "bw2/r9.png"
     },
     {
       "Name": "Route 11",
       "Locations": [
-        226,
-        227,
-        228
+        237,
+        238,
+        239
       ],
       "ImageName": ""
     },
     {
       "Name": "Route 15 / Route 16",
       "Locations": [
-        229,
-        230,
-        231,
-        232,
+        240,
+        241,
+        242,
+        243,
         -1,
-        233,
-        234,
-        235
+        244,
+        245,
+        246
       ],
       "ImageName": ""
     },
     {
       "Name": "Route 17 / Route 18",
       "Locations": [
-        236,
+        247,
         -1,
-        237,
-        238,
+        248,
+        249,
         -1,
-        239
+        250
       ],
       "ImageName": ""
     },
     {
-      "Name": "Route 23 / Victory Gate",
+      "Name": "Route 23",
       "Locations": [
-        240,
-        241,
-        242,
-        243,
-        244
+        251,
+        252,
+        253,
+        254
       ],
       "ImageName": ""
     },
     {
       "Name": "Plasma Frigate",
       "Locations": [
-        245,
-        246,
-        247,
-        248,
-        249,
-        -1,
-        250,
-        251,
-        252,
-        -1,
-        253,
-        254,
         255,
         256,
         257,
-        -1,
         258,
         259,
         260,
-        261
+        261,
+        -1,
+        262,
+        263,
+        264,
+        265,
+        266,
+        -1,
+        267,
+        268,
+        269,
+        270,
+        -1,
+        271,
+        272,
+        273,
+        -1,
+        274,
+        275,
+        276,
+        277,
+        278,
+        -1,
+        279,
+        280,
+        281,
+        282,
+        -1,
+        283,
+        284,
+        285
       ],
       "ImageName": ""
     },
     {
       "Name": "Cruise Ship",
       "Locations": [
-        262,
-        263,
-        264,
-        265,
-        266,
-        267,
-        268,
-        269,
-        270,
-        271,
-        272,
-        273,
-        274,
-        275,
-        276,
-        277
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
       ],
       "ImageName": "bw2/ship.png"
     },
     {
+      "Name": "Gear Station",
+      "Locations": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309
+      ],
+      "ImageName": ""
+    },
+    {
       "Name": "Castelia Sewers / Relic Passage",
       "Locations": [
-        278,
-        279,
-        280,
-        281,
+        310,
+        311,
+        312,
+        313,
         -1,
-        282,
-        283,
-        284,
+        314,
+        315,
+        316,
         -1,
-        285,
-        286,
-        287
+        317,
+        318,
+        319
       ],
       "ImageName": ""
     },
     {
       "Name": "Chargestone Cave",
       "Locations": [
-        288,
-        289,
-        290,
+        320,
+        321,
+        322,
         -1,
-        291,
-        292,
+        323,
+        324,
         -1,
-        293,
-        294,
-        295,
-        296
+        325,
+        326,
+        327,
+        328
       ],
       "ImageName": "bw2/chargestone.png"
     },
     {
       "Name": "Reversal Mountain",
       "Locations": [
-        297,
-        298,
-        299,
-        300,
+        329,
+        330,
+        331,
+        332,
         -1,
-        301,
-        302,
-        303
+        333,
+        334,
+        335
       ],
       "ImageName": "bw2/reversal.png"
     },
     {
       "Name": "Strange House",
       "Locations": [
-        304,
-        305,
-        306,
-        307,
-        308,
-        309,
-        310,
-        311
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
       ],
       "ImageName": "bw2/strangehouse.png"
     },
     {
       "Name": "Seaside Cave",
       "Locations": [
-        312,
-        313,
+        344,
+        345,
         -1,
-        314,
-        315,
-        316
+        346,
+        347,
+        348
       ],
       "ImageName": "bw2/seaside.png"
     },
     {
       "Name": "Giant Chasm",
       "Locations": [
-        317,
-        318,
-        319,
-        320
+        349,
+        350,
+        351,
+        352
       ],
       "ImageName": "bw2/chasm.png"
     },
     {
-      "Name": "Victory Road",
+      "Name": "Victory Road / Pokemon League",
       "Locations": [
-        321,
-        322,
-        323,
-        324,
-        325,
-        -1,
-        326,
-        327,
-        -1,
-        328,
-        329,
-        -1,
-        330,
-        331,
-        332,
-        333,
-        334,
-        335,
-        -1,
-        336,
-        337,
-        338
-      ],
-      "ImageName": "bw2/victoryroad.png"
-    },
-    {
-      "Name": "Twist Mountain",
-      "Locations": [
-        339,
-        340,
-        341,
-        342,
-        -1,
-        343,
-        344,
-        345,
-        -1,
-        346,
-        347,
-        348,
-        -1,
-        349,
-        350,
-        351
-      ],
-      "ImageName": "bw2/twist.png"
-    },
-    {
-      "Name": "Clay Tunnel",
-      "Locations": [
-        352,
         353,
-        -1,
         354,
         355,
         -1,
@@ -640,74 +635,154 @@
         357,
         358,
         359,
+        360,
         -1,
-        360
+        361,
+        362,
+        -1,
+        363,
+        364,
+        -1,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        -1,
+        371,
+        372,
+        373,
+        -1,
+        374,
+        375,
+        376,
+        377,
+        378
       ],
-      "ImageName": ""
+      "ImageName": "bw2/victoryroad.png"
+    },
+    {
+      "Name": "Twist Mountain",
+      "Locations": [
+        379,
+        380,
+        381,
+        382,
+        383,
+        -1,
+        384,
+        385,
+        386,
+        -1,
+        387,
+        388,
+        389,
+        -1,
+        390,
+        391,
+        392,
+        -1,
+        393,
+        394,
+        395,
+        -1,
+        396,
+        397,
+        398
+      ],
+      "ImageName": "bw2/twist.png"
+    },
+    {
+      "Name": "Clay Tunnel",
+      "Locations": [
+        399,
+        400,
+        -1,
+        401,
+        402,
+        -1,
+        403,
+        404,
+        405,
+        406,
+        -1,
+        407
+      ],
+      "ImageName": "bw2/claytunnel.png"
+    },
+    {
+      "Name": "Relic Castle",
+      "Locations": [
+        408,
+        409,
+        410,
+        411,
+        -1,
+        412,
+        413,
+        414
+      ],
+      "ImageName": "bw2/relic.png"
     },
     {
       "Name": "Pinwheel Forest",
       "Locations": [
-        361,
-        362,
-        363
+        415,
+        416,
+        417
       ],
       "ImageName": ""
     },
     {
       "Name": "Dreamyard",
       "Locations": [
-        364,
-        365,
-        366,
-        367,
+        418,
+        419,
+        420,
+        421,
         -1,
-        368,
-        369,
-        370
+        422,
+        423,
+        424
       ],
       "ImageName": ""
     },
     {
-      "Name": "Pokestar Studios",
-      "Locations": [],
-      "ImageName": "bw2/pokestar.png"
-    },
-    {
       "Name": "Abyssal Ruins",
       "Locations": [
-        371,
-        372,
-        373,
-        374
+        425,
+        426,
+        427,
+        428
       ],
       "ImageName": ""
     },
     {
       "Name": "Pokecenters / Mall",
       "Locations": [
-        375,
-        376,
+        429,
+        430,
         -1,
-        377,
-        378,
-        379,
-        380,
-        381,
-        382,
-        383,
-        384,
-        385,
-        386,
-        387,
-        388,
-        389,
-        390,
-        391,
-        392,
-        393,
-        394,
-        395
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449
       ],
       "ImageName": ""
     }
@@ -789,6 +864,9 @@
       "Name": "R19 Exit W"
     },
     {
+      "Name": "R20 Floccesy Ranch"
+    },
+    {
       "Name": "R20 Cave of Being",
       "BlockedBy": "Waterfall"
     },
@@ -820,7 +898,10 @@
       "Name": "Virbank Exit W"
     },
     {
-      "Name": "Castelia Skyarrow Bridge"
+      "Name": "Virbank Exit S"
+    },
+    {
+      "Name": "Castelia Exit SE"
     },
     {
       "Name": "Castelia Pokecenter"
@@ -854,33 +935,6 @@
     },
     {
       "Name": "Castelia Docks Cruise Ship Dock"
-    },
-    {
-      "Name": "Castelia Hub N"
-    },
-    {
-      "Name": "Castelia Hub Gym Street"
-    },
-    {
-      "Name": "Castelia Hub Narrow Street"
-    },
-    {
-      "Name": "Castelia Hub Mode Street"
-    },
-    {
-      "Name": "Castelia Hub Castelia Street"
-    },
-    {
-      "Name": "Castelia North Apartment W"
-    },
-    {
-      "Name": "Castelia North Apartment SE"
-    },
-    {
-      "Name": "Castelia North Apartment NE"
-    },
-    {
-      "Name": "Castelia North Exit"
     },
     {
       "Name": "Castelia Gym Street S"
@@ -923,6 +977,33 @@
     },
     {
       "Name": "Castelia Castelia Street N"
+    },
+    {
+      "Name": "Castelia Hub N"
+    },
+    {
+      "Name": "Castelia Hub Gym Street"
+    },
+    {
+      "Name": "Castelia Hub Narrow Street"
+    },
+    {
+      "Name": "Castelia Hub Mode Street"
+    },
+    {
+      "Name": "Castelia Hub Castelia Street"
+    },
+    {
+      "Name": "Castelia North Apartment W"
+    },
+    {
+      "Name": "Castelia North Apartment SE"
+    },
+    {
+      "Name": "Castelia North Apartment NE"
+    },
+    {
+      "Name": "Castelia North Exit"
     },
     {
       "Name": "Nimbasa Exit S"
@@ -973,9 +1054,6 @@
       "Name": "Driftveil Gym"
     },
     {
-      "Name": "Driftveil Market"
-    },
-    {
       "Name": "Driftveil House W"
     },
     {
@@ -995,6 +1073,27 @@
     },
     {
       "Name": "Driftveil Exit S"
+    },
+    {
+      "Name": "Driftveil Market Exterior N"
+    },
+    {
+      "Name": "Driftveil Market Exterior E"
+    },
+    {
+      "Name": "Driftveil Market Exterior S"
+    },
+    {
+      "Name": "Driftveil Market Exterior W"
+    },
+    {
+      "Name": "Driftveil Market Interior N"
+    },
+    {
+      "Name": "Driftveil Market Interior E"
+    },
+    {
+      "Name": "Driftveil Market Interior S"
     },
     {
       "Name": "Driftveil Clay Tunnel"
@@ -1209,7 +1308,7 @@
       "Name": "BW City Pokecenter"
     },
     {
-      "Name": "BW Battle Entrance"
+      "Name": "BW City House"
     },
     {
       "Name": "BW City Exit SW"
@@ -1260,13 +1359,22 @@
       "Name": "Nacrene House SW 2"
     },
     {
+      "Name": "Nacrene House SW 2 Side"
+    },
+    {
       "Name": "Nacrene House S"
+    },
+    {
+      "Name": "Nacrene House S Side"
     },
     {
       "Name": "Nacrene House SE"
     },
     {
       "Name": "Nacrene House NE"
+    },
+    {
+      "Name": "Nacrene House NE Side"
     },
     {
       "Name": "Nacrene Exit SE"
@@ -1450,61 +1558,100 @@
       "BlockedBy": "Surf"
     },
     {
-      "Name": "Victory Road Pokemart"
+      "Name": "Route 23 Victory Gate"
     },
     {
-      "Name": "Victory Road Entrance"
+      "Name": "Plasma Frigate B1F Stairs"
     },
     {
-      "Name": "Plasma Beds NW Entrance"
+      "Name": "Plasma Frigate B1F NW"
     },
     {
-      "Name": "Plasma Beds NW Warp NW"
+      "Name": "Plasma Frigate B1F W"
     },
     {
-      "Name": "Plasma Beds NW Warp SW"
+      "Name": "Plasma Frigate B1F SW"
     },
     {
-      "Name": "Plasma Beds NW Warp NE"
+      "Name": "Plasma Frigate B1F NE"
     },
     {
-      "Name": "Plasma Beds NW Warp SE"
+      "Name": "Plasma Frigate B1F E"
     },
     {
-      "Name": "Plasma Beds W Entrance"
+      "Name": "Plasma Frigate B1F SE"
     },
     {
-      "Name": "Plasma Beds W Warp NW"
+      "Name": "Plasma Beds W4 Entrance"
     },
     {
-      "Name": "Plasma Beds W Warp SE"
+      "Name": "Plasma Beds W4 Warp NW"
     },
     {
-      "Name": "Plasma Beds NE Entrance"
+      "Name": "Plasma Beds W4 Warp SW"
     },
     {
-      "Name": "Plasma Beds NE Warp NW"
+      "Name": "Plasma Beds W4 Warp NE"
     },
     {
-      "Name": "Plasma Beds NE Warp SW"
+      "Name": "Plasma Beds W4 Warp SE"
     },
     {
-      "Name": "Plasma Beds NE Warp NE"
+      "Name": "Plasma Beds W3 Entrance"
     },
     {
-      "Name": "Plasma Beds NE Warp SE"
+      "Name": "Plasma Beds W3 Warp NW"
     },
     {
-      "Name": "Plasma Beds E Entrance"
+      "Name": "Plasma Beds W3 Warp SW"
     },
     {
-      "Name": "Plasma Beds E Warp SW"
+      "Name": "Plasma Beds W3 Warp NE"
     },
     {
-      "Name": "Plasma Beds E Warp NE"
+      "Name": "Plasma Beds W2 Entrance"
     },
     {
-      "Name": "Plasma Beds E Warp SE"
+      "Name": "Plasma Beds W2 Warp NW"
+    },
+    {
+      "Name": "Plasma Beds W2 Warp SE"
+    },
+    {
+      "Name": "Plasma Beds E4 Entrance"
+    },
+    {
+      "Name": "Plasma Beds E4 Warp NW"
+    },
+    {
+      "Name": "Plasma Beds E4 Warp SW"
+    },
+    {
+      "Name": "Plasma Beds E4 Warp NE"
+    },
+    {
+      "Name": "Plasma Beds E4 Warp SE"
+    },
+    {
+      "Name": "Plasma Beds E3 Entrance"
+    },
+    {
+      "Name": "Plasma Beds E3 Warp SW"
+    },
+    {
+      "Name": "Plasma Beds E3 Warp NE"
+    },
+    {
+      "Name": "Plasma Beds E3 Warp SE"
+    },
+    {
+      "Name": "Plasma Beds E2 Entrance"
+    },
+    {
+      "Name": "Plasma Beds E2 Warp NE"
+    },
+    {
+      "Name": "Plasma Beds E2 Warp SW"
     },
     {
       "Name": "Cruise Ship Red NW"
@@ -1531,9 +1678,6 @@
       "Name": "Cruise Ship Red SSW"
     },
     {
-      "Name": "Cruise Ship Stairs"
-    },
-    {
       "Name": "Cruise Ship Red C"
     },
     {
@@ -1555,6 +1699,33 @@
       "Name": "Cruise Ship Red NE 2"
     },
     {
+      "Name": "Gear Station Stairs"
+    },
+    {
+      "Name": "Gear Station Blue"
+    },
+    {
+      "Name": "Gear Station Orange"
+    },
+    {
+      "Name": "Gear Station Yellow"
+    },
+    {
+      "Name": "Gear Station Brown"
+    },
+    {
+      "Name": "Gear Station Pink"
+    },
+    {
+      "Name": "Gear Station Red"
+    },
+    {
+      "Name": "Gear Station Light Green"
+    },
+    {
+      "Name": "Gear Station Dark Green"
+    },
+    {
       "Name": "Castelia Sewers Stairs NE"
     },
     {
@@ -1564,7 +1735,7 @@
       "Name": "Castelia Sewers Stairs NW"
     },
     {
-      "Name": "Castelia Sewers Cave N"
+      "Name": "Castelia Sewers Cave N (Strength)"
     },
     {
       "Name": "Relic Passage Middle Exit NW"
@@ -1684,6 +1855,15 @@
       "Name": "Giant Chasm Cave Entrance"
     },
     {
+      "Name": "Victory Gate Entrance (Waterfall)"
+    },
+    {
+      "Name": "Victory Road Pokemart"
+    },
+    {
+      "Name": "Victory Road Entrance"
+    },
+    {
       "Name": "Victory Road Cliffside SW"
     },
     {
@@ -1738,16 +1918,52 @@
       "Name": "Pokemon League Pokecenter"
     },
     {
-      "Name": "Twist Exterior NW"
+      "Name": "Elite Four Hub W"
     },
     {
-      "Name": "Twist Exterior NE"
+      "Name": "Elite Four Hub NW"
     },
     {
-      "Name": "Twist Exterior S"
+      "Name": "Elite Four Hub NE"
     },
     {
-      "Name": "Twist Exterior E"
+      "Name": "Elite Four Hub E"
+    },
+    {
+      "Name": "Elite Four Hub Warp?"
+    },
+    {
+      "Name": "Twist Exterior 1F NW"
+    },
+    {
+      "Name": "Twist Exterior 1F NE"
+    },
+    {
+      "Name": "Twist Exterior 1F S"
+    },
+    {
+      "Name": "Twist Exterior 1F E"
+    },
+    {
+      "Name": "Twist Exterior 1F House"
+    },
+    {
+      "Name": "Twist Exterior 2F NW"
+    },
+    {
+      "Name": "Twist Exterior 2F N"
+    },
+    {
+      "Name": "Twist Exterior 2F NE"
+    },
+    {
+      "Name": "Twist Ice Cave SW"
+    },
+    {
+      "Name": "Twist Ice Cave SE"
+    },
+    {
+      "Name": "Twist Ice Cave N"
     },
     {
       "Name": "Twist 2F NW"
@@ -1803,6 +2019,27 @@
     },
     {
       "Name": "Clay Tunnel 4F Exit W"
+    },
+    {
+      "Name": "Relic Castle 1F Entrance SE"
+    },
+    {
+      "Name": "Relic Castle 1F Stairs SW"
+    },
+    {
+      "Name": "Relic Castle 1F Stairs NE"
+    },
+    {
+      "Name": "Relic Castle B1F Stairs NE"
+    },
+    {
+      "Name": "Relic Castle B7F Door N"
+    },
+    {
+      "Name": "Relic Castle B7F Door W"
+    },
+    {
+      "Name": "Relic Castle B7F Door E"
     },
     {
       "Name": "Pinwheel Forest Exit N"

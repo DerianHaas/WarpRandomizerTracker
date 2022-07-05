@@ -7,5 +7,6 @@ Floccesy Pledge Grove
 
 R19 Exit W
 
+R20 Floccesy Ranch
 R20 Cave of Being,Waterfall
 R20 Exit E

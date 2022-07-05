@@ -1,0 +1,11 @@
+Castelia North
+Castelia Hub N
+Castelia Hub Gym Street
+Castelia Hub Narrow Street
+Castelia Hub Mode Street
+Castelia Hub Castelia Street
+
+Castelia North Apartment W
+Castelia North Apartment SE
+Castelia North Apartment NE
+Castelia North Exit

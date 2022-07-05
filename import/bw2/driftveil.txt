@@ -1,7 +1,6 @@
 Driftveil
 Driftveil Pokecenter
 Driftveil Gym
-Driftveil Market
 Driftveil House W
 Driftveil House E
 Driftveil House S
@@ -9,6 +8,15 @@ Driftveil House SW
 Driftveil Sanctuary
 Driftveil Bridge E
 Driftveil Exit S
+
+Driftveil Market Exterior N
+Driftveil Market Exterior E
+Driftveil Market Exterior S
+Driftveil Market Exterior W
+
+Driftveil Market Interior N
+Driftveil Market Interior E
+Driftveil Market Interior S
 
 Driftveil Clay Tunnel
 
