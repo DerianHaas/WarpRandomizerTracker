@@ -1,0 +1,10 @@
+Opelucid
+Opelucid Pokecenter
+Opelucid Gym
+Opelucid House SW
+Opelucid House C
+Opelucid House E
+Opelucid House N
+Opelucid House NE
+Opelucid Exit W
+Opelucid Exit E

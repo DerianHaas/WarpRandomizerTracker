@@ -1,0 +1,9 @@
+Route 15 / Route 16
+Route 15 Exit W
+Route 15 Trailer
+Route 15 Pokemon Lab
+Route 15 Exit E
+
+Route 16 Exit W
+Route 16 Lostlorn Forest
+Route 16 Exit E

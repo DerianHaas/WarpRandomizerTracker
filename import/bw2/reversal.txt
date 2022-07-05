@@ -1,0 +1,9 @@
+Reversal Mountain
+Reversal Big Room NW
+Reversal Big Room S
+Reversal Big Room E
+Reversal Big Room NE
+
+Reversal Junction N
+Reversal Junction E
+Reversal Junction S

@@ -83,6 +83,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="worlds\sinnoh.json" />
+    <Content Include="worlds\unova.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="main.css" />

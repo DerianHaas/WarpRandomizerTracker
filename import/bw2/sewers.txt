@@ -1,0 +1,13 @@
+Castelia Sewers / Relic Passage
+Castelia Sewers Stairs NE
+Castelia Sewers Stairs N
+Castelia Sewers Stairs NW
+Castelia Sewers Cave N
+
+Relic Passage Middle Exit NW
+Relic Passage Middle Exit NE
+Relic Passage Middle Exit SE
+
+Relic Passage East Exit NW
+Relic Passage East Exit W
+Relic Passage East Exit SE

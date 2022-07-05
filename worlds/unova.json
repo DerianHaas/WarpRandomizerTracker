@@ -1,0 +1,1700 @@
+{
+  "Region": "unova",
+  "Hubs": [
+    {
+      "Name": "Gyms / E4",
+      "Locations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        -1,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Aspertia",
+      "Locations": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "ImageName": "bw2/aspertia.png"
+    },
+    {
+      "Name": "Floccesy",
+      "Locations": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        -1,
+        24,
+        -1,
+        25,
+        26
+      ],
+      "ImageName": "bw2/floccesy.png"
+    },
+    {
+      "Name": "Virbank",
+      "Locations": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "ImageName": "bw2/virbank.png"
+    },
+    {
+      "Name": "Castelia",
+      "Locations": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        -1,
+        43,
+        44,
+        45,
+        46,
+        -1,
+        47,
+        48,
+        49,
+        -1,
+        50,
+        51,
+        52,
+        -1,
+        53,
+        54,
+        55,
+        56,
+        -1,
+        57,
+        58,
+        59,
+        60,
+        61,
+        -1,
+        62,
+        63,
+        64,
+        65
+      ],
+      "ImageName": "bw2/castelia.png"
+    },
+    {
+      "Name": "Nimbasa",
+      "Locations": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        -1,
+        72,
+        73,
+        74,
+        75,
+        76,
+        -1,
+        77,
+        78,
+        79
+      ],
+      "ImageName": "bw2/nimbasa.png"
+    },
+    {
+      "Name": "Driftveil",
+      "Locations": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        -1,
+        90,
+        -1,
+        91,
+        92,
+        93
+      ],
+      "ImageName": "bw2/driftveil.png"
+    },
+    {
+      "Name": "Mistralton",
+      "Locations": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        -1,
+        100,
+        101,
+        102,
+        103
+      ],
+      "ImageName": "bw2/mistralton.png"
+    },
+    {
+      "Name": "Lentimas",
+      "Locations": [
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Undella",
+      "Locations": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        -1,
+        116,
+        117,
+        -1,
+        118,
+        119
+      ],
+      "ImageName": "bw2/undella.png"
+    },
+    {
+      "Name": "Lacunosa",
+      "Locations": [
+        120,
+        -1,
+        121,
+        122,
+        123,
+        124,
+        125,
+        -1,
+        126,
+        127,
+        128,
+        129
+      ],
+      "ImageName": "bw2/lacunosa.png"
+    },
+    {
+      "Name": "Village Bridge",
+      "Locations": [
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "ImageName": "bw2/village.png"
+    },
+    {
+      "Name": "Opelucid",
+      "Locations": [
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ],
+      "ImageName": "bw2/opelucid.png"
+    },
+    {
+      "Name": "Humilau",
+      "Locations": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "ImageName": "bw2/humilau.png"
+    },
+    {
+      "Name": "Black City / White Forest",
+      "Locations": [
+        157,
+        158,
+        159,
+        160
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Icirrus",
+      "Locations": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        -1,
+        169,
+        170
+      ],
+      "ImageName": "bw2/icirrus.png"
+    },
+    {
+      "Name": "Nacrene",
+      "Locations": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        -1,
+        180
+      ],
+      "ImageName": "bw2/nacrene.png"
+    },
+    {
+      "Name": "Striaton",
+      "Locations": [
+        181,
+        -1,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        -1,
+        189,
+        190,
+        191,
+        192
+      ],
+      "ImageName": "bw2/striaton.png"
+    },
+    {
+      "Name": "Nuvema / Accumula",
+      "Locations": [
+        193,
+        194,
+        195,
+        196,
+        -1,
+        197,
+        -1,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Anville",
+      "Locations": [
+        204,
+        205,
+        206
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Route 4",
+      "Locations": [
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "ImageName": "bw2/r4.png"
+    },
+    {
+      "Name": "Route 5",
+      "Locations": [
+        215,
+        216,
+        217
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Route 9",
+      "Locations": [
+        218,
+        219,
+        220
+      ],
+      "ImageName": "bw2/r9.png"
+    },
+    {
+      "Name": "Route 11",
+      "Locations": [
+        221,
+        222,
+        223
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Route 15 / Route 16",
+      "Locations": [
+        224,
+        225,
+        226,
+        227,
+        -1,
+        228,
+        229,
+        230
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Route 17 / Route 18",
+      "Locations": [
+        231,
+        232,
+        233
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Route 23 / Victory Gate",
+      "Locations": [
+        234,
+        235,
+        236,
+        237,
+        238
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Plasma Frigate",
+      "Locations": [],
+      "ImageName": ""
+    },
+    {
+      "Name": "Castelia Sewers / Relic Passage",
+      "Locations": [
+        239,
+        240,
+        241,
+        242,
+        -1,
+        243,
+        244,
+        245,
+        -1,
+        246,
+        247,
+        248
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Chargestone Cave",
+      "Locations": [
+        249,
+        250,
+        251,
+        -1,
+        252,
+        253,
+        -1,
+        254,
+        255,
+        256,
+        257
+      ],
+      "ImageName": "bw2/chargestone.png"
+    },
+    {
+      "Name": "Reversal Mountain",
+      "Locations": [
+        258,
+        259,
+        260,
+        261,
+        -1,
+        262,
+        263,
+        264
+      ],
+      "ImageName": "bw2/reversal.png"
+    },
+    {
+      "Name": "Strange House",
+      "Locations": [
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "ImageName": "bw2/strangehouse.png"
+    },
+    {
+      "Name": "Seaside Cave",
+      "Locations": [
+        273,
+        274,
+        -1,
+        275,
+        276,
+        277
+      ],
+      "ImageName": "bw2/seaside.png"
+    },
+    {
+      "Name": "Giant Chasm",
+      "Locations": [
+        278,
+        279,
+        280,
+        281
+      ],
+      "ImageName": "bw2/chasm.png"
+    },
+    {
+      "Name": "Victory Road",
+      "Locations": [
+        282,
+        283,
+        284,
+        285,
+        286,
+        -1,
+        287,
+        288,
+        -1,
+        289,
+        290,
+        -1,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        -1,
+        297,
+        298,
+        299
+      ],
+      "ImageName": "bw2/victoryroad.png"
+    },
+    {
+      "Name": "Twist Mountain",
+      "Locations": [
+        300,
+        301,
+        302,
+        303,
+        -1,
+        304,
+        305,
+        306,
+        -1,
+        307,
+        308,
+        309,
+        -1,
+        310,
+        311,
+        312
+      ],
+      "ImageName": "bw2/twist.png"
+    },
+    {
+      "Name": "Pinwheel Forest",
+      "Locations": [
+        313,
+        314,
+        315
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Dreamyard",
+      "Locations": [
+        316,
+        317,
+        318,
+        319,
+        -1,
+        320,
+        321,
+        322
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokestar Studios",
+      "Locations": [],
+      "ImageName": "bw2/pokestar.png"
+    },
+    {
+      "Name": "Abyssal Ruins",
+      "Locations": [
+        323,
+        324,
+        325,
+        326
+      ],
+      "ImageName": ""
+    },
+    {
+      "Name": "Pokecenters / Mall",
+      "Locations": [
+        327,
+        328,
+        -1,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347
+      ],
+      "ImageName": ""
+    }
+  ],
+  "Locations": [
+    {
+      "Name": "Aspertia Gym Interior"
+    },
+    {
+      "Name": "Virbank Gym Interior"
+    },
+    {
+      "Name": "Castelia Gym Interior"
+    },
+    {
+      "Name": "Nimbasa Gym Interior"
+    },
+    {
+      "Name": "Driftveil Gym Interior"
+    },
+    {
+      "Name": "Mistralton Gym Interior"
+    },
+    {
+      "Name": "Opelucid Gym Interior"
+    },
+    {
+      "Name": "Humilau Gym Interior"
+    },
+    {
+      "Name": "E4 Shauntai"
+    },
+    {
+      "Name": "E4 Marshal"
+    },
+    {
+      "Name": "E4 Grimsley"
+    },
+    {
+      "Name": "E4 Caitlin"
+    },
+    {
+      "Name": "Champion Iris"
+    },
+    {
+      "Name": "Aspertia Pokecenter"
+    },
+    {
+      "Name": "Aspertia Trainer School"
+    },
+    {
+      "Name": "Aspertia House SW"
+    },
+    {
+      "Name": "Aspertia House C"
+    },
+    {
+      "Name": "Aspertia House NE"
+    },
+    {
+      "Name": "Aspertia Exit N"
+    },
+    {
+      "Name": "Floccesy Pokecenter"
+    },
+    {
+      "Name": "Floccesy House NW"
+    },
+    {
+      "Name": "Floccesy House SE 1"
+    },
+    {
+      "Name": "Floccesy House SE 2"
+    },
+    {
+      "Name": "Floccesy Pledge Grove"
+    },
+    {
+      "Name": "R19 Exit W"
+    },
+    {
+      "Name": "R20 Cave of Being",
+      "BlockedBy": "Waterfall"
+    },
+    {
+      "Name": "R20 Exit E"
+    },
+    {
+      "Name": "Virbank Pokecenter"
+    },
+    {
+      "Name": "Virbank Gym"
+    },
+    {
+      "Name": "Virbank House N"
+    },
+    {
+      "Name": "Virbank House SW"
+    },
+    {
+      "Name": "Virbank House S"
+    },
+    {
+      "Name": "Virbank House SE"
+    },
+    {
+      "Name": "Virbank Exit N"
+    },
+    {
+      "Name": "Virbank Exit W"
+    },
+    {
+      "Name": "Castelia Skyarrow Bridge"
+    },
+    {
+      "Name": "Castelia Pokecenter"
+    },
+    {
+      "Name": "Castelia Battle Company"
+    },
+    {
+      "Name": "Castelia Passerby HQ"
+    },
+    {
+      "Name": "Castelia Docks Gym Street"
+    },
+    {
+      "Name": "Castelia Docks Narrow Street"
+    },
+    {
+      "Name": "Castelia Docks Mode Street"
+    },
+    {
+      "Name": "Castelia Docks Castelia Street"
+    },
+    {
+      "Name": "Castelia Gym Street S"
+    },
+    {
+      "Name": "Castelia Gym"
+    },
+    {
+      "Name": "Castelia Gym Street Apartment"
+    },
+    {
+      "Name": "Castelia Gym Street N"
+    },
+    {
+      "Name": "Castelia Narrow Street S"
+    },
+    {
+      "Name": "Castelia Cafe Sonata"
+    },
+    {
+      "Name": "Castelia Narrow Street N"
+    },
+    {
+      "Name": "Castelia Mode Street S"
+    },
+    {
+      "Name": "Castelia Mode Street Studio"
+    },
+    {
+      "Name": "Castelia Mode Street N"
+    },
+    {
+      "Name": "Castelia Castelia Street S"
+    },
+    {
+      "Name": "Castelia Castelia Street GameFreak"
+    },
+    {
+      "Name": "Castelia Castelia Street Massage"
+    },
+    {
+      "Name": "Castelia Castelia Street N"
+    },
+    {
+      "Name": "Castelia Hub N"
+    },
+    {
+      "Name": "Castelia Hub Gym Street"
+    },
+    {
+      "Name": "Castelia Hub Narrow Street"
+    },
+    {
+      "Name": "Castelia Hub Mode Street"
+    },
+    {
+      "Name": "Castelia Hub Castelia Street"
+    },
+    {
+      "Name": "Castelia North Apartment W"
+    },
+    {
+      "Name": "Castelia North Apartment SE"
+    },
+    {
+      "Name": "Castelia North Apartment NE"
+    },
+    {
+      "Name": "Castelia North Exit"
+    },
+    {
+      "Name": "Nimbasa Exit S"
+    },
+    {
+      "Name": "Nimbasa Pokecenter"
+    },
+    {
+      "Name": "Nimbasa Gear Station"
+    },
+    {
+      "Name": "Nimbasa House SW"
+    },
+    {
+      "Name": "Nimbasa House W 1"
+    },
+    {
+      "Name": "Nimbasa House W 2"
+    },
+    {
+      "Name": "Nimbasa Exit NW"
+    },
+    {
+      "Name": "Nimbasa Small Court"
+    },
+    {
+      "Name": "Nimbasa Big Stadium"
+    },
+    {
+      "Name": "Nimbasa Musical Theater"
+    },
+    {
+      "Name": "Nimbasa Exit NE"
+    },
+    {
+      "Name": "Nimbasa Old Gym Building"
+    },
+    {
+      "Name": "Nimbasa Ferris Wheel"
+    },
+    {
+      "Name": "Nimbasa Gym"
+    },
+    {
+      "Name": "Driftveil Pokecenter"
+    },
+    {
+      "Name": "Driftveil Gym"
+    },
+    {
+      "Name": "Driftveil Market"
+    },
+    {
+      "Name": "Driftveil House W"
+    },
+    {
+      "Name": "Driftveil House E"
+    },
+    {
+      "Name": "Driftveil House S"
+    },
+    {
+      "Name": "Driftveil House SW"
+    },
+    {
+      "Name": "Driftveil Sanctuary"
+    },
+    {
+      "Name": "Driftveil Bridge E"
+    },
+    {
+      "Name": "Driftveil Exit S"
+    },
+    {
+      "Name": "Driftveil Clay Tunnel"
+    },
+    {
+      "Name": "Route 6 Mistralton Cave",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Route 6 Research Lab"
+    },
+    {
+      "Name": "Route 6 Chargestone Cave"
+    },
+    {
+      "Name": "Mistralton Cave S"
+    },
+    {
+      "Name": "Mistralton Pokecenter"
+    },
+    {
+      "Name": "Mistralton Gym"
+    },
+    {
+      "Name": "Mistralton Cargo Service"
+    },
+    {
+      "Name": "Mistralton House SE"
+    },
+    {
+      "Name": "Mistralton House C"
+    },
+    {
+      "Name": "Route 7 House SW"
+    },
+    {
+      "Name": "Route 7 House NE"
+    },
+    {
+      "Name": "Route 7 Celestial Tower"
+    },
+    {
+      "Name": "Route 7 Twist Mountain"
+    },
+    {
+      "Name": "Lentimas Pokecenter"
+    },
+    {
+      "Name": "Lentimas House C"
+    },
+    {
+      "Name": "Lentimas House S"
+    },
+    {
+      "Name": "Lentimas Reversal Entrance"
+    },
+    {
+      "Name": "Lentimas Strange House"
+    },
+    {
+      "Name": "Undella Pokecenter"
+    },
+    {
+      "Name": "Undella Exit NE"
+    },
+    {
+      "Name": "Undella Marine Tube"
+    },
+    {
+      "Name": "Undella House NW"
+    },
+    {
+      "Name": "Undella House NE"
+    },
+    {
+      "Name": "Undella House SW"
+    },
+    {
+      "Name": "Undella Cave W"
+    },
+    {
+      "Name": "Undella Bay Seaside Cave"
+    },
+    {
+      "Name": "Undella Abyssal Ruins Entrance"
+    },
+    {
+      "Name": "Route 14 Abundant Shrine",
+      "BlockedBy": "Waterfall"
+    },
+    {
+      "Name": "Route 14 Exit S"
+    },
+    {
+      "Name": "Route 12 Exit W"
+    },
+    {
+      "Name": "Lacunosa Pokecenter"
+    },
+    {
+      "Name": "Lacunosa Executive House"
+    },
+    {
+      "Name": "Lacunosa House SW"
+    },
+    {
+      "Name": "Lacunosa House C"
+    },
+    {
+      "Name": "Lacunosa House NE"
+    },
+    {
+      "Name": "Route 13 Giant Chasm Entrance"
+    },
+    {
+      "Name": "Route 13 House NW"
+    },
+    {
+      "Name": "Route 13 House W"
+    },
+    {
+      "Name": "Route 13 Exit S"
+    },
+    {
+      "Name": "Village Bridge Exit W"
+    },
+    {
+      "Name": "Village Bridge House W 1"
+    },
+    {
+      "Name": "Village Bridge House W 2"
+    },
+    {
+      "Name": "Village Bridge House W 3"
+    },
+    {
+      "Name": "Village Bridge House E 1"
+    },
+    {
+      "Name": "Village Bridge House E 2"
+    },
+    {
+      "Name": "Village Bridge House E 3"
+    },
+    {
+      "Name": "Village Bridge Exit E"
+    },
+    {
+      "Name": "Opelucid Pokecenter"
+    },
+    {
+      "Name": "Opelucid Gym"
+    },
+    {
+      "Name": "Opelucid House SW"
+    },
+    {
+      "Name": "Opelucid House C"
+    },
+    {
+      "Name": "Opelucid House E"
+    },
+    {
+      "Name": "Opelucid House N"
+    },
+    {
+      "Name": "Opelucid House NE"
+    },
+    {
+      "Name": "Opelucid Exit W"
+    },
+    {
+      "Name": "Opelucid Exit E"
+    },
+    {
+      "Name": "Route 21 Exit S"
+    },
+    {
+      "Name": "Humilau Pokecenter"
+    },
+    {
+      "Name": "Humilau Gym"
+    },
+    {
+      "Name": "Humilau Marine Tube"
+    },
+    {
+      "Name": "Humilau House SE"
+    },
+    {
+      "Name": "Humilau House NE"
+    },
+    {
+      "Name": "Humilau House SW"
+    },
+    {
+      "Name": "Humilau House C"
+    },
+    {
+      "Name": "Humilau House NW"
+    },
+    {
+      "Name": "Route 22 Cave W"
+    },
+    {
+      "Name": "BW City Exit NE"
+    },
+    {
+      "Name": "BW City Pokecenter"
+    },
+    {
+      "Name": "BW Battle Entrance"
+    },
+    {
+      "Name": "BW City Exit SW"
+    },
+    {
+      "Name": "Icirrus Cave SW"
+    },
+    {
+      "Name": "Icirrus Pokecenter"
+    },
+    {
+      "Name": "Icirrus Gym"
+    },
+    {
+      "Name": "Icirrus House SE"
+    },
+    {
+      "Name": "Icirrus House W"
+    },
+    {
+      "Name": "Icirrus House C"
+    },
+    {
+      "Name": "Icirrus House N"
+    },
+    {
+      "Name": "Icirrus Dragonspiral Entrance"
+    },
+    {
+      "Name": "Route 8 Moor Entrance"
+    },
+    {
+      "Name": "Route 8 Exit E"
+    },
+    {
+      "Name": "Nacrene Pokecenter"
+    },
+    {
+      "Name": "Nacrene Museum"
+    },
+    {
+      "Name": "Nacrene Cafe NW"
+    },
+    {
+      "Name": "Nacrene House SW 1"
+    },
+    {
+      "Name": "Nacrene House SW 2"
+    },
+    {
+      "Name": "Nacrene House S"
+    },
+    {
+      "Name": "Nacrene House SE"
+    },
+    {
+      "Name": "Nacrene House NE"
+    },
+    {
+      "Name": "Nacrene Exit SE"
+    },
+    {
+      "Name": "Nacrene Pinwheel Forest Entrance"
+    },
+    {
+      "Name": "Route 2 Exit S"
+    },
+    {
+      "Name": "Striaton Trainer School"
+    },
+    {
+      "Name": "Striaton Pokecenter"
+    },
+    {
+      "Name": "Striaton Restaurant"
+    },
+    {
+      "Name": "Striaton House SW"
+    },
+    {
+      "Name": "Striaton House E"
+    },
+    {
+      "Name": "Striaton House SE"
+    },
+    {
+      "Name": "Striaton Dreamyard Entrance"
+    },
+    {
+      "Name": "Route 3 Daycare"
+    },
+    {
+      "Name": "Route 3 Nursery"
+    },
+    {
+      "Name": "Route 3 Wellspring Cave Entrance"
+    },
+    {
+      "Name": "Route 3 Exit SW"
+    },
+    {
+      "Name": "Nuvema Professor Lab"
+    },
+    {
+      "Name": "Nuvema House C"
+    },
+    {
+      "Name": "Nuvema House SW"
+    },
+    {
+      "Name": "Nuvema House SE"
+    },
+    {
+      "Name": "Route 1 Exit SW",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Accumula Pokecenter"
+    },
+    {
+      "Name": "Accumula House SW"
+    },
+    {
+      "Name": "Accumula House NE"
+    },
+    {
+      "Name": "Accumula House N"
+    },
+    {
+      "Name": "Accumula House NW"
+    },
+    {
+      "Name": "Accumula Exit NW"
+    },
+    {
+      "Name": "Anville House SW"
+    },
+    {
+      "Name": "Anville House SE"
+    },
+    {
+      "Name": "Anville House N"
+    },
+    {
+      "Name": "Route 4 Exit S"
+    },
+    {
+      "Name": "Route 4 House W"
+    },
+    {
+      "Name": "Route 4 House N 1"
+    },
+    {
+      "Name": "Route 4 House N 2"
+    },
+    {
+      "Name": "Route 4 House NE"
+    },
+    {
+      "Name": "Route 4 House SE"
+    },
+    {
+      "Name": "Route 4 Exit NW"
+    },
+    {
+      "Name": "Route 4 Exit NE"
+    },
+    {
+      "Name": "Route 5 Exit E"
+    },
+    {
+      "Name": "Route 5 Trailer"
+    },
+    {
+      "Name": "Route 5 Bridge W"
+    },
+    {
+      "Name": "Route 9 Exit W"
+    },
+    {
+      "Name": "Route 9 Mall"
+    },
+    {
+      "Name": "Route 9 Exit E"
+    },
+    {
+      "Name": "Route 11 Exit W"
+    },
+    {
+      "Name": "Route 11 Trailer"
+    },
+    {
+      "Name": "Route 11 Exit E"
+    },
+    {
+      "Name": "Route 15 Exit W"
+    },
+    {
+      "Name": "Route 15 Trailer"
+    },
+    {
+      "Name": "Route 15 Pokemon Lab"
+    },
+    {
+      "Name": "Route 15 Exit E"
+    },
+    {
+      "Name": "Route 16 Exit W"
+    },
+    {
+      "Name": "Route 16 Lostlorn Forest"
+    },
+    {
+      "Name": "Route 16 Exit E"
+    },
+    {
+      "Name": "Route 17 Exit SE",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Route 17 P2 Laboratory",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Route 18 House",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Route 23 Exit SE"
+    },
+    {
+      "Name": "Route 23 House SE"
+    },
+    {
+      "Name": "Route 23 House NE",
+      "BlockedBy": "Surf"
+    },
+    {
+      "Name": "Victory Road Pokemart"
+    },
+    {
+      "Name": "Victory Road Entrance"
+    },
+    {
+      "Name": "Castelia Sewers Stairs NE"
+    },
+    {
+      "Name": "Castelia Sewers Stairs N"
+    },
+    {
+      "Name": "Castelia Sewers Stairs NW"
+    },
+    {
+      "Name": "Castelia Sewers Cave N"
+    },
+    {
+      "Name": "Relic Passage Middle Exit NW"
+    },
+    {
+      "Name": "Relic Passage Middle Exit NE"
+    },
+    {
+      "Name": "Relic Passage Middle Exit SE"
+    },
+    {
+      "Name": "Relic Passage East Exit NW"
+    },
+    {
+      "Name": "Relic Passage East Exit W"
+    },
+    {
+      "Name": "Relic Passage East Exit SE"
+    },
+    {
+      "Name": "Chargestone 1F Entrance SW"
+    },
+    {
+      "Name": "Chargestone 1F Stairs SW"
+    },
+    {
+      "Name": "Chargestone 1F Stairs SE"
+    },
+    {
+      "Name": "Chargestone 1F Stairs NE"
+    },
+    {
+      "Name": "Chargestone 1F Exit NE"
+    },
+    {
+      "Name": "Chargestone B1F Stairs NW"
+    },
+    {
+      "Name": "Chargestone B1F Stairs NE"
+    },
+    {
+      "Name": "Chargestone B1F Stairs SW"
+    },
+    {
+      "Name": "Chargestone B1F Stairs SE"
+    },
+    {
+      "Name": "Reversal Big Room NW"
+    },
+    {
+      "Name": "Reversal Big Room S"
+    },
+    {
+      "Name": "Reversal Big Room E"
+    },
+    {
+      "Name": "Reversal Big Room NE"
+    },
+    {
+      "Name": "Reversal Junction N"
+    },
+    {
+      "Name": "Reversal Junction E"
+    },
+    {
+      "Name": "Reversal Junction S"
+    },
+    {
+      "Name": "Strange House Entrance S"
+    },
+    {
+      "Name": "Strange House Door SW"
+    },
+    {
+      "Name": "Strange House Stairs SW"
+    },
+    {
+      "Name": "Strange House Door SE"
+    },
+    {
+      "Name": "Strange House Stairs SE"
+    },
+    {
+      "Name": "Strange House Door NW"
+    },
+    {
+      "Name": "Strange House Door N"
+    },
+    {
+      "Name": "Strange House Door NE"
+    },
+    {
+      "Name": "Seaside Cave Exit SW"
+    },
+    {
+      "Name": "Seaside Cave Exit NW"
+    },
+    {
+      "Name": "Seaside Cave Stairs NE"
+    },
+    {
+      "Name": "Seaside Cave Stairs C"
+    },
+    {
+      "Name": "Seaside Cave Exit NE"
+    },
+    {
+      "Name": "Giant Chasm Cave Exit W"
+    },
+    {
+      "Name": "Giant Chasm Cave Exit E"
+    },
+    {
+      "Name": "Giant Chasm Cave Exit S"
+    },
+    {
+      "Name": "Giant Chasm Cave Entrance"
+    },
+    {
+      "Name": "Victory Road Cliffside SW"
+    },
+    {
+      "Name": "Victory Road Cliffside SE"
+    },
+    {
+      "Name": "Victory Road Cliffside NW"
+    },
+    {
+      "Name": "Victory Road Cliffside NE"
+    },
+    {
+      "Name": "Victory Road Cliffside N"
+    },
+    {
+      "Name": "Victory Road Ruins Entrance SE"
+    },
+    {
+      "Name": "Victory Road Ruins Stairs NW"
+    },
+    {
+      "Name": "Victory Road Ruins Cave N"
+    },
+    {
+      "Name": "Victory Road Ruins Stairs N"
+    },
+    {
+      "Name": "Victory Road Cave NW"
+    },
+    {
+      "Name": "Victory Road Cave N"
+    },
+    {
+      "Name": "Victory Road Cave NE"
+    },
+    {
+      "Name": "Victory Road Cave SW"
+    },
+    {
+      "Name": "Victory Road Cave S"
+    },
+    {
+      "Name": "Victory Road Cave SE"
+    },
+    {
+      "Name": "Pokemon League Exit S"
+    },
+    {
+      "Name": "Pokemon League Entrance N"
+    },
+    {
+      "Name": "Pokemon League Pokecenter"
+    },
+    {
+      "Name": "Twist Exterior NW"
+    },
+    {
+      "Name": "Twist Exterior NE"
+    },
+    {
+      "Name": "Twist Exterior S"
+    },
+    {
+      "Name": "Twist Exterior E"
+    },
+    {
+      "Name": "Twist 2F NW"
+    },
+    {
+      "Name": "Twist 2F SW"
+    },
+    {
+      "Name": "Twist 2F S"
+    },
+    {
+      "Name": "Twist 2F N"
+    },
+    {
+      "Name": "Twist 2F NE"
+    },
+    {
+      "Name": "Twist 2F SE"
+    },
+    {
+      "Name": "Twist 3F W"
+    },
+    {
+      "Name": "Twist 3F C"
+    },
+    {
+      "Name": "Twist 3F NE"
+    },
+    {
+      "Name": "Pinwheel Forest Exit N"
+    },
+    {
+      "Name": "Pinwheel Forest Rumination Field"
+    },
+    {
+      "Name": "Pinwheel Forest Exit S"
+    },
+    {
+      "Name": "Dreamyard Exit W"
+    },
+    {
+      "Name": "Dreamyard Stairs NE"
+    },
+    {
+      "Name": "Dreamyard Stairs SE"
+    },
+    {
+      "Name": "Dreamyard Stairs SW"
+    },
+    {
+      "Name": "Dreamyard B1F Stairs NE"
+    },
+    {
+      "Name": "Dreamyard B1F Stairs SE"
+    },
+    {
+      "Name": "Dreamyard B1F Stairs SW"
+    },
+    {
+      "Name": "Abyssal Ruins 1F N"
+    },
+    {
+      "Name": "Abyssal Ruins 1F E"
+    },
+    {
+      "Name": "Abyssal Ruins 1F S"
+    },
+    {
+      "Name": "Abyssal Ruins 1F W"
+    },
+    {
+      "Name": "Shopping Mall Nine Entrance S"
+    },
+    {
+      "Name": "Shopping Mall Nine Door E"
+    },
+    {
+      "Name": "Aspertia Pokecenter Interior"
+    },
+    {
+      "Name": "Floccesy Pokecenter Interior"
+    },
+    {
+      "Name": "Virbank Pokecenter Interior"
+    },
+    {
+      "Name": "Castelia Pokecenter Interior"
+    },
+    {
+      "Name": "Nimbasa Pokecenter Interior"
+    },
+    {
+      "Name": "Driftveil Pokecenter Interior"
+    },
+    {
+      "Name": "Mistralton Pokecenter Interior"
+    },
+    {
+      "Name": "Lentimas Pokecenter Interior"
+    },
+    {
+      "Name": "Undella Pokecenter Interior"
+    },
+    {
+      "Name": "Lacunosa Pokecenter Interior"
+    },
+    {
+      "Name": "Opelucid Pokecenter Interior"
+    },
+    {
+      "Name": "Humilau Pokecenter Interior"
+    },
+    {
+      "Name": "Black Forest/White City Pokecenter Interior"
+    },
+    {
+      "Name": "Icirrus Pokecenter Interior"
+    },
+    {
+      "Name": "Nacrene Pokecenter Interior"
+    },
+    {
+      "Name": "Striaton Pokecenter Interior"
+    },
+    {
+      "Name": "Accumula Pokecenter Interior"
+    },
+    {
+      "Name": "Victory Road Pokecenter Interior"
+    },
+    {
+      "Name": "Pokemon League Pokecenter Interior"
+    }
+  ],
+  "Blockages": [
+    "Trainer",
+    "Cut",
+    "Strength",
+    "Surf",
+    "Waterfall",
+    "Dive",
+    "Event"
+  ]
+}

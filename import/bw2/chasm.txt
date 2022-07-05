@@ -1,0 +1,5 @@
+Giant Chasm
+Giant Chasm Cave Exit W
+Giant Chasm Cave Exit E
+Giant Chasm Cave Exit S
+Giant Chasm Cave Entrance

@@ -1,0 +1,12 @@
+Chargestone Cave
+Chargestone 1F Entrance SW
+Chargestone 1F Stairs SW
+Chargestone 1F Stairs SE
+
+Chargestone 1F Stairs NE
+Chargestone 1F Exit NE
+
+Chargestone B1F Stairs NW
+Chargestone B1F Stairs NE
+Chargestone B1F Stairs SW
+Chargestone B1F Stairs SE

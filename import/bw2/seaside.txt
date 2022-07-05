@@ -1,0 +1,7 @@
+Seaside Cave
+Seaside Cave Exit SW
+Seaside Cave Exit NW
+
+Seaside Cave Stairs NE
+Seaside Cave Stairs C
+Seaside Cave Exit NE

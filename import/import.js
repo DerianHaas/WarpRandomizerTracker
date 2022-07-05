@@ -4,14 +4,16 @@ $(function () {
     var blockages = {
         "hgss": ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"],
         "emerald": ["Trainer", "Cut", "Flash", "Bike", "Rock Smash", "Strength", "Surf", "Waterfall", "Dive", "Event"],
-        "platinum": ["Trainer", "Rock Smash", "Cut", "Bike", "Surf", "Strength", "Rock Climb", "Waterfall", "Galactic Key", "Event"]
+        "platinum": ["Trainer", "Rock Smash", "Cut", "Bike", "Surf", "Strength", "Rock Climb", "Waterfall", "Galactic Key", "Event"],
+        "bw2": ["Trainer", "Cut", "Strength", "Surf", "Waterfall", "Dive", "Event"]
     };
     var regionNames = {
         "hgss": "johto",
         "emerald": "hoenn",
-        "platinum": "sinnoh"
+        "platinum": "sinnoh",
+        "bw2": "unova"
     };
-    var GAME_TO_IMPORT = "platinum";
+    var GAME_TO_IMPORT = "bw2";
     $.get("import/" + GAME_TO_IMPORT + "/hubs.txt", function (fileData) {
         files = fileData.split("\n");
         files = files.filter(function (file) { return file.trim() !== ""; });

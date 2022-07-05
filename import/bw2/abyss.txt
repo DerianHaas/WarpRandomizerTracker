@@ -1,0 +1,5 @@
+Abyssal Ruins
+Abyssal Ruins 1F N
+Abyssal Ruins 1F E
+Abyssal Ruins 1F S
+Abyssal Ruins 1F W

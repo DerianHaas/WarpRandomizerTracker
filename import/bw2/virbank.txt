@@ -1,0 +1,9 @@
+Virbank
+Virbank Pokecenter
+Virbank Gym
+Virbank House N
+Virbank House SW
+Virbank House S
+Virbank House SE
+Virbank Exit N
+Virbank Exit W

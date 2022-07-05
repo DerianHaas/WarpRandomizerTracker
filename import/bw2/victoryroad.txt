@@ -1,0 +1,23 @@
+Victory Road
+Victory Road Cliffside SW
+Victory Road Cliffside SE
+Victory Road Cliffside NW
+Victory Road Cliffside NE
+Victory Road Cliffside N
+
+Victory Road Ruins Entrance SE
+Victory Road Ruins Stairs NW
+
+Victory Road Ruins Cave N
+Victory Road Ruins Stairs N
+
+Victory Road Cave NW
+Victory Road Cave N
+Victory Road Cave NE
+Victory Road Cave SW
+Victory Road Cave S
+Victory Road Cave SE
+
+Pokemon League Exit S
+Pokemon League Entrance N
+Pokemon League Pokecenter

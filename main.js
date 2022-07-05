@@ -24,6 +24,9 @@ $(function () {
             }
         });
     });
+    $("#unovaSelect").click(function () {
+        mainMap.Load("unova").then(initialSetup);
+    });
     $("#clearButton").click(clearSelections);
     $("#resetHub").click(function () {
         if (confirm("Reset all warps in " + mainMap.Hubs[currentHub].Name + "?")) {

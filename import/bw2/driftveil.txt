@@ -1,0 +1,17 @@
+Driftveil
+Driftveil Pokecenter
+Driftveil Gym
+Driftveil Market
+Driftveil House W
+Driftveil House E
+Driftveil House S
+Driftveil House SW
+Driftveil Sanctuary
+Driftveil Bridge E
+Driftveil Exit S
+
+Driftveil Clay Tunnel
+
+Route 6 Mistralton Cave,Surf
+Route 6 Research Lab
+Route 6 Chargestone Cave

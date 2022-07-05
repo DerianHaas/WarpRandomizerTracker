@@ -129,3 +129,6 @@ table {
     cursor: pointer;
 }
 
+#regionSelect button {
+    font-size: 12px;
+}

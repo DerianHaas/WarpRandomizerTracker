@@ -29,6 +29,10 @@
         });
     });
 
+    $("#unovaSelect").click(function () {
+        mainMap.Load("unova").then(initialSetup);
+    });
+
 
     $("#clearButton").click(clearSelections);
 

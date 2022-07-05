@@ -1,0 +1,9 @@
+Dreamyard
+Dreamyard Exit W
+Dreamyard Stairs NE
+Dreamyard Stairs SE
+Dreamyard Stairs SW
+
+Dreamyard B1F Stairs NE
+Dreamyard B1F Stairs SE
+Dreamyard B1F Stairs SW
