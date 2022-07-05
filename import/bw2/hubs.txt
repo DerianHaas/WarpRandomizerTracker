@@ -3,6 +3,7 @@ aspertia,aspertia.png
 floccesy,floccesy.png
 virbank,virbank.png
 castelia,castelia.png
+casteliastreets,castelia.png
 nimbasa,nimbasa.png
 driftveil,driftveil.png
 mistralton,mistralton.png
@@ -26,6 +27,7 @@ r15
 r17
 r23
 plasma
+ship,ship.png
 sewers
 chargestone,chargestone.png
 reversal,reversal.png
@@ -34,6 +36,7 @@ seaside,seaside.png
 chasm,chasm.png
 victoryroad,victoryroad.png
 twist,twist.png
+claytunnel
 pinwheel
 dreamyard
 pokestar,pokestar.png

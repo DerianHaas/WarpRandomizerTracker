@@ -1,1 +1,21 @@
 Plasma Frigate
+Plasma Beds NW Entrance
+Plasma Beds NW Warp NW
+Plasma Beds NW Warp SW
+Plasma Beds NW Warp NE
+Plasma Beds NW Warp SE
+
+Plasma Beds W Entrance
+Plasma Beds W Warp NW
+Plasma Beds W Warp SE
+
+Plasma Beds NE Entrance
+Plasma Beds NE Warp NW
+Plasma Beds NE Warp SW
+Plasma Beds NE Warp NE
+Plasma Beds NE Warp SE
+
+Plasma Beds E Entrance
+Plasma Beds E Warp SW
+Plasma Beds E Warp NE
+Plasma Beds E Warp SE

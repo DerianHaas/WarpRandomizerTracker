@@ -14,4 +14,5 @@ Driftveil Clay Tunnel
 
 Route 6 Mistralton Cave,Surf
 Route 6 Research Lab
+Route 6 House
 Route 6 Chargestone Cave
