@@ -13,6 +13,10 @@ Twist Ice Cave SW
 Twist Ice Cave SE
 Twist Ice Cave N
 
+Twist 1F N
+Twist 1F E
+Twist 1F S
+
 Twist 2F NW
 Twist 2F SW
 Twist 2F S

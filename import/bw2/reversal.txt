@@ -1,5 +1,6 @@
 Reversal Mountain
 Reversal Big Room NW
+Reversal Big Room SW
 Reversal Big Room S
 Reversal Big Room E
 Reversal Big Room NE

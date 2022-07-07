@@ -1,14 +1,12 @@
 Undella
 Undella Pokecenter
 Undella Exit NE
+Undella House NE
 Undella Marine Tube
 Undella House NW
-Undella House NE
-Undella House SW
 Undella Cave W
 
 Undella Bay Seaside Cave
-Undella Abyssal Ruins Entrance
 
 Route 14 Abundant Shrine,Waterfall
 Route 14 Exit S

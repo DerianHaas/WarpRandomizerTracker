@@ -1,4 +1,5 @@
 gyms
+interest
 aspertia,aspertia.png
 floccesy,floccesy.png
 virbank,virbank.png
@@ -28,12 +29,14 @@ r15
 r17
 r23
 plasma
+beds
 ship,ship.png
 subway
-sewers
+sewers,sewers.png
+mistcave,mistcave.png
 chargestone,chargestone.png
-reversal,reversal.png
 strangehouse,strangehouse.png
+reversal,reversal.png
 seaside,seaside.png
 chasm,chasm.png
 victoryroad,victoryroad.png

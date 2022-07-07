@@ -5,7 +5,8 @@ Castelia Hub Narrow Street
 Castelia Hub Mode Street
 Castelia Hub Castelia Street
 
+Castelia North Exit N
 Castelia North Apartment W
 Castelia North Apartment SE
 Castelia North Apartment NE
-Castelia North Exit
+Castelia North Exit S

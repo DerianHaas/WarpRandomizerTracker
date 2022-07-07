@@ -1,17 +1,18 @@
 Nimbasa
-Nimbasa Exit S
-Nimbasa Pokecenter
-Nimbasa Gear Station
-Nimbasa House SW
-Nimbasa House W 1
-Nimbasa House W 2
-
 Nimbasa Exit NW
 Nimbasa Small Court
 Nimbasa Big Stadium
 Nimbasa Musical Theater
 Nimbasa Exit NE
 
-Nimbasa Old Gym Building
-Nimbasa Ferris Wheel
+Nimbasa Exit S
+Nimbasa Pokecenter
+Nimbasa House SW
+Nimbasa House W 1
+Nimbasa House W 2
+Nimbasa Gear Station
+Nimbasa Park Entrance
+
+Nimbasa Park Exit
+Nimbasa Rollercoaster Building
 Nimbasa Gym

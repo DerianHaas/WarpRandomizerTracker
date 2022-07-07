@@ -1,0 +1,30 @@
+Plasma Beds
+Plasma Beds W2 Entrance
+Plasma Beds W2 Warp NW
+Plasma Beds W2 Warp SE
+
+Plasma Beds W3 Entrance
+Plasma Beds W3 Warp NW
+Plasma Beds W3 Warp SW
+Plasma Beds W3 Warp NE
+
+Plasma Beds W4 Entrance
+Plasma Beds W4 Warp NW
+Plasma Beds W4 Warp SW
+Plasma Beds W4 Warp NE
+Plasma Beds W4 Warp SE
+
+Plasma Beds E2 Entrance
+Plasma Beds E2 Warp NE
+Plasma Beds E2 Warp SW
+
+Plasma Beds E3 Entrance
+Plasma Beds E3 Warp SW
+Plasma Beds E3 Warp NE
+Plasma Beds E3 Warp SE
+
+Plasma Beds E4 Entrance
+Plasma Beds E4 Warp NW
+Plasma Beds E4 Warp SW
+Plasma Beds E4 Warp NE
+Plasma Beds E4 Warp SE

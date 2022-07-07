@@ -1,9 +1,15 @@
 Strange House
-Strange House Entrance S
-Strange House Door SW
-Strange House Stairs SW
-Strange House Door SE
-Strange House Stairs SE
-Strange House Door NW
-Strange House Door N
-Strange House Door NE
+Strange House V1 Entrance
+Strange House V1 Stairs W
+
+Strange House V2 Entrance
+Strange House V2 Stairs W
+Strange House V2 Door W
+Strange House V2 Door E
+Strange House V2 Stairs E
+
+Strange House V3 Entrance
+Strange House V3 Stairs E
+Strange House V3 Door NW
+Strange House V3 Door N
+Strange House V3 Door NE

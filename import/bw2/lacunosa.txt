@@ -7,7 +7,6 @@ Lacunosa House SW
 Lacunosa House C
 Lacunosa House NE
 
-Route 13 Giant Chasm Entrance
 Route 13 House NW
 Route 13 House W
 Route 13 Exit S

@@ -4,6 +4,7 @@ Clay Tunnel 1F Exit NW (Rock Smash)
 
 Clay Tunnel 2F Exit N
 Clay Tunnel 2F Exit NW
+Clay Tunnel 2F Exit E (Rock Smash)
 
 Clay Tunnel 3F Exit S
 Clay Tunnel 3F Exit E,Surf

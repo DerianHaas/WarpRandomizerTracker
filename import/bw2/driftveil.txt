@@ -5,7 +5,6 @@ Driftveil House W
 Driftveil House E
 Driftveil House S
 Driftveil House SW
-Driftveil Sanctuary
 Driftveil Bridge E
 Driftveil Exit S
 
@@ -19,6 +18,10 @@ Driftveil Market Interior E
 Driftveil Market Interior S
 
 Driftveil Clay Tunnel
+
+PWT Exit N
+PWT Cave SW
+PWT Building
 
 Route 6 Mistralton Cave,Surf
 Route 6 Research Lab

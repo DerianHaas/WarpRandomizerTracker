@@ -1,8 +1,13 @@
 Castelia Sewers / Relic Passage
 Castelia Sewers Stairs NE
 Castelia Sewers Stairs N
-Castelia Sewers Stairs NW
 Castelia Sewers Cave N (Strength)
+
+Castelia Sewers Stairs NW
+Castelia Sewers Door NW
+Castelia Sewers Door W,Surf
+Castelia Sewers Door C,Surf
+Castelia Sewers Door E,Surf
 
 Relic Passage Middle Exit NW
 Relic Passage Middle Exit NE
