@@ -1,20 +1,16 @@
-$(function () {
-    var parsedFiles = {};
-    var files = [];
-    var blockages = {
-        "hgss": ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"],
-        "emerald": ["Trainer", "Cut", "Flash", "Bike", "Rock Smash", "Strength", "Surf", "Waterfall", "Dive", "Event"],
-        "platinum": ["Trainer", "Rock Smash", "Cut", "Bike", "Surf", "Strength", "Rock Climb", "Waterfall", "Galactic Key", "Event"],
-        "bw2": ["Trainer", "Cut", "Strength", "Surf", "Waterfall", "Dive", "Event"]
-    };
-    var regionNames = {
-        "hgss": "johto",
-        "emerald": "hoenn",
-        "platinum": "sinnoh",
-        "bw2": "unova"
-    };
-    var GAME_TO_IMPORT = "bw2";
-    $.get("import/" + GAME_TO_IMPORT + "/hubs.txt", function (fileData) {
+var parsedFiles;
+var files;
+var blockages = {
+    "hgss": ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"],
+    "emerald": ["Trainer", "Cut", "Flash", "Bike", "Rock Smash", "Strength", "Surf", "Waterfall", "Dive", "Event"],
+    "platinum": ["Trainer", "Rock Smash", "Cut", "Bike", "Surf", "Strength", "Rock Climb", "Waterfall", "Galactic Key", "Event"],
+    "bw2": ["Trainer", "Cut", "Strength", "Surf", "Waterfall", "Dive", "Event"]
+};
+//const GAME_TO_IMPORT = "bw2";
+function doImport(gameToImport) {
+    parsedFiles = {};
+    files = [];
+    $.get("import/" + gameToImport + "/hubs.txt", function (fileData) {
         files = fileData.split("\n");
         files = files.filter(function (file) { return file.trim() !== ""; });
         files.forEach(function (hubData) {
@@ -22,7 +18,7 @@ $(function () {
             var file = hubInfo[0];
             if (!file)
                 return;
-            $.get("import/" + GAME_TO_IMPORT + "/" + file + ".txt", function (locData) {
+            $.get("import/" + gameToImport + "/" + file + ".txt", function (locData) {
                 var locs = locData.trim().split("\n").map(function (loc) { return loc.trim(); });
                 parsedFiles[file] = {
                     hubName: locs[0],
@@ -31,9 +27,10 @@ $(function () {
             }, "text");
         });
     }, "text");
+    $(document).off("ajaxStop");
     $(document).ajaxStop(function () {
         if (files.length > 0 && Object.keys(parsedFiles).length === files.length) {
-            var mapData_1 = { Region: regionNames[GAME_TO_IMPORT], Hubs: [], Locations: [], Blockages: [] };
+            var mapData_1 = { Region: regionNames[gameToImport], Hubs: [], Locations: [], Blockages: [] };
             var placeIndex_1 = 0;
             files.forEach(function (hubData) {
                 var _a = hubData.trim().split(","), file = _a[0], image = _a[1];
@@ -55,12 +52,12 @@ $(function () {
                 mapData_1.Hubs.push({
                     Name: parsedFiles[file].hubName,
                     Locations: newHubLocs,
-                    ImageName: image ? GAME_TO_IMPORT + "/" + image : ""
+                    ImageName: image ? gameToImport + "/" + image : ""
                 });
             });
-            mapData_1.Blockages = blockages[GAME_TO_IMPORT];
+            mapData_1.Blockages = blockages[gameToImport];
             console.log(mapData_1);
         }
     });
-});
+}
 //# sourceMappingURL=import.js.map
