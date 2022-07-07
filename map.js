@@ -58,6 +58,12 @@ var blockageColors = {
         text: "white"
     }
 };
+var regionNames = {
+    "hgss": "johto",
+    "emerald": "hoenn",
+    "platinum": "sinnoh",
+    "bw2": "unova"
+};
 var RegionMap = /** @class */ (function () {
     function RegionMap() {
     }
@@ -200,9 +206,9 @@ var RegionMap = /** @class */ (function () {
     RegionMap.prototype.FindHub = function (locId) {
         return this.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); });
     };
-    RegionMap.prototype.Load = function (region) {
+    RegionMap.prototype.Load = function (region, loadSavedRun) {
         var _this = this;
-        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
+        if (loadSavedRun && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
         }
         return fetch("worlds/" + region + ".json").then(function (response) { return response.json(); }).then(function (data) {

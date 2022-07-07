@@ -61,6 +61,13 @@ const blockageColors: { [blockage: string]: { bkg?: string, text?: string } } = 
     }
 };
 
+const regionNames = {
+    "hgss": "johto",
+    "emerald": "hoenn",
+    "platinum": "sinnoh",
+    "bw2": "unova"
+};
+
 
 
 type MapLocation = {
@@ -246,8 +253,8 @@ class RegionMap {
        return this.Hubs.findIndex(hub => hub.Locations.includes(locId));
     }
 
-    Load(region: string): Promise<void> {
-        if (!$("#forceFileLoad").prop("checked") && this.loadFromLocalStorage(region)) {
+    Load(region: string, loadSavedRun: boolean): Promise<void> {
+        if (loadSavedRun && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
         }
 

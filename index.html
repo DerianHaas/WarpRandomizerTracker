@@ -8,8 +8,9 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="map.js"></script>
     <script src="main.js"></script>
-    <!--<script src="import/import.js"></script>-->
-    <link rel="stylesheet" href="main.css" type="text/css" /> 
+    <script src="import/import.js"></script>
+    <script src="startup.js"></script>
+    <link rel="stylesheet" href="main.css" type="text/css" />
 </head>
 <body>
     <div style="display:flex">
@@ -45,13 +46,33 @@
             </div>
             <div id="gridContainer"></div>
         </div>
-        <div id="regionSelect" style="padding-left: 20px">
-            <button id="hoennSelect">Emerald</button>
-            <button id="sinnohSelect">Platinum</button>
-            <button id="johtoSelect">HG/SS</button>
-            <button id="unovaSelect">BW2</button>
-            <br />
-            Force file load: <input type="checkbox" id="forceFileLoad" />
+        <div>
+            <button id="openStartup">Game Selection</button>
+        </div>
+        <div id="startupModal" class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h1 style="text-align:center">Game Selection</h1>
+                <p>What would you like to do?
+                    <select name="loadOption">
+                        <option value="loadExisting">Load a saved run</option>
+                        <option value="loadNew">Start a new run</option>
+                        <option value="import">DEBUG - Generate a world from /import/</option>
+                    </select>
+                </p>
+                Game:
+                <div id="worldSelection">
+                    <input type="radio" name="worldOption" value="emerald" checked/><label>Emerald</label><br />
+                    <input type="radio" name="worldOption" value="platinum"/><label>Platinum</label><br />
+                    <input type="radio" name="worldOption" value="hgss"/><label>HeartGold / SoulSilver</label><br />
+                    <input type="radio" name="worldOption" value="bw2"/><label>White 2</label><br />
+                    <div id="unovaSettings" hidden>
+                        
+                    </div>
+                </div>
+                <br />
+                <button id="loadWorld" disabled>Load</button>
+            </div>
         </div>
     </div>
     
