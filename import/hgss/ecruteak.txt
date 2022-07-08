@@ -9,6 +9,3 @@ Ecruteak House W
 Ecruteak House S
 Ecruteak Exit W
 Ecruteak Exit E
-
-Ecruteak Burnt Tower Interior - Event
-Ecruteak Theater Interior - Surf

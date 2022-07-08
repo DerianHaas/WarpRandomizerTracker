@@ -42,3 +42,6 @@ dept1
 dept2
 pokecenters1
 pokecenters2
+interest
+HMs
+legendaries

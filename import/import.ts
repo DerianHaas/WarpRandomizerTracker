@@ -1,5 +1,6 @@
 ﻿let parsedFiles: { [fileName: string]: { hubName: string, locNames: string[] } };
 let files: string[];
+let locMap: { [name: string]: number  };
 
 let blockages = {
 	"hgss": ["Trainer", "Flash", "Rock Smash", "Cut", "Bike", "Strength", "Surf", "Whirlpool", "Waterfall", "Rock Climb", "Power Plant", "Event"],
@@ -8,11 +9,11 @@ let blockages = {
 	"bw2": ["Trainer", "Cut", "Strength", "Surf", "Waterfall", "Dive", "Event"]
 };
 
-//const GAME_TO_IMPORT = "bw2";
-function doImport(gameToImport: string)
+function doImport(gameToImport: string, version?: string)
 {
 	parsedFiles = {};
 	files = [];
+	locMap = {};
 
 	$.get("import/" + gameToImport + "/hubs.txt", function (fileData)
 	{
@@ -20,18 +21,19 @@ function doImport(gameToImport: string)
 		files = files.filter(file => file.trim() !== "");
 		files.forEach((hubData) =>
 		{
-			let hubInfo: string[] = hubData.trim().split(",");
-			let file = hubInfo[0];
+			let [file, image, hubVersion] = hubData.trim().split(",");
 			if (!file) return;
-			$.get("import/" + gameToImport + "/" + file + ".txt", function (locData)
+			if (!version || version === hubVersion)
 			{
-				let locs: string[] = locData.trim().split("\n").map(loc => loc.trim());
-
-				parsedFiles[file] = {
-					hubName: locs[0],
-					locNames: locs.slice(1)
-				};
-			}, "text");
+				$.get("import/" + gameToImport + "/" + file + ".txt", function (locData)
+				{
+					let locs: string[] = locData.trim().split("\n").map(loc => loc.trim());
+					parsedFiles[file] = {
+						hubName: locs[0],
+						locNames: locs.slice(1)
+					};
+				}, "text");
+			}
 		});
 	}, "text");
 
@@ -41,35 +43,50 @@ function doImport(gameToImport: string)
 		if (files.length > 0 && Object.keys(parsedFiles).length === files.length)
 		{
 			let mapData: LoadJSON = { Region: regionNames[gameToImport], Hubs: [], Locations: [], Blockages: [] };
-			let placeIndex = 0;
+			let nextLoc = 0;
 
 			files.forEach((hubData) =>
 			{
-				let [file, image] = hubData.trim().split(",");
+				let [file, image, hubVersion] = hubData.trim().split(",");
 				let newHubLocs = [];
-				parsedFiles[file].locNames.forEach((locData) =>
+				if (!version || hubVersion === version)
 				{
-					if (locData === "")
+					parsedFiles[file].locNames.forEach((locData) =>
 					{
-						newHubLocs.push(NoLocation);
-					} else
-					{
-						newHubLocs.push(placeIndex);
-						let [locName, locBlock] = locData.split(",");
-						let newLoc: LoadLocation = { Name: locName };
-						if (locBlock)
+						if (locData === "")
 						{
-							newLoc.BlockedBy = locBlock.trim();
+							newHubLocs.push(NoLocation);
+						} else
+						{
+							let [locName, blockage, locVersion] = locData.split(",");
+							if (!version || version === locVersion)
+							{
+								let locIndex: number;
+								if (!(locName in locMap))
+								{
+									locIndex = nextLoc;
+									locMap[locName] = locIndex;
+									let newLoc: LoadLocation = { Name: locName };
+									if (blockage)
+									{
+										newLoc.BlockedBy = blockage.trim();
+									}
+									mapData.Locations[nextLoc++] = newLoc;
+								} else
+								{
+									locIndex = locMap[locName];
+								}
+								newHubLocs.push(locIndex);								
+							}
 						}
-						mapData.Locations[placeIndex++] = newLoc;
-					}
-				});
+					});
 
-				mapData.Hubs.push({
-					Name: parsedFiles[file].hubName,
-					Locations: newHubLocs,
-					ImageName: image ? gameToImport + "/" + image : ""
-				});
+					mapData.Hubs.push({
+						Name: parsedFiles[file].hubName,
+						Locations: newHubLocs,
+						ImageName: image ? gameToImport + "/" + image : ""
+					});
+				}
 			});
 
 			mapData.Blockages = blockages[gameToImport];

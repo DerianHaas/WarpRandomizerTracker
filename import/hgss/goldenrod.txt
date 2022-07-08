@@ -21,5 +21,3 @@ Goldenrod Underground Stairs N
 Goldenrod Underground Stairs S
 Goldenrod Underground Door NE
 Goldenrod Underground Door SE
-
-Flower Shop Interior

@@ -12,6 +12,3 @@ Violet Exit W
 Violet Route 32 Exit NW
 Violet Route 32 Pokecenter
 Violet Route 32 Cave S
-
-Violet Mart Interior
-Sprout Tower 3F - Flash
