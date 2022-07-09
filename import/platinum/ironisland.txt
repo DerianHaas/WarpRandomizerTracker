@@ -1,6 +1,6 @@
 ﻿Iron Island
 Iron Island Exterior Exit
-Iron Island Exterior Entrance
+Iron Island Exterior Entrance - Strength
 Iron Island Exterior House
 
 Iron Island 1F Exit

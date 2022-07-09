@@ -750,6 +750,21 @@
         449
       ],
       "ImageName": ""
+    },
+    {
+      "Name": "HM Locations",
+      "Locations": [
+        204,
+        -1,
+        181,
+        -1,
+        328,
+        -1,
+        157,
+        -1,
+        279
+      ],
+      "ImageName": ""
     }
   ],
   "Locations": [
@@ -1234,7 +1249,7 @@
       "Name": "R217 House N"
     },
     {
-      "Name": "R217 House W"
+      "Name": "R217 House W - Rock Climb"
     },
     {
       "Name": "R216 House W"
@@ -1307,7 +1322,7 @@
       "Name": "Valley Windworks Interior (Mars)"
     },
     {
-      "Name": "Celestic Ruins Interior (Cyrus)"
+      "Name": "Celestic Ruins Interior - Surf"
     },
     {
       "Name": "Oreburgh Mine Interior (Roark)"
@@ -1377,7 +1392,7 @@
       "BlockedBy": "Rock Smash"
     },
     {
-      "Name": "Oreburgh Gate West Exit"
+      "Name": "Oreburgh Gate West Exit - Rock Smash"
     },
     {
       "Name": "Oreburgh Gate East Exit"
@@ -1606,8 +1621,7 @@
       "Name": "Galactic HQ 4F Warp SE"
     },
     {
-      "Name": "Galactic Warehouse B2F Stairs C",
-      "BlockedBy": "Galactic Key"
+      "Name": "Galactic Warehouse B2F Stairs C - Galactic Key"
     },
     {
       "Name": "Galactic Warehouse B2F Stairs W"
@@ -1760,7 +1774,7 @@
       "Name": "Iron Island Exterior Exit"
     },
     {
-      "Name": "Iron Island Exterior Entrance"
+      "Name": "Iron Island Exterior Entrance - Strength"
     },
     {
       "Name": "Iron Island Exterior House"

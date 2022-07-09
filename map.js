@@ -77,7 +77,7 @@ var RegionMap = /** @class */ (function () {
         }
         loc.LinkedLocation = NoLocation;
     };
-    RegionMap.prototype.Link = function (locId1, locId2, oneWay, notes) {
+    RegionMap.prototype.Link = function (locId1, locId2, oneWay, notes, dontSave) {
         var loc1 = this.AllLocations[locId1];
         var loc2 = this.AllLocations[locId2];
         if ((loc1.LinkedLocation > NoLocation && loc1.LinkedLocation !== locId2) || (loc2.LinkedLocation > NoLocation && loc2.LinkedLocation !== locId1)) {
@@ -92,7 +92,9 @@ var RegionMap = /** @class */ (function () {
         loc2.BlockedBy = oneWay ? OneWayBlock : NoBlock;
         loc1.Notes = notes;
         loc2.Notes = notes;
-        this.saveToLocalStorage();
+        if (!dontSave) {
+            this.saveToLocalStorage();
+        }
         return true;
     };
     RegionMap.prototype.MarkBlockage = function (locId, block, notes) {

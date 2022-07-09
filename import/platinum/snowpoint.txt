@@ -8,6 +8,6 @@ Snowpoint Temple
 
 Acuity Lakefront,Rock Climb
 R217 House N
-R217 House W
+R217 House W - Rock Climb
 R216 House W
 R216 Mt Coronet

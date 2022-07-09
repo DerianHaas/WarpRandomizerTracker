@@ -116,10 +116,7 @@
     function loadSinnoh(loadSaved: boolean)
     {
         mainMap = new RegionMap();
-        mainMap.Load("sinnoh", loadSaved).then(() =>
-		{
-			addHMHub("sinnoh");
-		}).then(initialSetup);
+        mainMap.Load("sinnoh", loadSaved).then(initialSetup);
     }
 
     function loadJohto(loadSaved: boolean)
@@ -133,7 +130,7 @@
                 let cherryPC2 = mainMap.AllLocations.findIndex(loc => loc.Name === "Cherrygrove PC Entrance");
                 if (cherryPC1 !== NoLocation && cherryPC2 != NoLocation)
                 {
-                    mainMap.Link(cherryPC1, cherryPC2, false);
+                    mainMap.Link(cherryPC1, cherryPC2, false, "", true);
                 }
                 redraw();
             }
@@ -145,52 +142,6 @@
         mainMap = new RegionMap();
         mainMap.Load("unova", loadSaved).then(initialSetup);
 	}
-
-    function addHMHub(region: string)
-    {
-        if (!$("#forceFileLoad").prop("checked")) return;
-        if (region === "sinnoh")
-        {
-            let hmLocs: number[] = [];
-
-            let rockSmashLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Oreburgh Gate West Exit");
-            if (rockSmashLoc !== NoLocation)
-            {
-                hmLocs.push(rockSmashLoc);
-                hmLocs.push(NoLocation);
-            }
-
-            let surfLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Celestic Ruins Interior (Cyrus)");
-            if (surfLoc !== NoLocation)
-            {
-                hmLocs.push(surfLoc);
-                hmLocs.push(NoLocation);
-            }
-
-            let strengthLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Iron Island Exterior Entrance");
-            if (strengthLoc !== NoLocation)
-            {
-                hmLocs.push(strengthLoc);
-                hmLocs.push(NoLocation);
-            }
-
-            let rockClimbLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "R217 House W");
-            if (rockClimbLoc !== NoLocation)
-            {
-                hmLocs.push(rockClimbLoc);
-                hmLocs.push(NoLocation);
-            }
-
-            let keyLoc = mainMap.AllLocations.findIndex(loc => loc.Name === "Galactic Warehouse B2F Stairs C");
-            if (keyLoc !== NoLocation)
-            {
-                hmLocs.push(keyLoc);
-            }
-
-            mainMap.Hubs.push({ Locations: hmLocs, Name: "HM Locations", ImageName: "" });
-
-        }
-    }
 
     function loadBlockages()
     {

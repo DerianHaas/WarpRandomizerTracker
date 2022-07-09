@@ -93,7 +93,7 @@ $(function () {
                 var cherryPC1 = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Cherrygrove Pokecenter"; });
                 var cherryPC2 = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Cherrygrove PC Entrance"; });
                 if (cherryPC1 !== NoLocation && cherryPC2 != NoLocation) {
-                    mainMap.Link(cherryPC1, cherryPC2, false);
+                    mainMap.Link(cherryPC1, cherryPC2, false, "", true);
                 }
                 redraw();
             }

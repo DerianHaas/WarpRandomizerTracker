@@ -26,6 +26,6 @@ Galactic HQ 4F Warp N
 Galactic HQ 4F Warp NE
 Galactic HQ 4F Warp SE
 
-Galactic Warehouse B2F Stairs C,Galactic Key
+Galactic Warehouse B2F Stairs C - Galactic Key
 Galactic Warehouse B2F Stairs W
 Galactic Warehouse B2F Stairs E

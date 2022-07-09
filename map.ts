@@ -105,7 +105,7 @@ class RegionMap {
         loc.LinkedLocation = NoLocation;
     }
 
-    Link(locId1: number, locId2: number, oneWay: boolean, notes?: string) {
+    Link(locId1: number, locId2: number, oneWay: boolean, notes?: string, dontSave?: boolean) {
         let loc1 = this.AllLocations[locId1];
         let loc2 = this.AllLocations[locId2];
         if ((loc1.LinkedLocation > NoLocation && loc1.LinkedLocation !== locId2) || (loc2.LinkedLocation > NoLocation && loc2.LinkedLocation !== locId1)) {
@@ -122,7 +122,7 @@ class RegionMap {
         loc1.Notes = notes;
         loc2.Notes = notes;
 
-        this.saveToLocalStorage();
+        if (!dontSave) { this.saveToLocalStorage(); }
 
         return true;
     }

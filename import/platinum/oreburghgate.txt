@@ -1,4 +1,4 @@
 ﻿Oreburgh Gate
 Oreburgh Gate Stairs,Rock Smash
-Oreburgh Gate West Exit
+Oreburgh Gate West Exit - Rock Smash
 Oreburgh Gate East Exit
