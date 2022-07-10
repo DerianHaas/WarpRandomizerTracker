@@ -48,6 +48,8 @@
         </div>
         <div>
             <button id="openStartup">Game Selection</button>
+            <br /><br />
+            <button id="openInfo">How to Use</button>
         </div>
         <div id="startupModal" class="modal">
             <div class="modalcontent">
@@ -69,12 +71,51 @@
                     <div id="unovaSettings" hidden>
                         <br />
                         Which randomizer:<br />
-                         <input type="radio" name="bw2creator" value="adrienn" checked/><label><a href="https://github.com/adrienntindall/hgss-map-randomizer">Adrienn</a></label><br />
-                         <input type="radio" name="bw2creator" value="pointcrow" /><label><a href="https://discord.gg/pointcrow">PointCrow</a></label>
+                         <input type="radio" name="bw2creator" value="adrienn" checked/><label>Adrienn</label><br />
+                         <input type="radio" name="bw2creator" value="pointcrow" /><label>PointCrow</label>
                     </div>
                 </div>
                 <br />
                 <button id="loadWorld" disabled>Load</button>
+            </div>
+        </div>
+        <div id="infoModal" class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h1 style="text-align:center">How to use this tracker</h1>
+                <p>
+                    All locations that have more than two entrances, along with key dead-end locations, have been organized into hubs, listed in the top left.  Click on a hub to view the list of warp locations associated with that hub.
+                </p>
+                <p>
+                    Click on the name of a warp location to select it as an entrance.  Clicking on the name of another warp location will select that location as the destination.  
+                    Click on the destination location again to link the locations together.  If you select the wrong entrance, you can click the <i>Clear Selections</i> button.
+                    Clicking on the same location twice with no entrance previously selected marks that location as a dead end.
+                </p>
+                <p>
+                    To mark a location as blocked (by an HM, trainer, etc.), select the location, select the blockage type, add a note using the text field if you want to, then either click the location name again or double click on the blockage type.
+                </p>
+                <p></p>
+                Notes:
+                <ul>
+                    <li>There is a text box underneath the blockage list for you to include any general notes.</li>
+                    <li>Each square in the grid on the right side represents a single location, and is color-coded according to whether it is marked as linked or blocked.  Double click on a square in the grid to immediately jump to the hub that contains that location.</li>
+                    <li>Click on the name of a linked location on the right column of the current hub's locations to immediately jump to the hub that contains that location.</li>
+                    <li>Every time a link is made, the current state of the tracker is saved to your browser's local storage. This means that you will always have access to your most recent run of each game, even if you close your browser - just select "Load a Saved Run" on the Game Selection screen.  Clearing your browser's cache will delete these saves.</li>
+                </ul>
+                <br />
+                This tracker currently supports:
+                <ul>
+                    <li>Pokemon Emerald (<a href="https://discord.gg/pointcrow">Pointcrow's Universal Warp Randomizer</a>)</li>
+                    <li>Pokemon Platinum (<a href="https://discord.gg/pointcrow">Pointcrow's Universal Warp Randomizer</a>)</li>
+                    <li>Pokemon Heartgold/Soulsilver (<a href="https://github.com/adrienntindall/hgss-map-randomizer">Adrienn's Map Randomizer</a>)</li>
+                    <li>Pokemon White 2 (<a href="https://github.com/adrienntindall/hgss-map-randomizer">Adrienn's Map Randomizer</a>)</li>
+                    <li>Pokemon White 2 (<a href="https://discord.gg/pointcrow">Pointcrow's Universal Warp Randomizer</a>)</li>
+                </ul>
+                <i>I am not very familiar with Gen 3, so I would not be surprised if the Emerald Tracker is missing locations.  I also do not play FireRed/LeafGreen, so I have no intention of adding support for them to this tracker at this time.</i>
+                <br /><br />
+                <i>This website is not optimized for smaller screen resolutions, and depending on the size of your monitor, the blockage list might end up below the current hub's location list instead of to the right.  For now, you can zoom out to work around this issue.</i>
+                <br /><br /><br />
+                If you find any issues with the tracker (such as missing locations or functional bugs) or have requests for enhancements, please add an issue to the <a href="https://github.com/bsqrdminus4ac/WarpRandomizerTracker/issues">GitHub page</a>.
             </div>
         </div>
     </div>

@@ -3,45 +3,40 @@
 
     $("#openStartup").click(function () { $("#startupModal").show(); });
 
+    $("#openInfo").click(function () { $("#infoModal").show(); });
+
     $("#openStartup").click();
 
-    $(".close").click(function () { $("#startupModal").hide(); });
+    $(".close").click(function () { $("#startupModal").hide(); $("#infoModal").hide(); });
 
     window.onclick = function (event) {
         if (event.target.id == "startupModal") {
             $("#startupModal").hide();
         }
+        if (event.target.id === "infoModal") {
+            $("#infoModal").hide();
+        }
     }
 
     $("select[name=loadOption]").change(function () {
-        let selected = $(this).find("option:selected").val();
-        let worldName = $("input[type=radio][name=worldOption]:checked").val();
-        updateWorldSelection(selected !== "loadExisting");
-
-        if (worldName === "bw2" && selected === "loadNew") {
-            $("#unovaSettings").show();
-        } else {
-            $("#unovaSettings").hide();
-        }
+        updateWorldSelection();
     });
 
     $("input[type=radio][name=worldOption]").change(function () {
-        let worldName = $(this).val();
-        let loadOption = $("select[name=loadOption] option:selected").val();
-        if (worldName === "bw2" && loadOption === "loadNew") {
-            $("#unovaSettings").show();
-        } else {
-            $("#unovaSettings").hide();
-        }
+        updateWorldSelection();
+       
         $("#loadWorld").prop("disabled", false);
     });
 
     $("select[name=loadOption] option[value=loadExisting]").prop("selected", true).change();
 
-    function updateWorldSelection(enableAll: boolean) {
+    function updateWorldSelection() {
+        let loadOption = $("select[name=loadOption] option:selected").val();
+        let selectedWorldName = $("input[type=radio][name=worldOption]:checked").val();
+
         $("input[type=radio][name=worldOption]").each(function () {
             let worldName = regionNames[$(this).val().toString()];
-            if (!enableAll) {
+            if (loadOption === "loadExisting") {
                 let localData = localStorage.getItem("warpMap-" + worldName);
                 if (localData === null && $(this).prop("checked")) {
                     $(this).prop("checked", false);
@@ -50,8 +45,14 @@
                 $(this).prop("disabled", localData === null);
             } else {
                 $(this).prop("disabled", false);
-            }
+            } 
         });
+
+        if (selectedWorldName === "bw2" && loadOption === "loadNew") {
+            $("#unovaSettings").show();
+        } else {
+            $("#unovaSettings").hide();
+        }
     }
 
     $("#loadWorld").click(function () {
