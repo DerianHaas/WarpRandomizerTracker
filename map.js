@@ -139,11 +139,14 @@ var RegionMap = /** @class */ (function () {
         box.append(header);
         if (hub.Locations.length > 0) {
             var table = $("<table>").addClass("tableBorder");
+            var rowSkipped = true;
             for (var _i = 0, _a = hub.Locations; _i < _a.length; _i++) {
                 var locId = _a[_i];
                 var row = $("<tr>");
                 if (locId !== NoLocation) {
                     var loc = this.AllLocations[locId];
+                    if (!loc)
+                        continue;
                     var entranceItem = $("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId);
                     var destinationItem = $("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc));
                     if (loc.LinkedLocation > NoLocation) {
@@ -151,11 +154,16 @@ var RegionMap = /** @class */ (function () {
                         ;
                     }
                     row.append([entranceItem, destinationItem]);
+                    table.append(row);
+                    rowSkipped = false;
                 }
                 else {
-                    row = row.addClass("emptyRow");
+                    if (!rowSkipped) {
+                        row = row.addClass("emptyRow");
+                        table.append(row);
+                        rowSkipped = true;
+                    }
                 }
-                table.append(row);
             }
             box.append(table);
         }
@@ -187,7 +195,9 @@ var RegionMap = /** @class */ (function () {
     RegionMap.prototype.DrawGrid = function () {
         var container = $("<div>").attr("id", "gridWrapper");
         for (var locId = 0; locId < this.AllLocations.length; locId++) {
-            container.append($("<div>").data("id", locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
+            if (this.AllLocations[locId]) {
+                container.append($("<div>").data("id", locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
+            }
         }
         return container;
     };
@@ -201,14 +211,16 @@ var RegionMap = /** @class */ (function () {
     };
     RegionMap.prototype.ResetAll = function () {
         for (var locId = 0; locId < this.AllLocations.length; locId++) {
-            this.ClearLink(locId);
+            if (this.AllLocations[locId]) {
+                this.ClearLink(locId);
+            }
         }
         this.saveToLocalStorage();
     };
     RegionMap.prototype.FindHub = function (locId) {
         return this.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); });
     };
-    RegionMap.prototype.Load = function (region, loadSavedRun) {
+    RegionMap.prototype.Load = function (region, loadSavedRun, version) {
         var _this = this;
         if (loadSavedRun && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
@@ -217,7 +229,15 @@ var RegionMap = /** @class */ (function () {
             _this.AllLocations = [];
             _this.Hubs = [];
             _this.Title = data.Region;
-            _this.Hubs = data.Hubs;
+            var skippedHubLocs = [];
+            data.Hubs.forEach(function (hub) {
+                if (!version || !hub.Version || version === hub.Version) {
+                    _this.Hubs.push(hub);
+                }
+                else {
+                    skippedHubLocs = skippedHubLocs.concat(hub.Locations);
+                }
+            });
             _this.RegionBlockageTypes = data.Blockages;
             if (!_this.RegionBlockageTypes.includes("One Way")) {
                 OneWayBlock = _this.RegionBlockageTypes.length;
@@ -226,13 +246,21 @@ var RegionMap = /** @class */ (function () {
             if (!_this.RegionBlockageTypes.includes("Other")) {
                 _this.RegionBlockageTypes.push("Other");
             }
-            for (var _i = 0, _a = data.Locations; _i < _a.length; _i++) {
-                var loc = _a[_i];
-                var defaultBlock = NoBlock;
-                if (loc.BlockedBy) {
-                    defaultBlock = _this.RegionBlockageTypes.indexOf(loc.BlockedBy);
+            for (var locIndex = 0; locIndex < data.Locations.length; locIndex++) {
+                var loc = data.Locations[locIndex];
+                if (skippedHubLocs.includes(locIndex)) {
+                    _this.AllLocations.push(undefined);
                 }
-                _this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: defaultBlock });
+                else if (version && loc.Version && loc.Version !== version) {
+                    _this.AllLocations.push(undefined);
+                }
+                else {
+                    var defaultBlock = NoBlock;
+                    if (loc.BlockedBy) {
+                        defaultBlock = _this.RegionBlockageTypes.indexOf(loc.BlockedBy);
+                    }
+                    _this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: defaultBlock });
+                }
             }
         });
     };

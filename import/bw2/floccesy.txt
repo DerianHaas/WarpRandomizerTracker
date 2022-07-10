@@ -1,6 +1,6 @@
 Floccesy
 Floccesy Pokecenter
-Floccesy House NW
+Floccesy House NW,,pointcrow
 Floccesy House SE 1
 Floccesy House SE 2
 Floccesy Pledge Grove

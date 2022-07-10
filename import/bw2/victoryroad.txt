@@ -1,6 +1,6 @@
-Victory Road / Pokemon League
-Victory Gate Entrance (Waterfall)
-Victory Road Pokemart
+Victory Road
+Victory Gate Entrance - Waterfall
+Victory Road Pokecenter
 Victory Road Entrance
 
 Victory Road Cliffside SW
@@ -9,11 +9,23 @@ Victory Road Cliffside NW
 Victory Road Cliffside NE
 Victory Road Cliffside N
 
-Victory Road Ruins Entrance SE
-Victory Road Ruins Stairs NW
+Victory Road Ruins Entrance SE,,pointcrow
+Victory Road Ruins Stairs NW,,pointcrow
 
-Victory Road Ruins Cave N
-Victory Road Ruins Stairs N
+Victory Road Ruins Cave N,,pointcrow
+Victory Road Ruins Stairs N,,pointcrow
+
+Victory Road White Ruins Entrance SE,,adrienn
+Victory Road White Ruins Stairs NW,strength,adrienn
+
+Victory Road White Ruins Cave N,,adrienn
+Victory Road White Ruins Stairs N,,adrienn
+
+Victory Road Black Ruins Entrance SE,,adrienn
+Victory Road Black Ruins Stairs N,strength,adrienn
+
+Victory Road Black Ruins Cave N,,adrienn
+Victory Road Black Ruins Stairs NW,,adrienn
 
 Victory Road Cave NW
 Victory Road Cave N
@@ -21,13 +33,3 @@ Victory Road Cave NE
 Victory Road Cave SW
 Victory Road Cave S
 Victory Road Cave SE
-
-Pokemon League Exit S
-Pokemon League Entrance N
-Pokemon League Pokecenter
-
-Elite Four Hub W
-Elite Four Hub NW
-Elite Four Hub NE
-Elite Four Hub E
-Elite Four Hub Entrance

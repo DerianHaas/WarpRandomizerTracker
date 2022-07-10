@@ -1,5 +1,6 @@
 Village Bridge
 Village Bridge Exit W
+Village Bridge Hidden Room W
 Village Bridge House W 1
 Village Bridge House W 2
 Village Bridge House W 3

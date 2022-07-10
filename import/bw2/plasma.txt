@@ -1,4 +1,13 @@
 Plasma Frigate
+Plasma Frigate Deck 1 Exit W,,adrienn
+Plasma Frigate Deck 1 Door N,,adrienn
+Plasma Frigate Deck 1 Door S,,adrienn
+
+Plasma Frigate Deck 2 Exit W,,adrienn
+Plasma Frigate Deck 2 Door N,,adrienn
+Plasma Frigate Deck 2 Door S,,adrienn
+Plasma Frigate Deck 2 Stairs S,,adrienn
+
 Plasma Frigate North Stairs
 Plasma Frigate North NW
 Plasma Frigate North W

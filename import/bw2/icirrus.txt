@@ -6,7 +6,8 @@ Icirrus House W
 Icirrus House C
 Icirrus House N
 Icirrus Dragonspiral Entrance
-Icirrus House SE (Winter Only)
+
+Icirrus House SE
 
 Route 8 Moor Entrance
 Route 8 Exit E

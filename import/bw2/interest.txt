@@ -1,10 +1,29 @@
 Places of Interest
-Pokestar Studios
+Floccesy Ranch Interior
+
+Pokestar Studios,,pointcrow
 
 Nimbasa Rollercoaster Interior
 
 Kyurem / Ghetsis
 
-Heatran
-N's Castle
+Juniper's Lab Interior
+
+Plasma Frigate Colress,,adrienn
+
+Heatran,,pointcrow
+Heatran W2,,adrienn
+Heatran B2,,adrienn
+
+Strange House Lunar Wing Room,,adrienn
+Marvelous Bridge W
+Marvelous Bridge E - Cresselia
+
+N's Castle,,pointcrow
+N's Castle 1F Entrance,,adrienn
+N's Castle 1F Door SW,,adrienn
+N's Castle 1F Stairs,,adrienn
+
+N's Castle Roof,,adrienn
+
 Dragonspiral Tower Roof

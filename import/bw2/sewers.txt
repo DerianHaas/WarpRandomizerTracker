@@ -7,7 +7,7 @@ Castelia Sewers Stairs NW
 Castelia Sewers Door NW
 Castelia Sewers Door W,Surf
 Castelia Sewers Door C,Surf
-Castelia Sewers Door E,Surf
+Castelia Sewers Door E
 
 Relic Passage Middle Exit NW
 Relic Passage Middle Exit NE

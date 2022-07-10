@@ -1,9 +1,9 @@
 Twist Mountain
 Twist Exterior 1F NW
 Twist Exterior 1F NE
+Twist Exterior 1F House
 Twist Exterior 1F S
 Twist Exterior 1F E
-Twist Exterior 1F House
 
 Twist Exterior 2F NW
 Twist Exterior 2F N

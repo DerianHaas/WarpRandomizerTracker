@@ -21,7 +21,7 @@ Driftveil Clay Tunnel
 
 PWT Exit N
 PWT Cave SW
-PWT Building
+PWT Building,,pointcrow
 
 Route 6 Mistralton Cave,Surf
 Route 6 Research Lab

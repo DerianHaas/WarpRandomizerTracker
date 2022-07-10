@@ -82,7 +82,8 @@ type Hub = {
 
     Name: string;
     Locations: number[];
-    ImageName: string;
+    ImageName?: string;
+    Version?: string;
 }
 
 class RegionMap {
@@ -178,10 +179,12 @@ class RegionMap {
 
         if (hub.Locations.length > 0) {
             let table = $("<table>").addClass("tableBorder");
+            let rowSkipped = true;
             for (let locId of hub.Locations) {
                 let row = $("<tr>");
                 if (locId !== NoLocation) {
                     let loc = this.AllLocations[locId];
+                    if (!loc) continue;
                     let entranceItem = $("<td>").data("id", locId).text(loc.Name).addClass("entrance").attr("title", "ID: " + locId);
                     let destinationItem = $("<td>").text(this.getLinkedLocationName(loc)).css(this.getLocationStyling(loc))
                     if (loc.LinkedLocation > NoLocation) {
@@ -189,10 +192,15 @@ class RegionMap {
                     }
 
                     row.append([entranceItem, destinationItem]);
+                    table.append(row);
+                    rowSkipped = false;
                 } else {
-                    row = row.addClass("emptyRow");
+                    if (!rowSkipped) {
+                        row = row.addClass("emptyRow");
+                        table.append(row);
+                        rowSkipped = true;
+                    }
                 }
-                table.append(row);
             }
             box.append(table);
         }
@@ -230,7 +238,9 @@ class RegionMap {
     DrawGrid(): JQuery {
         let container = $("<div>").attr("id", "gridWrapper");
         for (let locId = 0; locId < this.AllLocations.length; locId++) {
-            container.append($("<div>").data("id",locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
+            if (this.AllLocations[locId]) {
+                container.append($("<div>").data("id", locId).addClass("gridSquare").css(this.getLocationStyling(this.AllLocations[locId])));
+            }
         }
         return container;
     }
@@ -244,7 +254,9 @@ class RegionMap {
 
     ResetAll() {
         for (let locId = 0; locId < this.AllLocations.length; locId++) {
-            this.ClearLink(locId);
+            if (this.AllLocations[locId]) {
+                this.ClearLink(locId);
+            }
         }
         this.saveToLocalStorage();
     }
@@ -253,7 +265,7 @@ class RegionMap {
        return this.Hubs.findIndex(hub => hub.Locations.includes(locId));
     }
 
-    Load(region: string, loadSavedRun: boolean): Promise<void> {
+    Load(region: string, loadSavedRun: boolean, version?: string): Promise<void> {
         if (loadSavedRun && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
         }
@@ -262,7 +274,14 @@ class RegionMap {
             this.AllLocations = [];
             this.Hubs = [];
             this.Title = data.Region;
-            this.Hubs = data.Hubs;
+            let skippedHubLocs = [];
+            data.Hubs.forEach(hub => {
+                if (!version || !hub.Version || version === hub.Version) {
+                    this.Hubs.push(hub);
+                } else {
+                    skippedHubLocs = skippedHubLocs.concat(hub.Locations);
+                }
+            });
             this.RegionBlockageTypes = data.Blockages;
             if (!this.RegionBlockageTypes.includes("One Way")) {
                 OneWayBlock = this.RegionBlockageTypes.length;
@@ -272,14 +291,18 @@ class RegionMap {
                 this.RegionBlockageTypes.push("Other");
             }
 
-            for (let loc of data.Locations) {
-                let defaultBlock = NoBlock;
-                if (loc.BlockedBy) {
-                    defaultBlock = this.RegionBlockageTypes.indexOf(loc.BlockedBy);
+            for (let locIndex = 0; locIndex < data.Locations.length; locIndex++) {
+                let loc = data.Locations[locIndex];
+                if (skippedHubLocs.includes(locIndex)) { this.AllLocations.push(undefined); }
+                else if (version && loc.Version && loc.Version !== version) { this.AllLocations.push(undefined); }
+                else {
+                    let defaultBlock = NoBlock;
+                    if (loc.BlockedBy) {
+                        defaultBlock = this.RegionBlockageTypes.indexOf(loc.BlockedBy);
+                    }
+                    this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: defaultBlock });
                 }
-                this.AllLocations.push({ Name: loc.Name, LinkedLocation: NoLocation, BlockedBy: defaultBlock });
             }
-            
         });
     }
 
@@ -347,7 +370,7 @@ type LocalStorageJSON = {
 type LoadLocation = {
     Name: string;
     BlockedBy?: string;
-    Coords?: [number, number, number, number];
+    Version?: string;
 }
 
 type LoadJSON = {

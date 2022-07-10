@@ -8,12 +8,20 @@ $(function () {
         }
     };
     $("select[name=loadOption]").change(function () {
-        var selected = $(this).find("option:selected");
-        updateWorldSelection(selected.val() !== "loadExisting");
+        var selected = $(this).find("option:selected").val();
+        var worldName = $("input[type=radio][name=worldOption]:checked").val();
+        updateWorldSelection(selected !== "loadExisting");
+        if (worldName === "bw2" && selected === "loadNew") {
+            $("#unovaSettings").show();
+        }
+        else {
+            $("#unovaSettings").hide();
+        }
     });
     $("input[type=radio][name=worldOption]").change(function () {
         var worldName = $(this).val();
-        if (worldName === "bw2") {
+        var loadOption = $("select[name=loadOption] option:selected").val();
+        if (worldName === "bw2" && loadOption === "loadNew") {
             $("#unovaSettings").show();
         }
         else {
@@ -82,57 +90,36 @@ $(function () {
     }
     function loadSinnoh(loadSaved) {
         mainMap = new RegionMap();
-        mainMap.Load("sinnoh", loadSaved).then(function () {
-            addHMHub("sinnoh");
-        }).then(initialSetup);
+        mainMap.Load("sinnoh", loadSaved).then(initialSetup);
     }
     function loadJohto(loadSaved) {
         mainMap = new RegionMap();
         mainMap.Load("johto", loadSaved).then(initialSetup).then(function () {
             if (!loadSaved) {
-                var cherryPC1 = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Cherrygrove Pokecenter"; });
-                var cherryPC2 = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Cherrygrove PC Entrance"; });
-                if (cherryPC1 !== NoLocation && cherryPC2 != NoLocation) {
-                    mainMap.Link(cherryPC1, cherryPC2, false, "", true);
-                }
+                addInitialLink("Cherrygrove Pokecenter", "Cherrygrove PC Entrance");
                 redraw();
             }
         });
     }
     function loadUnova(loadSaved) {
+        var version = "";
+        if (!loadSaved) {
+            version = $("input[name=bw2creator]:checked").val().toString();
+        }
         mainMap = new RegionMap();
-        mainMap.Load("unova", loadSaved).then(initialSetup);
+        mainMap.Load("unova", loadSaved, version).then(initialSetup).then(function () {
+            if (version === "adrienn") {
+                addInitialLink("Aspertia Pokecenter", "Aspertia Pokecenter Interior");
+                addInitialLink("Nimbasa Gear Station", "Gear Station Stairs");
+            }
+            redraw();
+        });
     }
-    function addHMHub(region) {
-        if (!$("#forceFileLoad").prop("checked"))
-            return;
-        if (region === "sinnoh") {
-            var hmLocs = [];
-            var rockSmashLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Oreburgh Gate West Exit"; });
-            if (rockSmashLoc !== NoLocation) {
-                hmLocs.push(rockSmashLoc);
-                hmLocs.push(NoLocation);
-            }
-            var surfLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Celestic Ruins Interior (Cyrus)"; });
-            if (surfLoc !== NoLocation) {
-                hmLocs.push(surfLoc);
-                hmLocs.push(NoLocation);
-            }
-            var strengthLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Iron Island Exterior Entrance"; });
-            if (strengthLoc !== NoLocation) {
-                hmLocs.push(strengthLoc);
-                hmLocs.push(NoLocation);
-            }
-            var rockClimbLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "R217 House W"; });
-            if (rockClimbLoc !== NoLocation) {
-                hmLocs.push(rockClimbLoc);
-                hmLocs.push(NoLocation);
-            }
-            var keyLoc = mainMap.AllLocations.findIndex(function (loc) { return loc.Name === "Galactic Warehouse B2F Stairs C"; });
-            if (keyLoc !== NoLocation) {
-                hmLocs.push(keyLoc);
-            }
-            mainMap.Hubs.push({ Locations: hmLocs, Name: "HM Locations", ImageName: "" });
+    function addInitialLink(loc1, loc2) {
+        var locId1 = mainMap.AllLocations.findIndex(function (loc) { return (loc === null || loc === void 0 ? void 0 : loc.Name) === loc1; });
+        var locId2 = mainMap.AllLocations.findIndex(function (loc) { return (loc === null || loc === void 0 ? void 0 : loc.Name) === loc2; });
+        if (locId1 !== NoLocation && locId2 != NoLocation) {
+            mainMap.Link(locId1, locId2, false, "", true);
         }
     }
     function loadBlockages() {

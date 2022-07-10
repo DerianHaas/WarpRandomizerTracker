@@ -1,0 +1,10 @@
+Pokemon League
+Pokemon League Exit S
+Pokemon League Entrance N
+Pokemon League Pokecenter
+
+Elite Four Hub W
+Elite Four Hub NW
+Elite Four Hub NE
+Elite Four Hub E
+Elite Four Hub Entrance

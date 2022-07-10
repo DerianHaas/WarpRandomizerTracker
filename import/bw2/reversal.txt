@@ -1,10 +1,30 @@
 Reversal Mountain
-Reversal Big Room NW
-Reversal Big Room SW
-Reversal Big Room S
-Reversal Big Room E
-Reversal Big Room NE
+Reversal Big Room NW,,pointcrow
+Reversal Big Room SW,,pointcrow
+Reversal Big Room S,,pointcrow
+Reversal Big Room E,,pointcrow
+Reversal Big Room NE,,pointcrow
 
-Reversal Junction N
-Reversal Junction E
-Reversal Junction S
+Reversal Junction N,,pointcrow
+Reversal Junction E,,pointcrow
+Reversal Junction S,,pointcrow
+
+Reversal Red Big Room NW,,adrienn
+Reversal Red Big Room SW,,adrienn
+Reversal Red Big Room S,,adrienn
+Reversal Red Big Room E,,adrienn
+Reversal Red Big Room NE,,adrienn
+
+Reversal Red Junction N,,adrienn
+Reversal Red Junction E,,adrienn
+Reversal Red Junction S,,adrienn
+
+Reversal Blue Big Room NW,,adrienn
+Reversal Blue Big Room SW,,adrienn
+Reversal Blue Big Room S,,adrienn
+Reversal Blue Big Room SE,,adrienn
+Reversal Blue Big Room NE,,adrienn
+
+Reversal Blue Junction N,,adrienn
+Reversal Blue Junction E,,adrienn
+Reversal Blue Junction S,,adrienn
