@@ -265,7 +265,7 @@ class RegionMap {
        return this.Hubs.findIndex(hub => hub.Locations.includes(locId));
     }
 
-    Load(region: string, loadSavedRun: boolean, version?: string): Promise<void> {
+    Load(region: string, loadSavedRun: boolean, version?: string, season?: string): Promise<void> {
         if (loadSavedRun && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
         }
@@ -293,8 +293,11 @@ class RegionMap {
 
             for (let locIndex = 0; locIndex < data.Locations.length; locIndex++) {
                 let loc = data.Locations[locIndex];
-                if (skippedHubLocs.includes(locIndex)) { this.AllLocations.push(undefined); }
-                else if (version && loc.Version && loc.Version !== version) { this.AllLocations.push(undefined); }
+                if (skippedHubLocs.includes(locIndex) ||
+                    version && loc.Version && loc.Version !== version ||
+                    season && loc.Seasons && !loc.Seasons.includes(season)) {
+                    this.AllLocations.push(undefined);
+                }
                 else {
                     let defaultBlock = NoBlock;
                     if (loc.BlockedBy) {
@@ -371,6 +374,7 @@ type LoadLocation = {
     Name: string;
     BlockedBy?: string;
     Version?: string;
+    Seasons?: string;
 }
 
 type LoadJSON = {

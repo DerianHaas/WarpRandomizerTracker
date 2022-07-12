@@ -119,12 +119,13 @@
     }
 
     function loadUnova(loadSaved: boolean) {
-        let version = "";
+        let version = "", season = "";
         if (!loadSaved) {
             version = $("input[name=bw2creator]:checked").val().toString();
+            season = $("input[name=season]:checked").val().toString();
         }
         mainMap = new RegionMap();
-        mainMap.Load("unova", loadSaved, version).then(initialSetup).then(() => {
+        mainMap.Load("unova", loadSaved, version, season).then(initialSetup).then(() => {
             if (version === "adrienn") {
                 addInitialLink("Aspertia Pokecenter", "Aspertia Pokecenter Interior");
                 addInitialLink("Nimbasa Gear Station", "Gear Station Stairs");

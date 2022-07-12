@@ -2,7 +2,7 @@ Lacunosa
 Route 12 Exit W
 
 Lacunosa Pokecenter
-Lacunosa Executive House
+Lacunosa Executive House,,pointcrow
 Lacunosa House SW
 Lacunosa House C
 Lacunosa House NE

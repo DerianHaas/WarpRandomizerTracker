@@ -220,7 +220,7 @@ var RegionMap = /** @class */ (function () {
     RegionMap.prototype.FindHub = function (locId) {
         return this.Hubs.findIndex(function (hub) { return hub.Locations.includes(locId); });
     };
-    RegionMap.prototype.Load = function (region, loadSavedRun, version) {
+    RegionMap.prototype.Load = function (region, loadSavedRun, version, season) {
         var _this = this;
         if (loadSavedRun && this.loadFromLocalStorage(region)) {
             return Promise.resolve();
@@ -248,10 +248,9 @@ var RegionMap = /** @class */ (function () {
             }
             for (var locIndex = 0; locIndex < data.Locations.length; locIndex++) {
                 var loc = data.Locations[locIndex];
-                if (skippedHubLocs.includes(locIndex)) {
-                    _this.AllLocations.push(undefined);
-                }
-                else if (version && loc.Version && loc.Version !== version) {
+                if (skippedHubLocs.includes(locIndex) ||
+                    version && loc.Version && loc.Version !== version ||
+                    season && loc.Seasons && !loc.Seasons.includes(season)) {
                     _this.AllLocations.push(undefined);
                 }
                 else {

@@ -43,14 +43,18 @@ function doImport(gameToImport: string, version?: string) {
                     if (locData === "") {
                         newHubLocs.push(NoLocation);
                     } else {
-                        let [locName, blockage, locVersion] = locData.split(",");
+                        let [locName, blockage, addlData] = locData.split(",");
                         let locIndex: number;
                         if (!(locName in locMap)) {
                             locIndex = nextLoc;
                             locMap[locName] = locIndex;
                             let newLoc: LoadLocation = { Name: locName };
                             if (blockage) newLoc.BlockedBy = blockage.trim();
-                            if (locVersion) newLoc.Version = locVersion;
+                            if (addlData) {
+                                let extraData = parseExtraData(gameToImport, addlData);
+                                if (extraData.version) newLoc.Version = extraData.version;
+                                if (extraData.seasons) newLoc.Seasons = extraData.seasons;
+                            }
                             mapData.Locations[nextLoc++] = newLoc;
                         } else {
                             locIndex = locMap[locName];
@@ -71,4 +75,14 @@ function doImport(gameToImport: string, version?: string) {
             console.log(mapData);
         }
     });
+}
+
+function parseExtraData(gameToImport: string, extraData: string) {
+    let parsedData: { [key: string]: string } = {};
+    if (gameToImport === "bw2") {
+        let [version, seasons] = extraData.split("/");
+        if (version) parsedData.version = version; 
+        if (seasons) parsedData.seasons = seasons;
+    }
+    return parsedData;
 }

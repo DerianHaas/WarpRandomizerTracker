@@ -2,6 +2,6 @@ Route 17 / Route 18
 Route 17 Exit SE,Surf
 
 Route 17 P2 Laboratory
-Route 17 Plasma Frigate
+Route 17 Plasma Frigate,,pointcrow
 
 Route 18 House,Surf

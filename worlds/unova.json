@@ -589,85 +589,89 @@
       ]
     },
     {
-      "Name": "Pokestar Studios",
+      "Name": "Pokestar Studios / Join Ave",
       "Locations": [
         346,
         347,
-        348
+        348,
+        -1,
+        349,
+        350,
+        351
       ],
       "Version": "adrienn"
     },
     {
       "Name": "Castelia Sewers / Relic Passage",
       "Locations": [
-        349,
-        350,
-        351,
-        -1,
         352,
         353,
         354,
+        -1,
         355,
         356,
-        -1,
         357,
         358,
         359,
         -1,
         360,
         361,
-        362
+        362,
+        -1,
+        363,
+        364,
+        365
       ],
       "ImageName": "bw2/sewers.png"
     },
     {
       "Name": "Mistralton Cave",
       "Locations": [
-        363,
-        364,
-        365,
-        -1,
         366,
         367,
+        368,
         -1,
-        368
+        369,
+        370,
+        -1,
+        371
       ],
       "ImageName": "bw2/mistcave.png"
     },
     {
       "Name": "Chargestone Cave",
       "Locations": [
-        369,
-        370,
-        371,
-        -1,
         372,
         373,
-        -1,
         374,
+        -1,
         375,
         376,
-        377
+        -1,
+        377,
+        378,
+        379,
+        380
       ],
       "ImageName": "bw2/chargestone.png"
     },
     {
       "Name": "Strange House",
       "Locations": [
-        378,
-        379,
-        -1,
-        380,
         381,
         382,
+        -1,
         383,
         384,
-        -1,
         385,
         386,
         387,
+        -1,
         388,
-        389
+        389,
+        390,
+        391,
+        392
       ],
       "ImageName": "bw2/strangehouse.png",
       "Version": "adrienn"
@@ -675,12 +679,8 @@
     {
       "Name": "Reversal Mountain",
       "Locations": [
-        390,
-        391,
-        392,
         393,
         394,
-        -1,
         395,
         396,
         397,
@@ -688,9 +688,9 @@
         398,
         399,
         400,
+        -1,
         401,
         402,
-        -1,
         403,
         404,
         405,
@@ -698,100 +698,100 @@
         406,
         407,
         408,
+        -1,
         409,
         410,
-        -1,
         411,
         412,
-        413
+        413,
+        -1,
+        414,
+        415,
+        416
       ],
       "ImageName": "bw2/reversal.png"
     },
     {
       "Name": "Seaside Cave",
       "Locations": [
-        414,
-        415,
-        -1,
-        416,
         417,
-        418
+        418,
+        -1,
+        419,
+        420,
+        421
       ],
       "ImageName": "bw2/seaside.png"
     },
     {
       "Name": "Giant Chasm",
       "Locations": [
-        419,
-        420,
-        421,
-        422
+        422,
+        423,
+        424,
+        425
       ],
       "ImageName": "bw2/chasm.png"
     },
     {
       "Name": "Victory Road",
       "Locations": [
-        423,
-        424,
-        425,
-        -1,
         426,
         427,
         428,
+        -1,
         429,
         430,
-        -1,
         431,
         432,
-        -1,
         433,
+        -1,
         434,
-        -1,
         435,
+        -1,
         436,
-        -1,
         437,
+        -1,
         438,
-        -1,
         439,
+        -1,
         440,
-        -1,
         441,
-        442,
         -1,
+        442,
         443,
+        -1,
         444,
         445,
+        -1,
         446,
         447,
-        448
+        448,
+        449,
+        450,
+        451
       ],
       "ImageName": "bw2/victoryroad.png"
     },
     {
       "Name": "Pokemon League",
       "Locations": [
-        449,
-        450,
-        451,
-        -1,
         452,
         453,
         454,
+        -1,
         455,
-        456
+        456,
+        457,
+        458,
+        459
       ]
     },
     {
       "Name": "Twist Mountain",
       "Locations": [
-        457,
-        458,
-        459,
         460,
         461,
-        -1,
         462,
         463,
         464,
@@ -799,108 +799,110 @@
         465,
         466,
         467,
-        -1,
         468,
         469,
         470,
-        -1,
         471,
         472,
-        473,
         -1,
+        473,
         474,
         475,
-        476,
         -1,
+        476,
         477,
         478,
-        479
+        -1,
+        479,
+        480,
+        -1,
+        481,
+        482,
+        -1,
+        483,
+        484,
+        -1,
+        485,
+        486,
+        487
       ],
       "ImageName": "bw2/twist.png"
     },
     {
       "Name": "Clay Tunnel",
       "Locations": [
-        480,
-        481,
-        -1,
-        482,
-        483,
-        484,
-        -1,
-        485,
-        486,
-        487,
         488,
+        489,
         -1,
-        489
+        490,
+        491,
+        492,
+        -1,
+        493,
+        494,
+        495,
+        496,
+        -1,
+        497
       ],
       "ImageName": "bw2/claytunnel.png"
     },
     {
       "Name": "Relic Castle",
       "Locations": [
-        490,
-        491,
-        492,
-        493,
+        498,
+        499,
+        500,
+        501,
         -1,
-        494,
-        495,
-        496
+        502,
+        503,
+        504
       ],
       "ImageName": "bw2/relic.png"
     },
     {
       "Name": "Pinwheel Forest",
       "Locations": [
-        497,
-        498,
-        499
+        505,
+        506,
+        507
       ]
     },
     {
       "Name": "Dreamyard",
       "Locations": [
-        500,
-        501,
-        502,
-        503,
+        508,
+        509,
+        510,
+        511,
         -1,
-        504,
-        505,
-        506
+        512,
+        513,
+        514
       ]
     },
     {
       "Name": "Abyssal Ruins",
       "Locations": [
-        507,
-        508,
-        509,
-        510,
+        515,
+        516,
+        517,
+        518,
         -1,
-        511,
-        512,
-        513,
-        514
+        519,
+        520,
+        521,
+        522
       ],
       "Version": "adrienn"
     },
     {
       "Name": "Pokecenters / Mall",
       "Locations": [
-        515,
-        516,
-        -1,
-        517,
-        518,
-        519,
-        520,
-        521,
-        522,
         523,
         524,
+        -1,
         525,
         526,
         527,
@@ -911,7 +913,15 @@
         532,
         533,
         534,
-        535
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543
       ]
     }
   ],
@@ -1401,7 +1411,8 @@
       "Name": "Lacunosa Pokecenter"
     },
     {
-      "Name": "Lacunosa Executive House"
+      "Name": "Lacunosa Executive House",
+      "Version": "pointcrow"
     },
     {
       "Name": "Lacunosa House SW"
@@ -1749,7 +1760,8 @@
       "Name": "Route 17 P2 Laboratory"
     },
     {
-      "Name": "Route 17 Plasma Frigate"
+      "Name": "Route 17 Plasma Frigate",
+      "Version": "pointcrow"
     },
     {
       "Name": "Route 18 House",
@@ -1992,6 +2004,15 @@
       "Name": "Pokestar Studios Theater E"
     },
     {
+      "Name": "Join Avenue Interior S"
+    },
+    {
+      "Name": "Join Avenue Interior Side Room"
+    },
+    {
+      "Name": "Join Avenue Interior N"
+    },
+    {
       "Name": "Castelia Sewers Stairs NE"
     },
     {
@@ -2051,7 +2072,7 @@
       "Name": "Mistralton Cave 2F Stairs C"
     },
     {
-      "Name": "Mistralton Cave 3F Stairs S"
+      "Name": "Mistralton Cave 3F Stairs S - Regigigas"
     },
     {
       "Name": "Chargestone 1F Entrance SW"
@@ -2356,13 +2377,16 @@
       "Name": "Elite Four Hub Entrance"
     },
     {
-      "Name": "Twist Exterior 1F NW"
+      "Name": "Twist Exterior 1F NW",
+      "Seasons": "spring-summer-sutumn"
     },
     {
-      "Name": "Twist Exterior 1F NE"
+      "Name": "Twist Exterior 1F NE",
+      "Seasons": "spring-summer-autumn"
     },
     {
-      "Name": "Twist Exterior 1F House"
+      "Name": "Twist Exterior 1F House",
+      "Seasons": "spring-summer-autumn"
     },
     {
       "Name": "Twist Exterior 1F S"
@@ -2371,13 +2395,33 @@
       "Name": "Twist Exterior 1F E"
     },
     {
-      "Name": "Twist Exterior 2F NW"
-    },
-    {
       "Name": "Twist Exterior 2F N"
     },
     {
-      "Name": "Twist Exterior 2F NE"
+      "Name": "Twist Exterior 2F NW"
+    },
+    {
+      "Name": "Twist Exterior 2F W"
+    },
+    {
+      "Name": "Twist Exterior 2F SW",
+      "Seasons": "winter"
+    },
+    {
+      "Name": "Twist Exterior 2F SE",
+      "Seasons": "winter"
+    },
+    {
+      "Name": "Twist Exterior 3F NE",
+      "Seasons": "winter"
+    },
+    {
+      "Name": "Twist Exterior 3F SW",
+      "Seasons": "winter"
+    },
+    {
+      "Name": "Twist Exterior 3F S",
+      "Seasons": "winter"
     },
     {
       "Name": "Twist Ice Cave SW"
@@ -2404,10 +2448,10 @@
       "Name": "Twist 2F SW"
     },
     {
-      "Name": "Twist 2F S"
+      "Name": "Twist 2F N"
     },
     {
-      "Name": "Twist 2F N"
+      "Name": "Twist 2F S"
     },
     {
       "Name": "Twist 2F NE"

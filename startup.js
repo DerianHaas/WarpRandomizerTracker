@@ -99,12 +99,13 @@ $(function () {
         });
     }
     function loadUnova(loadSaved) {
-        var version = "";
+        var version = "", season = "";
         if (!loadSaved) {
             version = $("input[name=bw2creator]:checked").val().toString();
+            season = $("input[name=season]:checked").val().toString();
         }
         mainMap = new RegionMap();
-        mainMap.Load("unova", loadSaved, version).then(initialSetup).then(function () {
+        mainMap.Load("unova", loadSaved, version, season).then(initialSetup).then(function () {
             if (version === "adrienn") {
                 addInitialLink("Aspertia Pokecenter", "Aspertia Pokecenter Interior");
                 addInitialLink("Nimbasa Gear Station", "Gear Station Stairs");
