@@ -7,6 +7,10 @@ Undella House NW
 Undella Cave W
 
 Undella Bay Seaside Cave
+Undella Abyssal Ruins Exterior N,,adrienn
+Undella Abyssal Ruins Exterior E,,adrienn
+Undella Abyssal Ruins Exterior S,,adrienn
+Undella Abyssal Ruins Exterior W,,adrienn
 
 Route 14 Abundant Shrine,Waterfall
 Route 14 Exit S

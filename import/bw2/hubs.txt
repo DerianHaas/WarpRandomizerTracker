@@ -47,5 +47,4 @@ claytunnel,claytunnel.png
 relic,relic.png
 pinwheel
 dreamyard
-abyss,,adrienn
 pokecenters

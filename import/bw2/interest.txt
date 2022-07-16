@@ -3,6 +3,8 @@ Floccesy Ranch Interior
 
 Pokestar Studios,,pointcrow
 
+Virbank Dock Interior - Bike
+
 Nimbasa Rollercoaster Interior
 
 Kyurem / Ghetsis
@@ -10,6 +12,8 @@ Kyurem / Ghetsis
 Juniper's Lab Interior
 
 Plasma Frigate Colress,,adrienn
+
+Cave of Being Interior
 
 Heatran,,pointcrow
 Heatran W2,,adrienn
@@ -27,3 +31,8 @@ N's Castle 1F Stairs,,adrienn
 N's Castle Roof,,adrienn
 
 Dragonspiral Tower Roof
+
+Red Shard Tutor
+Blue Shard Tutor
+Yellow Shard Tutor
+Green Shard Tutor
