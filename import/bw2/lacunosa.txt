@@ -1,4 +1,4 @@
-Lacunosa
+Lacunosa / R12 / R13
 Route 12 Exit W
 
 Lacunosa Pokecenter
@@ -6,6 +6,8 @@ Lacunosa Executive House,,pointcrow
 Lacunosa House SW
 Lacunosa House C
 Lacunosa House NE
+
+Route 13 Giant Chasm
 
 Route 13 House NW
 Route 13 House W

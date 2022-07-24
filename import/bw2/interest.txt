@@ -23,6 +23,8 @@ Strange House Lunar Wing Room,,adrienn
 Marvelous Bridge W
 Marvelous Bridge E - Cresselia
 
+Twist Mountain 4F - Regigigas
+
 N's Castle,,pointcrow
 N's Castle 1F Entrance,,adrienn
 N's Castle 1F Door SW,,adrienn
@@ -35,4 +37,5 @@ Dragonspiral Tower Roof
 Red Shard Tutor
 Blue Shard Tutor
 Yellow Shard Tutor
-Green Shard Tutor
+Green Shard Tutor N
+Green Shard Tutor S

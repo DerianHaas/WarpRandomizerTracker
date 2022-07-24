@@ -6,7 +6,7 @@ Twist Exterior 1F S
 Twist Exterior 1F E
 
 Twist Exterior 2F N
-Twist Exterior 2F NW
+Twist Exterior 2F NW,,/spring-summer-autumn
 Twist Exterior 2F W
 Twist Exterior 2F SW,,/winter
 Twist Exterior 2F SE,,/winter
