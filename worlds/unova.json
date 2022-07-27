@@ -38,66 +38,66 @@
         19,
         -1,
         20,
-        -1,
         21,
+        -1,
         22,
         23,
-        -1,
         24,
+        -1,
         25,
         26,
-        -1,
         27,
         -1,
         28,
+        -1,
         29,
         30,
         31,
-        -1,
         32,
         -1,
         33,
         -1,
         34,
+        -1,
         35,
         36,
         37,
-        38
+        38,
+        39
       ]
     },
     {
       "Name": "Aspertia",
       "Locations": [
-        39,
         40,
         41,
         42,
         43,
-        44
+        44,
+        45
       ],
       "ImageName": "bw2/aspertia.png"
     },
     {
       "Name": "Floccesy / R19 / R20",
       "Locations": [
-        45,
         46,
         47,
         48,
         49,
-        -1,
         50,
         -1,
         51,
+        -1,
         52,
-        53
+        53,
+        54
       ],
       "ImageName": "bw2/floccesy.png"
     },
     {
       "Name": "Virbank",
       "Locations": [
-        54,
         55,
         56,
         57,
@@ -105,100 +105,100 @@
         59,
         60,
         61,
-        62
+        62,
+        63
       ],
       "ImageName": "bw2/virbank.png"
     },
     {
       "Name": "Castelia Dockfront",
       "Locations": [
-        63,
         64,
         65,
-        -1,
         66,
-        67,
         -1,
+        67,
         68,
+        -1,
         69,
         70,
-        -1,
         71,
+        -1,
         72,
         73,
-        -1,
         74,
-        75
+        -1,
+        75,
+        76
       ],
       "ImageName": "bw2/castelia.png"
     },
     {
       "Name": "Castelia Streets",
       "Locations": [
-        76,
         77,
         78,
         79,
-        -1,
         80,
+        -1,
         81,
         82,
-        -1,
         83,
+        -1,
         84,
         85,
-        -1,
         86,
+        -1,
         87,
         88,
-        89
+        89,
+        90
       ],
       "ImageName": "bw2/castelia.png"
     },
     {
       "Name": "Castelia North",
       "Locations": [
-        90,
         91,
         92,
         93,
         94,
-        -1,
         95,
+        -1,
         96,
         97,
         98,
-        99
+        99,
+        100
       ],
       "ImageName": "bw2/castelia.png"
     },
     {
       "Name": "Nimbasa",
       "Locations": [
-        100,
         101,
         102,
         103,
         104,
-        -1,
         105,
+        -1,
         106,
         107,
         108,
         109,
         110,
         111,
-        -1,
         112,
+        -1,
         113,
-        114
+        114,
+        115
       ],
       "ImageName": "bw2/nimbasa.png"
     },
     {
       "Name": "Driftveil / R6",
       "Locations": [
-        115,
         116,
         117,
         118,
@@ -206,101 +206,101 @@
         120,
         121,
         122,
-        -1,
         123,
+        -1,
         124,
         125,
         126,
-        -1,
         127,
+        -1,
         128,
         129,
-        -1,
         130,
         -1,
         131,
+        -1,
         132,
         133,
-        -1,
         134,
+        -1,
         135,
         136,
-        137
+        137,
+        138
       ],
       "ImageName": "bw2/driftveil.png"
     },
     {
       "Name": "Mistralton / R7",
       "Locations": [
-        138,
         139,
         140,
         141,
         142,
         143,
-        -1,
         144,
+        -1,
         145,
         146,
-        147
+        147,
+        148
       ],
       "ImageName": "bw2/mistralton.png"
     },
     {
       "Name": "Lentimas",
       "Locations": [
-        148,
         149,
         150,
         151,
-        152
+        152,
+        153
       ],
       "ImageName": "bw2/lentimas.png"
     },
     {
       "Name": "Undella / R14",
       "Locations": [
-        153,
         154,
         155,
         156,
         157,
         158,
-        -1,
         159,
+        -1,
         160,
         161,
         162,
         163,
-        -1,
         164,
-        165
+        -1,
+        165,
+        166
       ],
       "ImageName": "bw2/undella.png"
     },
     {
       "Name": "Lacunosa / R12 / R13",
       "Locations": [
-        166,
-        -1,
         167,
+        -1,
         168,
         169,
         170,
         171,
-        -1,
         172,
         -1,
         173,
+        -1,
         174,
-        175
+        175,
+        176
       ],
       "ImageName": "bw2/lacunosa.png"
     },
     {
       "Name": "Village Bridge",
       "Locations": [
-        176,
         177,
         178,
         179,
@@ -308,14 +308,14 @@
         181,
         182,
         183,
-        184
+        184,
+        185
       ],
       "ImageName": "bw2/village.png"
     },
     {
       "Name": "Opelucid",
       "Locations": [
-        185,
         186,
         187,
         188,
@@ -323,14 +323,14 @@
         190,
         191,
         192,
-        193
+        193,
+        194
       ],
       "ImageName": "bw2/opelucid.png"
     },
     {
       "Name": "Humilau / R21 / R22",
       "Locations": [
-        194,
         195,
         196,
         197,
@@ -339,42 +339,42 @@
         200,
         201,
         202,
-        203
+        203,
+        204
       ],
       "ImageName": "bw2/humilau.png"
     },
     {
       "Name": "Black City / White Forest",
       "Locations": [
-        204,
         205,
         206,
         207,
-        208
+        208,
+        209
       ]
     },
     {
       "Name": "Icirrus / R8",
       "Locations": [
-        209,
         210,
         211,
         212,
         213,
         214,
         215,
-        -1,
         216,
         -1,
         217,
-        218
+        -1,
+        218,
+        219
       ],
       "ImageName": "bw2/icirrus.png"
     },
     {
       "Name": "Nacrene",
       "Locations": [
-        219,
         220,
         221,
         222,
@@ -386,204 +386,204 @@
         228,
         229,
         230,
-        231
+        231,
+        232
       ],
       "ImageName": "bw2/nacrene.png"
     },
     {
       "Name": "Striaton / R2 / R3",
       "Locations": [
-        232,
-        -1,
         233,
+        -1,
         234,
         235,
         236,
         237,
         238,
         239,
-        -1,
         240,
+        -1,
         241,
         242,
-        243
+        243,
+        244
       ],
       "ImageName": "bw2/striaton.png"
     },
     {
       "Name": "Nuvema / Accumula / R1",
       "Locations": [
-        244,
         245,
         246,
         247,
-        -1,
         248,
         -1,
         249,
+        -1,
         250,
         251,
         252,
         253,
-        254
+        254,
+        255
       ],
       "ImageName": "bw2/nuvema.png"
     },
     {
       "Name": "Anville",
       "Locations": [
-        255,
         256,
         257,
+        258,
         -1,
-        258
+        259
       ],
       "ImageName": "bw2/anville.png"
     },
     {
       "Name": "Route 4",
       "Locations": [
-        259,
-        -1,
         260,
+        -1,
         261,
         262,
         263,
         264,
         265,
-        266
+        266,
+        267
       ],
       "ImageName": "bw2/r4.png"
     },
     {
       "Name": "Route 5",
       "Locations": [
-        267,
         268,
-        269
+        269,
+        270
       ],
       "ImageName": "bw2/r5.png"
     },
     {
       "Name": "Route 9",
       "Locations": [
-        270,
         271,
-        272
+        272,
+        273
       ],
       "ImageName": "bw2/r9.png"
     },
     {
       "Name": "Route 11",
       "Locations": [
-        273,
         274,
-        275
+        275,
+        276
       ],
       "ImageName": "bw2/r11.png"
     },
     {
       "Name": "Route 15 / Route 16",
       "Locations": [
-        276,
         277,
         278,
         279,
-        -1,
         280,
+        -1,
         281,
-        282
+        282,
+        283
       ],
       "ImageName": "bw2/r15.png"
     },
     {
       "Name": "Route 17 / Route 18",
       "Locations": [
-        283,
-        -1,
         284,
-        285,
         -1,
-        286
+        285,
+        286,
+        -1,
+        287
       ]
     },
     {
       "Name": "Route 23",
       "Locations": [
-        287,
         288,
         289,
-        290
+        290,
+        291
       ],
       "ImageName": "bw2/r23.png"
     },
     {
       "Name": "Plasma Frigate",
       "Locations": [
-        291,
         292,
         293,
-        -1,
         294,
+        -1,
         295,
         296,
         297,
-        -1,
         298,
+        -1,
         299,
         300,
         301,
         302,
         303,
         304,
-        -1,
         305,
+        -1,
         306,
         307,
         308,
         309,
         310,
-        311
+        311,
+        312
       ]
     },
     {
       "Name": "Plasma Beds",
       "Locations": [
-        312,
         313,
         314,
-        -1,
         315,
+        -1,
         316,
         317,
         318,
-        -1,
         319,
+        -1,
         320,
         321,
         322,
         323,
-        -1,
         324,
+        -1,
         325,
         326,
-        -1,
         327,
+        -1,
         328,
         329,
         330,
-        -1,
         331,
+        -1,
         332,
         333,
         334,
-        335
+        335,
+        336
       ]
     },
     {
       "Name": "Cruise Ship",
       "Locations": [
-        336,
         337,
         338,
         339,
@@ -597,14 +597,14 @@
         347,
         348,
         349,
-        350
+        350,
+        351
       ],
       "ImageName": "bw2/ship.png"
     },
     {
       "Name": "Gear Station",
       "Locations": [
-        351,
         352,
         353,
         354,
@@ -612,93 +612,94 @@
         356,
         357,
         358,
-        359
+        359,
+        360
       ]
     },
     {
       "Name": "Pokestar Studios / Join Ave",
       "Locations": [
-        360,
         361,
         362,
-        -1,
         363,
+        -1,
         364,
-        365
+        365,
+        366
       ],
       "Version": "adrienn"
     },
     {
       "Name": "Castelia Sewers / Relic Passage",
       "Locations": [
-        366,
         367,
         368,
-        -1,
         369,
+        -1,
         370,
         371,
         372,
         373,
-        -1,
         374,
+        -1,
         375,
         376,
-        -1,
         377,
+        -1,
         378,
-        379
+        379,
+        380
       ],
       "ImageName": "bw2/sewers.png"
     },
     {
       "Name": "Mistralton Cave",
       "Locations": [
-        380,
         381,
         382,
-        -1,
         383,
-        384,
         -1,
-        385
+        384,
+        385,
+        -1,
+        386
       ],
       "ImageName": "bw2/mistcave.png"
     },
     {
       "Name": "Chargestone Cave",
       "Locations": [
-        386,
         387,
         388,
-        -1,
         389,
-        390,
         -1,
+        390,
         391,
+        -1,
         392,
         393,
-        394
+        394,
+        395
       ],
       "ImageName": "bw2/chargestone.png"
     },
     {
       "Name": "Strange House",
       "Locations": [
-        395,
         396,
-        -1,
         397,
+        -1,
         398,
         399,
         400,
         401,
-        -1,
         402,
+        -1,
         403,
         404,
         405,
-        406
+        406,
+        407
       ],
       "ImageName": "bw2/strangehouse.png",
       "Version": "adrienn"
@@ -706,124 +707,123 @@
     {
       "Name": "Reversal Mountain",
       "Locations": [
-        407,
         408,
         409,
         410,
         411,
-        -1,
         412,
+        -1,
         413,
         414,
-        -1,
         415,
+        -1,
         416,
         417,
         418,
         419,
-        -1,
         420,
+        -1,
         421,
         422,
-        -1,
         423,
+        -1,
         424,
         425,
         426,
         427,
-        -1,
         428,
+        -1,
         429,
-        430
+        430,
+        431
       ],
       "ImageName": "bw2/reversal.png"
     },
     {
       "Name": "Seaside Cave",
       "Locations": [
-        431,
         432,
-        -1,
         433,
+        -1,
         434,
-        435
+        435,
+        436
       ],
       "ImageName": "bw2/seaside.png"
     },
     {
       "Name": "Giant Chasm",
       "Locations": [
-        436,
         437,
         438,
-        439
+        439,
+        440
       ],
       "ImageName": "bw2/chasm.png"
     },
     {
       "Name": "Victory Road",
       "Locations": [
-        440,
         441,
         442,
-        -1,
         443,
+        -1,
         444,
         445,
         446,
         447,
-        -1,
         448,
+        -1,
         449,
-        -1,
         450,
+        -1,
         451,
-        -1,
         452,
+        -1,
         453,
-        -1,
         454,
+        -1,
         455,
-        -1,
         456,
+        -1,
         457,
-        -1,
         458,
-        459,
         -1,
+        459,
         460,
+        -1,
         461,
         462,
         463,
         464,
-        465
+        465,
+        466
       ],
       "ImageName": "bw2/victoryroad.png"
     },
     {
       "Name": "Pokemon League",
       "Locations": [
-        466,
         467,
         468,
-        -1,
         469,
+        -1,
         470,
         471,
         472,
-        473
+        473,
+        474
       ]
     },
     {
       "Name": "Twist Mountain",
       "Locations": [
-        474,
         475,
         476,
         477,
         478,
-        -1,
         479,
+        -1,
         480,
         481,
         482,
@@ -831,93 +831,93 @@
         484,
         485,
         486,
-        -1,
         487,
+        -1,
         488,
         489,
-        -1,
         490,
+        -1,
         491,
         492,
-        -1,
         493,
+        -1,
         494,
-        -1,
         495,
+        -1,
         496,
-        -1,
         497,
-        498,
         -1,
+        498,
         499,
+        -1,
         500,
-        501
+        501,
+        502
       ],
       "ImageName": "bw2/twist.png"
     },
     {
       "Name": "Clay Tunnel",
       "Locations": [
-        502,
         503,
-        -1,
         504,
+        -1,
         505,
         506,
-        -1,
         507,
+        -1,
         508,
         509,
         510,
+        511,
         -1,
-        511
+        512
       ],
       "ImageName": "bw2/claytunnel.png"
     },
     {
       "Name": "Relic Castle",
       "Locations": [
-        512,
         513,
         514,
         515,
-        -1,
         516,
+        -1,
         517,
-        518
+        518,
+        519
       ],
       "ImageName": "bw2/relic.png"
     },
     {
       "Name": "Pinwheel Forest",
       "Locations": [
-        519,
         520,
-        521
+        521,
+        522
       ],
       "ImageName": "bw2/pinwheel.png"
     },
     {
       "Name": "Dreamyard",
       "Locations": [
-        522,
         523,
         524,
         525,
-        -1,
         526,
+        -1,
         527,
-        528
+        528,
+        529
       ],
       "ImageName": "bw2/dreamyard.png"
     },
     {
       "Name": "Pokecenters / Mall",
       "Locations": [
-        529,
         530,
-        -1,
         531,
+        -1,
         532,
         533,
         534,
@@ -935,7 +935,8 @@
         546,
         547,
         548,
-        549
+        549,
+        550
       ]
     }
   ],
@@ -1004,6 +1005,10 @@
     },
     {
       "Name": "Cave of Being Interior"
+    },
+    {
+      "Name": "Celestial Tower Roof - Mespirit",
+      "Version": "adrienn"
     },
     {
       "Name": "Heatran",
