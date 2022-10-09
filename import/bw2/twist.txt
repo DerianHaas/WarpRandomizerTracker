@@ -1,5 +1,5 @@
 Twist Mountain
-Twist Exterior 1F NW,,/spring-summer-sutumn
+Twist Exterior 1F NW,,/spring-summer-autumn
 Twist Exterior 1F NE,,/spring-summer-autumn
 Twist Exterior 1F House,,/spring-summer-autumn
 Twist Exterior 1F S
